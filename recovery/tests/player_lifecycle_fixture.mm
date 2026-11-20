@@ -3,6 +3,7 @@
 #import "../source/Runtime/YTLFeaturePolicy.h"
 #import "../source/SleepTimer/YTPSleepTimer.h"
 #import "../source/Controls/YTPSpeedMaster.h"
+#import "../../Utils/YTLUserDefaults.h"
 #import "../source/Helpers/YTLHelper.h"
 #import "../source/Support/YTPDB.h"
 #import <objc/runtime.h>
@@ -36,6 +37,11 @@ NSInteger ytpInt(NSString *key){[preferenceReads addObject:key];Event([@"int:" s
 @implementation YTPSleepTimer
 + (instancetype)sharedTimer {static YTPSleepTimer *timer;static dispatch_once_t once;dispatch_once(&once,^{timer=[self new];});return timer;}
 - (void)cancelIfPlayerClosed {sleepCancels++;Event(@"cancelSleep");}
+@end
+@implementation YTLUserDefaults
++ (YTLUserDefaults *)standardUserDefaults { static YTLUserDefaults *value; if (!value) value=[self new]; return value; }
+- (BOOL)boolForKey:(NSString *)key { return [preferences[key] boolValue]; }
+- (double)doubleForKey:(NSString *)key { return [preferences[key] doubleValue]; }
 @end
 @implementation YTPSpeedMaster
 + (double)playbackRateForPlayer:(id)player {lastPlayer=player;Event(@"getRate");return speedRate;}
@@ -189,12 +195,27 @@ static void TestActivation(void){
     SetBaseline();preferences[@"autoFullscreen"]=@YES;preferences[@"autoSpeedIndex"]=@5;preferences[@"captionsIndex"]=@1;preferences[@"rememberLoop"]=@YES;active.availableCaptionTracks=@[];
     [p playbackController:nil didActivateVideo:nil withPlaybackData:nil];NSArray *tasks=[scheduled copy];[scheduled removeAllObjects];for(NSDictionary *task in tasks)((void(*)(id,SEL))objc_msgSend)(p,NSSelectorFromString(task[@"selector"]));CHECK(fullscreenCalls==1&&speedCalls==1&&speedRate==1.5&&captionCalls==1&&selectedCaption==nil&&canRememberLoopMode);
 }
+static void TestRememberedSpeed(void) {
+    SetBaseline();
+    preferences[@"rememberPlaybackSpeed"] = @YES;
+    preferences[@"rememberedPlaybackRate"] = @1.75;
+    YTPlayerViewController *player = Player();
+    [player playbackController:nil didActivateVideo:nil withPlaybackData:nil];
+    BOOL restores = NO;
+    for (NSDictionary *task in scheduled) if ([task[@"selector"] isEqual:@"setAutoSpeed"]) restores = YES;
+    CHECK(restores);
+    [player setAutoSpeed]; CHECK(speedRate == 1.75);
+    // A new player for a new video reads the same persisted preference.
+    [Player() setAutoSpeed]; CHECK(speedRate == 1.75);
+    preferences[@"rememberPlaybackSpeed"] = @NO;
+    [player setAutoSpeed]; CHECK(speedRate == 1.0);
+}
 static void TestLoopSpeed(void){
     SetBaseline();YTPlayerViewController *p=Player();YTMainAppVideoPlayerOverlayViewController *o=[YTMainAppVideoPlayerOverlayViewController new];YTLocalPlaybackController *local=[YTLocalPlaybackController new];overlay=o;active.delegate=local;
     for(NSNumber *mode in @[@0,@1,@(-2),@(NSIntegerMax)])for(NSNumber *has in @[@NO,@YES]){preferences[@"loopMode"]=mode;loopGetter=loopingGetter=has.boolValue;o.loopMode=77;local.loopingEnabled=NO;Reset();canRememberLoopMode=NO;[p restoreLoopMode];CHECK(canRememberLoopMode);CHECK(o.loopMode==(has.boolValue?mode.integerValue:77));CHECK(local.loopingEnabled==(has.boolValue&&mode.integerValue!=0));}
     preferences[@"loopMode"]=@0;loopingGetter=YES;local.loopingEnabled=YES;[p restoreLoopMode];CHECK(local.loopingEnabled);overlay=[NSObject new];active.delegate=[NSObject new];Reset();[p restoreLoopMode];CHECK(canRememberLoopMode&&![events containsObject:@"loopMode"]&&![events containsObject:@"looping"]);
     double expected[]={.25,.5,.75,1,1.25,1.5,1.75,2,3,4,5};for(NSUInteger i=0;i<11;i++){preferences[@"autoSpeedIndex"]=@(i);Reset();[p setAutoSpeed];CHECK(speedCalls==1&&speedRate==expected[i]&&lastPlayer==p);}
-    for(NSNumber *bad in @[@(-1),@11]){preferences[@"autoSpeedIndex"]=bad;BOOL raised=NO;@try{[p setAutoSpeed];}@catch(NSException *e){raised=[e.name isEqual:NSRangeException];}CHECK(raised);}
+    for(NSNumber *bad in @[@(-1),@11]){preferences[@"autoSpeedIndex"]=bad;BOOL raised=NO;@try{[p setAutoSpeed];}@catch(NSException *e){raised=[e.name isEqual:NSRangeException];}CHECK(!raised && speedRate == 1.0);}
     p.parentViewController=[UIViewController new];Reset();[p setAutoSpeed];CHECK(speedCalls==0&&preferenceReads.count==0);p.parentViewController=[FixtureWatchSubclass new];preferences[@"autoSpeedIndex"]=@8;[p setAutoSpeed];CHECK(speedRate==3);[p autoFullscreen];CHECK(fullscreenCalls==1);uiDelegate=nil;[p autoFullscreen];CHECK(fullscreenCalls==1);
 }
 static void CheckVideoLabel(YTPlayerViewController *p,NSInteger index,NSString *expected){preferences[wifi?@"wiFiQualityIndex":@"cellQualityIndex"]=@(index);Reset();[p autoQuality];MLQuickMenuVideoQualitySettingFormatConstraint *c=selectedVideoConstraint;CHECK(videoConstraintCalls==1&&[c.label isEqual:expected]);CHECK(c.setting==3&&c.reason==2);}
@@ -250,4 +271,4 @@ static void TestTimeHelpers(void){
     preferences[@"shortsPlaybackIndex"]=@0;SEL selectors[]={@selector(singleVideo:currentVideoTimeDidChange:),@selector(potentiallyMutatedSingleVideo:currentVideoTimeDidChange:)};for(NSUInteger i=0;i<2;i++){Reset();((void(*)(id,SEL,id,id))objc_msgSend)(p,selectors[i],active,time);CHECK(originalCalls==1&&lastSelf==p&&lastSelector==selectors[i]&&arg1==active&&arg2==time);CHECK([events isEqual:@[@"originalTime",@"bool:videoEndTime",@"int:shortsPlaybackIndex"]]);}
 }
 static void TestDealloc(void){SetBaseline();Reset();recordDeallocation=YES;@autoreleasepool{YTPlayerViewController *p=Player();CHECK(p!=nil);}recordDeallocation=NO;CHECK(deallocated==1&&sleepCancels==1&&[events isEqual:@[@"cancelSleep",@"originalDealloc"]]);}
-int main(void){@autoreleasepool{events=[NSMutableArray new];scheduled=[NSMutableArray new];preferenceReads=[NSMutableArray new];preferences=[NSMutableDictionary new];languageCodes=@[@"en",@"fr",@"de"];[NSTimeZone setDefaultTimeZone:[NSTimeZone timeZoneForSecondsFromGMT:0]];NSArray *added=@[@"restoreLoopMode",@"autoFullscreen",@"setAutoSpeed",@"selectCaptions",@"autoQuality",@"selectAudioTrack"];for(NSString *name in added)CHECK(!class_getInstanceMethod(YTPlayerViewController.class,NSSelectorFromString(name)));YTLInstallPlayerLifecycleHooks();for(NSString *name in added)CHECK(class_getInstanceMethod(YTPlayerViewController.class,NSSelectorFromString(name))!=NULL);TestActivation();TestLoopSpeed();TestQuality();TestCaptions();TestAudio();TestTimeHelpers();TestDealloc();printf("PASS: %lu actual PlayerLifecycle checks\n",(unsigned long)checks);}return 0;}
+int main(void){@autoreleasepool{events=[NSMutableArray new];scheduled=[NSMutableArray new];preferenceReads=[NSMutableArray new];preferences=[NSMutableDictionary new];languageCodes=@[@"en",@"fr",@"de"];[NSTimeZone setDefaultTimeZone:[NSTimeZone timeZoneForSecondsFromGMT:0]];NSArray *added=@[@"restoreLoopMode",@"autoFullscreen",@"setAutoSpeed",@"selectCaptions",@"autoQuality",@"selectAudioTrack"];for(NSString *name in added)CHECK(!class_getInstanceMethod(YTPlayerViewController.class,NSSelectorFromString(name)));YTLInstallPlayerLifecycleHooks();for(NSString *name in added)CHECK(class_getInstanceMethod(YTPlayerViewController.class,NSSelectorFromString(name))!=NULL);TestActivation();TestRememberedSpeed();TestLoopSpeed();TestQuality();TestCaptions();TestAudio();TestTimeHelpers();TestDealloc();printf("PASS: %lu actual PlayerLifecycle checks\n",(unsigned long)checks);}return 0;}

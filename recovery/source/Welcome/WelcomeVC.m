@@ -90,35 +90,6 @@ static void WelcomeOpen(NSString *address) {
         [thanks.centerXAnchor constraintEqualToAnchor:self.view.centerXAnchor],
         [thanks.bottomAnchor constraintEqualToAnchor:self.view.bottomAnchor constant:WelcomeHasTallSafeArea() ? -60 : -20],
         [thanks.heightAnchor constraintEqualToConstant:50], [thanks.widthAnchor constraintEqualToConstant:300]]];
-    UIStackView *contacts = [UIStackView new];
-    contacts.axis = UILayoutConstraintAxisHorizontal;
-    contacts.distribution = UIStackViewDistributionFillEqually;
-    contacts.alignment = UIStackViewAlignmentCenter;
-    contacts.spacing = 10;
-    contacts.translatesAutoresizingMaskIntoConstraints = NO;
-    NSArray *titles = @[@"@Dayanch96", WelcomeLocalized(@"SupportMe")];
-    NSArray *images = @[@"x", @"heart"];
-    for (NSUInteger index = 0; index < titles.count; index++) {
-        UIButton *button = [UIButton buttonWithType:UIButtonTypeSystem];
-        [button setTitle:titles[index] forState:UIControlStateNormal];
-        [button setTitleColor:[UIColor.whiteColor colorWithAlphaComponent:0.75] forState:UIControlStateNormal];
-        [button setTitleColor:[UIColor.whiteColor colorWithAlphaComponent:0.5] forState:UIControlStateHighlighted];
-        button.titleLabel.font = [UIFont monospacedDigitSystemFontOfSize:14 weight:UIFontWeightLight];
-        button.backgroundColor = UIColor.clearColor;
-        button.tintColor = UIColor.whiteColor;
-        [button addTarget:self action:@selector(contactsButtonTapped:) forControlEvents:UIControlEventTouchUpInside];
-        [button setImage:[[self imageNamed:images[index]] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate] forState:UIControlStateNormal];
-        button.imageView.contentMode = UIViewContentModeScaleAspectFit;
-        button.semanticContentAttribute = UISemanticContentAttributeForceLeftToRight;
-        button.imageEdgeInsets = UIEdgeInsetsMake(0, -5, 0, 5);
-        button.tag = index;
-        [contacts addArrangedSubview:button];
-    }
-    contacts.translatesAutoresizingMaskIntoConstraints = NO;
-    [self.view addSubview:contacts];
-    [NSLayoutConstraint activateConstraints:@[
-        [contacts.centerXAnchor constraintEqualToAnchor:self.view.centerXAnchor],
-        [contacts.bottomAnchor constraintEqualToAnchor:thanks.topAnchor constant:-15]]];
     _settingsData = @[
         @{@"title":WelcomeLocalized(@"Welcome.Download"), @"desc":WelcomeLocalized(@"Welcome.DownloadDesc"), @"image":@"arrow.down.app"},
         @{@"title":WelcomeLocalized(@"Welcome.Content"), @"desc":WelcomeLocalized(@"Welcome.ContentDesc"), @"image":@"paintbrush"},
@@ -130,32 +101,8 @@ static void WelcomeOpen(NSString *address) {
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 - (void)contactsButtonTapped:(UIButton *)sender {
-    if (sender.tag == 0) {
-        NSString *link = @"twitter://user?screen_name=Dayanch96";
-        if (![UIApplication.sharedApplication canOpenURL:[NSURL URLWithString:link]]) link = @"https://twitter.com/Dayanch96";
-        WelcomeOpen(link);
-    } else if (sender.tag == 1) {
-        id<YTLWelcomeSheet> sheet = [(Class<YTLWelcomeSheet>)NSClassFromString(@"YTDefaultSheetController")
-            sheetControllerWithMessage:WelcomeLocalized(@"SupportDevelopment") subMessage:WelcomeLocalized(@"SupportDevelopmentDesc") delegate:nil parentResponder:nil];
-        id<YTLWelcomeSheetHeader> header = [sheet valueForKey:@"_headerView"];
-        [(UILabel *)[header valueForKey:@"_subtitleLabel"] setNumberOfLines:0];
-        [header showHeaderDivider];
-        Class<YTLWelcomeAction> actions = (Class<YTLWelcomeAction>)NSClassFromString(@"YTActionSheetAction");
-        [sheet addAction:[actions actionWithTitle:@"Patreon" iconImage:[self imageNamed:@"patreon"] secondaryIconImage:nil accessibilityIdentifier:nil handler:^{ WelcomeOpen(@"https://www.patreon.com/dayanch96"); }]];
-        [sheet addAction:[actions actionWithTitle:@"Github Sponsors" iconImage:[self imageNamed:@"github"] secondaryIconImage:nil accessibilityIdentifier:nil handler:^{ WelcomeOpen(@"https://github.com/sponsors/dayanch96"); }]];
-        [sheet addAction:[actions actionWithTitle:@"Buy Me a Coffee" iconImage:[self imageNamed:@"coffee"] secondaryIconImage:nil accessibilityIdentifier:nil handler:^{ WelcomeOpen(@"https://www.buymeacoffee.com/dayanch96"); }]];
-        [sheet addAction:[actions actionWithTitle:@"USDT (TRC20)" iconImage:[self imageNamed:@"usdt"] secondaryIconImage:nil accessibilityIdentifier:nil handler:^{
-            UIPasteboard.generalPasteboard.string = @"TEdKJdKwc1Bbu8Py4um8qPQ6MbproEqNJw";
-            [self showAlertWithTitle:WelcomeLocalized(@"Copied") imageName:@"checkmark"];
-        }]];
-        [sheet addAction:[actions actionWithTitle:@"BNB Smart Chain (BEP20)" iconImage:[self imageNamed:@"bnb"] secondaryIconImage:nil accessibilityIdentifier:nil handler:^{
-            UIPasteboard.generalPasteboard.string = @"0xc6f9fddb30ce10d70e6497950f44c8e10b72bcd6";
-            [self showAlertWithTitle:WelcomeLocalized(@"Copied") imageName:@"checkmark"];
-        }]];
-        [sheet addAction:[actions actionWithTitle:@"Boosty" iconImage:[self imageNamed:@"boosty"] secondaryIconImage:nil accessibilityIdentifier:nil handler:^{ WelcomeOpen(@"https://boosty.to/dayanch96"); }]];
-        [sheet setSourceView:sender];
-        [sheet presentFromViewController:self animated:YES completion:nil];
-    }
+    (void)sender;
+    WelcomeOpen(@"https://github.com/phakoda/YTLite");
 }
 - (UIImage *)imageNamed:(NSString *)name {
     return [UIImage imageNamed:name inBundle:[NSBundle ytl_defaultBundle] compatibleWithTraitCollection:nil];

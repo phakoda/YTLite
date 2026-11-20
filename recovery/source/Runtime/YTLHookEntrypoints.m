@@ -39,6 +39,7 @@ __attribute__((constructor)) static void YTLInitializeRecoveredTweak(void) {
         YTLInstallFeedNodesHooks();
         YTLInstallShortsPlaybackHooks();
         YTLInstallPlayerLifecycleHooks();
+        YTLInstallContentLayoutHooks();
         YTLInstallRemoteControlsMainHooks();
         YTLInstallImageGesturesHooks();
         YTLFinalizePrimaryStartup();

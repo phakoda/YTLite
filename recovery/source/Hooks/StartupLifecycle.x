@@ -118,14 +118,8 @@ void YTLInstallStartupLifecycleMainHooks(void) { %init(YTLStartupLifecycleMain);
 
 // Ordinary constructor 0x44488 and delayed callback 0x444d4.
 void YTLScheduleWelcome(void) {
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW,2*NSEC_PER_SEC),dispatch_get_main_queue(),^{
-        if (![[YTLUserDefaults standardUserDefaults] boolForKey:@"hasShownWelcome"]) {
-            WelcomeVC *welcome=[WelcomeVC new];
-            welcome.modalPresentationStyle=UIModalPresentationFormSheet;
-            welcome.modalInPresentation=YES;
-            [ToastView.toastWindow.rootViewController presentViewController:welcome animated:YES completion:nil];
-        }
-    });
+    // No promotional sheet on first launch, including after a preferences reset.
+    [[YTLUserDefaults standardUserDefaults] setBool:YES forKey:@"hasShownWelcome"];
 }
 
 // Ordinary defaults tail at 0x65d08 in registrar 0x53fac; call after all primary hooks.

@@ -8,3 +8,6 @@ packages/
 ._*
 __pycache__/
 *.pyc
+
+# Local app inputs and signed/injected outputs
+*.ipa

@@ -66,3 +66,5 @@ YTLite_FILES += recovery/source/Hooks/GeneralInterface.x
 YTLite_FILES += recovery/source/Hooks/StartupLifecycle.x
 
 YTLite_FILES += recovery/source/Hooks/SideloadIdentity.x recovery/source/Hooks/SideloadCompatibility.x recovery/source/Runtime/YTLSideloadEntrypoint.m
+
+YTLite_FILES += recovery/source/Hooks/ContentLayout.x

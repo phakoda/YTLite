@@ -1,6 +1,21 @@
 # YouTube Plus (ex. YTLite)
 A flexible enhancer for YouTube on iOS, featuring over hundred customizable options.
 
+## Local fork changes
+
+This fork removes first-launch promotion and developer donation links. Settings
+use native grouped rows, Dynamic Type, and switches. Player settings include
+**Remember playback speed**, enabled by default, and **Don’t Eat My Content**,
+which keeps wide fullscreen video inside the notch and Dynamic Island safe area.
+Selecting a default speed clears the previous remembered choice. Temporary
+hold-to-speed gestures remain temporary unless Preserve Speed is enabled.
+
+Run `python3 tools/verify_local_features.py` for playback regressions. Run
+`python3 tools/verify_settings_simulator.py <simulator-uuid>` to check the actual
+UIKit settings layout, native speed capture, and video safe-area layout. These
+fixtures use synthetic YouTube objects. Real YouTube device testing remains
+necessary. Original reconstruction evidence is retained under `recovery/`.
+
 ## Table of Contents
 - [Screenshots](#screenshots)
 - [Main Features](#main-features)
@@ -53,7 +68,6 @@ A flexible enhancer for YouTube on iOS, featuring over hundred customizable opti
 
 > [!NOTE]
 > Starting from version 5.2, YTPlus requires a subscription.  
-> The last free version is [5.2b4](https://github.com/dayanch96/YTLite/releases/tag/v5.2b4).
 
 ## FAQ
 - [🇺🇸 English FAQ](FAQs/FAQ_EN.md)

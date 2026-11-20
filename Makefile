@@ -10,7 +10,7 @@ endif
 DEBUG=0
 FINALPACKAGE=1
 ARCHS = arm64
-PACKAGE_VERSION = 5.2.2-local.2
+PACKAGE_VERSION = 5.2.2-local.3
 # The packaged 5.2.2 image declares iOS 14. Use the installed Xcode SDK, not
 # the unavailable 16.5 SDK named in the March 2024 source backup.
 TARGET := iphone:clang:latest:14.0

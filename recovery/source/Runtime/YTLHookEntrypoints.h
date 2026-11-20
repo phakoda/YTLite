@@ -35,3 +35,5 @@ FOUNDATION_EXPORT void YTLInstallStartupLifecycleMainHooks(void);
 FOUNDATION_EXPORT void YTLScheduleWelcome(void);
 FOUNDATION_EXPORT void YTLFinalizePrimaryStartup(void);
 FOUNDATION_EXPORT void YTLInstallSideloadMetadataCompatibilityHooks(void);
+
+FOUNDATION_EXPORT void YTLInstallContentLayoutHooks(void);

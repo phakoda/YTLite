@@ -32,6 +32,7 @@ static NSString *const kDefaultsSuiteName = @"com.dvntm.ytlite";
 
 - (void)registerDefaults {
     [self registerDefaults:YTLRecoveredDefaultValues(self)];
+    [self registerDefaults:@{@"rememberPlaybackSpeed": @YES, @"dontEatMyContent": @YES}];
 }
 
 // -[YTLUserDefaults colorForSegment:], 0x1eb10c. The stored preference is

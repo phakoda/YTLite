@@ -1,4 +1,5 @@
 #import "YTPSpeedMaster.h"
+#import "PlaybackPreferences.h"
 #import "ControlsHost.h"
 #import "ControlsNumbers.h"
 #import "../Presentation/PlayerToast.h"
@@ -80,6 +81,7 @@ static NSInteger YTLClampRateIndex(NSInteger base, double delta, NSUInteger coun
 + (void)setPlaybackRate:(double)rate forPlayer:(id)player {
     id<YTLControlsNode> target = player ?: [self getPlayerIfAvailable];
     if (!target) return;
+    YTLRememberPlaybackRate([YTLUserDefaults standardUserDefaults], rate);
     id<YTLControlsNode> video = [target activeVideo];
     if ([video respondsToSelector:@selector(playbackRate)]) {
         [video setPlaybackRate:(float)rate];
@@ -145,11 +147,13 @@ static NSInteger YTLClampRateIndex(NSInteger base, double delta, NSUInteger coun
         [self setPlaybackRate:_rateBeforeSpeedmaster];
         [[PlayerToast sharedToast] updateToastText:title value:_rateBeforeSpeedmaster];
     } else {
+        YTLRememberPlaybackRate([YTLUserDefaults standardUserDefaults], [self currentPlaybackRate]);
         NSString *rateText = [NSString stringWithFormat:@"%@×", @((float)[self currentPlaybackRate])];
         NSString *message = [NSString stringWithFormat:[@"SpeedPreserved" ytl_localized], rateText];
         [[ToastView new] showProgressiveToastWithText:message duration:5.0
             actionTitle:[@"ResetSpeed" ytl_localized] actionCompletion:^{
-                [self setPlaybackRate:self->_rateBeforeSpeedmaster]; // block 0x225090
+                [self setPlaybackRate:self->_rateBeforeSpeedmaster];
+                YTLRememberPlaybackRate([YTLUserDefaults standardUserDefaults], self->_rateBeforeSpeedmaster);
             }];
     }
     [[PlayerToast sharedToast] hideToast];

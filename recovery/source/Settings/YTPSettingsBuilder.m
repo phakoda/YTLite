@@ -12,16 +12,16 @@ static NSString *SettingsL(NSString *key) { return [key ytl_localized]; }
 static UIImage *SettingsImage(NSString *name) {
     return [(Class<YTLSettingsMedia>)NSClassFromString(@"YTPMedia") imageWithName:name];
 }
-static UIImage *SettingsOriginalImage(NSString *name) {
-    return [NSBundle.ytl_defaultBundle originalImageWithName:name];
-}
 static DVNTableModel *SettingsSearchableModel(NSString *title) {
     DVNTableModel *model = [DVNTableModel modelWithTitle:SettingsL(title) sections:nil];
     model.supportsSearching = YES;
     return model;
 }
 static DVNCell *SettingsSwitch(NSString *title, NSString *key) {
-    return [DVNCell cellWithTitle:SettingsL(title) subtitle:SettingsL([title stringByAppendingString:@"Desc"]) type:0 key:key];
+    NSString *descriptionKey = [title stringByAppendingString:@"Desc"];
+    NSString *description = SettingsL(descriptionKey);
+    if ([description isEqualToString:descriptionKey]) description = nil;
+    return [DVNCell cellWithTitle:SettingsL(title) subtitle:description type:0 key:key];
 }
 static NSArray *SettingsSwitches(NSArray<NSArray<NSString *> *> *rows) {
     NSMutableArray *cells = [NSMutableArray array];
@@ -194,7 +194,13 @@ static void SettingsToast(NSString *key, BOOL success) {
         @[@"BackgroundPlayback",@"backgroundPlayback"], @[@"Miniplayer",@"miniplayer"], @[@"DisableAutoplay",@"disableAutoplay"],
         @[@"NoContentWarning",@"noContentWarning"], @[@"NoHints",@"noHints"], @[@"AutoFullscreen",@"autoFullscreen"],
         @[@"ExitFullscreen",@"exitFullscreen"]])];
+    [behavior insertObject:SettingsSwitch(@"Remember playback speed", @"rememberPlaybackSpeed") atIndex:1];
     [model addSection:SettingsSection(@"behaviorCell", @"Player.Actions", behavior)];
+    [model addSection:SettingsFooterSection(@"dontEatMyContentCell", @"Don’t Eat My Content",
+        @"Keep wide fullscreen videos clear of the notch and Dynamic Island. Pinch to zoom still fills the screen.", @[
+            SettingsSwitch(@"Protect video from the notch", @"dontEatMyContent"),
+            SettingsSwitch(@"Apply to all aspect ratios", @"dontEatMyContentAllVideos")
+        ])];
     [model addSection:SettingsSection(@"remoteControlCell", @"Player.ControlCenter", @[
         SettingsSwitch(@"RcSkipBackward", @"rcSkipBackward"), SettingsSlider(5,60,1,2,@"rcSkipBackwardSec"),
         SettingsSwitch(@"RcSkipForward", @"rcSkipForward"), SettingsSlider(5,60,1,2,@"rcSkipForwardSec")
@@ -348,7 +354,7 @@ static void SettingsToast(NSString *key, BOOL success) {
     ])];
     [model addSection:SettingsSection(@"rpcInfoCell", @"RPC.Information", @[
         [DVNCell cellWithTitle:SettingsL(@"RPC.HowTo") subtitle:nil icon:nil accessoryIcon:SettingsImage(@"open_new")
-                         type:5 handler:(DVNStoredBlock)^{ [self openURL:@"https://github.com/dayanch96/YTPlus-Discord-RPC/blob/main/README.md"]; }]
+                         type:5 handler:(DVNStoredBlock)^{ [self openURL:@"https://github.com/phakoda/YTLite/blob/main/README.md"]; }]
     ])];
     return model;
 }
@@ -393,10 +399,11 @@ static void SettingsToast(NSString *key, BOOL success) {
         SettingsLink(self,@"YTClassicVideoQuality",@"PoomSmart",@"libs",@"https://github.com/PoomSmart/YTClassicVideoQuality"),
         SettingsLink(self,@"YTShortsProgress",@"PoomSmart",@"libs",@"https://github.com/PoomSmart/YTShortsProgress"),
         SettingsLink(self,@"YTAutoFullscreen",@"PoomSmart",@"libs",@"https://github.com/PoomSmart/YTAutoFullScreen"),
-        SettingsLink(self,@"Skip Content Warning",@"PoomSmart",@"libs",@"https://github.com/dayanch96/YTLite/blob/main/YTLite.x#L310-L312"),
+        SettingsLink(self,@"Skip Content Warning",@"PoomSmart",@"libs",@"https://github.com/phakoda/YTLite/blob/main/recovery/source/Hooks/PlaybackOptions.x"),
         SettingsLink(self,@"YouAreThere",@"PoomSmart",@"libs",@"https://github.com/PoomSmart/YouAreThere"),
         SettingsLink(self,@"YouTube Native Share",@"jkhsjdhjs",@"libs",@"https://github.com/jkhsjdhjs/youtube-native-share"),
-        SettingsLink(self,@"MobileFFmpeg",@"Taner Sener",@"libs",@"https://github.com/tanersener/mobile-ffmpeg")
+        SettingsLink(self,@"MobileFFmpeg",@"Taner Sener",@"libs",@"https://github.com/tanersener/mobile-ffmpeg"),
+        SettingsLink(self,@"Don’t Eat My Content",@"Foxster",@"libs",@"https://github.com/therealFoxster/DontEatMyContent")
     ])];
     return model;
 }
@@ -432,27 +439,7 @@ static void SettingsToast(NSString *key, BOOL success) {
 // 0x175934; image factory stores selfHandler, not handler (0x176bf4,0x176e68,
 // 0x176ed8,0x1771b0). Only the donation callback consumes its DVNCell argument.
 - (DVNSection *)devSection {
-    return [DVNSection sectionWithHeader:SettingsL(@"Developer") footer:nil cells:@[
-        [DVNCell cellWithTitle:@"Dayanch96" subtitle:SettingsL(@"FollowMe") image:SettingsOriginalImage(@"dvn")
-                 accessoryIcon:SettingsOriginalImage(@"x_prefs") type:5 handler:(DVNStoredBlock)^(DVNCell *cell){
-            (void)cell;
-            [self openURL:@"https://twitter.com/dayanch96"];
-        }],
-        [DVNCell cellWithTitle:SettingsL(@"SupportDevelopment") subtitle:SettingsL(@"DonateDesc") image:SettingsOriginalImage(@"heart_prefs")
-                 accessoryIcon:SettingsImage(@"support") type:5 handler:(DVNStoredBlock)^(DVNCell *cell) {
-            [self showDonationSheet:cell.sourceView];
-        }],
-        [DVNCell cellWithTitle:SettingsL(@"VisitGithub") subtitle:SettingsL(@"VisitGithubDesc") image:SettingsOriginalImage(@"github_logo")
-                 accessoryIcon:SettingsImage(@"open_new") type:5 handler:(DVNStoredBlock)^(DVNCell *cell){
-            (void)cell;
-            [self openURL:@"https://github.com/dayanch96/YTLite"];
-        }],
-        [DVNCell cellWithTitle:SettingsL(@"VisitTelegram") subtitle:SettingsL(@"VisitTelegramDesc") image:SettingsOriginalImage(@"tg_logo")
-                 accessoryIcon:SettingsImage(@"open_new") type:5 handler:(DVNStoredBlock)^(DVNCell *cell){
-            (void)cell;
-            [self openURL:@"https://t.me/dvntms"];
-        }]
-    ] identifier:@"devCell"];
+    return [DVNSection sectionWithIdentifier:@"devCell"];
 }
 
 // Local UI change from 0x177370: omit the Special thanks/supporters entry.
@@ -511,58 +498,10 @@ static void SettingsToast(NSString *key, BOOL success) {
 // link/copy invokes 0x17dfe4/0x17e100. Default descriptors were decoded from
 // CFString objects 0x11a6160..0x11a67e0; the network overrides only array values.
 - (void)showDonationSheet:(UIView *)sourceView {
-    [[NSURLSession.sharedSession dataTaskWithURL:[NSURL URLWithString:@"https://api.dvntm.com/api/getlinks"]
-                             completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
-        (void)response;
-        NSArray *links = @[
-            @{@"name":@"Patreon",@"key":@"patreon",@"url":@"https://www.patreon.com/dayanch96"},
-            @{@"name":@"Github Sponsors",@"key":@"githubsp",@"url":@"https://github.com/sponsors/dayanch96"},
-            @{@"name":@"Buy Me a Coffee",@"key":@"bmc",@"url":@"https://www.buymeacoffee.com/dayanch96"},
-            @{@"name":@"Boosty",@"key":@"boosty",@"url":@"https://boosty.to/dayanch96"}
-        ];
-        NSArray *addresses = @[
-            @{@"name":@"USDT (TRC20)",@"key":@"usdt",@"address":@"TEdKJdKwc1Bbu8Py4um8qPQ6MbproEqNJw"},
-            @{@"name":@"BNB Smart Chain (BEP20)",@"key":@"bsc",@"address":@"0xc6f9fddb30ce10d70e6497950f44c8e10b72bcd6"}
-        ];
-        NSDictionary *icons = @{@"boosty":@"boosty", @"bmc":@"coffee", @"githubsp":@"github",
-                                @"patreon":@"patreon", @"usdt":@"usdt", @"bsc":@"bnb"};
-        if (data && !error) {
-            NSDictionary *json = [NSJSONSerialization JSONObjectWithData:data options:0 error:NULL];
-            if ([json[@"sponsor_links"] isKindOfClass:NSArray.class]) links = json[@"sponsor_links"];
-            if ([json[@"addresses"] isKindOfClass:NSArray.class]) addresses = json[@"addresses"];
-        }
-        dispatch_async(dispatch_get_main_queue(), ^{
-            YTLSettingsHostSheet *sheet = [(id)NSClassFromString(@"YTDefaultSheetController")
-                sheetControllerWithMessage:SettingsL(@"SupportDevelopment") subMessage:SettingsL(@"SupportDevelopmentDesc")
-                delegate:nil parentResponder:nil];
-            UIView *header = [sheet valueForKey:@"_headerView"];
-            UILabel *subtitle = [header valueForKey:@"_subtitleLabel"];
-            subtitle.numberOfLines = 0;
-            for (NSDictionary *entry in links) {
-                UIImage *image = [NSBundle.ytl_defaultBundle originalImageWithName:icons[entry[@"key"]]];
-                id action = [(Class<YTLSettingsSheetAction>)NSClassFromString(@"YTActionSheetAction")
-                    actionWithTitle:entry[@"name"] iconImage:image secondaryIconImage:nil accessibilityIdentifier:nil
-                    handler:^(YTActionSheetAction *action) { (void)action; [self openURL:entry[@"url"]]; }];
-                [sheet addAction:action];
-            }
-            for (NSDictionary *entry in addresses) {
-                UIImage *image = [NSBundle.ytl_defaultBundle originalImageWithName:icons[entry[@"key"]]];
-                id action = [(Class<YTLSettingsSheetAction>)NSClassFromString(@"YTActionSheetAction")
-                    actionWithTitle:entry[@"name"] iconImage:image secondaryIconImage:nil accessibilityIdentifier:nil
-                    handler:^(YTActionSheetAction *action) {
-                        (void)action;
-                        UIPasteboard.generalPasteboard.string = entry[@"address"];
-                        SettingsToast(@"Copied", YES);
-                    }];
-                [sheet addAction:action];
-            }
-            sheet.sourceView = sourceView;
-            [sheet presentFromViewController:self.presenter animated:YES completion:nil];
-        });
-    }] resume];
+    (void)sourceView;
+    [self openURL:@"https://github.com/phakoda/YTLite"];
 }
 
-// 0x17e400. Preserve canOpenURL: gating, empty options, nil completion.
 - (void)openURL:(NSString *)string {
     NSURL *url = [NSURL URLWithString:string];
     if ([UIApplication.sharedApplication canOpenURL:url]) {

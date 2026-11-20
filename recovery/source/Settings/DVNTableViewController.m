@@ -67,7 +67,7 @@ static UIView *SettingsTableText(NSString *text, UIFont *font, UIColor *color,
 
 // 0x1163f8; the model retains no controller cycle (selfViewController is weak).
 - (instancetype)initWithModel:(DVNTableModel *)model defaults:(NSUserDefaults *)defaults {
-    self = [super initWithStyle:UITableViewStyleGrouped];
+    self = [super initWithStyle:UITableViewStyleInsetGrouped];
     if (self) {
         self.model = model;
         self.defaults = defaults;
@@ -82,10 +82,12 @@ static UIView *SettingsTableText(NSString *text, UIFont *font, UIColor *color,
 - (void)loadView {
     [super loadView];
     self.title = self.model.title;
-    self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+    self.tableView.separatorStyle = UITableViewCellSeparatorStyleSingleLine;
+    self.tableView.rowHeight = UITableViewAutomaticDimension;
+    self.tableView.estimatedRowHeight = 52;
     self.tableView.contentInset = UIEdgeInsetsMake(0, 0, 20, 0);
     self.tableView.tintColor = [UIColor colorWithRed:0.75 green:0.5 blue:0.9 alpha:1];
-    self.tableView.backgroundColor = [(Class<YTLSettingsMedia>)NSClassFromString(@"YTPMedia") adaptiveBackgroundColor];
+    self.tableView.backgroundColor = UIColor.systemGroupedBackgroundColor;
     if (self.model.showsThanksHeart) [self setupThanksHeart];
 }
 
@@ -120,13 +122,19 @@ static UIView *SettingsTableText(NSString *text, UIFont *font, UIColor *color,
         field.tintColor = self.tableView.tintColor;
         field.layer.cornerRadius = 0;
         field.layer.masksToBounds = YES;
-        field.translatesAutoresizingMaskIntoConstraints = NO;
-        [self _removeSearchFieldCornerRadius:_searchBar];
-        [field.leadingAnchor constraintEqualToAnchor:_searchBar.leadingAnchor].active = YES;
-        [field.trailingAnchor constraintEqualToAnchor:_searchBar.trailingAnchor].active = YES;
-        [field.topAnchor constraintEqualToAnchor:_searchBar.topAnchor].active = YES;
-        [field.bottomAnchor constraintEqualToAnchor:_searchBar.bottomAnchor].active = YES;
+        // UISearchBar owns the search field's internal layout and margins.
         self.tableView.tableHeaderView = _searchBar;
+    }
+}
+
+- (void)viewDidLayoutSubviews {
+    [super viewDidLayoutSubviews];
+    if (_searchBar) {
+        CGFloat height = MAX(56, [UIFont preferredFontForTextStyle:UIFontTextStyleBody].lineHeight + 32);
+        if (fabs(_searchBar.frame.size.height - height) > 0.5) {
+            _searchBar.frame = CGRectMake(0, 0, self.tableView.bounds.size.width, height);
+            self.tableView.tableHeaderView = _searchBar;
+        }
     }
 }
 
@@ -341,8 +349,8 @@ static UIView *SettingsTableText(NSString *text, UIFont *font, UIColor *color,
 
 // 0x11bd8c.
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-    (void)tableView; (void)indexPath;
-    return UITableViewAutomaticDimension;
+    (void)tableView;
+    return [self _cellForIndexPath:indexPath].type == 7 ? 76 : UITableViewAutomaticDimension;
 }
 // 0x11bd9c.
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
@@ -359,7 +367,7 @@ static UIView *SettingsTableText(NSString *text, UIFont *font, UIColor *color,
     UILabel *label = [(UITableViewHeaderFooterView *)view textLabel];
     NSString *title = [self tableView:tableView titleForHeaderInSection:section];
     label.text = title;
-    label.font = [UIFont systemFontOfSize:14 weight:UIFontWeightLight];
+    label.font = [UIFont preferredFontForTextStyle:UIFontTextStyleFootnote];
     label.textColor = UIColor.labelColor;
     label.textAlignment = NSTextAlignmentNatural;
     label.numberOfLines = 0;
@@ -377,7 +385,7 @@ static UIView *SettingsTableText(NSString *text, UIFont *font, UIColor *color,
 // 0x11c4a4.
 - (void)tableView:(UITableView *)tableView willDisplayFooterView:(UIView *)view forSection:(NSInteger)section {
     UILabel *label = [(UITableViewHeaderFooterView *)view textLabel];
-    label.font = [UIFont systemFontOfSize:13 weight:UIFontWeightLight];
+    label.font = [UIFont preferredFontForTextStyle:UIFontTextStyleFootnote];
     label.textColor = UIColor.secondaryLabelColor;
     label.text = [self tableView:tableView titleForFooterInSection:section];
     label.textAlignment = NSTextAlignmentNatural;
@@ -385,14 +393,7 @@ static UIView *SettingsTableText(NSString *text, UIFont *font, UIColor *color,
 }
 // 0x11c698; measured height is rounded upward in double precision.
 - (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section {
-    NSString *title = [self tableView:tableView titleForFooterInSection:section];
-    if (!title) return 0;
-    CGRect rect = [title boundingRectWithSize:CGSizeMake(tableView.frame.size.width - 40, CGFLOAT_MAX)
-                                     options:NSStringDrawingUsesLineFragmentOrigin
-                                  attributes:@{NSFontAttributeName:[UIFont systemFontOfSize:13 weight:UIFontWeightLight]}
-                                     context:nil];
-    // 0x11c80c FRINTP d0,d8; 0x11c814 FADD adds 10.0.
-    return ceil(rect.size.height) + 10.0;
+    return [self tableView:tableView titleForFooterInSection:section].length ? UITableViewAutomaticDimension : 0;
 }
 // 0x11c868.
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
@@ -415,8 +416,7 @@ static UIView *SettingsTableText(NSString *text, UIFont *font, UIColor *color,
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     (void)tableView;
     DVNCell *model = [self _cellForIndexPath:indexPath];
-    UITableViewCellStyle style = (model.type == 12 || model.type == 6 || model.type == 11)
-                              ? UITableViewCellStyleSubtitle : UITableViewCellStyleValue2;
+    UITableViewCellStyle style = UITableViewCellStyleSubtitle;
     YTPTableViewCell *cell = [[YTPTableViewCell alloc] initWithStyle:style reuseIdentifier:model.reuseIdentifier];
     model.sourceView = cell;
     if (model.title) {
@@ -442,7 +442,7 @@ static UIView *SettingsTableText(NSString *text, UIFont *font, UIColor *color,
     }
     if (model.type == 4) cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     if (model.type == 0) {
-        YTLSettingsHostSwitch *control = [self switchForKey:model.key];
+        UISwitch *control = [self switchForKey:model.key];
         control.tag = SettingsTag(indexPath);
         if (model.tintColor) control.onTintColor = model.tintColor;
         cell.accessoryView = control;
@@ -456,8 +456,8 @@ static UIView *SettingsTableText(NSString *text, UIFont *font, UIColor *color,
         control.tag = SettingsTag(indexPath);
         [control addTarget:self action:@selector(setSegment:) forControlEvents:UIControlEventValueChanged];
         [cell.contentView addSubview:control];
-        [control.centerYAnchor constraintEqualToAnchor:cell.contentView.centerYAnchor].active = YES;
-        [control.centerXAnchor constraintEqualToAnchor:cell.contentView.centerXAnchor].active = YES;
+        [control.topAnchor constraintEqualToAnchor:cell.contentView.layoutMarginsGuide.topAnchor].active = YES;
+        [control.bottomAnchor constraintEqualToAnchor:cell.contentView.layoutMarginsGuide.bottomAnchor].active = YES;
         [control.leadingAnchor constraintEqualToAnchor:cell.contentView.leadingAnchor constant:10].active = YES;
         [control.trailingAnchor constraintEqualToAnchor:cell.contentView.trailingAnchor constant:-10].active = YES;
     }
@@ -476,9 +476,20 @@ static UIView *SettingsTableText(NSString *text, UIFont *font, UIColor *color,
         slider.tag = SettingsTag(indexPath);
         cell.detailTextLabel.text = [self formatSliderValue:(double)slider.value format:model.sliderFormat];
         [cell.contentView addSubview:slider];
-        [slider.leadingAnchor constraintEqualToAnchor:cell.contentView.layoutMarginsGuide.leadingAnchor constant:5].active = YES;
-        [slider.trailingAnchor constraintEqualToAnchor:cell.contentView.layoutMarginsGuide.trailingAnchor constant:-50].active = YES;
-        [slider.centerYAnchor constraintEqualToAnchor:cell.contentView.layoutMarginsGuide.centerYAnchor].active = YES;
+        UILabel *value = cell.detailTextLabel;
+        value.textAlignment = NSTextAlignmentRight;
+        value.font = [UIFont monospacedDigitSystemFontOfSize:14 weight:UIFontWeightRegular];
+        value.translatesAutoresizingMaskIntoConstraints = NO;
+        UILayoutGuide *margins = cell.contentView.layoutMarginsGuide;
+        [NSLayoutConstraint activateConstraints:@[
+            [slider.leadingAnchor constraintEqualToAnchor:margins.leadingAnchor],
+            [slider.trailingAnchor constraintEqualToAnchor:value.leadingAnchor constant:-12],
+            [slider.topAnchor constraintEqualToAnchor:margins.topAnchor constant:4],
+            [slider.bottomAnchor constraintEqualToAnchor:margins.bottomAnchor constant:-4],
+            [value.trailingAnchor constraintEqualToAnchor:margins.trailingAnchor],
+            [value.centerYAnchor constraintEqualToAnchor:slider.centerYAnchor],
+            [value.widthAnchor constraintGreaterThanOrEqualToConstant:64]
+        ]];
     }
     if (model.type == 7) cell.accessoryView = [self timePickerForCell:model indexPath:indexPath];
     if (model.type == 9) {
@@ -503,7 +514,7 @@ static UIView *SettingsTableText(NSString *text, UIFont *font, UIColor *color,
         [field.leadingAnchor constraintEqualToAnchor:cell.textLabel.trailingAnchor constant:15].active = YES;
         [field.trailingAnchor constraintEqualToAnchor:cell.contentView.trailingAnchor constant:-20].active = YES;
         [field.centerYAnchor constraintEqualToAnchor:cell.contentView.centerYAnchor].active = YES;
-        [field.heightAnchor constraintEqualToConstant:30].active = YES;
+        [field.heightAnchor constraintGreaterThanOrEqualToConstant:44].active = YES;
     }
     if (model.type == 11) {
         cell.detailTextLabel.numberOfLines = 1;
@@ -530,14 +541,11 @@ static UIView *SettingsTableText(NSString *text, UIFont *font, UIColor *color,
         return;
     }
     if (cell.type == 0) {
-        YTLSettingsHostSwitch *control = (id)[tableView cellForRowAtIndexPath:indexPath].accessoryView;
-        if ([control isKindOfClass:NSClassFromString(@"ABCSwitch")]) {
-            [control prepareHapticFeedback];
-            [control setOn:!control.isOn animated:YES userGenerated:YES];
-            [control releaseHapticFeedback];
-            [control fireHapticFeedback];
-        }
+        UISwitch *control = (id)[tableView cellForRowAtIndexPath:indexPath].accessoryView;
+        [control setOn:!control.isOn animated:YES];
+        [self toggleSwitch:control];
     }
+
     if (cell.type == 3 && cell.subtitle) {
         YTLSettingsHostAlert *alert = [(id)NSClassFromString(@"YTAlertView") infoDialog];
         alert.title = cell.title;
@@ -669,16 +677,15 @@ static UIView *SettingsTableText(NSString *text, UIFont *font, UIColor *color,
 }
 // 0x12137c.
 - (id)switchForKey:(NSString *)key {
-    YTLSettingsHostSwitch *control = [NSClassFromString(@"ABCSwitch") new];
+    UISwitch *control = [UISwitch new];
     control.onTintColor = self.tableView.tintColor;
-    control.offTrackColor = [UIColor.grayColor colorWithAlphaComponent:0.5];
     control.on = [self.defaults boolForKey:key];
     [control addTarget:self action:@selector(toggleSwitch:) forControlEvents:UIControlEventValueChanged];
     return control;
 }
 // 0x1215f4.
 - (void)toggleSwitch:(id)sender {
-    YTLSettingsHostSwitch *control = sender;
+    UISwitch *control = sender;
     DVNCell *cell = [self _cellForTag:control.tag];
     if (cell) [self.defaults setBool:control.isOn forKey:cell.key];
 }
@@ -903,6 +910,7 @@ static UIView *SettingsTableText(NSString *text, UIFont *font, UIColor *color,
             (void)sender;
             if (index != NSNotFound) {
                 [self.defaults setInteger:(NSInteger)index forKey:key];
+                if ([key isEqualToString:@"autoSpeedIndex"]) [self.defaults removeObjectForKey:@"rememberedPlaybackRate"];
                 [self.defaults synchronize];
                 [self.tableView reloadData];
             }

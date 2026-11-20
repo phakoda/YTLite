@@ -5,6 +5,8 @@
 #import "../Controls/YTPSpeedMaster.h"
 #import "../Helpers/YTLHelper.h"
 #import "../Support/YTPDB.h"
+#import "../Controls/PlaybackPreferences.h"
+#import "../../../Utils/YTLUserDefaults.h"
 #include <stdint.h>
 #include <string.h>
 
@@ -20,7 +22,7 @@ static BOOL PlayerLifecycleIsWatch(YTPlayerViewController *player) {
     %orig;
     if (ytpInt(@"wiFiQualityIndex") || ytpInt(@"cellQualityIndex")) [self performSelector:@selector(autoQuality) withObject:nil afterDelay:0.75];
     if (ytpBool(@"autoFullscreen")) [self performSelector:@selector(autoFullscreen) withObject:nil afterDelay:0.75];
-    if (ytpInt(@"autoSpeedIndex") != 3) [self performSelector:@selector(setAutoSpeed) withObject:nil afterDelay:0.75];
+    if (ytpInt(@"autoSpeedIndex") != 3 || ytpBool(@"rememberPlaybackSpeed")) [self performSelector:@selector(setAutoSpeed) withObject:nil afterDelay:0.75];
     if (ytpInt(@"captionsIndex")) [self performSelector:@selector(selectCaptions) withObject:nil afterDelay:0.75];
     if (ytpInt(@"audioTrackIndex")) [self performSelector:@selector(selectAudioTrack) withObject:nil afterDelay:0.75];
     if (ytpBool(@"rememberLoop")) [self performSelector:@selector(restoreLoopMode) withObject:nil afterDelay:3];
@@ -42,8 +44,8 @@ static BOOL PlayerLifecycleIsWatch(YTPlayerViewController *player) {
 %new
 - (void)setAutoSpeed {
     if (!PlayerLifecycleIsWatch(self)) return;
-    NSArray<NSNumber *> *speeds = @[@0.25, @0.5, @0.75, @1.0, @1.25, @1.5, @1.75, @2.0, @3.0, @4.0, @5.0];
-    [YTPSpeedMaster setPlaybackRate:(double)speeds[ytpInt(@"autoSpeedIndex")].floatValue forPlayer:self];
+    double rate = YTLPreferredPlaybackRate([YTLUserDefaults standardUserDefaults], ytpInt(@"autoSpeedIndex"));
+    [YTPSpeedMaster setPlaybackRate:rate forPlayer:self];
 }
 %new
 - (void)selectCaptions {

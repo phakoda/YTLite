@@ -2,6 +2,14 @@
 
 This directory contains a buildable Objective-C reconstruction from the three supplied 5.2.2 packages. All 51 first-party classes and 446 selected registration records have source implementations. Twenty authentication, attestation, app-origin verification and permission bypass records remain evidence-only exclusions. Historical account activation and integrity/bootstrap effects are also omitted under the existing local preference policy. This is not an exact restoration of every packaged behavior.
 
+## Current fork behavior
+
+Version `5.2.2-local.3` removes the first-launch promotional sheet and developer
+donation links, updates settings layout, remembers playback speed across videos,
+and integrates Don’t Eat My Content safe-area behavior. See the root README for
+current regression commands. Historical parity fixtures and stored evidence
+below describe the supplied packages, including behavior this fork has changed.
+
 ## Current source status
 
 The latest `recovery/tools/source_inventory.py` run compiled **61 selected Objective-C files for iOS arm64**. They implement **all 51 first-party classes**, with all **864 packaged method signatures** matching. This checks implementation presence and ABI; it does not prove behavior or feature integration. The per-class results and source hashes are in [evidence/source-inventory.json](evidence/source-inventory.json). A separate [category inventory](evidence/category-source-inventory.json) matches all three packaged Objective-C categories and their six methods.
