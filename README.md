@@ -1,163 +1,95 @@
-# YouTube Plus (ex. YTLite)
-A flexible enhancer for YouTube on iOS, featuring over hundred customizable options.
+# YTLite
 
-## Local fork changes
+A YouTube Plus fork for iOS, built from reconstructed 5.2.2 source. This fork uses local preferences and requires no subscription or account activation.
 
-This fork removes first-launch promotion and developer donation links. Settings
-use native grouped rows, Dynamic Type, and switches. Player settings include
-**Remember playback speed**, enabled by default, and **Don’t Eat My Content**,
-which keeps wide fullscreen video inside the notch and Dynamic Island safe area.
-Selecting a default speed clears the previous remembered choice. Temporary
-hold-to-speed gestures remain temporary unless Preserve Speed is enabled.
+Open YouTube settings, then YouTube Plus to configure the tweak.
 
-Run `python3 tools/verify_local_features.py` for playback regressions. Run
-`python3 tools/verify_settings_simulator.py <simulator-uuid>` to check the actual
-UIKit settings layout, native speed capture, and video safe-area layout. These
-fixtures use synthetic YouTube objects. Real YouTube device testing remains
-necessary. Original reconstruction evidence is retained under `recovery/`.
+## What's included
 
-## Table of Contents
-- [Screenshots](#screenshots)
-- [Main Features](#main-features)
-- [FAQ](#faq)
-- [Reviews](#reviews)
-- [How to build a YouTube Plus app using GitHub Actions](#how-to-build-a-youtube-plus-app-using-github-actions)
-- [Supported YouTube Version](#supported-youtube-version)
-- [Tweak Integration Details](#tweak-integration-details)
+- Video and audio downloads, thumbnails, and channel images.
+- SponsorBlock, preferred quality, audio tracks, and captions.
+- Playback speed that stays selected when you open another video. Remember playback speed is enabled by default. Choosing a default speed clears the previous remembered choice.
+- Don't Eat My Content under Player settings. It keeps wide fullscreen videos clear of the notch and Dynamic Island while allowing intentional pinch-to-zoom.
+- Native settings rows, switches, and text sizing, with search and preference import/export.
+- No first-launch promotion or developer donation prompts.
 
-## Screenshots
-<table>
-   <tr>
-      <td><img src="Resources/scr1.jpg" alt="Screenshot 1" /></td>
-      <td><img src="Resources/scr2.jpg" alt="Screenshot 2" /></td>
-      <td><img src="Resources/scr3.jpg" alt="Screenshot 3" /></td>
-   </tr>
-</table>
+Temporary hold-to-speed gestures return to the previous speed unless Preserve Speed is enabled.
 
-<details>
-  <summary>More screenshots</summary>
-  <table>
-    <tr>
-      <td><img src="Resources/scr4.jpg" alt="Screenshot 4" /></td>
-      <td><img src="Resources/scr5.jpg" alt="Screenshot 5" /></td>
-      <td><img src="Resources/scr6.jpg" alt="Screenshot 6" /></td>
-    </tr>
-    <tr>
-      <td><img src="Resources/scr7.jpg" alt="Screenshot 7" /></td>
-      <td><img src="Resources/scr8.jpg" alt="Screenshot 8" /></td>
-      <td><img src="Resources/scr9.jpg" alt="Screenshot 9" /></td>
-    </tr>
-  </table>
-</details>
+## Build the tweak
 
-## Main Features
-<li>Download videos, audio (including audio track selection), thumbnails, posts, and profile pictures</li>
-<li>Copy video, comment, and post information</li>
-<li>Interface customization: Remove feed elements, reorder tabs, enable OLED mode, and as use Shorts-only mode</li>
-<li>Player settings: Gestures, default quality, preferred audio track</li>
-<li>Save, Load and Restore settings. Clear cache once or automatically on app startup</li>
-<li>Built-in SponsorBlock</li>
-<li>And much, much more</li>
-<br>
+The build targets arm64 devices running iOS 14 or later. It requires macOS, Xcode with the iOS SDK, Python 3.12 or newer, and a working Theos toolchain.
 
+Restore the pinned build dependencies from the repository root:
 
-**YouTube Plus preferences can be found in the YouTube Settings**
+```sh
+git -c http.userAgent='OpenAI File Downloader, XaiImageApiFetch/1.0' clone https://github.com/theos/theos.git vendor/theos
+git -C vendor/theos checkout --detach 5280bd038207e14f8bd76f5417aa2fe641c03228
+git -C vendor/theos -c http.userAgent='OpenAI File Downloader, XaiImageApiFetch/1.0' submodule update --init --recursive
+git -C vendor/theos/vendor/logos checkout --detach a62370066a97e36d59b200a9fa10c5091f5e8972
 
-**All contributors are listed in the Contributors section**
-**Used open-source libraries are listed in the Open Source Libraries section**
+git -c http.userAgent='OpenAI File Downloader, XaiImageApiFetch/1.0' clone https://github.com/PoomSmart/YouTubeHeader.git vendor/YouTubeHeader
+git -C vendor/YouTubeHeader checkout --detach 340680d7e6023c051f912f884bc1879b84aca7c6
+```
 
-> [!NOTE]
-> Starting from version 5.2, YTPlus requires a subscription.  
+Build a Debian package:
 
-## FAQ
-- [🇺🇸 English FAQ](FAQs/FAQ_EN.md)
-- [🇷🇺 ЧаВо на Русском](FAQs/FAQ_RU.md)
-- [🇮🇹 FAQ in Italiano](FAQs/FAQ_IT.md)
-- [🇵🇱 FAQ po polsku](FAQs/FAQ_PL.md)
+```sh
+python3 tools/build_local.py package
+```
 
-## Reviews
-Review by [@qbap](https://github.com/qbap) on ONE Jailbreak: https://onejailbreak.com/blog/youtube-plus/
+The package goes into `packages/`. The build log and input hashes go into `.recovery-work/build/`. For a roothide package, use `python3 tools/build_local.py package --scheme roothide`.
 
-## How to build a YouTube Plus app using Github actions
-> [!NOTE]
-> If this your first time, complete following steps before starting:
->
-> 1. Fork this repository using the fork button on the top right
-> 2. On your forked repository, go to **Repository Settings** > **Actions**, enable **Read and Write** permissions.
+The repository includes the standalone FFmpeg archives used by the build. To rebuild them, follow the [FFmpeg dependency notes](recovery/dependencies/ffmpeg/README.md). The original combined tweak binary is not a link dependency.
 
-<details>
-  <summary>How to build the YouTube Plus app</summary>
-  <ol>
-    <li>Click on <strong>Sync fork</strong>, and if your branch is out-of-date, click on <strong>Update branch</strong>.</li>
-    <li>Navigate to the <strong>Actions tab</strong> in your forked repository and select <strong>Create YouTube Plus app</strong>.</li>
-    <li>Click the <strong>Run workflow</strong> button located on the right side.</li>
-    <li>Mark or unmark the tweaks you want to integrate. Learn more about them in the <a href="#tweak-integration-details">Tweak Integration Details</a> section.</li>
-    <li>Prepare a decrypted .ipa file <em>(we cannot provide this due to legal reasons)</em>, then upload it to a file provider (e.g., filebin.net, filemail.com, or Dropbox is recommended). Paste the URL of the decrypted IPA file in the provided field.</li>
-    <li><strong>NOTE:</strong> Make sure to provide a direct download link to the file, not a link to a webpage. Otherwise, the process will fail.</li>
-    <li>Enter the tweak version from the releases (the latest release is selected by default). You can also change the BundleID and Display Name if desired.</li>
-    <li>Make sure all inputs are correct, then click <strong>Run workflow</strong> to start the process.</li>
-    <li>Wait for the build to finish. You can download the YouTube Plus app from the releases section of your forked repo. (If you can't find the releases section, go to your forked repo and add /releases to the URL, i.e., github.com/user/YTLite/releases.)</li>
-  </ol>
-</details>
+## Inject a decrypted YouTube IPA
 
+Supply your own decrypted IPA. Keep the input and output paths different. The injector refuses to overwrite an existing output.
 
-<details>
-  <summary>How to build the YouTube Plus app with your own link for the YouTube Plus tweak</summary>
-  <ol>
-    <blockquote>
-      <p><strong>NOTE:</strong> This option is primarily intended for building the YouTube Plus app based on the beta file you have. In other cases, it is generally not needed.</p>
-    </blockquote>
-    <li>Click on <strong>Sync fork</strong>, and if your branch is out-of-date, click on <strong>Update branch</strong>.</li>
-    <li>Navigate to the <strong>Actions tab</strong> in your forked repository and select <strong>[BETA] Build YouTube Plus app</strong>.</li>
-    <li>Click the <strong>Run workflow</strong> button located on the right side.</li>
-    <li>Mark or unmark the tweaks you want to integrate. Learn more about them in the <a href="#tweak-integration-details">Tweak Integration Details</a> section.</li>
-    <li>Prepare a decrypted .ipa file <em>(we cannot provide this due to legal reasons)</em>, then upload it to a file provider (e.g., filebin.net, filemail.com, or Dropbox is recommended). Paste the URL of the decrypted IPA file in the provided field.</li>
-    <li>Upload your beta tweak file to a file provider and paste direct link to the <strong>URL to the YouTube Plus tweak file</strong> field. You can also change the BundleID and Display Name if desired.</li>
-    <li><strong>NOTE:</strong> Make sure to provide a direct download link to the file, not a link to a webpage. Otherwise, the process will fail.</li>
-    <li>Make sure all inputs are correct, then click <strong>Run workflow</strong> to start the process.</li>
-    <li>Wait for the build to finish. You can download the YouTube Plus app from the releases section of your forked repo. (If you can't find the releases section, go to your forked repo and add /releases to the URL, i.e., github.com/user/YTLite/releases.)</li>
-  </ol>
-</details>
+Restore the pinned Cyan checkout once:
 
-## Supported YouTube Version
-<ul>
-   <li><strong>Latest confirmed:</strong> <em>21.16.2</em></li>
-   <li><strong>Date tested:</strong> <em>Jul 17, 2026</em></li>
-   <li><strong>YouTube Plus:</strong> <em>5.2.2</em></li>
-</ul>
+```sh
+mkdir -p .recovery-work/ipa-tools
+git -c http.userAgent='OpenAI File Downloader, XaiImageApiFetch/1.0' clone https://github.com/asdfzxcvbn/pyzule-rw.git .recovery-work/ipa-tools/pyzule-rw
+git -C .recovery-work/ipa-tools/pyzule-rw checkout --detach 740d3716dcd98c20c000f12cdb88f1f0b2a533a4
+```
 
-## Tweak Integration Details
-<details>
-  <summary>YouPiP</summary>
-  <p>YouPiP is a tweak developed by <a href="https://github.com/PoomSmart">PoomSmart</a> that enables the native Picture-in-Picture feature for videos in the iOS YouTube app.</p>
-  <p><strong>YouPiP preferences</strong> are available in the <strong>YouTube settings</strong>.</p>
-  <p>Source code and additional information are available <a href="https://github.com/PoomSmart/YouPiP">in PoomSmart's GitHub repository</a>.</p>
-</details>
+Build the current source, then inject it:
 
-<details>
-  <summary>YTUHD</summary>
-  <p>YTUHD is a tweak developed by <a href="https://github.com/PoomSmart">PoomSmart</a> that unlocks 1440p (2K) and 2160p (4K) resolutions in the iOS YouTube app.</p>
-  <p><strong>YTUHD preferences</strong> are available in the <strong>Video quality preferences</strong> section under <strong>YouTube settings</strong>.</p>
-  <p>Source code and additional information are available <a href="https://github.com/PoomSmart/YTUHD">in PoomSmart's GitHub repository</a>.</p>
-</details>
+```sh
+python3 tools/build_local.py all
+python3 tools/inject_local_ipa.py YouTube-Decrypted.ipa packages/YouTube-YTLite.ipa
+```
 
-<details>
-  <summary>Return YouTube Dislikes</summary>
-  <p>Return YouTube Dislikes is a tweak developed by <a href="https://github.com/PoomSmart">PoomSmart</a> that brings back dislikes on the YouTube app.</p>
-  <p><strong>Return YouTube Dislikes preferences</strong> are available in the <strong>YouTube settings</strong>.</p>
-  <p>Source code and additional information are available <a href="https://github.com/PoomSmart/Return-YouTube-Dislikes">in PoomSmart's GitHub repository</a>.</p>
-</details>
+The script embeds `YTLite.dylib`, its resource bundle, and the hook runtime. It checks that YouTube's code and data sections are unchanged, that all other original files are preserved, and that the injected resources match the local build. The verification report sits beside the output IPA with an `.injection.json` extension.
 
-<details>
-  <summary>YouQuality</summary>
-  <p>YouQuality is a tweak developed by <a href="https://github.com/PoomSmart">PoomSmart</a> that allows to view and change video quality directly from the video overlay.</p>
-  <p><strong>YouQuality can be enabled</strong> in the <strong>Video overlay</strong> section under <strong>YouTube settings</strong>.</p>
-  <p>Source code and additional information are available <a href="https://github.com/PoomSmart/YouQuality">in PoomSmart's GitHub repository</a>.</p>
-</details>
+Sign the output IPA with your usual device provisioning before installation. Injection does not provide a signing identity or provisioning profile. Local IPA files and build outputs are excluded from Git.
 
-<details>
-  <summary>DontEatMyContent</summary>
-  <p>DontEatMyContent is a tweak developed by <a href="https://github.com/therealFoxster">therealFoxster</a> that prevents the Notch/Dynamic Island from munching on 2:1 video content in the iOS YouTube app.</p>
-  <p><strong>DontEatMyContent preferences</strong> are available in the <strong>YouTube settings</strong>.</p>
-  <p>Source code and additional information are available <a href="https://github.com/therealFoxster/DontEatMyContent">in therealFoxster's GitHub repository</a>.</p>
-</details>
+## Verification and compatibility
+
+YouTube 21.46.3 has passed archive and injection verification with this fork. That verifies the package structure, not playback inside the app. Real YouTube device testing remains outstanding. A newer YouTube release can change the private methods these hooks depend on.
+
+Run the current playback regression checks:
+
+```sh
+python3 tools/verify_local_features.py
+```
+
+The playback suite needs the original-package analysis inputs described in [recovery reproduction](recovery/REPRODUCE.md). Historical parity fixtures compare against the supplied packages, including behavior this fork has intentionally changed.
+
+The UIKit fixture runs the production settings table and content-layout hooks against synthetic YouTube objects. It checks row alignment, switch saving, native speed capture, and notch-safe rendering. Restore its pinned Logos checkout, then pass an available simulator UUID:
+
+```sh
+git -c http.userAgent='OpenAI File Downloader, XaiImageApiFetch/1.0' clone https://github.com/theos/logos.git vendor/recovery-logos
+git -C vendor/recovery-logos checkout --detach 8cb2f6375c0a975a2b84c440f27f67282b0217b4
+python3 tools/verify_settings_simulator.py YOUR_SIMULATOR_UUID
+```
+
+Use `--appearance dark` or `--content-size accessibility-extra-extra-extra-large` to check other display settings. Reports and screenshots go into `.recovery-work/settings-preview/`.
+
+## Source and credits
+
+The selected tweak sources are listed in [recovered.mk](recovery/source/recovered.mk). [The recovery notes](recovery/README.md) document the reconstruction, evidence, and known differences from the original packages. Decompiled exports are evidence, not buildable source.
+
+Don't Eat My Content is adapted from [Foxster's tweak](https://github.com/therealFoxster/DontEatMyContent). Its [MIT license](recovery/dependencies/DontEatMyContent/LICENSE.md) is also included in the resource bundle. FFmpeg and the bundled codecs retain their own licenses in the dependency source tree.
+
+The [GitHub Actions workflows](.github/workflows/) assemble IPAs from prebuilt tweak packages. They do not compile this reconstructed source. Use the local build and injection commands above to include changes made in this checkout.
