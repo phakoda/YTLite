@@ -1,0 +1,198 @@
+[
+  {
+    "key": "@\"noAds\"",
+    "value": "@YES"
+  },
+  {
+    "key": "@\"backgroundPlayback\"",
+    "value": "@YES"
+  },
+  {
+    "key": "@\"downloadManager\"",
+    "value": "@YES"
+  },
+  {
+    "key": "@\"removeDownloadMenu\"",
+    "value": "@YES"
+  },
+  {
+    "key": "@\"frostedPivot\"",
+    "value": "@YES"
+  },
+  {
+    "key": "@\"ytlAudioIndex\"",
+    "value": "@0"
+  },
+  {
+    "key": "@\"ytlButtonIndex\"",
+    "value": "@0"
+  },
+  {
+    "key": "@\"startupAnimation\"",
+    "value": "@0"
+  },
+  {
+    "key": "@\"speedIndex\"",
+    "value": "@1"
+  },
+  {
+    "key": "@\"playbackRate\"",
+    "value": "@2"
+  },
+  {
+    "key": "@\"autoSpeedIndex\"",
+    "value": "@3"
+  },
+  {
+    "key": "@\"wiFiQualityIndex\"",
+    "value": "@0"
+  },
+  {
+    "key": "@\"cellQualityIndex\"",
+    "value": "@0"
+  },
+  {
+    "key": "@\"rcSkipBackwardSec\"",
+    "value": "@10"
+  },
+  {
+    "key": "@\"rcSkipForwardSec\"",
+    "value": "@10"
+  },
+  {
+    "key": "@\"leftGestureIndex\"",
+    "value": "@0"
+  },
+  {
+    "key": "@\"rightGestureIndex\"",
+    "value": "@0"
+  },
+  {
+    "key": "@\"seekMethodIndex\"",
+    "value": "@0"
+  },
+  {
+    "key": "@\"gestWideness\"",
+    "value": "@50"
+  },
+  {
+    "key": "@\"seekSensitivity\"",
+    "value": "@8"
+  },
+  {
+    "key": "@\"startupTab\"",
+    "value": "@\"FEwhat_to_watch\""
+  },
+  {
+    "key": "@\"idiomIndex\"",
+    "value": "@0"
+  },
+  {
+    "key": "@\"miniPlayerIndex\"",
+    "value": "@0"
+  },
+  {
+    "key": "@\"noLinkTracking\"",
+    "value": "@YES"
+  },
+  {
+    "key": "@\"noShareChunk\"",
+    "value": "@YES"
+  },
+  {
+    "key": "@\"activeTabs\"",
+    "value": "@[@\"FEwhat_to_watch\", @\"FEshorts\", @\"FEsubscriptions\", @\"FElibrary\"]"
+  },
+  {
+    "key": "@\"inactiveTabs\"",
+    "value": "@[@\"FEuploads\", @\"FEexplore\"]"
+  },
+  {
+    "key": "@\"progressBarIndex\"",
+    "value": "@1"
+  },
+  {
+    "key": "@\"progressMainColor\"",
+    "value": "[self colorForSegment:@\"mainProgress\"]"
+  },
+  {
+    "key": "@\"progressGradientColor\"",
+    "value": "[self colorForSegment:@\"gradientProgress\"]"
+  },
+  {
+    "key": "@\"scrubberColor\"",
+    "value": "[self colorForSegment:@\"scrubberColor\"]"
+  },
+  {
+    "key": "@\"customTrack\"",
+    "value": "@([YTPDB indexOfPreferredLanguage])"
+  },
+  {
+    "key": "@\"customCaption\"",
+    "value": "@([YTPDB indexOfPreferredLanguage])"
+  },
+  {
+    "key": "@\"sponsorBlock\"",
+    "value": "@YES"
+  },
+  {
+    "key": "@\"sbNotifications\"",
+    "value": "@YES"
+  },
+  {
+    "key": "@\"sbDuration\"",
+    "value": "@4"
+  },
+  {
+    "key": "@\"sbSkippedDuration\"",
+    "value": "@4"
+  },
+  {
+    "key": "@\"sb_sponsor\"",
+    "value": "@1"
+  },
+  {
+    "key": "@\"sb_sponsor_color\"",
+    "value": "[self colorForSegment:@\"sponsor\"]"
+  },
+  {
+    "key": "@\"sb_intro_color\"",
+    "value": "[self colorForSegment:@\"intro\"]"
+  },
+  {
+    "key": "@\"sb_outro_color\"",
+    "value": "[self colorForSegment:@\"endcards\"]"
+  },
+  {
+    "key": "@\"sb_interaction_color\"",
+    "value": "[self colorForSegment:@\"interaction\"]"
+  },
+  {
+    "key": "@\"sb_selfpromo_color\"",
+    "value": "[self colorForSegment:@\"selfpromo\"]"
+  },
+  {
+    "key": "@\"sb_music_offtopic_color\"",
+    "value": "[self colorForSegment:@\"nonmusic\"]"
+  },
+  {
+    "key": "@\"sb_preview_color\"",
+    "value": "[self colorForSegment:@\"preview\"]"
+  },
+  {
+    "key": "@\"sb_poi_highlight_color\"",
+    "value": "[self colorForSegment:@\"highlight\"]"
+  },
+  {
+    "key": "@\"sb_filler_color\"",
+    "value": "[self colorForSegment:@\"jokes\"]"
+  },
+  {
+    "key": "@\"sbPrivateUserID\"",
+    "value": "[self sbPrivateUserID]"
+  },
+  {
+    "key": "@\"sbPublicUserID\"",
+    "value": "[self sbPublicUserID:[self sbPrivateUserID]]"
+  }
+]

@@ -1,0 +1,273 @@
+{
+  "binary_sha256": "bdcc4d4ccaa5835d35bc97ccbdfc1c3dff514cb7161848265dcc0585f364c0ca",
+  "registrations": [
+    {
+      "class_name": "YTPlayerViewController",
+      "kind": "-",
+      "selector": "playbackController:didActivateVideo:withPlaybackData:",
+      "implementation": "0x000a36d0",
+      "operation": "replace",
+      "original_pointer": "0x01226638",
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0xa4158",
+      "instruction_sha256": "e77fedbce4c673ec7a78648d1a8936f05b3be8aa389c7598a7d9f40030c3d8da",
+      "llvm_arguments": [
+        "ptr",
+        "ptr",
+        "ptr",
+        "ptr",
+        "ptr"
+      ]
+    },
+    {
+      "class_name": "YTPlayerViewController",
+      "kind": "-",
+      "selector": "restoreLoopMode",
+      "implementation": "0x000a4158",
+      "operation": "add",
+      "original_pointer": null,
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0xa4a00",
+      "instruction_sha256": "7fe30c0fc1e6336ad27f942c90de966d0775a42b4c0ee56663bc8b3aab4030ae",
+      "llvm_arguments": [
+        "ptr",
+        "ptr"
+      ]
+    },
+    {
+      "class_name": "YTPlayerViewController",
+      "kind": "-",
+      "selector": "autoFullscreen",
+      "implementation": "0x000a4a00",
+      "operation": "add",
+      "original_pointer": null,
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0xa4b94",
+      "instruction_sha256": "77726a95f16395bfccf8024669f034290ed55c50c894413b9446bf0c2e0f90d3",
+      "llvm_arguments": [
+        "ptr",
+        "ptr"
+      ]
+    },
+    {
+      "class_name": "YTPlayerViewController",
+      "kind": "-",
+      "selector": "setAutoSpeed",
+      "implementation": "0x000a4b94",
+      "operation": "add",
+      "original_pointer": null,
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0xa51f0",
+      "instruction_sha256": "7794d1a276146af5e31852937f88e8c3800c62625777a7c911480fdd1cfb9c2d",
+      "llvm_arguments": [
+        "ptr",
+        "ptr"
+      ]
+    },
+    {
+      "class_name": "YTPlayerViewController",
+      "kind": "-",
+      "selector": "selectCaptions",
+      "implementation": "0x000a51f0",
+      "operation": "add",
+      "original_pointer": null,
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0xa6b30",
+      "instruction_sha256": "184bd94472cdff44f38eabc9de2ab08c983f63f9dd8991cda0d0f5cf18f3db63",
+      "llvm_arguments": [
+        "ptr",
+        "ptr"
+      ]
+    },
+    {
+      "class_name": "YTPlayerViewController",
+      "kind": "-",
+      "selector": "autoQuality",
+      "implementation": "0x000a6b30",
+      "operation": "add",
+      "original_pointer": null,
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0xa8894",
+      "instruction_sha256": "1aade19fee7c6a2ffa52d6bace9203be2941d096d13f6f548688654c404276d4",
+      "llvm_arguments": [
+        "ptr",
+        "ptr"
+      ]
+    },
+    {
+      "class_name": "YTPlayerViewController",
+      "kind": "-",
+      "selector": "selectAudioTrack",
+      "implementation": "0x000a8894",
+      "operation": "add",
+      "original_pointer": null,
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0xa9c2c",
+      "instruction_sha256": "bab092d863cab209421b200b740558702306f9c46ff9c41f82ea4ac640bd391b",
+      "llvm_arguments": [
+        "ptr",
+        "ptr"
+      ]
+    },
+    {
+      "class_name": "YTPlayerViewController",
+      "kind": "-",
+      "selector": "singleVideo:currentVideoTimeDidChange:",
+      "implementation": "0x000a9c2c",
+      "operation": "replace",
+      "original_pointer": "0x01226640",
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0xa9cd8",
+      "instruction_sha256": "9adf5588c340625bc2b5caecb0e0e0cb7c61150bf3af05801c7af5efefd962df",
+      "llvm_arguments": [
+        "ptr",
+        "ptr",
+        "ptr",
+        "ptr"
+      ]
+    },
+    {
+      "class_name": "YTPlayerViewController",
+      "kind": "-",
+      "selector": "potentiallyMutatedSingleVideo:currentVideoTimeDidChange:",
+      "implementation": "0x000a9cd8",
+      "operation": "replace",
+      "original_pointer": "0x01226648",
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0xa9d84",
+      "instruction_sha256": "cc22be94f20c302db771f2d5569fb624153179db866220b8cc20a52a0c59c689",
+      "llvm_arguments": [
+        "ptr",
+        "ptr",
+        "ptr",
+        "ptr"
+      ]
+    },
+    {
+      "class_name": "YTPlayerViewController",
+      "kind": "-",
+      "selector": "dealloc",
+      "implementation": "0x000a9d84",
+      "operation": "replace",
+      "original_pointer": "0x01226650",
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0xa9e0c",
+      "instruction_sha256": "d69e29f091363934938b1bdd63644772a8d50468d12cd34702e8c22e04d9bbe5",
+      "llvm_arguments": [
+        "ptr",
+        "ptr"
+      ]
+    }
+  ],
+  "helpers": [
+    {
+      "name": "addEndTime",
+      "implementation": "0x4b50c",
+      "instruction_end": "0x4bf90",
+      "instruction_sha256": "a568d7103a13f14113466d2e5091f9f3a32f5371617911a9be470736e790c8fc"
+    },
+    {
+      "name": "autoSkipShortsLegacy",
+      "implementation": "0x4bf90",
+      "instruction_end": "0x4c9b4",
+      "instruction_sha256": "67575de70b9fdfda776651dec07bef7dc818d518074771ddd444d423131d0948"
+    }
+  ],
+  "global_flag": {
+    "name": "canRememberLoopMode",
+    "address": "0x191b7c9",
+    "type": "BOOL",
+    "initial_value": false
+  },
+  "cfstrings": {
+    "0x116d9d0": "Premium",
+    "0x116dc10": "cellQualityIndex",
+    "0x116dad0": "wiFiQualityIndex",
+    "0x116db90": "Default",
+    "0x116db10": "2160p60",
+    "0x116d950": "2160p",
+    "0x116da90": "1440p60",
+    "0x116da10": "1440p",
+    "0x116da50": "1080p60",
+    "0x116dbd0": "1080p",
+    "0x116d990": "720p60",
+    "0x116db50": "720p",
+    "0x116d910": "480p",
+    "0x116d8d0": "360p",
+    "0x116d890": "240p",
+    "0x116d850": "144p",
+    "0x113acf0": "",
+    "0x116d540": ".4",
+    "0x116d600": ".%@",
+    "0x116d320": "loopMode"
+  },
+  "branch_tables": [
+    {
+      "table": "0x1180aa8",
+      "key": "0x1180ab8",
+      "xor": "0x7a37a251",
+      "targets": [
+        "0xa7b2c",
+        "0xa80f0"
+      ]
+    },
+    {
+      "table": "0x1180b10",
+      "key": "0x1180b20",
+      "xor": "0xeb14ecbb",
+      "targets": [
+        "0xa7da8",
+        "0xa7ce0"
+      ]
+    },
+    {
+      "table": "0x1180b28",
+      "key": "0x1180b38",
+      "xor": "0x8766003b",
+      "targets": [
+        "0xa7d48",
+        "0xa7da8"
+      ]
+    },
+    {
+      "table": "0x1180c68",
+      "key": "0x1180c78",
+      "xor": "0x7e38caec",
+      "targets": [
+        "0xa824c",
+        "0xa8414"
+      ]
+    }
+  ],
+  "instruction_words": {
+    "0x4bba8": "1400649e",
+    "0x4bbc0": "0800649e",
+    "0x4bbc4": "880208cb",
+    "0x4bbc8": "0001629e",
+    "0x4bbcc": "0018681e",
+    "0x4c6dc": "0840651e",
+    "0x4c6f0": "0040651e",
+    "0x4c6f4": "0021601e",
+    "0x4c6f8": "e8a79f1a",
+    "0xa7cac": "1f001b6b",
+    "0xa8350": "a80218eb",
+    "0xa8354": "165588da",
+    "0xa883c": "62008052",
+    "0xa8840": "43008052",
+    "0xa8844": "e40319aa",
+    "0xa3e8c": "1f251f39",
+    "0xa49dc": "09251f39",
+    "0xa5f30": "42001591",
+    "0xa5f38": "63c03391"
+  }
+}

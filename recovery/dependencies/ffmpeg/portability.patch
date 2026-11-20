@@ -1,0 +1,491 @@
+--- upstream/ios.sh
++++ recovery/ios.sh
+@@ -864,7 +864,7 @@
+ BUILD_FULL=""
+ MOBILE_FFMPEG_XCF_BUILD=""
+ BUILD_FORCE=""
+-BUILD_VERSION=$(git describe --tags 2>>"${BASEDIR}/build.log")
++BUILD_VERSION="v4.4-source-55700fb8bb5ec3e4c7be57506349838387d04364"
+ 
+ while [ ! $# -eq 0 ]; do
+   case $1 in
+--- upstream/build/arch-common.sh
++++ recovery/build/arch-common.sh
+@@ -83,7 +83,7 @@
+     return
+   fi
+ 
+-  (git clone $1 $2 --depth 1 1>>${BASEDIR}/build.log 2>&1)
++  (git -c http.userAgent='OpenAI File Downloader, XaiImageApiFetch/1.0' clone $1 $2 --depth 1 1>>${BASEDIR}/build.log 2>&1)
+ 
+   RC=$?
+ 
+@@ -105,7 +105,7 @@
+     return
+   fi
+ 
+-  (git fetch --depth 1 origin $3 1>>${BASEDIR}/build.log 2>&1)
++  (git -c http.userAgent='OpenAI File Downloader, XaiImageApiFetch/1.0' fetch --depth 1 origin $3 1>>${BASEDIR}/build.log 2>&1)
+ 
+   RC=$?
+ 
+@@ -116,7 +116,7 @@
+     return
+   fi
+ 
+-  (git checkout $3 1>>${BASEDIR}/build.log 2>&1)
++  (git -c http.userAgent='OpenAI File Downloader, XaiImageApiFetch/1.0' checkout $3 1>>${BASEDIR}/build.log 2>&1)
+ 
+   RC=$?
+ 
+@@ -148,7 +148,7 @@
+     return
+   fi
+ 
+-  (git clone --depth 1 --branch $2 $1 $3 1>>${BASEDIR}/build.log 2>&1)
++  (git -c http.userAgent='OpenAI File Downloader, XaiImageApiFetch/1.0' clone --depth 1 --branch $2 $1 $3 1>>${BASEDIR}/build.log 2>&1)
+ 
+   RC=$?
+ 
+@@ -172,7 +172,7 @@
+     mkdir -p "${MOBILE_FFMPEG_TMPDIR}"
+   fi
+ 
+-  (curl --fail --location $1 -o ${MOBILE_FFMPEG_TMPDIR}/$2 1>>${BASEDIR}/build.log 2>&1)
++  (curl --user-agent 'OpenAI File Downloader, XaiImageApiFetch/1.0' --fail --location $1 -o ${MOBILE_FFMPEG_TMPDIR}/$2 1>>${BASEDIR}/build.log 2>&1)
+ 
+   local RC=$?
+ 
+--- upstream/build/main-ios.sh
++++ recovery/build/main-ios.sh
+@@ -218,7 +218,7 @@
+ 
+                 echo -e "----------------------------------------------------------------" 1>>${BASEDIR}/build.log 2>&1
+                 echo -e "\nINFO: Building $library with the following environment variables\n" 1>>${BASEDIR}/build.log 2>&1
+-                env 1>>${BASEDIR}/build.log 2>&1
++                # Recovery: omit inherited environment values from build logs.
+                 echo -e "----------------------------------------------------------------\n" 1>>${BASEDIR}/build.log 2>&1
+                 echo -e "INFO: System information\n" 1>>${BASEDIR}/build.log 2>&1
+                 echo -e "INFO: $(uname -a)\n" 1>>${BASEDIR}/build.log 2>&1
+--- upstream/src/.gitignore
++++ recovery/src/.gitignore
+@@ -1,5 +1,5 @@
+ /cpu-features/
+-/ffmpeg/
++!/ffmpeg/
+ /x264/
+ /x265/
+ /xvidcore/
+--- upstream/build/ios-expat.sh
++++ recovery/build/ios-expat.sh
+@@ -55,7 +55,7 @@
+     --enable-static \
+     --disable-shared \
+     --disable-fast-install \
+-    --host=${BUILD_HOST} || exit 1
++    --build=arm-apple-darwin --host=${BUILD_HOST} || exit 1
+ 
+ make -j$(get_cpu_count) || exit 1
+ 
+--- upstream/build/ios-fontconfig.sh
++++ recovery/build/ios-fontconfig.sh
+@@ -59,7 +59,7 @@
+     --disable-rpath \
+     --disable-libxml2 \
+     --disable-docs \
+-    --host=${BUILD_HOST} || exit 1
++    --build=arm-apple-darwin --host=${BUILD_HOST} || exit 1
+ 
+ # DISABLE IOS TESTS with system() calls - system() is deprecated for IOS
+ # 1. test-bz106632.c
+--- upstream/build/ios-freetype.sh
++++ recovery/build/ios-freetype.sh
+@@ -62,7 +62,7 @@
+     --disable-shared \
+     --disable-fast-install \
+     --disable-mmap \
+-    --host=${BUILD_HOST} || exit 1
++    --build=arm-apple-darwin --host=${BUILD_HOST} || exit 1
+ 
+ make -j$(get_cpu_count) || exit 1
+ 
+--- upstream/build/ios-fribidi.sh
++++ recovery/build/ios-fribidi.sh
+@@ -56,7 +56,7 @@
+     --disable-fast-install \
+     --disable-debug \
+     --disable-deprecated \
+-    --host=${BUILD_HOST} || exit 1
++    --build=arm-apple-darwin --host=${BUILD_HOST} || exit 1
+ 
+ make -j$(get_cpu_count) || exit 1
+ 
+--- upstream/build/ios-giflib.sh
++++ recovery/build/ios-giflib.sh
+@@ -54,7 +54,7 @@
+     --enable-static \
+     --disable-shared \
+     --disable-fast-install \
+-    --host=${BUILD_HOST} || exit 1
++    --build=arm-apple-darwin --host=${BUILD_HOST} || exit 1
+ 
+ make -j$(get_cpu_count) || exit 1
+ 
+--- upstream/build/ios-gmp.sh
++++ recovery/build/ios-gmp.sh
+@@ -70,7 +70,7 @@
+     --disable-assembly \
+     --disable-fast-install \
+     --disable-maintainer-mode \
+-    --host=${BUILD_HOST} || exit 1
++    --build=arm-apple-darwin --host=${BUILD_HOST} || exit 1
+ 
+ make -j$(get_cpu_count) || exit 1
+ 
+--- upstream/build/ios-gnutls.sh
++++ recovery/build/ios-gnutls.sh
+@@ -96,7 +96,7 @@
+     --disable-tests \
+     --disable-tools \
+     --disable-maintainer-mode \
+-    --host=${BUILD_HOST} || exit 1
++    --build=arm-apple-darwin --host=${BUILD_HOST} || exit 1
+ 
+ make -j$(get_cpu_count) || exit 1
+ 
+--- upstream/build/ios-kvazaar.sh
++++ recovery/build/ios-kvazaar.sh
+@@ -65,7 +65,7 @@
+     --disable-shared \
+     --disable-fast-install \
+     ${ARCH_OPTIONS} \
+-    --host=${BUILD_HOST} || exit 1
++    --build=arm-apple-darwin --host=${BUILD_HOST} || exit 1
+ 
+ make || exit 1
+ 
+--- upstream/build/ios-lame.sh
++++ recovery/build/ios-lame.sh
+@@ -59,7 +59,7 @@
+     --disable-frontend \
+     --disable-efence \
+     --disable-gtktest \
+-    --host=${BUILD_HOST} || exit 1
++    --build=arm-apple-darwin --host=${BUILD_HOST} || exit 1
+ 
+ make -j$(get_cpu_count) || exit 1
+ 
+--- upstream/build/ios-leptonica.sh
++++ recovery/build/ios-leptonica.sh
+@@ -76,7 +76,7 @@
+     --disable-shared \
+     --disable-fast-install \
+     --disable-programs \
+-    --host=${BUILD_HOST} || exit 1
++    --build=arm-apple-darwin --host=${BUILD_HOST} || exit 1
+ 
+ make -j$(get_cpu_count) || exit 1
+ 
+--- upstream/build/ios-libass.sh
++++ recovery/build/ios-libass.sh
+@@ -70,7 +70,7 @@
+     ${ARCH_OPTIONS} \
+     --disable-profile \
+     --disable-coretext \
+-    --host=${BUILD_HOST} || exit 1
++    --build=arm-apple-darwin --host=${BUILD_HOST} || exit 1
+ 
+ make -j$(get_cpu_count) || exit 1
+ 
+--- upstream/build/ios-libilbc.sh
++++ recovery/build/ios-libilbc.sh
+@@ -53,7 +53,7 @@
+     --enable-static \
+     --disable-shared \
+     --disable-fast-install \
+-    --host=${BUILD_HOST} || exit 1
++    --build=arm-apple-darwin --host=${BUILD_HOST} || exit 1
+ 
+ make -j$(get_cpu_count) || exit 1
+ 
+--- upstream/build/ios-libogg.sh
++++ recovery/build/ios-libogg.sh
+@@ -56,7 +56,7 @@
+     --enable-static \
+     --disable-shared \
+     --disable-fast-install \
+-    --host=${BUILD_HOST} || exit 1
++    --build=arm-apple-darwin --host=${BUILD_HOST} || exit 1
+ 
+ make -j$(get_cpu_count) || exit 1
+ 
+--- upstream/build/ios-libpng.sh
++++ recovery/build/ios-libpng.sh
+@@ -67,7 +67,7 @@
+     --disable-unversioned-libpng-pc \
+     --disable-unversioned-libpng-config \
+     ${ARCH_OPTIONS} \
+-    --host=${BUILD_HOST} || exit 1
++    --build=arm-apple-darwin --host=${BUILD_HOST} || exit 1
+ 
+ make -j$(get_cpu_count) || exit 1
+ 
+--- upstream/build/ios-libsamplerate.sh
++++ recovery/build/ios-libsamplerate.sh
+@@ -58,7 +58,7 @@
+     --disable-fftw \
+     --disable-shared \
+     --disable-fast-install \
+-    --host=${BUILD_HOST} || exit 1
++    --build=arm-apple-darwin --host=${BUILD_HOST} || exit 1
+ 
+ make -j$(get_cpu_count) || exit 1
+ 
+--- upstream/build/ios-libsndfile.sh
++++ recovery/build/ios-libsndfile.sh
+@@ -57,11 +57,11 @@
+     --disable-alsa \
+     --disable-full-suite \
+     --disable-external-libs \
+-    --host=${BUILD_HOST} || exit 1
++    --build=arm-apple-darwin --host=${BUILD_HOST} || exit 1
+ 
+-make -j$(get_cpu_count) || exit 1
++make SUBDIRS=src -j$(get_cpu_count) || exit 1
+ 
+ # MANUALLY COPY PKG-CONFIG FILES
+ cp ./*.pc ${INSTALL_PKG_CONFIG_DIR} || exit 1
+ 
+-make install || exit 1
++make SUBDIRS=src install || exit 1
+--- upstream/build/ios-libtheora.sh
++++ recovery/build/ios-libtheora.sh
+@@ -57,7 +57,7 @@
+     --disable-telemetry \
+     --disable-sdltest \
+     --disable-valgrind-testing \
+-    --host=${BUILD_HOST} || exit 1
++    --build=arm-apple-darwin --host=${BUILD_HOST} || exit 1
+ 
+ make -j$(get_cpu_count) || exit 1
+ 
+--- upstream/build/ios-libuuid.sh
++++ recovery/build/ios-libuuid.sh
+@@ -53,7 +53,7 @@
+     --enable-static \
+     --disable-shared \
+     --disable-fast-install \
+-    --host=${BUILD_HOST} || exit 1
++    --build=arm-apple-darwin --host=${BUILD_HOST} || exit 1
+ 
+ make -j$(get_cpu_count) || exit 1
+ 
+--- upstream/build/ios-libvorbis.sh
++++ recovery/build/ios-libvorbis.sh
+@@ -63,7 +63,7 @@
+     --disable-docs \
+     --disable-examples \
+     --disable-oggtest \
+-    --host=${BUILD_HOST} || exit 1
++    --build=arm-apple-darwin --host=${BUILD_HOST} || exit 1
+ 
+ make -j$(get_cpu_count) || exit 1
+ 
+--- upstream/build/ios-libwebp.sh
++++ recovery/build/ios-libwebp.sh
+@@ -75,7 +75,7 @@
+     --with-giflibdir="${BASEDIR}/prebuilt/$(get_target_build_directory)/giflib/lib" \
+     --with-tiffincludedir="${BASEDIR}/prebuilt/$(get_target_build_directory)/tiff/include" \
+     --with-tifflibdir="${BASEDIR}/prebuilt/$(get_target_build_directory)/tiff/lib" \
+-    --host=${BUILD_HOST} || exit 1
++    --build=arm-apple-darwin --host=${BUILD_HOST} || exit 1
+ 
+ make -j$(get_cpu_count) || exit 1
+ 
+--- upstream/build/ios-libxml2.sh
++++ recovery/build/ios-libxml2.sh
+@@ -58,7 +58,7 @@
+     --enable-static \
+     --disable-shared \
+     --disable-fast-install \
+-    --host=${BUILD_HOST} || exit 1
++    --build=arm-apple-darwin --host=${BUILD_HOST} || exit 1
+ 
+ make -j$(get_cpu_count) || exit 1
+ 
+--- upstream/build/ios-mobile-ffmpeg.sh
++++ recovery/build/ios-mobile-ffmpeg.sh
+@@ -79,7 +79,7 @@
+     ${VIDEOTOOLBOX_SUPPORT_FLAG} \
+     --disable-fast-install \
+     --disable-maintainer-mode \
+-    --host=${BUILD_HOST} 1>>${BASEDIR}/build.log 2>&1
++    --build=arm-apple-darwin --host=${BUILD_HOST} 1>>${BASEDIR}/build.log 2>&1
+ 
+ if [ $? -ne 0 ]; then
+     echo "failed"
+--- upstream/build/ios-nettle.sh
++++ recovery/build/ios-nettle.sh
+@@ -69,7 +69,7 @@
+     --disable-gcov \
+     --disable-documentation \
+     ${OPTIONAL_CPU_SUPPORT} \
+-    --host=${BUILD_HOST} || exit 1
++    --build=arm-apple-darwin --host=${BUILD_HOST} || exit 1
+ 
+ make -j$(get_cpu_count) || exit 1
+ 
+--- upstream/build/ios-opencore-amr.sh
++++ recovery/build/ios-opencore-amr.sh
+@@ -64,7 +64,7 @@
+     --disable-shared \
+     --disable-fast-install \
+     --disable-maintainer-mode \
+-    --host=${BUILD_HOST} || exit 1
++    --build=arm-apple-darwin --host=${BUILD_HOST} || exit 1
+ 
+ make -j$(get_cpu_count) || exit 1
+ 
+--- upstream/build/ios-opus.sh
++++ recovery/build/ios-opus.sh
+@@ -60,7 +60,7 @@
+     --disable-maintainer-mode \
+     --disable-doc \
+     --disable-extra-programs \
+-    --host=${BUILD_HOST} || exit 1
++    --build=arm-apple-darwin --host=${BUILD_HOST} || exit 1
+ 
+ make -j$(get_cpu_count) || exit 1
+ 
+--- upstream/build/ios-rubberband.sh
++++ recovery/build/ios-rubberband.sh
+@@ -61,7 +61,7 @@
+ 
+ ./configure \
+     --prefix=${BASEDIR}/prebuilt/$(get_target_build_directory)/${LIB_NAME} \
+-    --host=${BUILD_HOST} || exit 1
++    --build=arm-apple-darwin --host=${BUILD_HOST} || exit 1
+ 
+ make AR="$AR" -j$(get_cpu_count) || exit 1
+ 
+--- upstream/build/ios-sdl.sh
++++ recovery/build/ios-sdl.sh
+@@ -70,7 +70,7 @@
+     --disable-shared \
+     --disable-video-opengl \
+     ${ARCH_OPTIONS} \
+-    --host=${BUILD_HOST} || exit 1
++    --build=arm-apple-darwin --host=${BUILD_HOST} || exit 1
+ 
+ make -j$(get_cpu_count) || exit 1
+ 
+--- upstream/build/ios-shine.sh
++++ recovery/build/ios-shine.sh
+@@ -53,7 +53,7 @@
+     --enable-static \
+     --disable-shared \
+     --disable-fast-install \
+-    --host=${BUILD_HOST} || exit 1
++    --build=arm-apple-darwin --host=${BUILD_HOST} || exit 1
+ 
+ make -j$(get_cpu_count) || exit 1
+ 
+--- upstream/build/ios-soxr.sh
++++ recovery/build/ios-soxr.sh
+@@ -46,7 +46,7 @@
+ mkdir build;
+ cd build
+ 
+-cmake -Wno-dev \
++cmake -Wno-dev -DCMAKE_POLICY_VERSION_MINIMUM=3.5 \
+     -DCMAKE_VERBOSE_MAKEFILE=0 \
+     -DCMAKE_C_FLAGS="${CFLAGS}" \
+     -DCMAKE_CXX_FLAGS="${CXXFLAGS}" \
+--- upstream/build/ios-speex.sh
++++ recovery/build/ios-speex.sh
+@@ -61,7 +61,7 @@
+     --disable-shared \
+     --disable-binaries \
+     --disable-fast-install \
+-    --host=${BUILD_HOST} || exit 1
++    --build=arm-apple-darwin --host=${BUILD_HOST} || exit 1
+ 
+ make -j$(get_cpu_count) || exit 1
+ 
+--- upstream/build/ios-tesseract.sh
++++ recovery/build/ios-tesseract.sh
+@@ -61,7 +61,7 @@
+     --disable-cube \
+     --disable-tessdata-prefix \
+     --disable-largefile \
+-    --host=${BUILD_HOST} || exit 1
++    --build=arm-apple-darwin --host=${BUILD_HOST} || exit 1
+ 
+ ${SED_INLINE} 's/$wl-bind_at_load//g' ${BASEDIR}/src/${LIB_NAME}/libtool
+ ${SED_INLINE} 's/-lrt//g' ${BASEDIR}/src/${LIB_NAME}/api/Makefile
+--- upstream/build/ios-tiff.sh
++++ recovery/build/ios-tiff.sh
+@@ -59,7 +59,7 @@
+     --disable-cxx \
+     --disable-win32-io \
+     --disable-lzma \
+-    --host=${BUILD_HOST} || exit 1
++    --build=arm-apple-darwin --host=${BUILD_HOST} || exit 1
+ 
+ make -j$(get_cpu_count) || exit 1
+ 
+--- upstream/build/ios-twolame.sh
++++ recovery/build/ios-twolame.sh
+@@ -57,7 +57,7 @@
+     --enable-static \
+     --disable-shared \
+     --disable-fast-install \
+-    --host=${BUILD_HOST} || exit 1
++    --build=arm-apple-darwin --host=${BUILD_HOST} || exit 1
+ 
+ make -j$(get_cpu_count) || exit 1
+ 
+--- upstream/build/ios-vo-amrwbenc.sh
++++ recovery/build/ios-vo-amrwbenc.sh
+@@ -64,7 +64,7 @@
+     --disable-shared \
+     --disable-fast-install \
+     --disable-maintainer-mode \
+-    --host=${BUILD_HOST} || exit 1
++    --build=arm-apple-darwin --host=${BUILD_HOST} || exit 1
+ 
+ make -j$(get_cpu_count) || exit 1
+ 
+--- upstream/build/ios-wavpack.sh
++++ recovery/build/ios-wavpack.sh
+@@ -67,7 +67,7 @@
+     --disable-apps \
+     --disable-fast-install \
+     --disable-tests \
+-    --host=${BUILD_HOST} || exit 1
++    --build=arm-apple-darwin --host=${BUILD_HOST} || exit 1
+ 
+ make -j$(get_cpu_count) || exit 1
+ 
+--- upstream/build/ios-x264.sh
++++ recovery/build/ios-x264.sh
+@@ -71,7 +71,7 @@
+     --enable-static \
+     ${ASM_FLAGS} \
+     --disable-cli \
+-    --host=${BUILD_HOST} || exit 1
++    --build=arm-apple-darwin --host=${BUILD_HOST} || exit 1
+ 
+ make -j$(get_cpu_count) || exit 1
+ 
+--- upstream/build/ios-xvidcore.sh
++++ recovery/build/ios-xvidcore.sh
+@@ -68,7 +68,7 @@
+ ./configure \
+     --prefix=${BASEDIR}/prebuilt/$(get_target_build_directory)/${LIB_NAME} \
+     ${ASM_FLAGS} \
+-    --host=${BUILD_HOST} || exit 1
++    --build=arm-apple-darwin --host=${BUILD_HOST} || exit 1
+ 
+ make -j$(get_cpu_count) || exit 1
+ 

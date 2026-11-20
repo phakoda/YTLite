@@ -1,0 +1,11 @@
+# Settings bridge recovery
+
+`SettingsBridge.x` reconstructs all seven registrations from initializer `0x11bec`. The manifest pins each callback's original function bytes. The shared runtime entrypoint installs this module in immediate-initializer order. The old inline settings menu has been removed from root `Settings.x`.
+
+The collection selection callback at `0x12658` recognizes category 789 after checking `sectionControllers` and `items` availability. It creates the canonical `YTPSettingsBuilder`, assigns its presenter, and passes its root model and `YTLUserDefaults` to `DVNTableViewController`. A nonnil second controller on the grandparent selects the split wrapper; otherwise the flat wrapper is pushed with empty header buttons. Both wrappers use the title `YouTube Plus` and the selected controller's parent as parent responder.
+
+The back-button layout callback at `0x13158` forwards first and changes only `id.ui.browse.back.button`, using label color and enabled page styling. Category-order callback `0x13450` returns a mutable copy and inserts 789 after the first category 1 when present. The selected-item callback at `0x13588` preserves the log and ignores the 64-bit `NSNotFound` value.
+
+Added method `updateYTLiteSectionWithEntry:` at `0x13858` obtains the settings delegate by KVC, creates icon 530 and selects the modern or legacy section setter based on selector availability. It passes nil items, category 789, the recovered title, nil description and a visible header. `updateSectionForCategory:withEntry:` at `0x13d6c` routes category 789 locally and forwards other categories. `orderedCategories` at `0x13e04` reads the group type before calling the original; type 1 prepends 789 and returns an immutable copy, while other types return the original object unchanged.
+
+Run `python3 recovery/tools/verify_settings_bridge.py`. It checks all original-byte intervals and seven iOS callback ABIs, then executes the actual generated Logos source in 128 runtime checks under UBSan. Fixtures capture flat/split navigation, builder inputs, argument widths, fallback selectors, category ordering and forwarding. UIKit navigation and the settings-builder boundary are intercepted. Real YouTube navigation still requires device validation.

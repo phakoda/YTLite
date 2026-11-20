@@ -1,0 +1,1022 @@
+{
+  "binary_sha256": "bdcc4d4ccaa5835d35bc97ccbdfc1c3dff514cb7161848265dcc0585f364c0ca",
+  "registrations": [
+    {
+      "class_name": "YTMainAppControlsOverlayView",
+      "kind": "-",
+      "selector": "speedControls",
+      "implementation": "0x0004b06c",
+      "operation": "add",
+      "original_pointer": null,
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x4b078",
+      "instruction_sha256": "5b9865ba031308daacafad44e79ae7492820c0bb9706f683e6770fec1ec1977f",
+      "llvm_arguments": [
+        "ptr",
+        "ptr"
+      ],
+      "llvm_return": "ptr"
+    },
+    {
+      "class_name": "YTMainAppControlsOverlayView",
+      "kind": "-",
+      "selector": "setSpeedControls:",
+      "implementation": "0x0004b078",
+      "operation": "add",
+      "original_pointer": null,
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x4b0b0",
+      "instruction_sha256": "ad3886dfe6bdba47de2701c0ac65a78c3f3aaa32f77408bfd632e80910ae1536",
+      "llvm_arguments": [
+        "ptr",
+        "ptr",
+        "ptr"
+      ],
+      "llvm_return": "void"
+    },
+    {
+      "class_name": "YTMainAppControlsOverlayView",
+      "kind": "-",
+      "selector": "ytlButtons",
+      "implementation": "0x0004b0b0",
+      "operation": "add",
+      "original_pointer": null,
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x4b0bc",
+      "instruction_sha256": "883a39c243df1897bc4eca610581c6b06e4f2e865cf89cc0d769fd9e28302084",
+      "llvm_arguments": [
+        "ptr",
+        "ptr"
+      ],
+      "llvm_return": "ptr"
+    },
+    {
+      "class_name": "YTMainAppControlsOverlayView",
+      "kind": "-",
+      "selector": "setYtlButtons:",
+      "implementation": "0x0004b0bc",
+      "operation": "add",
+      "original_pointer": null,
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x4b0f4",
+      "instruction_sha256": "24acfa35d3cc11385a0800082255455a89c02d196003d8a93c8206f394c0c900",
+      "llvm_arguments": [
+        "ptr",
+        "ptr",
+        "ptr"
+      ],
+      "llvm_return": "void"
+    },
+    {
+      "class_name": "YTMainAppControlsOverlayView",
+      "kind": "-",
+      "selector": "speedMinus",
+      "implementation": "0x0004b0f4",
+      "operation": "add",
+      "original_pointer": null,
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x4b100",
+      "instruction_sha256": "f3b0b4e1b1019b3834a77f5205f5c6a55e5eaf0dd4029f6ae30a29f8e0288a80",
+      "llvm_arguments": [
+        "ptr",
+        "ptr"
+      ],
+      "llvm_return": "ptr"
+    },
+    {
+      "class_name": "YTMainAppControlsOverlayView",
+      "kind": "-",
+      "selector": "setSpeedMinus:",
+      "implementation": "0x0004b100",
+      "operation": "add",
+      "original_pointer": null,
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x4b138",
+      "instruction_sha256": "8e8a652ebee4d0b4610578bbb06c6a0090e2d823cf5719b97ca5fef20e246544",
+      "llvm_arguments": [
+        "ptr",
+        "ptr",
+        "ptr"
+      ],
+      "llvm_return": "void"
+    },
+    {
+      "class_name": "YTMainAppControlsOverlayView",
+      "kind": "-",
+      "selector": "speedPlus",
+      "implementation": "0x0004b138",
+      "operation": "add",
+      "original_pointer": null,
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x4b144",
+      "instruction_sha256": "915b579e9763a699fad5b8220e420860701a77ed7ff4ab8181b02d1c24fd5114",
+      "llvm_arguments": [
+        "ptr",
+        "ptr"
+      ],
+      "llvm_return": "ptr"
+    },
+    {
+      "class_name": "YTMainAppControlsOverlayView",
+      "kind": "-",
+      "selector": "setSpeedPlus:",
+      "implementation": "0x0004b144",
+      "operation": "add",
+      "original_pointer": null,
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x4b17c",
+      "instruction_sha256": "5e23840ba4925a638f4365a58a3dd9770e2cb37f967611b966bc6dc8d4f73067",
+      "llvm_arguments": [
+        "ptr",
+        "ptr",
+        "ptr"
+      ],
+      "llvm_return": "void"
+    },
+    {
+      "class_name": "YTMainAppControlsOverlayView",
+      "kind": "-",
+      "selector": "speedValue",
+      "implementation": "0x0004b17c",
+      "operation": "add",
+      "original_pointer": null,
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x4b188",
+      "instruction_sha256": "05dec4196c13893f10328cdf68b94c879a5649c98f902b5710e12fc4cd6aaab3",
+      "llvm_arguments": [
+        "ptr",
+        "ptr"
+      ],
+      "llvm_return": "ptr"
+    },
+    {
+      "class_name": "YTMainAppControlsOverlayView",
+      "kind": "-",
+      "selector": "setSpeedValue:",
+      "implementation": "0x0004b188",
+      "operation": "add",
+      "original_pointer": null,
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x4b1c0",
+      "instruction_sha256": "922c2bc0a52dd46d2825d7844dc9e7c0162ecfa615ca241ed5d28949c6c802e9",
+      "llvm_arguments": [
+        "ptr",
+        "ptr",
+        "ptr"
+      ],
+      "llvm_return": "void"
+    },
+    {
+      "class_name": "YTMainAppControlsOverlayView",
+      "kind": "-",
+      "selector": "ytlButton",
+      "implementation": "0x0004b1c0",
+      "operation": "add",
+      "original_pointer": null,
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x4b1cc",
+      "instruction_sha256": "4c76ee3563f38c8e03c7d3013c1f370e6c5faed78f108eb7947f5fe86b04adad",
+      "llvm_arguments": [
+        "ptr",
+        "ptr"
+      ],
+      "llvm_return": "ptr"
+    },
+    {
+      "class_name": "YTMainAppControlsOverlayView",
+      "kind": "-",
+      "selector": "setYtlButton:",
+      "implementation": "0x0004b1cc",
+      "operation": "add",
+      "original_pointer": null,
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x4b204",
+      "instruction_sha256": "caba054a9863a6133c7d6ad2cecbd267de7998da79b24a4bc8bdb96b2a1ba98f",
+      "llvm_arguments": [
+        "ptr",
+        "ptr",
+        "ptr"
+      ],
+      "llvm_return": "void"
+    },
+    {
+      "class_name": "YTMainAppControlsOverlayView",
+      "kind": "-",
+      "selector": "ytlMuteButton",
+      "implementation": "0x0004b204",
+      "operation": "add",
+      "original_pointer": null,
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x4b210",
+      "instruction_sha256": "cdd11c6afa164a84bed28d5b65bbf1700c0118f3b9ebab8b580d6293132616fc",
+      "llvm_arguments": [
+        "ptr",
+        "ptr"
+      ],
+      "llvm_return": "ptr"
+    },
+    {
+      "class_name": "YTMainAppControlsOverlayView",
+      "kind": "-",
+      "selector": "setYtlMuteButton:",
+      "implementation": "0x0004b210",
+      "operation": "add",
+      "original_pointer": null,
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x4b248",
+      "instruction_sha256": "c73524452e272a218f61696a946338a6cfc62059cf2f35dcea7e2a3da9942b34",
+      "llvm_arguments": [
+        "ptr",
+        "ptr",
+        "ptr"
+      ],
+      "llvm_return": "void"
+    },
+    {
+      "class_name": "YTMainAppControlsOverlayView",
+      "kind": "-",
+      "selector": "ytlLockButton",
+      "implementation": "0x0004b248",
+      "operation": "add",
+      "original_pointer": null,
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x4b254",
+      "instruction_sha256": "90951c7406b1f8bc938d4e55f3273f2b0054fda3d0129e27b2218472030e778a",
+      "llvm_arguments": [
+        "ptr",
+        "ptr"
+      ],
+      "llvm_return": "ptr"
+    },
+    {
+      "class_name": "YTMainAppControlsOverlayView",
+      "kind": "-",
+      "selector": "setYtlLockButton:",
+      "implementation": "0x0004b254",
+      "operation": "add",
+      "original_pointer": null,
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x4b28c",
+      "instruction_sha256": "646252af55eb96688ce3b422b8ba0f487d16ee975b6ecd1f8ac9f16441d5177e",
+      "llvm_arguments": [
+        "ptr",
+        "ptr",
+        "ptr"
+      ],
+      "llvm_return": "void"
+    },
+    {
+      "class_name": "YTMainAppControlsOverlayView",
+      "kind": "-",
+      "selector": "ytlSleepButton",
+      "implementation": "0x0004b28c",
+      "operation": "add",
+      "original_pointer": null,
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x4b298",
+      "instruction_sha256": "4cfd4170f2ad3136885124d36ed76d3edfdcf618c8dd562700e243a09a0ea1b8",
+      "llvm_arguments": [
+        "ptr",
+        "ptr"
+      ],
+      "llvm_return": "ptr"
+    },
+    {
+      "class_name": "YTMainAppControlsOverlayView",
+      "kind": "-",
+      "selector": "setYtlSleepButton:",
+      "implementation": "0x0004b298",
+      "operation": "add",
+      "original_pointer": null,
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x4b2d0",
+      "instruction_sha256": "831bc7e7fa95fef363e09016be3980414e54987829685c3d4147f36f7eaa4124",
+      "llvm_arguments": [
+        "ptr",
+        "ptr",
+        "ptr"
+      ],
+      "llvm_return": "void"
+    },
+    {
+      "class_name": "YTMainAppControlsOverlayView",
+      "kind": "-",
+      "selector": "ytlDiscordButton",
+      "implementation": "0x0004b2d0",
+      "operation": "add",
+      "original_pointer": null,
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x4b2dc",
+      "instruction_sha256": "f8203e4608b7395b46542d1c21a4cdaabec9c121f3333b9d291a91a088c3476b",
+      "llvm_arguments": [
+        "ptr",
+        "ptr"
+      ],
+      "llvm_return": "ptr"
+    },
+    {
+      "class_name": "YTMainAppControlsOverlayView",
+      "kind": "-",
+      "selector": "setYtlDiscordButton:",
+      "implementation": "0x0004b2dc",
+      "operation": "add",
+      "original_pointer": null,
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x4b314",
+      "instruction_sha256": "b7a37a46a8acfc8e53e22f1aff45dadc5982e0381da0415e7aa0b32a9bbec562",
+      "llvm_arguments": [
+        "ptr",
+        "ptr",
+        "ptr"
+      ],
+      "llvm_return": "void"
+    },
+    {
+      "class_name": "YTMainAppControlsOverlayView",
+      "kind": "-",
+      "selector": "ytlSbButton",
+      "implementation": "0x0004b314",
+      "operation": "add",
+      "original_pointer": null,
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x4b320",
+      "instruction_sha256": "e16dfe38f50f607601aed44ad1c9dbe184feb05d3389988b8ab924f2aa8e547d",
+      "llvm_arguments": [
+        "ptr",
+        "ptr"
+      ],
+      "llvm_return": "ptr"
+    },
+    {
+      "class_name": "YTMainAppControlsOverlayView",
+      "kind": "-",
+      "selector": "setYtlSbButton:",
+      "implementation": "0x0004b320",
+      "operation": "add",
+      "original_pointer": null,
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x4b358",
+      "instruction_sha256": "a29076635e52c04e5cdc813ee3a37e5dcd5ab903324c6183645cfcfc12072fa8",
+      "llvm_arguments": [
+        "ptr",
+        "ptr",
+        "ptr"
+      ],
+      "llvm_return": "void"
+    },
+    {
+      "class_name": "YTMainAppControlsOverlayView",
+      "kind": "-",
+      "selector": "ytlButtonsTopAnchor",
+      "implementation": "0x0004b358",
+      "operation": "add",
+      "original_pointer": null,
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x4b364",
+      "instruction_sha256": "01c155f9f881add84b66e2ec8db5875fcdca250137df08ebd982446dc12c7c5c",
+      "llvm_arguments": [
+        "ptr",
+        "ptr"
+      ],
+      "llvm_return": "ptr"
+    },
+    {
+      "class_name": "YTMainAppControlsOverlayView",
+      "kind": "-",
+      "selector": "setYtlButtonsTopAnchor:",
+      "implementation": "0x0004b364",
+      "operation": "add",
+      "original_pointer": null,
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x4b39c",
+      "instruction_sha256": "2521b1ea2491692076496f63b9bb51d0f8939c8a1533f0e9b1bff078116d81cc",
+      "llvm_arguments": [
+        "ptr",
+        "ptr",
+        "ptr"
+      ],
+      "llvm_return": "void"
+    },
+    {
+      "class_name": "YTMainAppControlsOverlayView",
+      "kind": "-",
+      "selector": "ytlButtonsTrailingAnchor",
+      "implementation": "0x0004b39c",
+      "operation": "add",
+      "original_pointer": null,
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x4b3a8",
+      "instruction_sha256": "0e85d8cf4f39478b7a310ecdca37a27516608649768cb90f89b4dfc473609bd7",
+      "llvm_arguments": [
+        "ptr",
+        "ptr"
+      ],
+      "llvm_return": "ptr"
+    },
+    {
+      "class_name": "YTMainAppControlsOverlayView",
+      "kind": "-",
+      "selector": "setYtlButtonsTrailingAnchor:",
+      "implementation": "0x0004b3a8",
+      "operation": "add",
+      "original_pointer": null,
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x4b3b8",
+      "instruction_sha256": "8cd890af6bd71d0a732c67cff0f1a0df2ea30d7abbde732f0d67da89595231ab",
+      "llvm_arguments": [
+        "ptr",
+        "ptr",
+        "ptr"
+      ],
+      "llvm_return": "void"
+    },
+    {
+      "class_name": "YTMainAppControlsOverlayView",
+      "kind": "-",
+      "selector": "ytlButtonsFSTopAnchor",
+      "implementation": "0x0004b3b8",
+      "operation": "add",
+      "original_pointer": null,
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x4b3c4",
+      "instruction_sha256": "871bb9d65256e4abff2641d02b8bafca0eb6b04be1e38058a9a7204cc9238bfe",
+      "llvm_arguments": [
+        "ptr",
+        "ptr"
+      ],
+      "llvm_return": "ptr"
+    },
+    {
+      "class_name": "YTMainAppControlsOverlayView",
+      "kind": "-",
+      "selector": "setYtlButtonsFSTopAnchor:",
+      "implementation": "0x0004b3c4",
+      "operation": "add",
+      "original_pointer": null,
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x4b3fc",
+      "instruction_sha256": "d8c6be45b271178d7d9e9cfd70d3f850fef3ef3fdba7af199af17a8a5f10c76c",
+      "llvm_arguments": [
+        "ptr",
+        "ptr",
+        "ptr"
+      ],
+      "llvm_return": "void"
+    },
+    {
+      "class_name": "YTMainAppControlsOverlayView",
+      "kind": "-",
+      "selector": "ytlButtonsFSTrailingAnchor",
+      "implementation": "0x0004b3fc",
+      "operation": "add",
+      "original_pointer": null,
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x4b408",
+      "instruction_sha256": "9a45a6edfc21be846fd9430dbf611b5588971b67e503069b10731b6f808b6e69",
+      "llvm_arguments": [
+        "ptr",
+        "ptr"
+      ],
+      "llvm_return": "ptr"
+    },
+    {
+      "class_name": "YTMainAppControlsOverlayView",
+      "kind": "-",
+      "selector": "setYtlButtonsFSTrailingAnchor:",
+      "implementation": "0x0004b408",
+      "operation": "add",
+      "original_pointer": null,
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x4b440",
+      "instruction_sha256": "208ac51c5a8b3e294325b0eea76bdef1fb5cccec2e1de3cdd2e42a128b1681ee",
+      "llvm_arguments": [
+        "ptr",
+        "ptr",
+        "ptr"
+      ],
+      "llvm_return": "void"
+    },
+    {
+      "class_name": "YTMainAppControlsOverlayView",
+      "kind": "-",
+      "selector": "initWithDelegate:",
+      "implementation": "0x00071838",
+      "operation": "replace",
+      "original_pointer": "0x01226220",
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x735a0",
+      "instruction_sha256": "ad8748f63290242b0c024cbc266a43a57c40895415c045e3533c12f77e114d93",
+      "llvm_arguments": [
+        "ptr",
+        "ptr",
+        "ptr"
+      ],
+      "llvm_return": "ptr"
+    },
+    {
+      "class_name": "YTMainAppControlsOverlayView",
+      "kind": "-",
+      "selector": "layoutSubviews",
+      "implementation": "0x000735a0",
+      "operation": "replace",
+      "original_pointer": "0x01226228",
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x74860",
+      "instruction_sha256": "48be4b41332b09df4e2061cb92b07e5a0084b95afa42395adb45fa29bf54e93c",
+      "llvm_arguments": [
+        "ptr",
+        "ptr"
+      ],
+      "llvm_return": "void"
+    },
+    {
+      "class_name": "YTMainAppControlsOverlayView",
+      "kind": "-",
+      "selector": "speedValueMinus:",
+      "implementation": "0x00074860",
+      "operation": "add",
+      "original_pointer": null,
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x749a0",
+      "instruction_sha256": "53a5b6e86a5ff340329be441b464a24da4f8955415971449d5a58d1a7ebdc376",
+      "llvm_arguments": [
+        "ptr",
+        "ptr",
+        "ptr"
+      ],
+      "llvm_return": "void"
+    },
+    {
+      "class_name": "YTMainAppControlsOverlayView",
+      "kind": "-",
+      "selector": "speedValuePlus:",
+      "implementation": "0x000749a0",
+      "operation": "add",
+      "original_pointer": null,
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x74ae0",
+      "instruction_sha256": "6b9684f1808437f41ab4afc9da3b2ab6f044acc59eeb33b9af8bb59372828b31",
+      "llvm_arguments": [
+        "ptr",
+        "ptr",
+        "ptr"
+      ],
+      "llvm_return": "void"
+    },
+    {
+      "class_name": "YTMainAppControlsOverlayView",
+      "kind": "-",
+      "selector": "resetSpeedValue:",
+      "implementation": "0x00074ae0",
+      "operation": "add",
+      "original_pointer": null,
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x74c3c",
+      "instruction_sha256": "55571a880208f40c656f5ad4ebaa87ced10a09da65ef3a6e55d9daf21d118717",
+      "llvm_arguments": [
+        "ptr",
+        "ptr",
+        "ptr"
+      ],
+      "llvm_return": "void"
+    },
+    {
+      "class_name": "YTMainAppControlsOverlayView",
+      "kind": "-",
+      "selector": "speedDidChange:",
+      "implementation": "0x00074c3c",
+      "operation": "add",
+      "original_pointer": null,
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x74e0c",
+      "instruction_sha256": "35b843e9b26850140f5b0a6219b3e1f72e6e3f965b97cbaa29eadb12dbf3981a",
+      "llvm_arguments": [
+        "ptr",
+        "ptr",
+        "ptr"
+      ],
+      "llvm_return": "void"
+    },
+    {
+      "class_name": "YTMainAppControlsOverlayView",
+      "kind": "-",
+      "selector": "showSpeedControl:",
+      "implementation": "0x00074e0c",
+      "operation": "add",
+      "original_pointer": null,
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x75074",
+      "instruction_sha256": "065d0fed853a9c84e5085446d559ac5244830a798ca9f028e4e2f30d6d4d7929",
+      "llvm_arguments": [
+        "ptr",
+        "ptr",
+        "ptr"
+      ],
+      "llvm_return": "void"
+    },
+    {
+      "class_name": "YTMainAppControlsOverlayView",
+      "kind": "-",
+      "selector": "handleYTLIconTap:",
+      "implementation": "0x00075074",
+      "operation": "add",
+      "original_pointer": null,
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x754cc",
+      "instruction_sha256": "5a46120df2cd5b265c6966288c0edc60c0425da490cc4630de0a37d70d1507c3",
+      "llvm_arguments": [
+        "ptr",
+        "ptr",
+        "ptr"
+      ],
+      "llvm_return": "void"
+    },
+    {
+      "class_name": "YTMainAppControlsOverlayView",
+      "kind": "-",
+      "selector": "handleYTLMuteTap:",
+      "implementation": "0x000754cc",
+      "operation": "add",
+      "original_pointer": null,
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x759c4",
+      "instruction_sha256": "78ca5a20d9d75dc1c970b06b7492594e1045022ebb9cb69a797536a82eb2fc21",
+      "llvm_arguments": [
+        "ptr",
+        "ptr",
+        "ptr"
+      ],
+      "llvm_return": "void"
+    },
+    {
+      "class_name": "YTMainAppControlsOverlayView",
+      "kind": "-",
+      "selector": "handleYTLLockTap:",
+      "implementation": "0x000759c4",
+      "operation": "add",
+      "original_pointer": null,
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x75e88",
+      "instruction_sha256": "0b77ceaf800920074eb97cf7975cd7ec34ce4043e953b99765d94672246dd7e5",
+      "llvm_arguments": [
+        "ptr",
+        "ptr",
+        "ptr"
+      ],
+      "llvm_return": "void"
+    },
+    {
+      "class_name": "YTMainAppControlsOverlayView",
+      "kind": "-",
+      "selector": "handleYTLSleepTap:",
+      "implementation": "0x00075e88",
+      "operation": "add",
+      "original_pointer": null,
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x75f14",
+      "instruction_sha256": "d56e653781c5efb5bde1d7f4953f7f894fc3d5726be96a72c977040ea97739b8",
+      "llvm_arguments": [
+        "ptr",
+        "ptr",
+        "ptr"
+      ],
+      "llvm_return": "void"
+    },
+    {
+      "class_name": "YTMainAppControlsOverlayView",
+      "kind": "-",
+      "selector": "handleYTLSbTap:",
+      "implementation": "0x00075f14",
+      "operation": "add",
+      "original_pointer": null,
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x775a8",
+      "instruction_sha256": "481bcfe07a0409331426f009370df22a721543df96daad4591ab21d94c67fd2d",
+      "llvm_arguments": [
+        "ptr",
+        "ptr",
+        "ptr"
+      ],
+      "llvm_return": "void"
+    },
+    {
+      "class_name": "YTMainAppControlsOverlayView",
+      "kind": "-",
+      "selector": "setAutoplaySwitchButtonRenderer:",
+      "implementation": "0x000775a8",
+      "operation": "replace",
+      "original_pointer": "0x01226230",
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x77788",
+      "instruction_sha256": "fd7e520aa5a1d8a66793cac5f74cc7bbabf92f32f8ef9d734cdf6752a9b9bbe1",
+      "llvm_arguments": [
+        "ptr",
+        "ptr",
+        "ptr"
+      ],
+      "llvm_return": "void"
+    },
+    {
+      "class_name": "YTMainAppControlsOverlayView",
+      "kind": "-",
+      "selector": "setClosedCaptionsOrSubtitlesButtonAvailable:",
+      "implementation": "0x00077788",
+      "operation": "replace",
+      "original_pointer": "0x01226238",
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x778f0",
+      "instruction_sha256": "1a71031b011942b918ac386987e0a8418a1ded53b2a38af1351b26ffd26b8981",
+      "llvm_arguments": [
+        "ptr",
+        "ptr",
+        "i1"
+      ],
+      "llvm_return": "void"
+    },
+    {
+      "class_name": "YTMainAppControlsOverlayView",
+      "kind": "-",
+      "selector": "setOverlayVisible:",
+      "implementation": "0x000778f0",
+      "operation": "replace",
+      "original_pointer": "0x01226240",
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x7850c",
+      "instruction_sha256": "4ba932131f1ae1a5fd96712f5213c9bc9e46c0714fdf708a3410ccb056cd8ef2",
+      "llvm_arguments": [
+        "ptr",
+        "ptr",
+        "i1"
+      ],
+      "llvm_return": "void"
+    },
+    {
+      "class_name": "YTMainAppControlsOverlayView",
+      "kind": "-",
+      "selector": "playbackRouteButton",
+      "implementation": "0x0007850c",
+      "operation": "replace",
+      "original_pointer": "0x01226248",
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x787dc",
+      "instruction_sha256": "da5510e7104a11aa52d170198ed6731518a170d8dd35559e966760288889368b",
+      "llvm_arguments": [
+        "ptr",
+        "ptr"
+      ],
+      "llvm_return": "ptr"
+    },
+    {
+      "class_name": "YTMainAppControlsOverlayView",
+      "kind": "-",
+      "selector": "dealloc",
+      "implementation": "0x000787dc",
+      "operation": "replace",
+      "original_pointer": "0x01226250",
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x7884c",
+      "instruction_sha256": "05b69e84f8699637e4161254f1b20f62a34897b4f981aaf11523c67a9c8d1040",
+      "llvm_arguments": [
+        "ptr",
+        "ptr"
+      ],
+      "llvm_return": "void"
+    }
+  ],
+  "callbacks": [
+    {
+      "implementation": "0xc8ed8",
+      "instruction_end": "0xc95d4",
+      "instruction_sha256": "b2ad24cb3a157606d8a8062862d93cf29f5d0ee4f942ea236818cac639384f4f"
+    },
+    {
+      "implementation": "0xc95d4",
+      "instruction_end": "0xc98f4",
+      "instruction_sha256": "e04c814e6c5362801fa99866611a7e051cfaaccacaa949d3f962ac0a140c5765"
+    },
+    {
+      "implementation": "0xc98f4",
+      "instruction_end": "0xc9ad4",
+      "instruction_sha256": "d0ffd96f48f8d7aa88e424a6655c273778a0d67267b2a5577fafea5efa3d8d1e"
+    }
+  ],
+  "cfstrings": {},
+  "instruction_words": {
+    "0x4b088": "23008052",
+    "0x74900": "0020611e",
+    "0x74904": "e8979f1a",
+    "0x74948": "0040621e",
+    "0x74950": "00c0221e",
+    "0x74a40": "0020611e",
+    "0x74a44": "e8a79f1a",
+    "0x74a88": "0040621e",
+    "0x74a90": "00c0221e",
+    "0x74bc4": "00106e1e",
+    "0x781dc": "6802631e",
+    "0x78248": "6802631e",
+    "0xc95e8": "e20301aa",
+    "0xc9800": "fe940094",
+    "0xc98c4": "ed940094",
+    "0x62cd0": "7fc10194",
+    "0x62d94": "7fc10194",
+    "0x62e44": "84c10194",
+    "0x62ef8": "88c10194",
+    "0x62fa0": "8fc10194",
+    "0x63060": "90c10194",
+    "0x63120": "91c10194",
+    "0x631e4": "91c10194",
+    "0x63294": "96c10194",
+    "0x6333c": "9dc10194",
+    "0x633e0": "a5c10194",
+    "0x634a0": "a6c10194",
+    "0x6354c": "acc10194",
+    "0x63618": "aac10194",
+    "0x636c0": "b1c10194"
+  },
+  "branch_tables": [
+    {
+      "table": "0x117bcb8",
+      "key": "0x117bcc8",
+      "xor": "0x2b3d1c84",
+      "targets": [
+        "0x74964",
+        "0x74940"
+      ]
+    },
+    {
+      "table": "0x117bcd8",
+      "key": "0x117bce8",
+      "xor": "0x2a5ce64",
+      "targets": [
+        "0x74aa4",
+        "0x74a80"
+      ]
+    }
+  ],
+  "constants": {
+    "0xc4c300": "9a9999999999d93f000000403333d33f"
+  },
+  "property_storage": {
+    "count": 15,
+    "association_policy": 1,
+    "getter_key": "unique getter implementation address"
+  },
+  "host_argument_limits": "BOOL is supported by backup declarations, W-register usage, and zero/one behavior; unavailable host metadata does not independently establish enum spelling.",
+  "block_descriptors": [
+    {
+      "invoke": "0xc8ed8",
+      "descriptor": "0x1061f40",
+      "signature_address": "0xb9b108",
+      "signature": "v16@?0@\"YTActionSheetAction\"8"
+    },
+    {
+      "invoke": "0xc95d4",
+      "descriptor": "0x1061f10",
+      "signature_address": "0xb9b247",
+      "signature": "v16@?0@\"NSURL\"8"
+    },
+    {
+      "invoke": "0xc98f4",
+      "descriptor": "0x10613e0",
+      "signature_address": "0xb9b004",
+      "signature": "v8@?0"
+    }
+  ],
+  "property_metadata": [
+    {
+      "name": "speedControls",
+      "callsite": "0x62cd0",
+      "attributes": "T@\"UIStackView\",&,N"
+    },
+    {
+      "name": "ytlButtons",
+      "callsite": "0x62d94",
+      "attributes": "T@\"UIStackView\",&,N"
+    },
+    {
+      "name": "speedMinus",
+      "callsite": "0x62e44",
+      "attributes": "T@\"YTQTMButton\",&,N"
+    },
+    {
+      "name": "speedPlus",
+      "callsite": "0x62ef8",
+      "attributes": "T@\"YTQTMButton\",&,N"
+    },
+    {
+      "name": "speedValue",
+      "callsite": "0x62fa0",
+      "attributes": "T@\"YTQTMButton\",&,N"
+    },
+    {
+      "name": "ytlButton",
+      "callsite": "0x63060",
+      "attributes": "T@\"YTQTMButton\",&,N"
+    },
+    {
+      "name": "ytlMuteButton",
+      "callsite": "0x63120",
+      "attributes": "T@\"YTQTMButton\",&,N"
+    },
+    {
+      "name": "ytlLockButton",
+      "callsite": "0x631e4",
+      "attributes": "T@\"YTQTMButton\",&,N"
+    },
+    {
+      "name": "ytlSleepButton",
+      "callsite": "0x63294",
+      "attributes": "T@\"YTQTMButton\",&,N"
+    },
+    {
+      "name": "ytlDiscordButton",
+      "callsite": "0x6333c",
+      "attributes": "T@\"YTQTMButton\",&,N"
+    },
+    {
+      "name": "ytlSbButton",
+      "callsite": "0x633e0",
+      "attributes": "T@\"YTQTMButton\",&,N"
+    },
+    {
+      "name": "ytlButtonsTopAnchor",
+      "callsite": "0x634a0",
+      "attributes": "T@\"NSLayoutConstraint\",&,N"
+    },
+    {
+      "name": "ytlButtonsTrailingAnchor",
+      "callsite": "0x6354c",
+      "attributes": "T@\"NSLayoutConstraint\",&,N"
+    },
+    {
+      "name": "ytlButtonsFSTopAnchor",
+      "callsite": "0x63618",
+      "attributes": "T@\"NSLayoutConstraint\",&,N"
+    },
+    {
+      "name": "ytlButtonsFSTrailingAnchor",
+      "callsite": "0x636c0",
+      "attributes": "T@\"NSLayoutConstraint\",&,N"
+    }
+  ],
+  "property_registrar_evidence": {
+    "start": "0x62c88",
+    "end": "0x63728",
+    "sha256": "e66e43d2b2991971318e6e68e17413c637e2c72044f32f3c78279c6b8ec06df9"
+  },
+  "metadata_cstrings": {
+    "0x116123e": "T",
+    "0x1160895": "@\"UIStackView\"",
+    "0x11616a1": "N",
+    "0x11607f0": "@\"YTQTMButton\"",
+    "0x116185a": "&",
+    "0x11612e0": "@\"NSLayoutConstraint\""
+  }
+}

@@ -1,0 +1,325 @@
+{
+  "binary_sha256": "bdcc4d4ccaa5835d35bc97ccbdfc1c3dff514cb7161848265dcc0585f364c0ca",
+  "categories": [
+    {
+      "address": "0x1140448",
+      "list": "__objc_catlist",
+      "name": "DVNPatreonContext",
+      "class": "UIViewController",
+      "methods": [
+        {
+          "kind": "-",
+          "selector": "presentationAnchorForWebAuthenticationSession:",
+          "encoding": "@24@0:8@16",
+          "address": "0x23e9c"
+        }
+      ],
+      "instance_properties": [
+        {
+          "name": "hash",
+          "attributes": "TQ,R"
+        },
+        {
+          "name": "superclass",
+          "attributes": "T#,R"
+        },
+        {
+          "name": "description",
+          "attributes": "T@\"NSString\",R,C"
+        },
+        {
+          "name": "debugDescription",
+          "attributes": "T@\"NSString\",?,R,C"
+        }
+      ],
+      "class_properties": []
+    },
+    {
+      "address": "0x1147f20",
+      "list": "__objc_catlist",
+      "name": "YTL",
+      "class": "NSString",
+      "methods": [
+        {
+          "kind": "-",
+          "selector": "ytl_localized",
+          "encoding": "@16@0:8",
+          "address": "0x211308"
+        }
+      ],
+      "instance_properties": [],
+      "class_properties": []
+    },
+    {
+      "address": "0x1149398",
+      "list": "__objc_catlist",
+      "name": "YTLite",
+      "class": "NSBundle",
+      "methods": [
+        {
+          "kind": "-",
+          "selector": "imageWithName:",
+          "encoding": "@24@0:8@16",
+          "address": "0x2355c0"
+        },
+        {
+          "kind": "-",
+          "selector": "originalImageWithName:",
+          "encoding": "@24@0:8@16",
+          "address": "0x235628"
+        },
+        {
+          "kind": "-",
+          "selector": "imageWithName:tintColor:",
+          "encoding": "@32@0:8@16@24",
+          "address": "0x235644"
+        },
+        {
+          "kind": "+",
+          "selector": "ytl_defaultBundle",
+          "encoding": "@16@0:8",
+          "address": "0x234910"
+        }
+      ],
+      "instance_properties": [],
+      "class_properties": [
+        {
+          "name": "ytl_defaultBundle",
+          "attributes": "T@\"NSBundle\",R,N"
+        }
+      ]
+    }
+  ],
+  "initializers": [
+    {
+      "slot": "0xb98024",
+      "address": "0x850c",
+      "format": "image-relative-offset"
+    },
+    {
+      "slot": "0xb98028",
+      "address": "0xc554",
+      "format": "image-relative-offset"
+    },
+    {
+      "slot": "0xb9802c",
+      "address": "0x11bec",
+      "format": "image-relative-offset"
+    },
+    {
+      "slot": "0xb98030",
+      "address": "0x151a0",
+      "format": "image-relative-offset"
+    },
+    {
+      "slot": "0xb98034",
+      "address": "0x1efd4",
+      "format": "image-relative-offset"
+    },
+    {
+      "slot": "0xb98038",
+      "address": "0x26eb0",
+      "format": "image-relative-offset"
+    },
+    {
+      "slot": "0xb9803c",
+      "address": "0x37ed4",
+      "format": "image-relative-offset"
+    },
+    {
+      "slot": "0xb98040",
+      "address": "0x44488",
+      "format": "image-relative-offset"
+    },
+    {
+      "slot": "0xb98044",
+      "address": "0x4cf00",
+      "format": "image-relative-offset"
+    },
+    {
+      "slot": "0xb98048",
+      "address": "0xf0c4c",
+      "format": "image-relative-offset"
+    },
+    {
+      "slot": "0xb9804c",
+      "address": "0x1b6d44",
+      "format": "image-relative-offset"
+    },
+    {
+      "slot": "0xb98050",
+      "address": "0x24011c",
+      "format": "image-relative-offset"
+    }
+  ],
+  "dylib_commands": [
+    {
+      "command": "0xd",
+      "name": "/Library/MobileSubstrate/DynamicLibraries/YTLite.dylib",
+      "current_version": 0,
+      "compatibility_version": 0
+    },
+    {
+      "command": "0xc",
+      "name": "/usr/lib/libobjc.A.dylib",
+      "current_version": 14942208,
+      "compatibility_version": 65536
+    },
+    {
+      "command": "0xc",
+      "name": "/System/Library/Frameworks/Foundation.framework/Foundation",
+      "current_version": 129171456,
+      "compatibility_version": 19660800
+    },
+    {
+      "command": "0xc",
+      "name": "/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation",
+      "current_version": 129171456,
+      "compatibility_version": 9830400
+    },
+    {
+      "command": "0xc",
+      "name": "/System/Library/Frameworks/UIKit.framework/UIKit",
+      "current_version": 422117733,
+      "compatibility_version": 65536
+    },
+    {
+      "command": "0xc",
+      "name": "/System/Library/Frameworks/CoreServices.framework/CoreServices",
+      "current_version": 80478208,
+      "compatibility_version": 65536
+    },
+    {
+      "command": "0xc",
+      "name": "/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration",
+      "current_version": 81355787,
+      "compatibility_version": 65536
+    },
+    {
+      "command": "0xc",
+      "name": "/System/Library/Frameworks/Security.framework/Security",
+      "current_version": 3959711233,
+      "compatibility_version": 65536
+    },
+    {
+      "command": "0xc",
+      "name": "/System/Library/Frameworks/AVFoundation.framework/AVFoundation",
+      "current_version": 131072,
+      "compatibility_version": 65536
+    },
+    {
+      "command": "0xc",
+      "name": "/System/Library/Frameworks/AVKit.framework/AVKit",
+      "current_version": 65536,
+      "compatibility_version": 65536
+    },
+    {
+      "command": "0xc",
+      "name": "/System/Library/Frameworks/Photos.framework/Photos",
+      "current_version": 35520642,
+      "compatibility_version": 65536
+    },
+    {
+      "command": "0xc",
+      "name": "/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox",
+      "current_version": 65536000,
+      "compatibility_version": 65536
+    },
+    {
+      "command": "0xc",
+      "name": "/System/Library/Frameworks/VideoToolbox.framework/VideoToolbox",
+      "current_version": 65536,
+      "compatibility_version": 65536
+    },
+    {
+      "command": "0xc",
+      "name": "/System/Library/Frameworks/CoreMedia.framework/CoreMedia",
+      "current_version": 65536,
+      "compatibility_version": 65536
+    },
+    {
+      "command": "0xc",
+      "name": "/System/Library/Frameworks/CoreVideo.framework/CoreVideo",
+      "current_version": 66816,
+      "compatibility_version": 66048
+    },
+    {
+      "command": "0xc",
+      "name": "/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics",
+      "current_version": 110757124,
+      "compatibility_version": 4194304
+    },
+    {
+      "command": "0xc",
+      "name": "/System/Library/Frameworks/QuartzCore.framework/QuartzCore",
+      "current_version": 68352,
+      "compatibility_version": 66048
+    },
+    {
+      "command": "0xc",
+      "name": "/usr/lib/libbz2.1.0.dylib",
+      "current_version": 65544,
+      "compatibility_version": 65536
+    },
+    {
+      "command": "0xc",
+      "name": "/usr/lib/libc++.1.dylib",
+      "current_version": 98320640,
+      "compatibility_version": 65536
+    },
+    {
+      "command": "0xc",
+      "name": "/usr/lib/libiconv.2.dylib",
+      "current_version": 458752,
+      "compatibility_version": 458752
+    },
+    {
+      "command": "0xc",
+      "name": "/usr/lib/libz.1.dylib",
+      "current_version": 66059,
+      "compatibility_version": 65536
+    },
+    {
+      "command": "0xc",
+      "name": "/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer",
+      "current_version": 65536,
+      "compatibility_version": 65536
+    },
+    {
+      "command": "0xc",
+      "name": "/usr/lib/libSystem.B.dylib",
+      "current_version": 86467587,
+      "compatibility_version": 65536
+    },
+    {
+      "command": "0xc",
+      "name": "/Library/Frameworks/CydiaSubstrate.framework/CydiaSubstrate",
+      "current_version": 0,
+      "compatibility_version": 0
+    },
+    {
+      "command": "0xc",
+      "name": "/System/Library/Frameworks/AuthenticationServices.framework/AuthenticationServices",
+      "current_version": 40304922,
+      "compatibility_version": 65536
+    },
+    {
+      "command": "0xc",
+      "name": "/System/Library/Frameworks/PhotosUI.framework/PhotosUI",
+      "current_version": 35520642,
+      "compatibility_version": 65536
+    },
+    {
+      "command": "0xc",
+      "name": "/System/Library/Frameworks/UniformTypeIdentifiers.framework/UniformTypeIdentifiers",
+      "current_version": 46465024,
+      "compatibility_version": 65536
+    },
+    {
+      "command": "0xc",
+      "name": "/System/Library/Frameworks/WebKit.framework/WebKit",
+      "current_version": 40304922,
+      "compatibility_version": 65536
+    }
+  ]
+}

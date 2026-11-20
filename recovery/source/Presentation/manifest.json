@@ -1,0 +1,1296 @@
+{
+  "scope": "Presentation",
+  "status": "functional implementation, exact supplied class ABI; device integration unverified",
+  "original_image": ".recovery-work/arm/YTLite.dylib",
+  "original_sha256": "bdcc4d4ccaa5835d35bc97ccbdfc1c3dff514cb7161848265dcc0585f364c0ca",
+  "original_executed": false,
+  "sdk": "26.2",
+  "deployment_target": "iOS 14.0",
+  "architectures": [
+    "arm64",
+    "arm64e"
+  ],
+  "compiler_flags": [
+    "-fobjc-arc",
+    "-fblocks",
+    "-Wall",
+    "-Wextra",
+    "-Werror"
+  ],
+  "classes": [
+    {
+      "name": "ToastView",
+      "source": "recovery/source/Presentation/ToastView.m",
+      "source_sha256": "27dbfcb4d3afc8553fcd3e4c7b42e2df9824a09f5f3094869ea1bbf39f372227",
+      "header": "recovery/source/Presentation/ToastView.h",
+      "header_sha256": "e416a67729ab3223022403d38f0275c371b8edbc8450ee368d04152ae5599cf8",
+      "method_count": 47,
+      "property_count": 1,
+      "ivar_count": 22,
+      "compiled_metadata": {
+        "methods": {
+          "+initialize": "v16@0:8",
+          "+toastWindow": "@16@0:8",
+          "-init": "@16@0:8",
+          "-enqueueCommand:": "v24@0:8@?16",
+          "-processQueue": "v16@0:8",
+          "-setupInterfaceWithText:progress:withStop:isStatus:isSuccess:withWait:": "v44@0:8@16f24B28B32B36B40",
+          "-handlePanGesture:": "v24@0:8@16",
+          "-handleTap": "v16@0:8",
+          "-updateLayout": "v16@0:8",
+          "-calculateToastParametersWithKeyboardHeight:bottomOffset:topOffset:scale:": "v48@0:8d16^d24^d32^d40",
+          "-configureToastAppearanceWithBottomOffset:topOffset:scale:width:animationDuration:": "v56@0:8d16d24d32d40d48",
+          "-configureToastAppearanceWithBottomOffset:topOffset:scale:width:alpha:animationDuration:completion:": "v72@0:8d16d24d32d40d48d56@?64",
+          "-setupObservers": "v16@0:8",
+          "-removeObservers": "v16@0:8",
+          "-goodHeightDidChange:": "v24@0:8@16",
+          "-keyboardWillShow:": "v24@0:8@16",
+          "-keyboardWillHide:": "v24@0:8@16",
+          "-cleanup": "v16@0:8",
+          "-cancelButtonTapped": "v16@0:8",
+          "-handleLongPress:": "v24@0:8@16",
+          "-showProgressWithText:progress:withStop:stopCompletion:": "v40@0:8@16f24B28@?32",
+          "-updateText:progress:": "v28@0:8@16f24",
+          "-updateText:progress:animated:": "v32@0:8@16f24B28",
+          "-showMessageWithText:isSuccess:": "v28@0:8@16B24",
+          "-showMessageWithText:isSuccess:duration:": "v36@0:8@16B24d28",
+          "-showText:": "v24@0:8@16",
+          "-showToast:": "v24@0:8@16",
+          "-showProgressiveToastWithText:duration:isSuccess:": "v36@0:8@16d24B32",
+          "-showProgressiveToastWithText:duration:actionTitle:actionCompletion:": "v48@0:8@16d24@32@?40",
+          "-showProgressiveToastWithText:duration:actionIcon:actionCompletion:": "v48@0:8@16d24@32@?40",
+          "-showProgressiveToastWithText:duration:actionIcon:ignoresPan:actionCompletion:": "v52@0:8@16d24@32B40@?44",
+          "-showDonationReminder:": "v24@0:8@16",
+          "-startTimerCountdown:": "v24@0:8d16",
+          "-hideAnimatedWithCompletion:": "v24@0:8@?16",
+          "-hideImmediately": "v16@0:8",
+          "-hideWithDelay:": "v24@0:8d16",
+          "-hide": "v16@0:8",
+          "-isHidden": "B16@0:8",
+          "-hideWithCompletion:": "v24@0:8@?16",
+          "-isLandscape": "B16@0:8",
+          "-isFullscreen": "B16@0:8",
+          "-isPinnedTop": "B16@0:8",
+          "-bottomOffset": "d16@0:8",
+          "-dealloc": "v16@0:8",
+          "-completion": "@?16@0:8",
+          "-setCompletion:": "v24@0:8@?16",
+          "-.cxx_destruct": "v16@0:8"
+        },
+        "properties": {
+          "completion": "T@?,C,N,V_completion"
+        },
+        "ivars": {
+          "_commandQueue": {
+            "encoding": "@\"NSMutableArray\"",
+            "offset": 8,
+            "size": 8
+          },
+          "_isiPad": {
+            "encoding": "B",
+            "offset": 16,
+            "size": 1
+          },
+          "_isAnimating": {
+            "encoding": "B",
+            "offset": 17,
+            "size": 1
+          },
+          "_ignoresFullscreenOpacity": {
+            "encoding": "B",
+            "offset": 18,
+            "size": 1
+          },
+          "_ignoresPanGesture": {
+            "encoding": "B",
+            "offset": 19,
+            "size": 1
+          },
+          "_ytSourceView": {
+            "encoding": "@\"UIWindow\"",
+            "offset": 24,
+            "size": 8
+          },
+          "_sourceView": {
+            "encoding": "@\"UIView\"",
+            "offset": 32,
+            "size": 8
+          },
+          "_keyboardHeight": {
+            "encoding": "d",
+            "offset": 40,
+            "size": 8
+          },
+          "_goodHeight": {
+            "encoding": "d",
+            "offset": 48,
+            "size": 8
+          },
+          "_toastLabel": {
+            "encoding": "@\"UILabel\"",
+            "offset": 56,
+            "size": 8
+          },
+          "_toastProgress": {
+            "encoding": "@\"UIProgressView\"",
+            "offset": 64,
+            "size": 8
+          },
+          "_toastIcon": {
+            "encoding": "@\"UIImageView\"",
+            "offset": 72,
+            "size": 8
+          },
+          "_actionsStack": {
+            "encoding": "@\"UIStackView\"",
+            "offset": 80,
+            "size": 8
+          },
+          "_toastButton": {
+            "encoding": "@\"UIButton\"",
+            "offset": 88,
+            "size": 8
+          },
+          "_activityIndicator": {
+            "encoding": "@\"UIActivityIndicatorView\"",
+            "offset": 96,
+            "size": 8
+          },
+          "_progressTimer": {
+            "encoding": "@\"NSTimer\"",
+            "offset": 104,
+            "size": 8
+          },
+          "_topConstraint": {
+            "encoding": "@\"NSLayoutConstraint\"",
+            "offset": 112,
+            "size": 8
+          },
+          "_bottomConstraint": {
+            "encoding": "@\"NSLayoutConstraint\"",
+            "offset": 120,
+            "size": 8
+          },
+          "_centerXConstraint": {
+            "encoding": "@\"NSLayoutConstraint\"",
+            "offset": 128,
+            "size": 8
+          },
+          "_widthConstraint": {
+            "encoding": "@\"NSLayoutConstraint\"",
+            "offset": 136,
+            "size": 8
+          },
+          "_heightConstraint": {
+            "encoding": "@\"NSLayoutConstraint\"",
+            "offset": 144,
+            "size": 8
+          },
+          "_completion": {
+            "encoding": "@?",
+            "offset": 152,
+            "size": 8
+          }
+        },
+        "instance_size": 160
+      },
+      "original_method_addresses": {
+        "-init": "0x1ba6d8",
+        "-enqueueCommand:": "0x1bbd94",
+        "-processQueue": "0x1bbe2c",
+        "-setupInterfaceWithText:progress:withStop:isStatus:isSuccess:withWait:": "0x1bbf68",
+        "-handlePanGesture:": "0x1bc8e4",
+        "-handleTap": "0x1bd9b4",
+        "-updateLayout": "0x1be8a0",
+        "-calculateToastParametersWithKeyboardHeight:bottomOffset:topOffset:scale:": "0x1be9d8",
+        "-configureToastAppearanceWithBottomOffset:topOffset:scale:width:animationDuration:": "0x1bee14",
+        "-configureToastAppearanceWithBottomOffset:topOffset:scale:width:alpha:animationDuration:completion:": "0x1bf098",
+        "-setupObservers": "0x1bf368",
+        "-removeObservers": "0x1bf6d4",
+        "-goodHeightDidChange:": "0x1bfa0c",
+        "-keyboardWillShow:": "0x1bfba0",
+        "-keyboardWillHide:": "0x1bfc9c",
+        "-cleanup": "0x1bfcdc",
+        "-cancelButtonTapped": "0x1bfdd0",
+        "-handleLongPress:": "0x1bff34",
+        "-showProgressWithText:progress:withStop:stopCompletion:": "0x1bffdc",
+        "-updateText:progress:": "0x1c033c",
+        "-updateText:progress:animated:": "0x1c03b4",
+        "-showMessageWithText:isSuccess:": "0x1c0430",
+        "-showMessageWithText:isSuccess:duration:": "0x1c0468",
+        "-showText:": "0x1c0740",
+        "-showToast:": "0x1c09b0",
+        "-showProgressiveToastWithText:duration:isSuccess:": "0x1c0ccc",
+        "-showProgressiveToastWithText:duration:actionTitle:actionCompletion:": "0x1c0f78",
+        "-showProgressiveToastWithText:duration:actionIcon:actionCompletion:": "0x1c1644",
+        "-showProgressiveToastWithText:duration:actionIcon:ignoresPan:actionCompletion:": "0x1c1680",
+        "-showDonationReminder:": "0x1c1af8",
+        "-startTimerCountdown:": "0x1c1d18",
+        "-hideAnimatedWithCompletion:": "0x1c1fb4",
+        "-hideImmediately": "0x1c2760",
+        "-hideWithDelay:": "0x1c27b0",
+        "-hide": "0x1c2840",
+        "-isHidden": "0x1c2878",
+        "-hideWithCompletion:": "0x1c2944",
+        "-isLandscape": "0x1c2b1c",
+        "-isFullscreen": "0x1c2be4",
+        "-isPinnedTop": "0x1c2c38",
+        "-bottomOffset": "0x1c2c8c",
+        "-dealloc": "0x1c2d78",
+        "-completion": "0x1c2ddc",
+        "-setCompletion:": "0x1c2dec",
+        "-.cxx_destruct": "0x1c2e20",
+        "+initialize": "0x1b9d50",
+        "+toastWindow": "0x1b9e04"
+      },
+      "objects": {
+        "arm64": {
+          "path": ".recovery-work/presentation-helpers/arm64/ToastView.o",
+          "sha256": "017592f6c5c7d853b7afefd158b8f62becc94c64cef6e4ec0e3f9b2dc3ea4269"
+        },
+        "arm64e": {
+          "path": ".recovery-work/presentation-helpers/arm64e/ToastView.o",
+          "sha256": "07e1adc0bbd5c9f15e43eab70b3224392172c8ef98c68fa446387937a6ea4c6b"
+        }
+      },
+      "host_source_coverage": {
+        "branches": {
+          "count": 118,
+          "covered": 79,
+          "notcovered": 39,
+          "percent": 66.94915254237289
+        },
+        "functions": {
+          "count": 80,
+          "covered": 80,
+          "percent": 100
+        },
+        "instantiations": {
+          "count": 80,
+          "covered": 80,
+          "percent": 100
+        },
+        "lines": {
+          "count": 828,
+          "covered": 822,
+          "percent": 99.27536231884058
+        },
+        "mcdc": {
+          "count": 0,
+          "covered": 0,
+          "notcovered": 0,
+          "percent": 0
+        },
+        "regions": {
+          "count": 356,
+          "covered": 326,
+          "notcovered": 30,
+          "percent": 91.57303370786516
+        }
+      }
+    },
+    {
+      "name": "ToastWindow",
+      "source": "recovery/source/Presentation/ToastWindow.m",
+      "source_sha256": "678a9e69ded1a43cbc28e16088f366501ec4b6e9fc3863eeb81cb295db590de9",
+      "header": "recovery/source/Presentation/ToastWindow.h",
+      "header_sha256": "a595362e5af833dd1b5d418776f73d188d55567e49fb1eb68ad6c162f8152804",
+      "method_count": 9,
+      "property_count": 0,
+      "ivar_count": 0,
+      "compiled_metadata": {
+        "methods": {
+          "+initialize": "v16@0:8",
+          "-initWithWindowScene:": "@24@0:8@16",
+          "-hitTest:withEvent:": "@40@0:8{CGPoint=dd}16@32",
+          "-canBecomeKeyWindow": "B16@0:8",
+          "-makeKeyAndVisible": "v16@0:8",
+          "-shouldAffectStatusBarAppearance": "B16@0:8",
+          "-_windowControlsStatusBarOrientation": "B16@0:8",
+          "-_canBecomeKeyWindow": "B16@0:8",
+          "-appKeyWindow": "@16@0:8"
+        },
+        "properties": {},
+        "ivars": {},
+        "instance_size": 8
+      },
+      "original_method_addresses": {
+        "-hitTest:withEvent:": "0x1c7e28",
+        "-initWithWindowScene:": "0x1c8b10",
+        "-canBecomeKeyWindow": "0x1c8c00",
+        "-makeKeyAndVisible": "0x1c8c08",
+        "-shouldAffectStatusBarAppearance": "0x1c8cc4",
+        "-_windowControlsStatusBarOrientation": "0x1c8ccc",
+        "-_canBecomeKeyWindow": "0x1c8cd4",
+        "-appKeyWindow": "0x1c8cdc",
+        "+initialize": "0x1c8fb4"
+      },
+      "objects": {
+        "arm64": {
+          "path": ".recovery-work/presentation-helpers/arm64/ToastWindow.o",
+          "sha256": "83965b259b9d88324d77317fb3b004ced0deb182c0aa9d011cdd309f8fdc02b9"
+        },
+        "arm64e": {
+          "path": ".recovery-work/presentation-helpers/arm64e/ToastWindow.o",
+          "sha256": "dd0c438c35e500d82afb920c3210cbfff16c55d505a8bffe37b7e139333d75d5"
+        }
+      },
+      "host_source_coverage": {
+        "branches": {
+          "count": 32,
+          "covered": 26,
+          "notcovered": 6,
+          "percent": 81.25
+        },
+        "functions": {
+          "count": 9,
+          "covered": 9,
+          "percent": 100
+        },
+        "instantiations": {
+          "count": 9,
+          "covered": 9,
+          "percent": 100
+        },
+        "lines": {
+          "count": 48,
+          "covered": 48,
+          "percent": 100
+        },
+        "mcdc": {
+          "count": 0,
+          "covered": 0,
+          "notcovered": 0,
+          "percent": 0
+        },
+        "regions": {
+          "count": 49,
+          "covered": 49,
+          "notcovered": 0,
+          "percent": 100
+        }
+      }
+    },
+    {
+      "name": "ToastManager",
+      "source": "recovery/source/Presentation/ToastManager.m",
+      "source_sha256": "e348f8fdf6665a563d50c1afd03346940868af538a9c76339c349ade88a62d8a",
+      "header": "recovery/source/Presentation/ToastManager.h",
+      "header_sha256": "5fcbd8f5607004023151b837243a4738c33940cf5e973b7512c29c8271c94973",
+      "method_count": 15,
+      "property_count": 4,
+      "ivar_count": 4,
+      "compiled_metadata": {
+        "methods": {
+          "+sharedManager": "@16@0:8",
+          "+showMessageWithText:isSuccess:": "v28@0:8@16B24",
+          "-init": "@16@0:8",
+          "-registerToast:": "v24@0:8@16",
+          "-unregisterToast:": "v24@0:8@16",
+          "-updateAllToasts": "v16@0:8",
+          "-toasts": "@16@0:8",
+          "-setToasts:": "v24@0:8@16",
+          "-offsetController": "@16@0:8",
+          "-setOffsetController:": "v24@0:8@16",
+          "-isPinnedTop": "B16@0:8",
+          "-setIsPinnedTop:": "v20@0:8B16",
+          "-isFullscreen": "B16@0:8",
+          "-setIsFullscreen:": "v20@0:8B16",
+          "-.cxx_destruct": "v16@0:8"
+        },
+        "properties": {
+          "toasts": "T@\"NSMutableArray\",&,N,V_toasts",
+          "offsetController": "T@\"YTToastOffsetController\",&,N,V_offsetController",
+          "isPinnedTop": "TB,N,V_isPinnedTop",
+          "isFullscreen": "TB,N,V_isFullscreen"
+        },
+        "ivars": {
+          "_isPinnedTop": {
+            "encoding": "B",
+            "offset": 8,
+            "size": 1
+          },
+          "_isFullscreen": {
+            "encoding": "B",
+            "offset": 9,
+            "size": 1
+          },
+          "_toasts": {
+            "encoding": "@\"NSMutableArray\"",
+            "offset": 16,
+            "size": 8
+          },
+          "_offsetController": {
+            "encoding": "@\"YTToastOffsetController\"",
+            "offset": 24,
+            "size": 8
+          }
+        },
+        "instance_size": 32
+      },
+      "original_method_addresses": {
+        "-init": "0x1c9bd0",
+        "-registerToast:": "0x1c9d98",
+        "-unregisterToast:": "0x1c9ee0",
+        "-updateAllToasts": "0x1c9fd8",
+        "-toasts": "0x1ca260",
+        "-setToasts:": "0x1ca268",
+        "-offsetController": "0x1ca29c",
+        "-setOffsetController:": "0x1ca2a4",
+        "-isPinnedTop": "0x1ca2d8",
+        "-setIsPinnedTop:": "0x1ca2e0",
+        "-isFullscreen": "0x1ca300",
+        "-setIsFullscreen:": "0x1ca308",
+        "-.cxx_destruct": "0x1ca328",
+        "+sharedManager": "0x1c9b1c",
+        "+showMessageWithText:isSuccess:": "0x1c9c8c"
+      },
+      "objects": {
+        "arm64": {
+          "path": ".recovery-work/presentation-helpers/arm64/ToastManager.o",
+          "sha256": "74583e8dbec4cc116e2dca484ab746d14b286f93fb5ee346e24efc7ed632c6bf"
+        },
+        "arm64e": {
+          "path": ".recovery-work/presentation-helpers/arm64e/ToastManager.o",
+          "sha256": "6149ce66cc153dd19225ad6f93c730d9dc62185e8e5ff765c9c8d789bdeb62c6"
+        }
+      },
+      "host_source_coverage": {
+        "branches": {
+          "count": 8,
+          "covered": 5,
+          "notcovered": 3,
+          "percent": 62.5
+        },
+        "functions": {
+          "count": 8,
+          "covered": 8,
+          "percent": 100
+        },
+        "instantiations": {
+          "count": 8,
+          "covered": 8,
+          "percent": 100
+        },
+        "lines": {
+          "count": 41,
+          "covered": 41,
+          "percent": 100
+        },
+        "mcdc": {
+          "count": 0,
+          "covered": 0,
+          "notcovered": 0,
+          "percent": 0
+        },
+        "regions": {
+          "count": 22,
+          "covered": 20,
+          "notcovered": 2,
+          "percent": 90.9090909090909
+        }
+      }
+    },
+    {
+      "name": "PlayerToast",
+      "source": "recovery/source/Presentation/PlayerToast.m",
+      "source_sha256": "ee644521acc70449297d10e78d43043200b275e84218737bafe5187dd88cdfc8",
+      "header": "recovery/source/Presentation/PlayerToast.h",
+      "header_sha256": "88f5e40f58cb82e66cc1173ddd4f468a6c6f0ef928591dcbc5e8859cf2f823d4",
+      "method_count": 16,
+      "property_count": 0,
+      "ivar_count": 11,
+      "compiled_metadata": {
+        "methods": {
+          "+sharedToast": "@16@0:8",
+          "-init": "@16@0:8",
+          "-showPlayerToastWithText:value:style:isCompact:": "v44@0:8@16d24q32B40",
+          "-prepareForPresentation": "v16@0:8",
+          "-updateToastText:value:": "v32@0:8@16d24",
+          "-setProgress:": "v24@0:8d16",
+          "-hideToast": "v16@0:8",
+          "-setupConstraints": "v16@0:8",
+          "-clearConstraints": "v16@0:8",
+          "-imgForVal:": "@24@0:8d16",
+          "-subLabelForVal:style:": "@32@0:8d16q24",
+          "-setupSubForStyle:": "v24@0:8q16",
+          "-setValue:forEventWithStyle:": "v32@0:8d16q24",
+          "-sourceView": "@16@0:8",
+          "-isLandscape": "B16@0:8",
+          "-.cxx_destruct": "v16@0:8"
+        },
+        "properties": {},
+        "ivars": {
+          "_isCompact": {
+            "encoding": "B",
+            "offset": 8,
+            "size": 1
+          },
+          "_style": {
+            "encoding": "q",
+            "offset": 16,
+            "size": 8
+          },
+          "_activeConstraints": {
+            "encoding": "@\"NSMutableArray\"",
+            "offset": 24,
+            "size": 8
+          },
+          "_containerView": {
+            "encoding": "@\"UIView\"",
+            "offset": 32,
+            "size": 8
+          },
+          "_toastView": {
+            "encoding": "@\"UIVisualEffectView\"",
+            "offset": 40,
+            "size": 8
+          },
+          "_toastImage": {
+            "encoding": "@\"UIImageView\"",
+            "offset": 48,
+            "size": 8
+          },
+          "_toastLabel": {
+            "encoding": "@\"UILabel\"",
+            "offset": 56,
+            "size": 8
+          },
+          "_toastSubLabel": {
+            "encoding": "@\"UILabel\"",
+            "offset": 64,
+            "size": 8
+          },
+          "_toastProgress": {
+            "encoding": "@\"UIView\"",
+            "offset": 72,
+            "size": 8
+          },
+          "_progressLayer": {
+            "encoding": "@\"CAShapeLayer\"",
+            "offset": 80,
+            "size": 8
+          },
+          "_volumeHUD": {
+            "encoding": "@\"CustomHUD\"",
+            "offset": 88,
+            "size": 8
+          }
+        },
+        "instance_size": 96
+      },
+      "original_method_addresses": {
+        "-init": "0x23b560",
+        "-showPlayerToastWithText:value:style:isCompact:": "0x23bd28",
+        "-prepareForPresentation": "0x23c1e0",
+        "-updateToastText:value:": "0x23c264",
+        "-setProgress:": "0x23c52c",
+        "-hideToast": "0x23c67c",
+        "-setupConstraints": "0x23c7cc",
+        "-clearConstraints": "0x23d138",
+        "-imgForVal:": "0x23d180",
+        "-subLabelForVal:style:": "0x23dc90",
+        "-setupSubForStyle:": "0x23decc",
+        "-setValue:forEventWithStyle:": "0x23df50",
+        "-sourceView": "0x23e19c",
+        "-isLandscape": "0x23e220",
+        "-.cxx_destruct": "0x23e2e8",
+        "+sharedToast": "0x23b468"
+      },
+      "objects": {
+        "arm64": {
+          "path": ".recovery-work/presentation-helpers/arm64/PlayerToast.o",
+          "sha256": "33376ecc1c44727c2357f90f1ae95862be3bcc3d850188aa6e66fa458175f8d3"
+        },
+        "arm64e": {
+          "path": ".recovery-work/presentation-helpers/arm64e/PlayerToast.o",
+          "sha256": "fc03a871eeae9994b88490e91c18164a98778d71c5086ecc92ee97777e15e8a5"
+        }
+      },
+      "host_source_coverage": {
+        "branches": {
+          "count": 52,
+          "covered": 46,
+          "notcovered": 6,
+          "percent": 88.46153846153845
+        },
+        "functions": {
+          "count": 21,
+          "covered": 21,
+          "percent": 100
+        },
+        "instantiations": {
+          "count": 21,
+          "covered": 21,
+          "percent": 100
+        },
+        "lines": {
+          "count": 197,
+          "covered": 197,
+          "percent": 100
+        },
+        "mcdc": {
+          "count": 0,
+          "covered": 0,
+          "notcovered": 0,
+          "percent": 0
+        },
+        "regions": {
+          "count": 127,
+          "covered": 120,
+          "notcovered": 7,
+          "percent": 94.48818897637796
+        }
+      }
+    },
+    {
+      "name": "CustomHUD",
+      "source": "recovery/source/Presentation/CustomHUD.m",
+      "source_sha256": "db8a9109e5a3e4fa33eb165c00c68c61e55918fe167fd48a50aa32fd49fb576c",
+      "header": "recovery/source/Presentation/CustomHUD.h",
+      "header_sha256": "68b4cc7c14c9bddc3daf4a45714e3c6573c530ec337e32f7521da02a9d84171b",
+      "method_count": 9,
+      "property_count": 10,
+      "ivar_count": 1,
+      "compiled_metadata": {
+        "methods": {
+          "-init": "@16@0:8",
+          "-addToController": "v16@0:8",
+          "-removeFromController": "v16@0:8",
+          "-setVolumeLevel:": "v20@0:8f16",
+          "-volumeLevel": "f16@0:8",
+          "-windowSceneForVolumeDisplay": "@16@0:8",
+          "-volumeAudioCategory": "@16@0:8",
+          "-controller": "@16@0:8",
+          "-.cxx_destruct": "v16@0:8"
+        },
+        "properties": {
+          "controller": "T@\"MPVolumeController\",R,N,V_controller",
+          "volumeLevel": "Tf,N",
+          "volumeAudioCategory": "T@\"NSString\",R,N",
+          "onScreen": "TB,?,R,N,GisOnScreen",
+          "onScreenForVolumeDisplay": "TB,?,R,N,GisOnScreenForVolumeDisplay",
+          "windowSceneForVolumeDisplay": "T@\"UIWindowScene\",?,R,N",
+          "hash": "TQ,R",
+          "superclass": "T#,R",
+          "description": "T@\"NSString\",R,C",
+          "debugDescription": "T@\"NSString\",?,R,C"
+        },
+        "ivars": {
+          "_controller": {
+            "encoding": "@\"MPVolumeController\"",
+            "offset": 8,
+            "size": 8
+          }
+        },
+        "instance_size": 16
+      },
+      "original_method_addresses": {
+        "-init": "0x23fcf8",
+        "-addToController": "0x23fdac",
+        "-removeFromController": "0x23fe18",
+        "-setVolumeLevel:": "0x23fe84",
+        "-volumeLevel": "0x23febc",
+        "-windowSceneForVolumeDisplay": "0x23fecc",
+        "-volumeAudioCategory": "0x23ff50",
+        "-controller": "0x23ff60",
+        "-.cxx_destruct": "0x23ff68"
+      },
+      "objects": {
+        "arm64": {
+          "path": ".recovery-work/presentation-helpers/arm64/CustomHUD.o",
+          "sha256": "52ccbd338a49de3e89e510f36f2f9e2f0aae76f083af964783a2a47aad46174e"
+        },
+        "arm64e": {
+          "path": ".recovery-work/presentation-helpers/arm64e/CustomHUD.o",
+          "sha256": "052d5399e4254e3ceb0436d1a607366c90f675d6f58fc6e19d18433aed9af926"
+        }
+      },
+      "host_source_coverage": {
+        "branches": {
+          "count": 2,
+          "covered": 1,
+          "notcovered": 1,
+          "percent": 50
+        },
+        "functions": {
+          "count": 8,
+          "covered": 8,
+          "percent": 100
+        },
+        "instantiations": {
+          "count": 8,
+          "covered": 8,
+          "percent": 100
+        },
+        "lines": {
+          "count": 18,
+          "covered": 18,
+          "percent": 100
+        },
+        "mcdc": {
+          "count": 0,
+          "covered": 0,
+          "notcovered": 0,
+          "percent": 0
+        },
+        "regions": {
+          "count": 10,
+          "covered": 10,
+          "notcovered": 0,
+          "percent": 100
+        }
+      }
+    },
+    {
+      "name": "BlurButton",
+      "source": "recovery/source/Presentation/BlurButton.m",
+      "source_sha256": "b5f9c282345a74c71200b01bb1a95fcdb83ebbbfa52a7d2045a2d7c32401cfad",
+      "header": "recovery/source/Presentation/BlurButton.h",
+      "header_sha256": "e755143eb12a07cd6eb0fc0c54d921df689edad5e7f7572723bf6466376425e2",
+      "method_count": 3,
+      "property_count": 0,
+      "ivar_count": 1,
+      "compiled_metadata": {
+        "methods": {
+          "+createButtonWithImage:target:action:menu:": "@48@0:8@16@24:32@40",
+          "-setHighlighted:": "v20@0:8B16",
+          "-.cxx_destruct": "v16@0:8"
+        },
+        "properties": {},
+        "ivars": {
+          "_buttonImageView": {
+            "encoding": "@\"UIImageView\"",
+            "offset": 8,
+            "size": 8
+          }
+        },
+        "instance_size": 16
+      },
+      "original_method_addresses": {
+        "-setHighlighted:": "0x223460",
+        "-.cxx_destruct": "0x2234cc",
+        "+createButtonWithImage:target:action:menu:": "0x22311c"
+      },
+      "objects": {
+        "arm64": {
+          "path": ".recovery-work/presentation-helpers/arm64/BlurButton.o",
+          "sha256": "e69d50df41c1197c5b3a3b3b17c1fe27299494d3837e4d61f760251bed2c4393"
+        },
+        "arm64e": {
+          "path": ".recovery-work/presentation-helpers/arm64e/BlurButton.o",
+          "sha256": "8358af5d5847d3c977b5e017409934a14a7c2e305d3b086b4810e9a627d2e7c8"
+        }
+      },
+      "host_source_coverage": {
+        "branches": {
+          "count": 2,
+          "covered": 2,
+          "notcovered": 0,
+          "percent": 100
+        },
+        "functions": {
+          "count": 2,
+          "covered": 2,
+          "percent": 100
+        },
+        "instantiations": {
+          "count": 2,
+          "covered": 2,
+          "percent": 100
+        },
+        "lines": {
+          "count": 29,
+          "covered": 29,
+          "percent": 100
+        },
+        "mcdc": {
+          "count": 0,
+          "covered": 0,
+          "notcovered": 0,
+          "percent": 0
+        },
+        "regions": {
+          "count": 8,
+          "covered": 8,
+          "notcovered": 0,
+          "percent": 100
+        }
+      }
+    },
+    {
+      "name": "DVNImageViewController",
+      "source": "recovery/source/Presentation/DVNImageViewController.m",
+      "source_sha256": "cc589b1df755c9ae50ffa68d9d6013640ccd3fdc24db2e834cf43da950a8bc2f",
+      "header": "recovery/source/Presentation/DVNImageViewController.h",
+      "header_sha256": "5858744c4f2f6fcb9c631dda41eb7443bc2d6a5a1ff9b549e50235e61bfa3977",
+      "method_count": 18,
+      "property_count": 5,
+      "ivar_count": 3,
+      "compiled_metadata": {
+        "methods": {
+          "-viewDidLoad": "v16@0:8",
+          "-setupNavbar": "v16@0:8",
+          "-setupViewer": "v16@0:8",
+          "-viewForZoomingInScrollView:": "@24@0:8@16",
+          "-viewDidLayoutSubviews": "v16@0:8",
+          "-handleDoubleTap:": "v24@0:8@16",
+          "-scrollViewDidZoom:": "v24@0:8@16",
+          "-scrollViewDidEndZooming:withView:atScale:": "v40@0:8@16@24d32",
+          "-scrollViewWillBeginZooming:withView:": "v32@0:8@16@24",
+          "-adjustScrollViewInsets": "v16@0:8",
+          "-adjustHorizontalInsetsWithImageWidth:": "v24@0:8d16",
+          "-adjustVerticalInsetsWithImageHeight:": "v24@0:8d16",
+          "-hapticFeedback": "v16@0:8",
+          "-closeButtonTapped": "v16@0:8",
+          "-share": "v16@0:8",
+          "-fullImage": "@16@0:8",
+          "-setFullImage:": "v24@0:8@16",
+          "-.cxx_destruct": "v16@0:8"
+        },
+        "properties": {
+          "fullImage": "T@\"UIImage\",&,N,V_fullImage",
+          "hash": "TQ,R",
+          "superclass": "T#,R",
+          "description": "T@\"NSString\",R,C",
+          "debugDescription": "T@\"NSString\",?,R,C"
+        },
+        "ivars": {
+          "_scrollView": {
+            "encoding": "@\"UIScrollView\"",
+            "offset": 8,
+            "size": 8
+          },
+          "_imageView": {
+            "encoding": "@\"UIImageView\"",
+            "offset": 16,
+            "size": 8
+          },
+          "_fullImage": {
+            "encoding": "@\"UIImage\"",
+            "offset": 24,
+            "size": 8
+          }
+        },
+        "instance_size": 32
+      },
+      "original_method_addresses": {
+        "-viewDidLoad": "0x21fa6c",
+        "-setupNavbar": "0x21fae4",
+        "-setupViewer": "0x220864",
+        "-viewForZoomingInScrollView:": "0x221048",
+        "-viewDidLayoutSubviews": "0x221058",
+        "-handleDoubleTap:": "0x221160",
+        "-scrollViewDidZoom:": "0x2212e4",
+        "-scrollViewDidEndZooming:withView:atScale:": "0x2212f0",
+        "-scrollViewWillBeginZooming:withView:": "0x221324",
+        "-adjustScrollViewInsets": "0x221358",
+        "-adjustHorizontalInsetsWithImageWidth:": "0x221458",
+        "-adjustVerticalInsetsWithImageHeight:": "0x22156c",
+        "-hapticFeedback": "0x221680",
+        "-closeButtonTapped": "0x2216d8",
+        "-share": "0x221730",
+        "-fullImage": "0x221a60",
+        "-setFullImage:": "0x221a70",
+        "-.cxx_destruct": "0x221aac"
+      },
+      "objects": {
+        "arm64": {
+          "path": ".recovery-work/presentation-helpers/arm64/DVNImageViewController.o",
+          "sha256": "1b52946da85435fd0cbcf2eec7d8627212b510b399a17f14417f7109e61e8831"
+        },
+        "arm64e": {
+          "path": ".recovery-work/presentation-helpers/arm64e/DVNImageViewController.o",
+          "sha256": "f2260a82d2ed98ee13fc4246c65f1019b25f2398cf07a1a2d79de72b0ae2cd5f"
+        }
+      },
+      "host_source_coverage": {
+        "branches": {
+          "count": 10,
+          "covered": 8,
+          "notcovered": 2,
+          "percent": 80
+        },
+        "functions": {
+          "count": 18,
+          "covered": 18,
+          "percent": 100
+        },
+        "instantiations": {
+          "count": 18,
+          "covered": 18,
+          "percent": 100
+        },
+        "lines": {
+          "count": 170,
+          "covered": 170,
+          "percent": 100
+        },
+        "mcdc": {
+          "count": 0,
+          "covered": 0,
+          "notcovered": 0,
+          "percent": 0
+        },
+        "regions": {
+          "count": 68,
+          "covered": 68,
+          "notcovered": 0,
+          "percent": 100
+        }
+      }
+    },
+    {
+      "name": "DVNSheetPresenter",
+      "source": "recovery/source/Presentation/DVNSheetPresenter.m",
+      "source_sha256": "bea200d4a3bd19ce308f5153c301ab77156434955bf976fac9f9205194488195",
+      "header": "recovery/source/Presentation/DVNSheetPresenter.h",
+      "header_sha256": "9258cd004f852cfd2f7303e012bffdba7e855da00e6819419ea53ba43ab48563",
+      "method_count": 3,
+      "property_count": 0,
+      "ivar_count": 0,
+      "compiled_metadata": {
+        "methods": {
+          "+presentCustomHeightViewController:fromViewController:": "v32@0:8@16@24",
+          "+presentHalfScreenViewController:fromViewController:": "v32@0:8@16@24",
+          "+presentViewController:fromViewController:withHeight:": "v40@0:8@16@24d32"
+        },
+        "properties": {},
+        "ivars": {},
+        "instance_size": 8
+      },
+      "original_method_addresses": {
+        "+presentCustomHeightViewController:fromViewController:": "0x1efae4",
+        "+presentHalfScreenViewController:fromViewController:": "0x1effd4",
+        "+presentViewController:fromViewController:withHeight:": "0x1f0364"
+      },
+      "objects": {
+        "arm64": {
+          "path": ".recovery-work/presentation-helpers/arm64/DVNSheetPresenter.o",
+          "sha256": "ae68d5f8eba329cb5eb97364fb326ca6452ad4076f6c0d34258305da00aae75f"
+        },
+        "arm64e": {
+          "path": ".recovery-work/presentation-helpers/arm64e/DVNSheetPresenter.o",
+          "sha256": "ecbbf946341d8a6c076ee38770991549536c76c136bafdcef13706dda6d2d769"
+        }
+      },
+      "host_source_coverage": {
+        "branches": {
+          "count": 6,
+          "covered": 6,
+          "notcovered": 0,
+          "percent": 100
+        },
+        "functions": {
+          "count": 7,
+          "covered": 7,
+          "percent": 100
+        },
+        "instantiations": {
+          "count": 7,
+          "covered": 7,
+          "percent": 100
+        },
+        "lines": {
+          "count": 44,
+          "covered": 44,
+          "percent": 100
+        },
+        "mcdc": {
+          "count": 0,
+          "covered": 0,
+          "notcovered": 0,
+          "percent": 0
+        },
+        "regions": {
+          "count": 29,
+          "covered": 29,
+          "notcovered": 0,
+          "percent": 100
+        }
+      }
+    },
+    {
+      "name": "PseudoDetentController",
+      "source": "recovery/source/Presentation/PseudoDetentController.m",
+      "source_sha256": "0837a40012c7a687aa7cda66693ae045613a3289f19be8b6bdf50471f539cc41",
+      "header": "recovery/source/Presentation/PseudoDetentController.h",
+      "header_sha256": "fe4f914ae5ec7e2aec8b957daae30a574dd61be2565c7fb9c975ff2c3a8cbaa5",
+      "method_count": 13,
+      "property_count": 3,
+      "ivar_count": 3,
+      "compiled_metadata": {
+        "methods": {
+          "-initWithPresentedViewController:presentingViewController:": "@32@0:8@16@24",
+          "-dismissController": "v16@0:8",
+          "-frameOfPresentedViewInContainerView": "{CGRect={CGPoint=dd}{CGSize=dd}}16@0:8",
+          "-containerViewWillLayoutSubviews": "v16@0:8",
+          "-presentationTransitionWillBegin": "v16@0:8",
+          "-dismissalTransitionWillBegin": "v16@0:8",
+          "-heightCalculator": "@?16@0:8",
+          "-setHeightCalculator:": "v24@0:8@?16",
+          "-customHeight": "d16@0:8",
+          "-setCustomHeight:": "v24@0:8d16",
+          "-dimmingView": "@16@0:8",
+          "-setDimmingView:": "v24@0:8@16",
+          "-.cxx_destruct": "v16@0:8"
+        },
+        "properties": {
+          "heightCalculator": "T@?,C,N,V_heightCalculator",
+          "customHeight": "Td,N,V_customHeight",
+          "dimmingView": "T@\"UIView\",&,N,V_dimmingView"
+        },
+        "ivars": {
+          "_heightCalculator": {
+            "encoding": "@?",
+            "offset": 8,
+            "size": 8
+          },
+          "_customHeight": {
+            "encoding": "d",
+            "offset": 16,
+            "size": 8
+          },
+          "_dimmingView": {
+            "encoding": "@\"UIView\"",
+            "offset": 24,
+            "size": 8
+          }
+        },
+        "instance_size": 32
+      },
+      "original_method_addresses": {
+        "-initWithPresentedViewController:presentingViewController:": "0x1f0df0",
+        "-dismissController": "0x1f0fec",
+        "-frameOfPresentedViewInContainerView": "0x1f1050",
+        "-containerViewWillLayoutSubviews": "0x1f118c",
+        "-presentationTransitionWillBegin": "0x1f1254",
+        "-dismissalTransitionWillBegin": "0x1f15b8",
+        "-heightCalculator": "0x1f1740",
+        "-setHeightCalculator:": "0x1f1750",
+        "-customHeight": "0x1f1784",
+        "-setCustomHeight:": "0x1f1794",
+        "-dimmingView": "0x1f17a4",
+        "-setDimmingView:": "0x1f17b4",
+        "-.cxx_destruct": "0x1f17f0"
+      },
+      "objects": {
+        "arm64": {
+          "path": ".recovery-work/presentation-helpers/arm64/PseudoDetentController.o",
+          "sha256": "4f829d07099ce35f03932159430981a1df5bfc2c6a92152ae664fc97816a5a65"
+        },
+        "arm64e": {
+          "path": ".recovery-work/presentation-helpers/arm64e/PseudoDetentController.o",
+          "sha256": "3aba3490528dc09b7d8689e6acec6338c08d40eee247ea696e13ecda516517cb"
+        }
+      },
+      "host_source_coverage": {
+        "branches": {
+          "count": 4,
+          "covered": 3,
+          "notcovered": 1,
+          "percent": 75
+        },
+        "functions": {
+          "count": 9,
+          "covered": 9,
+          "percent": 100
+        },
+        "instantiations": {
+          "count": 9,
+          "covered": 9,
+          "percent": 100
+        },
+        "lines": {
+          "count": 59,
+          "covered": 59,
+          "percent": 100
+        },
+        "mcdc": {
+          "count": 0,
+          "covered": 0,
+          "notcovered": 0,
+          "percent": 0
+        },
+        "regions": {
+          "count": 19,
+          "covered": 19,
+          "notcovered": 0,
+          "percent": 100
+        }
+      }
+    },
+    {
+      "name": "PseudoDetentTransitioningDelegate",
+      "source": "recovery/source/Presentation/PseudoDetentTransitioningDelegate.m",
+      "source_sha256": "10f26cf69885eacc16d1c36490d4da1814c10092720187ccca77ddafef3865e5",
+      "header": "recovery/source/Presentation/PseudoDetentTransitioningDelegate.h",
+      "header_sha256": "0acd91d42bcbfe256f063024695092f2ce21f1dd06a61686841a62f272efc30f",
+      "method_count": 6,
+      "property_count": 6,
+      "ivar_count": 2,
+      "compiled_metadata": {
+        "methods": {
+          "-presentationControllerForPresentedViewController:presentingViewController:sourceViewController:": "@40@0:8@16@24@32",
+          "-heightCalculator": "@?16@0:8",
+          "-setHeightCalculator:": "v24@0:8@?16",
+          "-customHeight": "d16@0:8",
+          "-setCustomHeight:": "v24@0:8d16",
+          "-.cxx_destruct": "v16@0:8"
+        },
+        "properties": {
+          "heightCalculator": "T@?,C,N,V_heightCalculator",
+          "customHeight": "Td,N,V_customHeight",
+          "hash": "TQ,R",
+          "superclass": "T#,R",
+          "description": "T@\"NSString\",R,C",
+          "debugDescription": "T@\"NSString\",?,R,C"
+        },
+        "ivars": {
+          "_heightCalculator": {
+            "encoding": "@?",
+            "offset": 8,
+            "size": 8
+          },
+          "_customHeight": {
+            "encoding": "d",
+            "offset": 16,
+            "size": 8
+          }
+        },
+        "instance_size": 24
+      },
+      "original_method_addresses": {
+        "-presentationControllerForPresentedViewController:presentingViewController:sourceViewController:": "0x1f1f7c",
+        "-heightCalculator": "0x1f204c",
+        "-setHeightCalculator:": "0x1f2054",
+        "-customHeight": "0x1f2084",
+        "-setCustomHeight:": "0x1f208c",
+        "-.cxx_destruct": "0x1f20ac"
+      },
+      "objects": {
+        "arm64": {
+          "path": ".recovery-work/presentation-helpers/arm64/PseudoDetentTransitioningDelegate.o",
+          "sha256": "8ed9cdab568afe626ef97fa0a710cdb21ca65751eb4358e88bc1963852ca2ac7"
+        },
+        "arm64e": {
+          "path": ".recovery-work/presentation-helpers/arm64e/PseudoDetentTransitioningDelegate.o",
+          "sha256": "187464eba6f2de787a3dce9e653756c732365929105b3a9d713195626dfa0a5d"
+        }
+      },
+      "host_source_coverage": {
+        "branches": {
+          "count": 0,
+          "covered": 0,
+          "notcovered": 0,
+          "percent": 0
+        },
+        "functions": {
+          "count": 1,
+          "covered": 1,
+          "percent": 100
+        },
+        "instantiations": {
+          "count": 1,
+          "covered": 1,
+          "percent": 100
+        },
+        "lines": {
+          "count": 8,
+          "covered": 8,
+          "percent": 100
+        },
+        "mcdc": {
+          "count": 0,
+          "covered": 0,
+          "notcovered": 0,
+          "percent": 0
+        },
+        "regions": {
+          "count": 1,
+          "covered": 1,
+          "notcovered": 0,
+          "percent": 100
+        }
+      }
+    }
+  ],
+  "method_count": 139,
+  "files": {
+    "recovery/source/Presentation/BlurButton.h": "e755143eb12a07cd6eb0fc0c54d921df689edad5e7f7572723bf6466376425e2",
+    "recovery/source/Presentation/BlurButton.m": "b5f9c282345a74c71200b01bb1a95fcdb83ebbbfa52a7d2045a2d7c32401cfad",
+    "recovery/source/Presentation/BlurButton.provenance.md": "151e339839502f4bf0d3ddc79868cae4ba05d3b2d05006a7329617daff97a51c",
+    "recovery/source/Presentation/CustomHUD.h": "68b4cc7c14c9bddc3daf4a45714e3c6573c530ec337e32f7521da02a9d84171b",
+    "recovery/source/Presentation/CustomHUD.m": "db8a9109e5a3e4fa33eb165c00c68c61e55918fe167fd48a50aa32fd49fb576c",
+    "recovery/source/Presentation/DVNImageViewController.h": "5858744c4f2f6fcb9c631dda41eb7443bc2d6a5a1ff9b549e50235e61bfa3977",
+    "recovery/source/Presentation/DVNImageViewController.m": "cc589b1df755c9ae50ffa68d9d6013640ccd3fdc24db2e834cf43da950a8bc2f",
+    "recovery/source/Presentation/DVNImageViewController.ui.provenance.md": "e921ed51f47b4229d59f63f351d331e84118cf2068dc6485233e68ec689c6317",
+    "recovery/source/Presentation/DVNSheetPresenter.h": "9258cd004f852cfd2f7303e012bffdba7e855da00e6819419ea53ba43ab48563",
+    "recovery/source/Presentation/DVNSheetPresenter.m": "bea200d4a3bd19ce308f5153c301ab77156434955bf976fac9f9205194488195",
+    "recovery/source/Presentation/PROVENANCE.md": "9c7a578847338cb276f74ad217ede7b82875580bc561a5127d4e1d90532526f9",
+    "recovery/source/Presentation/PlayerToast.h": "88f5e40f58cb82e66cc1173ddd4f468a6c6f0ef928591dcbc5e8859cf2f823d4",
+    "recovery/source/Presentation/PlayerToast.lifecycle.provenance.md": "ede20b7f92a4ce7e4e7ba66c060de5630cc2d3aea613095d5222048df8e10984",
+    "recovery/source/Presentation/PlayerToast.m": "ee644521acc70449297d10e78d43043200b275e84218737bafe5187dd88cdfc8",
+    "recovery/source/Presentation/PresentationGeometry.h": "35645fad9a4d62545ee728198a7950cd108cba88ae61c0199ef5f81a847929b2",
+    "recovery/source/Presentation/PresentationHost.h": "eb86b3a15c8c99081f3d1009a7a7ebf1c877c5b028eaa60d6d5773671bd01ff0",
+    "recovery/source/Presentation/PseudoDetentController.h": "fe4f914ae5ec7e2aec8b957daae30a574dd61be2565c7fb9c975ff2c3a8cbaa5",
+    "recovery/source/Presentation/PseudoDetentController.m": "0837a40012c7a687aa7cda66693ae045613a3289f19be8b6bdf50471f539cc41",
+    "recovery/source/Presentation/PseudoDetentTransitioningDelegate.h": "0acd91d42bcbfe256f063024695092f2ce21f1dd06a61686841a62f272efc30f",
+    "recovery/source/Presentation/PseudoDetentTransitioningDelegate.m": "10f26cf69885eacc16d1c36490d4da1814c10092720187ccca77ddafef3865e5",
+    "recovery/source/Presentation/SheetLifecycle.evidence.json": "c3047ed9d8e24ab82a9bb88e0190deb3ea0143878bc573d8a6b6cea29045a587",
+    "recovery/source/Presentation/SheetLifecycle.provenance.md": "95388d7d5c67155137b43d37793729be16c643b84858f8e4bb38cd15917d4cdb",
+    "recovery/source/Presentation/ToastManager.h": "5fcbd8f5607004023151b837243a4738c33940cf5e973b7512c29c8271c94973",
+    "recovery/source/Presentation/ToastManager.m": "e348f8fdf6665a563d50c1afd03346940868af538a9c76339c349ade88a62d8a",
+    "recovery/source/Presentation/ToastManager.provenance.md": "5babbcca7db8732b5bfb8f8c1f9fa3e7d3dee1c240dff084711437a1fa1d46f5",
+    "recovery/source/Presentation/ToastView.construction.provenance.md": "182bbf4691efab1771646e583af2a790fee5d3444f99823d5cfd2cec10da6bad",
+    "recovery/source/Presentation/ToastView.geometry.provenance.md": "b8d747158b351fcb2565ce3b420c3d4595439b53d773dcdf1b6b4a596abace8e",
+    "recovery/source/Presentation/ToastView.h": "e416a67729ab3223022403d38f0275c371b8edbc8450ee368d04152ae5599cf8",
+    "recovery/source/Presentation/ToastView.lifecycle.provenance.md": "344c4f00c862c9f5ee08f5d7afeb3bb4533bb1bb2671784bd70f29a591402da2",
+    "recovery/source/Presentation/ToastView.m": "27dbfcb4d3afc8553fcd3e4c7b42e2df9824a09f5f3094869ea1bbf39f372227",
+    "recovery/source/Presentation/ToastWindow.h": "a595362e5af833dd1b5d418776f73d188d55567e49fb1eb68ad6c162f8152804",
+    "recovery/source/Presentation/ToastWindow.lifecycle.evidence.json": "30c0f59ee0f03e0a7c1962b87254c8a4d26fa461e9f96d260dd42276145f2f07",
+    "recovery/source/Presentation/ToastWindow.lifecycle.provenance.md": "406236dd9a42489bf697d6edf40fdc4fb7355b98985e944aab8b249e03740c7b",
+    "recovery/source/Presentation/ToastWindow.m": "678a9e69ded1a43cbc28e16088f366501ec4b6e9fc3863eeb81cb295db590de9"
+  },
+  "unimplemented_declared_methods": [],
+  "missing_or_unverified": [
+    "No device UIKit rendering/layout/gesture/rotation validation; native tests use boundary doubles.",
+    "No live Photos permission/import, network transport, FFmpeg/media conversion, or user audio/brightness execution.",
+    "Original SVC/obfuscator scaffolding is not reproduced; complete functional class surfaces are retained.",
+    "Real private YouTube/MediaPlayer classes and on-device resource rendering remain outside these module fixtures; the separate integration report covers linking and packaged resources."
+  ],
+  "remaining_reconstruction_differences": [
+    "Device rendering and private host integration remain unverified; focused toast, window, sheet and image-viewer audits are documented in per-class provenance."
+  ],
+  "test_report_sha256": {
+    ".recovery-work/presentation-helpers/source-verification.json": "93f7d7e11f2cea97706cc7a41ccdb07366c771b0a840f7bc0c70af67e348fdf6",
+    ".recovery-work/presentation-helpers/runtime-verification.json": "d75926ef9a1aec973bee8023a218e8c55824d7b23049eaa8274f5aec04fd806b"
+  },
+  "host_runtime_assertions": 4762,
+  "host_runtime_suites": {
+    "Toast_queue_timer_window": 73,
+    "PlayerToast_state": 132,
+    "Toast_geometry_layout_observers": 757,
+    "BlurButton_CustomHUD": 26,
+    "ToastWindow_subclass_initialize_aliases": 12,
+    "Sheets_transition_ownership": 45,
+    "ImageViewer_zoom_menu_ownership": 127,
+    "YTLHelper_callbacks_media_fixtures": 3581
+  },
+  "sanitizer": "UndefinedBehaviorSanitizer",
+  "runtime_doubles_not_production": true,
+  "framework_link_dependencies": [
+    "Foundation",
+    "UIKit",
+    "QuartzCore",
+    "Photos",
+    "SystemConfiguration"
+  ],
+  "external_production_sources": [
+    "Downloads/YTPDownloader",
+    "Downloads/FFMpegHelper",
+    "Runtime/YTLBootstrapCrypto.h",
+    "restored NSBundle category"
+  ],
+  "shared_build_files_changed": false
+}

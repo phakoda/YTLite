@@ -1,3 +1,10 @@
 .theos/
 packages/
 .DS_Store
+.recovery-work/
+/vendor/theos/
+/vendor/YouTubeHeader/
+/vendor/recovery-logos/
+._*
+__pycache__/
+*.pyc

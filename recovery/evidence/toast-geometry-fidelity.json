@@ -1,0 +1,309 @@
+{
+  "binary_sha256": "bdcc4d4ccaa5835d35bc97ccbdfc1c3dff514cb7161848265dcc0585f364c0ca",
+  "functions": [
+    {
+      "start": "0x1be8a0",
+      "end": "0x1be9d8",
+      "sha256": "39b89547dca380b81ef90673301bb0103790ba9f2bdd55cf7b66d5d82146efb2"
+    },
+    {
+      "start": "0x1be9d8",
+      "end": "0x1bee14",
+      "sha256": "4110ffdfdeb60113b48273d6d5f1f15c7eb4d67cd8b8e5bab720e0fc61daa0ad"
+    }
+  ],
+  "branches": [
+    {
+      "address": "0x1be908",
+      "original": [
+        "0xd61f0100"
+      ],
+      "replacement": [
+        "0x14f9197d"
+      ],
+      "island": "0x4004efc",
+      "island_words": [
+        "0x54000040",
+        "0x1706e683",
+        "0x1706e6aa"
+      ],
+      "condition": "eq",
+      "flags_at": "0x1be8d0",
+      "targets": [
+        "0x1be90c",
+        "0x1be9ac"
+      ]
+    },
+    {
+      "address": "0x1beb98",
+      "original": [
+        "0xd61f0100"
+      ],
+      "replacement": [
+        "0x14f918dc"
+      ],
+      "island": "0x4004f08",
+      "island_words": [
+        "0x5400004c",
+        "0x1706e724",
+        "0x1706e746"
+      ],
+      "condition": "gt",
+      "flags_at": "0x1beb0c",
+      "targets": [
+        "0x1beb9c",
+        "0x1bec28"
+      ]
+    },
+    {
+      "address": "0x1bec24",
+      "original": [
+        "0xd61f0100"
+      ],
+      "replacement": [
+        "0x14f918bc"
+      ],
+      "island": "0x4004f14",
+      "island_words": [
+        "0x54000040",
+        "0x1706e757",
+        "0x1706e7ac"
+      ],
+      "condition": "eq",
+      "flags_at": "0x1bebf4",
+      "targets": [
+        "0x1bec74",
+        "0x1bedcc"
+      ]
+    },
+    {
+      "address": "0x1bec70",
+      "original": [
+        "0xd61f0100"
+      ],
+      "replacement": [
+        "0x14f918ac"
+      ],
+      "island": "0x4004f20",
+      "island_words": [
+        "0x54000040",
+        "0x1706e754",
+        "0x1706e7a9"
+      ],
+      "condition": "eq",
+      "flags_at": "0x1bec40",
+      "targets": [
+        "0x1bec74",
+        "0x1bedcc"
+      ]
+    },
+    {
+      "address": "0x1beca8",
+      "original": [
+        "0xd61f0100"
+      ],
+      "replacement": [
+        "0x14f918a1"
+      ],
+      "island": "0x4004f2c",
+      "island_words": [
+        "0x54000040",
+        "0x1706e75f",
+        "0x1706e771"
+      ],
+      "condition": "eq",
+      "flags_at": "0x1bec78",
+      "targets": [
+        "0x1becac",
+        "0x1becf8"
+      ]
+    },
+    {
+      "address": "0x1bece0",
+      "original": [
+        "0xd61f0100"
+      ],
+      "replacement": [
+        "0x14f91896"
+      ],
+      "island": "0x4004f38",
+      "island_words": [
+        "0x54000040",
+        "0x1706e76a",
+        "0x1706e78a"
+      ],
+      "condition": "eq",
+      "flags_at": "0x1becb0",
+      "targets": [
+        "0x1bece4",
+        "0x1bed68"
+      ]
+    },
+    {
+      "address": "0x1bed28",
+      "original": [
+        "0xd61f0100"
+      ],
+      "replacement": [
+        "0x14f91887"
+      ],
+      "island": "0x4004f44",
+      "island_words": [
+        "0x54000040",
+        "0x1706e779",
+        "0x1706e798"
+      ],
+      "condition": "eq",
+      "flags_at": "0x1becf8",
+      "targets": [
+        "0x1bed2c",
+        "0x1bedac"
+      ]
+    },
+    {
+      "address": "0x1bed5c",
+      "original": [
+        "0xd61f0100"
+      ],
+      "replacement": [
+        "0x14f9187d"
+      ],
+      "island": "0x4004f50",
+      "island_words": [
+        "0x54000048",
+        "0x1706e79e",
+        "0x1706e782"
+      ],
+      "condition": "hi",
+      "flags_at": "0x1bed2c",
+      "targets": [
+        "0x1bedcc",
+        "0x1bed60"
+      ]
+    },
+    {
+      "address": "0x1beda8",
+      "original": [
+        "0xd61f0100"
+      ],
+      "replacement": [
+        "0x14f9186d"
+      ],
+      "island": "0x4004f5c",
+      "island_words": [
+        "0x54000040",
+        "0x1706e793",
+        "0x1706e794"
+      ],
+      "condition": "eq",
+      "flags_at": "0x1bed74",
+      "targets": [
+        "0x1bedac",
+        "0x1bedb4"
+      ]
+    }
+  ],
+  "critical_instructions": [
+    {
+      "address": "0x1be960",
+      "word": "0x1e600908"
+    },
+    {
+      "address": "0x1beafc",
+      "word": "0xf90002c8"
+    },
+    {
+      "address": "0x1beb08",
+      "word": "0xfd000261"
+    },
+    {
+      "address": "0x1beb0c",
+      "word": "0x1e602108"
+    },
+    {
+      "address": "0x1beb10",
+      "word": "0x1a9fd7e8"
+    },
+    {
+      "address": "0x1bebcc",
+      "word": "0x1e612801"
+    },
+    {
+      "address": "0x1bebd0",
+      "word": "0x1e602008"
+    },
+    {
+      "address": "0x1bebd4",
+      "word": "0x1e62cc29"
+    },
+    {
+      "address": "0x1bebe0",
+      "word": "0x94001d58"
+    },
+    {
+      "address": "0x1bebe4",
+      "word": "0x1e692800"
+    },
+    {
+      "address": "0x1bebe8",
+      "word": "0x1e602900"
+    },
+    {
+      "address": "0x1bebec",
+      "word": "0x1e6b2800"
+    },
+    {
+      "address": "0x1bec34",
+      "word": "0x1e682800"
+    },
+    {
+      "address": "0x1bec38",
+      "word": "0x1e6b2800"
+    },
+    {
+      "address": "0x1bedb8",
+      "word": "0x1e612800"
+    },
+    {
+      "address": "0x1bedbc",
+      "word": "0xfd000280"
+    },
+    {
+      "address": "0x1bedc4",
+      "word": "0x1e612800"
+    },
+    {
+      "address": "0x1bedc8",
+      "word": "0xfd000260"
+    }
+  ],
+  "numeric_constants": [
+    {
+      "address": "0xc4c2e0",
+      "raw": "333333333333d33f"
+    },
+    {
+      "address": "0xc4c3b8",
+      "raw": "666666666666ee3f"
+    },
+    {
+      "address": "0xc4c3c8",
+      "raw": "0000000000707740"
+    }
+  ],
+  "omitted_supervisor_calls": [
+    {
+      "address": "0x1be9c0",
+      "word": "0xd407b6a1"
+    },
+    {
+      "address": "0x1bede8",
+      "word": "0xd4141c61"
+    }
+  ],
+  "limits": [
+    "Original anti-debug supervisor calls omitted; no replacement bypasses.",
+    "Native oracle is newly compiled isolated FPU arithmetic, not original executable instructions loaded from the package.",
+    "All output pointers in the fixture point to valid local doubles; no invalid-pointer or crash reproduction tests."
+  ]
+}

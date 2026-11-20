@@ -1,0 +1,73 @@
+{
+  "binary_sha256": "bdcc4d4ccaa5835d35bc97ccbdfc1c3dff514cb7161848265dcc0585f364c0ca",
+  "scope": [
+    "resizeImage:toSize: class and instance renderer inputs",
+    "genImageFromLayer:backgroundColor:completionHandler: frame read order, context fill and completion"
+  ],
+  "spans": [
+    {
+      "name": "instance resize",
+      "start": "0x22f724",
+      "end": "0x22f804",
+      "sha256": "94d9bff775e3bbb47683d1d507b49f25503a27cfca75c6320e07a091917e6848"
+    },
+    {
+      "name": "tinted renderer callback",
+      "start": "0x22f804",
+      "end": "0x22f9bc",
+      "sha256": "d98ee77bd05fcfc6c58fbe18e5b5bd2a9202091b0381acd2d5f193f66a656d30"
+    },
+    {
+      "name": "layer rendering",
+      "start": "0x231990",
+      "end": "0x231b28",
+      "sha256": "714e2b205d3115f4879749b6a44004b5301d8ec45fa7adf611228f276a5eb0f3"
+    },
+    {
+      "name": "class resize",
+      "start": "0x231b28",
+      "end": "0x231c08",
+      "sha256": "15f6558a82c57dfba290330e723607dfa23dba439a74fb6cb690f8f985348ca1"
+    },
+    {
+      "name": "untinted renderer callback",
+      "start": "0x231c08",
+      "end": "0x231d78",
+      "sha256": "139cf9cb4a93401ff34345eef5c5ea777326fbda47a673c413c279968fdb52af"
+    }
+  ],
+  "branches": [
+    {
+      "name": "nil completion branch",
+      "table": "0x11d1970",
+      "key_address": "0x11d1980",
+      "xor": "0xe83bab3d",
+      "targets": [
+        "0x231ad4",
+        "0x231ae4"
+      ]
+    }
+  ],
+  "selectors": [
+    {
+      "reference": "0x114c8b0",
+      "name": "frame"
+    },
+    {
+      "reference": "0x114c8c0",
+      "name": "CGColor"
+    },
+    {
+      "reference": "0x114b948",
+      "name": "renderInContext:"
+    },
+    {
+      "reference": "0x114b938",
+      "name": "initWithSize:"
+    },
+    {
+      "reference": "0x114b950",
+      "name": "imageWithActions:"
+    }
+  ]
+}

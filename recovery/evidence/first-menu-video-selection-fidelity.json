@@ -1,0 +1,1553 @@
+{
+  "class": "DownloadMenuHelper",
+  "binary_sha256": "59b0ddc0c8ca14863d20b0005c0c48e062e81a0df6611e213a3a66fa2b796023",
+  "spans": [
+    {
+      "start": "0x104f2c",
+      "end": "0x1065cc",
+      "sha256": "dc9ba7863c47e2eb98a5168e3df36471807d96ec263acc679642abcc7eb55d4b"
+    },
+    {
+      "start": "0x112660",
+      "end": "0x112d68",
+      "sha256": "35bc977fe7ea9785aa2182c1aa21c30d084a6a576074fa39102d211bdbfc68b3"
+    }
+  ],
+  "method_contracts": [
+    {
+      "kind": "-",
+      "selector": "downloadVideoWithFormat:withAudioFormats:fileName:extension:videoID:playerVC:sender:",
+      "encoding": "v72@0:8@16@24@32@40@48@56@64",
+      "address": "0x104f2c"
+    },
+    {
+      "kind": "-",
+      "selector": "downloadVideoWithFormat:audioFormat:fileName:extension:videoID:playerVC:sender:",
+      "encoding": "v72@0:8@16@24@32@40@48@56@64",
+      "address": "0x10618c"
+    }
+  ],
+  "strings": [
+    {
+      "address": "0x11872f0",
+      "value": "ytlAudioIndex"
+    },
+    {
+      "address": "0x11872b0",
+      "value": "EnglishNotFound"
+    },
+    {
+      "address": "0x11873c0",
+      "value": "downloadWithCaps"
+    },
+    {
+      "address": "0x1187380",
+      "value": "%@ - %@"
+    }
+  ],
+  "selectors": [
+    {
+      "name": "playerResponse",
+      "reference": "0x114c7c0",
+      "page_instruction": "0x1052d8",
+      "load_instruction": "0x1052dc"
+    },
+    {
+      "name": "respondsToSelector:",
+      "reference": "0x114af58",
+      "page_instruction": "0x1052e0",
+      "load_instruction": "0x1052e4"
+    },
+    {
+      "name": "contentPlayerResponse",
+      "reference": "0x114c7c8",
+      "page_instruction": "0x105324",
+      "load_instruction": "0x105328"
+    },
+    {
+      "name": "showAudioTrackSelector:sender:playerVC:completion:",
+      "reference": "0x114cf40",
+      "page_instruction": "0x105570",
+      "load_instruction": "0x105574"
+    },
+    {
+      "name": "getBestAudioFormat:playerVC:",
+      "reference": "0x114ce98",
+      "page_instruction": "0x1055d8",
+      "load_instruction": "0x1055dc"
+    },
+    {
+      "name": "getEnglishAudioTrack:",
+      "reference": "0x114cf38",
+      "page_instruction": "0x105604",
+      "load_instruction": "0x105608"
+    },
+    {
+      "name": "getDefaultAudioTrack:",
+      "reference": "0x114cf30",
+      "page_instruction": "0x1056bc",
+      "load_instruction": "0x1056c0"
+    },
+    {
+      "name": "ytl_defaultBundle",
+      "reference": "0x114ae50",
+      "page_instruction": "0x1056f8",
+      "load_instruction": "0x1056fc"
+    },
+    {
+      "name": "localizedStringForKey:value:table:",
+      "reference": "0x114b278",
+      "page_instruction": "0x105710",
+      "load_instruction": "0x105714"
+    },
+    {
+      "name": "showMessageWithText:isSuccess:",
+      "reference": "0x114c5b8",
+      "page_instruction": "0x1059e8",
+      "load_instruction": "0x1059ec"
+    },
+    {
+      "name": "hasCaptions:",
+      "reference": "0x114cf08",
+      "page_instruction": "0x105c10",
+      "load_instruction": "0x105c14"
+    },
+    {
+      "name": "URL",
+      "reference": "0x114c578",
+      "page_instruction": "0x105c5c",
+      "load_instruction": "0x105c60"
+    },
+    {
+      "name": "URLWithString:",
+      "reference": "0x114b3d0",
+      "page_instruction": "0x105c78",
+      "load_instruction": "0x105c7c"
+    },
+    {
+      "name": "contentLength",
+      "reference": "0x114cea0",
+      "page_instruction": "0x105ce8",
+      "load_instruction": "0x105cec"
+    },
+    {
+      "name": "approxDurationMs",
+      "reference": "0x114cec0",
+      "page_instruction": "0x105d18",
+      "load_instruction": "0x105d1c"
+    },
+    {
+      "name": "downloadVideoWithUrl:audioUrl:fileName:extension:videoID:videoSize:audioSize:duration:captions:playerVC:",
+      "reference": "0x114cec8",
+      "page_instruction": "0x105d28",
+      "load_instruction": "0x105d2c"
+    },
+    {
+      "name": "playerData",
+      "reference": "0x114c7d0",
+      "page_instruction": "0x105d74",
+      "load_instruction": "0x105d78"
+    },
+    {
+      "name": "videoDetails",
+      "reference": "0x114c7d8",
+      "page_instruction": "0x105d90",
+      "load_instruction": "0x105d94"
+    },
+    {
+      "name": "title",
+      "reference": "0x114c7f0",
+      "page_instruction": "0x105dac",
+      "load_instruction": "0x105db0"
+    },
+    {
+      "name": "author",
+      "reference": "0x114c7e8",
+      "page_instruction": "0x105e00",
+      "load_instruction": "0x105e04"
+    },
+    {
+      "name": "stringWithFormat:",
+      "reference": "0x114b378",
+      "page_instruction": "0x105e44",
+      "load_instruction": "0x105e48"
+    },
+    {
+      "name": "lowercaseString",
+      "reference": "0x114cf58",
+      "page_instruction": "0x105e70",
+      "load_instruction": "0x105e74"
+    },
+    {
+      "name": "downloadVideoWithFormat:audioFormat:fileName:extension:videoID:playerVC:sender:",
+      "reference": "0x114cf60",
+      "page_instruction": "0x105e90",
+      "load_instruction": "0x105e94"
+    },
+    {
+      "name": "getCaptionsUrlSheet:sender:completion:",
+      "reference": "0x114d030",
+      "page_instruction": "0x106238",
+      "load_instruction": "0x10623c"
+    },
+    {
+      "name": "URL",
+      "reference": "0x114c578",
+      "page_instruction": "0x10639c",
+      "load_instruction": "0x1063a0"
+    },
+    {
+      "name": "URLWithString:",
+      "reference": "0x114b3d0",
+      "page_instruction": "0x1063c8",
+      "load_instruction": "0x1063cc"
+    },
+    {
+      "name": "contentLength",
+      "reference": "0x114cea0",
+      "page_instruction": "0x10642c",
+      "load_instruction": "0x106430"
+    },
+    {
+      "name": "approxDurationMs",
+      "reference": "0x114cec0",
+      "page_instruction": "0x106454",
+      "load_instruction": "0x106458"
+    },
+    {
+      "name": "downloadVideoWithUrl:audioUrl:fileName:extension:videoID:videoSize:audioSize:duration:captions:playerVC:",
+      "reference": "0x114cec8",
+      "page_instruction": "0x106464",
+      "load_instruction": "0x106468"
+    }
+  ],
+  "selector_loads_required": true,
+  "branches": [
+    {
+      "label": "selection below2",
+      "table": "0x118a830",
+      "key": "0x118a840",
+      "xor": "0xb2d851d9",
+      "targets": [
+        "0x1054d8",
+        "0x1055a4"
+      ]
+    },
+    {
+      "label": "selection below3",
+      "table": "0x118a848",
+      "key": "0x118a858",
+      "xor": "0xb38a1f39",
+      "targets": [
+        "0x10550c",
+        "0x105604"
+      ]
+    },
+    {
+      "label": "selection equals3",
+      "table": "0x118a860",
+      "key": "0x118a870",
+      "xor": "0xf08807ab",
+      "targets": [
+        "0x105768",
+        "0x105540"
+      ]
+    },
+    {
+      "label": "selection below1",
+      "table": "0x118a878",
+      "key": "0x118a888",
+      "xor": "0xe34b60e7",
+      "targets": [
+        "0x1055d8",
+        "0x105684"
+      ]
+    },
+    {
+      "label": "selection zero",
+      "table": "0x118a890",
+      "key": "0x118a8a0",
+      "xor": "0x86d3ff86",
+      "targets": [
+        "0x105768",
+        "0x1056bc"
+      ]
+    },
+    {
+      "label": "missing English",
+      "table": "0x118a8c0",
+      "key": "0x118a8d0",
+      "xor": "0x77eebf68",
+      "targets": [
+        "0x105668",
+        "0x1056f0"
+      ]
+    },
+    {
+      "label": "error text",
+      "table": "0x118a928",
+      "key": "0x118a938",
+      "xor": "0x96bde566",
+      "targets": [
+        "0x1059cc",
+        "0x105bd4"
+      ]
+    },
+    {
+      "label": "caption preference",
+      "table": "0x118a948",
+      "key": "0x118a958",
+      "xor": "0xa6d8d60e",
+      "targets": [
+        "0x105c48",
+        "0x105c0c"
+      ]
+    },
+    {
+      "label": "caption availability",
+      "table": "0x118a960",
+      "key": "0x118a970",
+      "xor": "0x1f9ca8aa",
+      "targets": [
+        "0x105c48",
+        "0x105d70"
+      ]
+    },
+    {
+      "label": "selected format nil",
+      "table": "0x118a988",
+      "key": "0x118a998",
+      "xor": "0xcb8d4a6e",
+      "targets": [
+        "0x10609c",
+        "0x1060b0"
+      ]
+    },
+    {
+      "label": "caption URL nil",
+      "table": "0x118a9a8",
+      "key": "0x118a9b8",
+      "xor": "0x4dacaed8",
+      "targets": [
+        "0x106384",
+        "0x1064bc"
+      ]
+    }
+  ],
+  "calls": [
+    {
+      "address": "0x105294",
+      "target": "0xb97248"
+    },
+    {
+      "address": "0x1052a4",
+      "target": "0xb97248"
+    },
+    {
+      "address": "0x1052b4",
+      "target": "0xb97248"
+    },
+    {
+      "address": "0x1052bc",
+      "target": "0xb97248"
+    },
+    {
+      "address": "0x1052c4",
+      "target": "0xb97248"
+    },
+    {
+      "address": "0x1052cc",
+      "target": "0xb97248"
+    },
+    {
+      "address": "0x1052d4",
+      "target": "0xb97248"
+    },
+    {
+      "address": "0x1052f4",
+      "target": "0x112674"
+    },
+    {
+      "address": "0x105338",
+      "target": "0x11279c"
+    },
+    {
+      "address": "0x105370",
+      "target": "0x1127c0"
+    },
+    {
+      "address": "0x105378",
+      "target": "0xb9726c"
+    },
+    {
+      "address": "0x10542c",
+      "target": "0xb97248"
+    },
+    {
+      "address": "0x105438",
+      "target": "0xb97248"
+    },
+    {
+      "address": "0x105448",
+      "target": "0xb97248"
+    },
+    {
+      "address": "0x105458",
+      "target": "0xb97248"
+    },
+    {
+      "address": "0x105464",
+      "target": "0xb97248"
+    },
+    {
+      "address": "0x105470",
+      "target": "0xb97248"
+    },
+    {
+      "address": "0x105480",
+      "target": "0xb97248"
+    },
+    {
+      "address": "0x10548c",
+      "target": "0xb97278"
+    },
+    {
+      "address": "0x1054a0",
+      "target": "0x112820"
+    },
+    {
+      "address": "0x105568",
+      "target": "0xb97248"
+    },
+    {
+      "address": "0x105594",
+      "target": "0x1126d8"
+    },
+    {
+      "address": "0x10559c",
+      "target": "0xb9723c"
+    },
+    {
+      "address": "0x1055f4",
+      "target": "0x1126b8"
+    },
+    {
+      "address": "0x1055fc",
+      "target": "0xb9726c"
+    },
+    {
+      "address": "0x10561c",
+      "target": "0x112778"
+    },
+    {
+      "address": "0x105624",
+      "target": "0xb9726c"
+    },
+    {
+      "address": "0x105670",
+      "target": "0xb97248"
+    },
+    {
+      "address": "0x1056d4",
+      "target": "0x112698"
+    },
+    {
+      "address": "0x1056dc",
+      "target": "0xb9726c"
+    },
+    {
+      "address": "0x105700",
+      "target": "0x112718"
+    },
+    {
+      "address": "0x105708",
+      "target": "0xb9726c"
+    },
+    {
+      "address": "0x105728",
+      "target": "0x1126f8"
+    },
+    {
+      "address": "0x105730",
+      "target": "0xb9726c"
+    },
+    {
+      "address": "0x105744",
+      "target": "0xb9723c"
+    },
+    {
+      "address": "0x10574c",
+      "target": "0xb9723c"
+    },
+    {
+      "address": "0x105754",
+      "target": "0xb9723c"
+    },
+    {
+      "address": "0x105770",
+      "target": "0xb9723c"
+    },
+    {
+      "address": "0x105778",
+      "target": "0xb9723c"
+    },
+    {
+      "address": "0x105780",
+      "target": "0xb9723c"
+    },
+    {
+      "address": "0x105788",
+      "target": "0xb9723c"
+    },
+    {
+      "address": "0x105790",
+      "target": "0xb9723c"
+    },
+    {
+      "address": "0x105798",
+      "target": "0xb9723c"
+    },
+    {
+      "address": "0x1057a0",
+      "target": "0xb9723c"
+    },
+    {
+      "address": "0x1057a8",
+      "target": "0xb9723c"
+    },
+    {
+      "address": "0x1057b4",
+      "target": "0x112738"
+    },
+    {
+      "address": "0x1057bc",
+      "target": "0xb9723c"
+    },
+    {
+      "address": "0x1057c8",
+      "target": "0x112758"
+    },
+    {
+      "address": "0x1057d0",
+      "target": "0xb9723c"
+    },
+    {
+      "address": "0x1057d8",
+      "target": "0xb9723c"
+    },
+    {
+      "address": "0x1057e0",
+      "target": "0xb9723c"
+    },
+    {
+      "address": "0x1057e8",
+      "target": "0xb9723c"
+    },
+    {
+      "address": "0x1057f0",
+      "target": "0xb9723c"
+    },
+    {
+      "address": "0x1057f8",
+      "target": "0xb9723c"
+    },
+    {
+      "address": "0x105804",
+      "target": "0xb9723c"
+    },
+    {
+      "address": "0x105810",
+      "target": "0xb9723c"
+    },
+    {
+      "address": "0x10581c",
+      "target": "0xb9723c"
+    },
+    {
+      "address": "0x105854",
+      "target": "0x1127e0"
+    },
+    {
+      "address": "0x105860",
+      "target": "0x112800"
+    },
+    {
+      "address": "0x105880",
+      "target": "0xb96840"
+    },
+    {
+      "address": "0x1058b8",
+      "target": "0xb9723c"
+    },
+    {
+      "address": "0x1059d4",
+      "target": "0x112abc"
+    },
+    {
+      "address": "0x1059f4",
+      "target": "0x112adc"
+    },
+    {
+      "address": "0x105bdc",
+      "target": "0x112b24"
+    },
+    {
+      "address": "0x105c18",
+      "target": "0x112b00"
+    },
+    {
+      "address": "0x105c68",
+      "target": "0x112840"
+    },
+    {
+      "address": "0x105c70",
+      "target": "0xb9726c"
+    },
+    {
+      "address": "0x105c8c",
+      "target": "0x112860"
+    },
+    {
+      "address": "0x105c94",
+      "target": "0xb9726c"
+    },
+    {
+      "address": "0x105cb0",
+      "target": "0x112880"
+    },
+    {
+      "address": "0x105cb8",
+      "target": "0xb9726c"
+    },
+    {
+      "address": "0x105ccc",
+      "target": "0x1128a0"
+    },
+    {
+      "address": "0x105cd4",
+      "target": "0xb9726c"
+    },
+    {
+      "address": "0x105cf4",
+      "target": "0x1128c0"
+    },
+    {
+      "address": "0x105d0c",
+      "target": "0x1128e0"
+    },
+    {
+      "address": "0x105d20",
+      "target": "0x112900"
+    },
+    {
+      "address": "0x105d54",
+      "target": "0x112938"
+    },
+    {
+      "address": "0x105d5c",
+      "target": "0xb9723c"
+    },
+    {
+      "address": "0x105d64",
+      "target": "0xb9723c"
+    },
+    {
+      "address": "0x105d80",
+      "target": "0x112970"
+    },
+    {
+      "address": "0x105d88",
+      "target": "0xb9726c"
+    },
+    {
+      "address": "0x105d9c",
+      "target": "0x112990"
+    },
+    {
+      "address": "0x105da4",
+      "target": "0xb9726c"
+    },
+    {
+      "address": "0x105db4",
+      "target": "0x1129b0"
+    },
+    {
+      "address": "0x105dbc",
+      "target": "0xb9726c"
+    },
+    {
+      "address": "0x105dc8",
+      "target": "0xb9723c"
+    },
+    {
+      "address": "0x105dd0",
+      "target": "0xb9723c"
+    },
+    {
+      "address": "0x105ddc",
+      "target": "0x1129d0"
+    },
+    {
+      "address": "0x105de4",
+      "target": "0xb9726c"
+    },
+    {
+      "address": "0x105df0",
+      "target": "0x1129f0"
+    },
+    {
+      "address": "0x105df8",
+      "target": "0xb9726c"
+    },
+    {
+      "address": "0x105e08",
+      "target": "0x112a10"
+    },
+    {
+      "address": "0x105e10",
+      "target": "0xb9726c"
+    },
+    {
+      "address": "0x105e1c",
+      "target": "0xb9723c"
+    },
+    {
+      "address": "0x105e24",
+      "target": "0xb9723c"
+    },
+    {
+      "address": "0x105e5c",
+      "target": "0x112a3c"
+    },
+    {
+      "address": "0x105e64",
+      "target": "0xb9726c"
+    },
+    {
+      "address": "0x105e78",
+      "target": "0x112a5c"
+    },
+    {
+      "address": "0x105e80",
+      "target": "0xb9726c"
+    },
+    {
+      "address": "0x105eb0",
+      "target": "0x112a8c"
+    },
+    {
+      "address": "0x105eb8",
+      "target": "0xb9723c"
+    },
+    {
+      "address": "0x105ec0",
+      "target": "0xb9723c"
+    },
+    {
+      "address": "0x105ec8",
+      "target": "0xb9723c"
+    },
+    {
+      "address": "0x105ed0",
+      "target": "0xb9723c"
+    },
+    {
+      "address": "0x105f24",
+      "target": "0xb97248"
+    },
+    {
+      "address": "0x105f2c",
+      "target": "0xb97248"
+    },
+    {
+      "address": "0x105f34",
+      "target": "0xb97248"
+    },
+    {
+      "address": "0x105f3c",
+      "target": "0xb97248"
+    },
+    {
+      "address": "0x105f44",
+      "target": "0xb97248"
+    },
+    {
+      "address": "0x105f4c",
+      "target": "0xb97248"
+    },
+    {
+      "address": "0x105f54",
+      "target": "0xb97248"
+    },
+    {
+      "address": "0x105f5c",
+      "target": "0xb97248"
+    },
+    {
+      "address": "0x105f6c",
+      "target": "0x112b48"
+    },
+    {
+      "address": "0x105f7c",
+      "target": "0x112b68"
+    },
+    {
+      "address": "0x105fbc",
+      "target": "0x112b88"
+    },
+    {
+      "address": "0x105fc8",
+      "target": "0x112ba8"
+    },
+    {
+      "address": "0x105fd0",
+      "target": "0xb9723c"
+    },
+    {
+      "address": "0x105fd8",
+      "target": "0xb9723c"
+    },
+    {
+      "address": "0x105fe0",
+      "target": "0xb9723c"
+    },
+    {
+      "address": "0x105fe8",
+      "target": "0xb9723c"
+    },
+    {
+      "address": "0x105ff0",
+      "target": "0xb9723c"
+    },
+    {
+      "address": "0x105ff8",
+      "target": "0xb9723c"
+    },
+    {
+      "address": "0x106000",
+      "target": "0xb9723c"
+    },
+    {
+      "address": "0x106008",
+      "target": "0xb9723c"
+    },
+    {
+      "address": "0x106058",
+      "target": "0xb97248"
+    },
+    {
+      "address": "0x1060ac",
+      "target": "0xb9729c"
+    },
+    {
+      "address": "0x1060c0",
+      "target": "0xb9723c"
+    },
+    {
+      "address": "0x10610c",
+      "target": "0x112bc8"
+    },
+    {
+      "address": "0x10611c",
+      "target": "0x112be8"
+    },
+    {
+      "address": "0x10615c",
+      "target": "0x112c08"
+    },
+    {
+      "address": "0x106164",
+      "target": "0xb9723c"
+    },
+    {
+      "address": "0x1061d0",
+      "target": "0xb97248"
+    },
+    {
+      "address": "0x1061d8",
+      "target": "0xb97248"
+    },
+    {
+      "address": "0x1061e0",
+      "target": "0xb97248"
+    },
+    {
+      "address": "0x1061e8",
+      "target": "0xb97248"
+    },
+    {
+      "address": "0x1061f0",
+      "target": "0xb97248"
+    },
+    {
+      "address": "0x1061f8",
+      "target": "0xb97248"
+    },
+    {
+      "address": "0x106240",
+      "target": "0xb97248"
+    },
+    {
+      "address": "0x106248",
+      "target": "0xb97248"
+    },
+    {
+      "address": "0x106250",
+      "target": "0xb97248"
+    },
+    {
+      "address": "0x106258",
+      "target": "0xb97248"
+    },
+    {
+      "address": "0x106260",
+      "target": "0xb97248"
+    },
+    {
+      "address": "0x106268",
+      "target": "0xb97248"
+    },
+    {
+      "address": "0x106280",
+      "target": "0x112c28"
+    },
+    {
+      "address": "0x106288",
+      "target": "0xb9723c"
+    },
+    {
+      "address": "0x106290",
+      "target": "0xb9723c"
+    },
+    {
+      "address": "0x106298",
+      "target": "0xb9723c"
+    },
+    {
+      "address": "0x1062a0",
+      "target": "0xb9723c"
+    },
+    {
+      "address": "0x1062a8",
+      "target": "0xb9723c"
+    },
+    {
+      "address": "0x1062b0",
+      "target": "0xb9723c"
+    },
+    {
+      "address": "0x1062b8",
+      "target": "0xb9723c"
+    },
+    {
+      "address": "0x1062c0",
+      "target": "0xb9723c"
+    },
+    {
+      "address": "0x1062c8",
+      "target": "0xb9723c"
+    },
+    {
+      "address": "0x1062d0",
+      "target": "0xb9723c"
+    },
+    {
+      "address": "0x1062d8",
+      "target": "0xb9723c"
+    },
+    {
+      "address": "0x1062e0",
+      "target": "0xb9723c"
+    },
+    {
+      "address": "0x1063a8",
+      "target": "0xb97248"
+    },
+    {
+      "address": "0x1063b4",
+      "target": "0x112c48"
+    },
+    {
+      "address": "0x1063bc",
+      "target": "0xb9726c"
+    },
+    {
+      "address": "0x1063d8",
+      "target": "0x112c68"
+    },
+    {
+      "address": "0x1063e0",
+      "target": "0xb9726c"
+    },
+    {
+      "address": "0x1063f4",
+      "target": "0x112c88"
+    },
+    {
+      "address": "0x1063fc",
+      "target": "0xb9726c"
+    },
+    {
+      "address": "0x106410",
+      "target": "0x112ca8"
+    },
+    {
+      "address": "0x106418",
+      "target": "0xb9726c"
+    },
+    {
+      "address": "0x106438",
+      "target": "0x112cc8"
+    },
+    {
+      "address": "0x106448",
+      "target": "0x112ce8"
+    },
+    {
+      "address": "0x10645c",
+      "target": "0x112d08"
+    },
+    {
+      "address": "0x106490",
+      "target": "0x112d40"
+    },
+    {
+      "address": "0x106498",
+      "target": "0xb9723c"
+    },
+    {
+      "address": "0x1064a0",
+      "target": "0xb9723c"
+    },
+    {
+      "address": "0x1064a8",
+      "target": "0xb9723c"
+    },
+    {
+      "address": "0x1064b0",
+      "target": "0xb9723c"
+    },
+    {
+      "address": "0x1064b8",
+      "target": "0xb9723c"
+    },
+    {
+      "address": "0x106508",
+      "target": "0xb97248"
+    },
+    {
+      "address": "0x106510",
+      "target": "0xb97248"
+    },
+    {
+      "address": "0x106518",
+      "target": "0xb97248"
+    },
+    {
+      "address": "0x106520",
+      "target": "0xb97248"
+    },
+    {
+      "address": "0x106528",
+      "target": "0xb97248"
+    },
+    {
+      "address": "0x106530",
+      "target": "0xb97248"
+    },
+    {
+      "address": "0x106538",
+      "target": "0xb97248"
+    },
+    {
+      "address": "0x106574",
+      "target": "0xb9723c"
+    },
+    {
+      "address": "0x10657c",
+      "target": "0xb9723c"
+    },
+    {
+      "address": "0x106584",
+      "target": "0xb9723c"
+    },
+    {
+      "address": "0x10658c",
+      "target": "0xb9723c"
+    },
+    {
+      "address": "0x106594",
+      "target": "0xb9723c"
+    },
+    {
+      "address": "0x10659c",
+      "target": "0xb9723c"
+    },
+    {
+      "address": "0x1065a4",
+      "target": "0xb9723c"
+    },
+    {
+      "address": "0x112664",
+      "target": "0xb97224"
+    },
+    {
+      "address": "0x112678",
+      "target": "0x112660"
+    },
+    {
+      "address": "0x11268c",
+      "target": "0xb97224"
+    },
+    {
+      "address": "0x11269c",
+      "target": "0x112688"
+    },
+    {
+      "address": "0x1126ac",
+      "target": "0xb97224"
+    },
+    {
+      "address": "0x1126bc",
+      "target": "0x1126a8"
+    },
+    {
+      "address": "0x1126cc",
+      "target": "0xb97224"
+    },
+    {
+      "address": "0x1126dc",
+      "target": "0x1126c8"
+    },
+    {
+      "address": "0x1126ec",
+      "target": "0xb97224"
+    },
+    {
+      "address": "0x1126fc",
+      "target": "0x1126e8"
+    },
+    {
+      "address": "0x11270c",
+      "target": "0xb97224"
+    },
+    {
+      "address": "0x11271c",
+      "target": "0x112708"
+    },
+    {
+      "address": "0x11272c",
+      "target": "0xb96834"
+    },
+    {
+      "address": "0x11273c",
+      "target": "0x112728"
+    },
+    {
+      "address": "0x11274c",
+      "target": "0xb96834"
+    },
+    {
+      "address": "0x11275c",
+      "target": "0x112748"
+    },
+    {
+      "address": "0x11276c",
+      "target": "0xb97224"
+    },
+    {
+      "address": "0x11277c",
+      "target": "0x112768"
+    },
+    {
+      "address": "0x11278c",
+      "target": "0xb97224"
+    },
+    {
+      "address": "0x1127a0",
+      "target": "0x112788"
+    },
+    {
+      "address": "0x1127b4",
+      "target": "0xb97224"
+    },
+    {
+      "address": "0x1127c4",
+      "target": "0x1127b0"
+    },
+    {
+      "address": "0x1127d4",
+      "target": "0xb96834"
+    },
+    {
+      "address": "0x1127e4",
+      "target": "0x1127d0"
+    },
+    {
+      "address": "0x1127f4",
+      "target": "0xb96834"
+    },
+    {
+      "address": "0x112804",
+      "target": "0x1127f0"
+    },
+    {
+      "address": "0x112814",
+      "target": "0x23410"
+    },
+    {
+      "address": "0x112824",
+      "target": "0x112810"
+    },
+    {
+      "address": "0x112834",
+      "target": "0xb97224"
+    },
+    {
+      "address": "0x112844",
+      "target": "0x112830"
+    },
+    {
+      "address": "0x112854",
+      "target": "0xb97224"
+    },
+    {
+      "address": "0x112864",
+      "target": "0x112850"
+    },
+    {
+      "address": "0x112874",
+      "target": "0xb97224"
+    },
+    {
+      "address": "0x112884",
+      "target": "0x112870"
+    },
+    {
+      "address": "0x112894",
+      "target": "0xb97224"
+    },
+    {
+      "address": "0x1128a4",
+      "target": "0x112890"
+    },
+    {
+      "address": "0x1128b4",
+      "target": "0xb97224"
+    },
+    {
+      "address": "0x1128c4",
+      "target": "0x1128b0"
+    },
+    {
+      "address": "0x1128d4",
+      "target": "0xb97224"
+    },
+    {
+      "address": "0x1128e4",
+      "target": "0x1128d0"
+    },
+    {
+      "address": "0x1128f4",
+      "target": "0xb97224"
+    },
+    {
+      "address": "0x112904",
+      "target": "0x1128f0"
+    },
+    {
+      "address": "0x112928",
+      "target": "0xb97224"
+    },
+    {
+      "address": "0x112950",
+      "target": "0x112910"
+    },
+    {
+      "address": "0x112964",
+      "target": "0xb97224"
+    },
+    {
+      "address": "0x112974",
+      "target": "0x112960"
+    },
+    {
+      "address": "0x112984",
+      "target": "0xb97224"
+    },
+    {
+      "address": "0x112994",
+      "target": "0x112980"
+    },
+    {
+      "address": "0x1129a4",
+      "target": "0xb97224"
+    },
+    {
+      "address": "0x1129b4",
+      "target": "0x1129a0"
+    },
+    {
+      "address": "0x1129c4",
+      "target": "0xb97224"
+    },
+    {
+      "address": "0x1129d4",
+      "target": "0x1129c0"
+    },
+    {
+      "address": "0x1129e4",
+      "target": "0xb97224"
+    },
+    {
+      "address": "0x1129f4",
+      "target": "0x1129e0"
+    },
+    {
+      "address": "0x112a04",
+      "target": "0xb97224"
+    },
+    {
+      "address": "0x112a14",
+      "target": "0x112a00"
+    },
+    {
+      "address": "0x112a2c",
+      "target": "0xb97224"
+    },
+    {
+      "address": "0x112a40",
+      "target": "0x112a20"
+    },
+    {
+      "address": "0x112a50",
+      "target": "0xb97224"
+    },
+    {
+      "address": "0x112a60",
+      "target": "0x112a4c"
+    },
+    {
+      "address": "0x112a7c",
+      "target": "0xb97224"
+    },
+    {
+      "address": "0x112a9c",
+      "target": "0x112a6c"
+    },
+    {
+      "address": "0x112ab0",
+      "target": "0xb97158"
+    },
+    {
+      "address": "0x112ac0",
+      "target": "0x112aac"
+    },
+    {
+      "address": "0x112ad0",
+      "target": "0xb97224"
+    },
+    {
+      "address": "0x112ae0",
+      "target": "0x112acc"
+    },
+    {
+      "address": "0x112af0",
+      "target": "0xb97224"
+    },
+    {
+      "address": "0x112b04",
+      "target": "0x112aec"
+    },
+    {
+      "address": "0x112b18",
+      "target": "0x23274"
+    },
+    {
+      "address": "0x112b28",
+      "target": "0x112b14"
+    },
+    {
+      "address": "0x112b3c",
+      "target": "0xb96828"
+    },
+    {
+      "address": "0x112b4c",
+      "target": "0x112b38"
+    },
+    {
+      "address": "0x112b5c",
+      "target": "0xb96828"
+    },
+    {
+      "address": "0x112b6c",
+      "target": "0x112b58"
+    },
+    {
+      "address": "0x112b7c",
+      "target": "0xb96834"
+    },
+    {
+      "address": "0x112b8c",
+      "target": "0x112b78"
+    },
+    {
+      "address": "0x112b9c",
+      "target": "0xb96834"
+    },
+    {
+      "address": "0x112bac",
+      "target": "0x112b98"
+    },
+    {
+      "address": "0x112bbc",
+      "target": "0xb96828"
+    },
+    {
+      "address": "0x112bcc",
+      "target": "0x112bb8"
+    },
+    {
+      "address": "0x112bdc",
+      "target": "0xb96828"
+    },
+    {
+      "address": "0x112bec",
+      "target": "0x112bd8"
+    },
+    {
+      "address": "0x112bfc",
+      "target": "0xb96834"
+    },
+    {
+      "address": "0x112c0c",
+      "target": "0x112bf8"
+    },
+    {
+      "address": "0x112c1c",
+      "target": "0xb97224"
+    },
+    {
+      "address": "0x112c2c",
+      "target": "0x112c18"
+    },
+    {
+      "address": "0x112c3c",
+      "target": "0xb97224"
+    },
+    {
+      "address": "0x112c4c",
+      "target": "0x112c38"
+    },
+    {
+      "address": "0x112c5c",
+      "target": "0xb97224"
+    },
+    {
+      "address": "0x112c6c",
+      "target": "0x112c58"
+    },
+    {
+      "address": "0x112c7c",
+      "target": "0xb97224"
+    },
+    {
+      "address": "0x112c8c",
+      "target": "0x112c78"
+    },
+    {
+      "address": "0x112c9c",
+      "target": "0xb97224"
+    },
+    {
+      "address": "0x112cac",
+      "target": "0x112c98"
+    },
+    {
+      "address": "0x112cbc",
+      "target": "0xb97224"
+    },
+    {
+      "address": "0x112ccc",
+      "target": "0x112cb8"
+    },
+    {
+      "address": "0x112cdc",
+      "target": "0xb97224"
+    },
+    {
+      "address": "0x112cec",
+      "target": "0x112cd8"
+    },
+    {
+      "address": "0x112cfc",
+      "target": "0xb97224"
+    },
+    {
+      "address": "0x112d0c",
+      "target": "0x112cf8"
+    },
+    {
+      "address": "0x112d30",
+      "target": "0xb97224"
+    },
+    {
+      "address": "0x112d58",
+      "target": "0x112d18"
+    }
+  ],
+  "excluded_instructions": [
+    {
+      "address": "0x105878",
+      "word": "0xd40027e1"
+    },
+    {
+      "address": "0x1058a4",
+      "word": "0xd41e0401"
+    },
+    {
+      "address": "0x1058d0",
+      "word": "0xd41c1f61"
+    },
+    {
+      "address": "0x105ee8",
+      "word": "0xd4191ce1"
+    },
+    {
+      "address": "0x105f94",
+      "word": "0xd41ed041"
+    },
+    {
+      "address": "0x106020",
+      "word": "0xd4119741"
+    },
+    {
+      "address": "0x1060d8",
+      "word": "0xd40445e1"
+    },
+    {
+      "address": "0x106134",
+      "word": "0xd4154841"
+    },
+    {
+      "address": "0x10617c",
+      "word": "0xd40e31c1"
+    },
+    {
+      "address": "0x1062f8",
+      "word": "0xd41f05a1"
+    },
+    {
+      "address": "0x1064d0",
+      "word": "0xd41d0fe1"
+    },
+    {
+      "address": "0x106550",
+      "word": "0xd41dc861"
+    },
+    {
+      "address": "0x1065bc",
+      "word": "0xd4070441"
+    }
+  ]
+}

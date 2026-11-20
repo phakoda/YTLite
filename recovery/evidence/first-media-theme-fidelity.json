@@ -1,0 +1,465 @@
+{
+  "class": "YTPMedia",
+  "binary_sha256": "59b0ddc0c8ca14863d20b0005c0c48e062e81a0df6611e213a3a66fa2b796023",
+  "spans": [
+    {
+      "start": "0x1aa098",
+      "end": "0x1aa14c",
+      "sha256": "8e5ac8d2e17d11f1644087fb69c06ebc9d5fc351bfd8c5b5d859d80ae9a11684"
+    },
+    {
+      "start": "0x1aa14c",
+      "end": "0x1aa174",
+      "sha256": "0648e5e9d7bbf2ca0bccfda4d8eaebfb1b96450c1be3928bfe161eba3c61338c"
+    },
+    {
+      "start": "0x1aa174",
+      "end": "0x1aa2f8",
+      "sha256": "9c990d3be63cac6fe88bee4ebbbece7db6f893192a5d978a5457e46809f2af27"
+    },
+    {
+      "start": "0x1aa2f8",
+      "end": "0x1aa4a4",
+      "sha256": "8573ca53abb174e86f38306d28b66d77a7344a2241d456f0806c4a14d277cda7"
+    },
+    {
+      "start": "0x1aa4a4",
+      "end": "0x1aa5d4",
+      "sha256": "d856c68b095365659ddb8549604100ecafc670a2836fe9cd615bae6027a3d597"
+    },
+    {
+      "start": "0x1aa5d4",
+      "end": "0x1aa8cc",
+      "sha256": "7eaa587cfa767e06a43da029de98a142d2dd2a07938b36176167d21993b9a2a4"
+    },
+    {
+      "start": "0x1aa8cc",
+      "end": "0x1aa920",
+      "sha256": "21c1394ec6bcab83b98688ec9033ea3ddf5c046cbebb2ac08dacca0eb2526f58"
+    },
+    {
+      "start": "0x1aa920",
+      "end": "0x1aab50",
+      "sha256": "85c72a4f8233644b85b1759245107af3575f43f111e057f205bd120a8c4c0132"
+    },
+    {
+      "start": "0x1b5e88",
+      "end": "0x1b63d8",
+      "sha256": "62cb46e66a66ace212ff10fc8bf4743e5f3ddc9cb30805ae0ded84f26857fc6f"
+    },
+    {
+      "start": "0x1b63d8",
+      "end": "0x1b6720",
+      "sha256": "a1f085587cda13c7c99d8f955a09a1cd9664d5e61befa41319fca7d35a6faf15"
+    },
+    {
+      "start": "0x1b6720",
+      "end": "0x1b6728",
+      "sha256": "04d63990d737e9b1c54f43eb89304f2b27873d85e0b71a0f00dd4109dbb6e578"
+    },
+    {
+      "start": "0x1b6bbc",
+      "end": "0x1b6f24",
+      "sha256": "bb6489b59cee59e65aaf5776af06a7c2d9cae78d20bf63738912b8d45ad3bdc0"
+    },
+    {
+      "start": "0x1b8e0c",
+      "end": "0x1b8f1c",
+      "sha256": "5a73c25aa749e0ee53930b07f3b2e7c2e9623544cd249abf93eec15c0ba48632"
+    }
+  ],
+  "method_contracts": [
+    {
+      "kind": "-",
+      "selector": "setCairo:",
+      "encoding": "v20@0:8B16",
+      "address": "0x1b63d8"
+    },
+    {
+      "kind": "-",
+      "selector": "isCairo",
+      "encoding": "B16@0:8",
+      "address": "0x1b6720"
+    },
+    {
+      "kind": "+",
+      "selector": "sharedMedia",
+      "encoding": "@16@0:8",
+      "address": "0x1aa098"
+    },
+    {
+      "kind": "+",
+      "selector": "pageStyle",
+      "encoding": "q16@0:8",
+      "address": "0x1aa174"
+    },
+    {
+      "kind": "+",
+      "selector": "adaptiveBackgroundColor",
+      "encoding": "@16@0:8",
+      "address": "0x1aa2f8"
+    },
+    {
+      "kind": "+",
+      "selector": "oledForColor:",
+      "encoding": "@24@0:8@16",
+      "address": "0x1aa5d4"
+    },
+    {
+      "kind": "+",
+      "selector": "imageWithName:",
+      "encoding": "@24@0:8@16",
+      "address": "0x1aa920"
+    },
+    {
+      "kind": "+",
+      "selector": "adaptiveDiscord",
+      "encoding": "@16@0:8",
+      "address": "0x1b5e88"
+    }
+  ],
+  "selector_loads_required": true,
+  "selectors": [
+    {
+      "name": "sharedApplication",
+      "reference": "0x114b528",
+      "page_instruction": "0x1aa1a0",
+      "load_instruction": "0x1aa1a4"
+    },
+    {
+      "name": "delegate",
+      "reference": "0x114b530",
+      "page_instruction": "0x1aa1b8",
+      "load_instruction": "0x1aa1bc"
+    },
+    {
+      "name": "responderRoot",
+      "reference": "0x114dc98",
+      "page_instruction": "0x1aa1d8",
+      "load_instruction": "0x1aa1dc"
+    },
+    {
+      "name": "respondsToSelector:",
+      "reference": "0x114af58",
+      "page_instruction": "0x1aa1e0",
+      "load_instruction": "0x1aa1e4"
+    },
+    {
+      "name": "pageStyle",
+      "reference": "0x114c698",
+      "page_instruction": "0x1aa258",
+      "load_instruction": "0x1aa25c"
+    },
+    {
+      "name": "boolForKey:",
+      "reference": "0x114ada8",
+      "page_instruction": "0x1aa424",
+      "load_instruction": "0x1aa428"
+    },
+    {
+      "name": "colorWithDynamicProvider:",
+      "reference": "0x114c558",
+      "page_instruction": "0x1aa474",
+      "load_instruction": "0x1aa478"
+    },
+    {
+      "name": "pageStyle",
+      "reference": "0x114c698",
+      "page_instruction": "0x1aa4c8",
+      "load_instruction": "0x1aa4cc"
+    },
+    {
+      "name": "whiteColor",
+      "reference": "0x114b080",
+      "page_instruction": "0x1aa52c",
+      "load_instruction": "0x1aa530"
+    },
+    {
+      "name": "blackColor",
+      "reference": "0x114c400",
+      "page_instruction": "0x1aa584",
+      "load_instruction": "0x1aa588"
+    },
+    {
+      "name": "colorWithRed:green:blue:alpha:",
+      "reference": "0x114c5f8",
+      "page_instruction": "0x1aa59c",
+      "load_instruction": "0x1aa5a0"
+    },
+    {
+      "name": "pageStyle",
+      "reference": "0x114c698",
+      "page_instruction": "0x1aa604",
+      "load_instruction": "0x1aa608"
+    },
+    {
+      "name": "getRed:green:blue:alpha:",
+      "reference": "0x114dca0",
+      "page_instruction": "0x1aa69c",
+      "load_instruction": "0x1aa6a0"
+    },
+    {
+      "name": "colorWithDynamicProvider:",
+      "reference": "0x114c558",
+      "page_instruction": "0x1aa8ac",
+      "load_instruction": "0x1aa8b0"
+    },
+    {
+      "name": "pageStyle",
+      "reference": "0x114c698",
+      "page_instruction": "0x1aa8d8",
+      "load_instruction": "0x1aa8dc"
+    },
+    {
+      "name": "sharedMedia",
+      "reference": "0x114ccd8",
+      "page_instruction": "0x1aaa28",
+      "load_instruction": "0x1aaa2c"
+    },
+    {
+      "name": "isCairo",
+      "reference": "0x114dca8",
+      "page_instruction": "0x1aaa50",
+      "load_instruction": "0x1aaa54"
+    },
+    {
+      "name": "ytl_defaultBundle",
+      "reference": "0x114ae50",
+      "page_instruction": "0x1aaa70",
+      "load_instruction": "0x1aaa74"
+    },
+    {
+      "name": "imageWithName:",
+      "reference": "0x114c5b0",
+      "page_instruction": "0x1aaab4",
+      "load_instruction": "0x1aaab8"
+    },
+    {
+      "name": "stringByAppendingString:",
+      "reference": "0x114b380",
+      "page_instruction": "0x1aaad8",
+      "load_instruction": "0x1aaadc"
+    },
+    {
+      "name": "imageWithName:",
+      "reference": "0x114c5b0",
+      "page_instruction": "0x1aab04",
+      "load_instruction": "0x1aab08"
+    },
+    {
+      "name": "boolForKey:",
+      "reference": "0x114ada8",
+      "page_instruction": "0x1b62fc",
+      "load_instruction": "0x1b6300"
+    },
+    {
+      "name": "sharedMedia",
+      "reference": "0x114ccd8",
+      "page_instruction": "0x1b631c",
+      "load_instruction": "0x1b6320"
+    },
+    {
+      "name": "isCairo",
+      "reference": "0x114dca8",
+      "page_instruction": "0x1b6334",
+      "load_instruction": "0x1b6338"
+    },
+    {
+      "name": "ytl_defaultBundle",
+      "reference": "0x114ae50",
+      "page_instruction": "0x1b6354",
+      "load_instruction": "0x1b6358"
+    },
+    {
+      "name": "mainBundle",
+      "reference": "0x114adf8",
+      "page_instruction": "0x1b6684",
+      "load_instruction": "0x1b6688"
+    },
+    {
+      "name": "objectForInfoDictionaryKey:",
+      "reference": "0x114ae00",
+      "page_instruction": "0x1b669c",
+      "load_instruction": "0x1b66a0"
+    },
+    {
+      "name": "compare:options:",
+      "reference": "0x114ae08",
+      "page_instruction": "0x1b66c4",
+      "load_instruction": "0x1b66c8"
+    }
+  ],
+  "strings": [
+    {
+      "address": "0x11aed10",
+      "value": "oledTheme"
+    },
+    {
+      "address": "0x11aed60",
+      "value": "_cairo"
+    },
+    {
+      "address": "0x11b1e00",
+      "value": "discord_cairo"
+    },
+    {
+      "address": "0x11b1e40",
+      "value": "discord_fill_cairo"
+    },
+    {
+      "address": "0x11b1e80",
+      "value": "discord"
+    },
+    {
+      "address": "0x11b1ec0",
+      "value": "discord_fill"
+    },
+    {
+      "address": "0x11b1f00",
+      "value": "discordRPC"
+    },
+    {
+      "address": "0x11b1f90",
+      "value": "20.12.4"
+    },
+    {
+      "address": "0x11b1fd0",
+      "value": "CFBundleShortVersionString"
+    }
+  ],
+  "branches": [
+    {
+      "table": "0x11b25c8",
+      "key": "0x11b25d8",
+      "xor": "0x118785f8",
+      "targets": [
+        "0x1aa124",
+        "0x1aa138"
+      ]
+    },
+    {
+      "table": "0x11b25f0",
+      "key": "0x11b2600",
+      "xor": "0xd67d645c",
+      "targets": [
+        "0x1aa2d4",
+        "0x1aa240"
+      ]
+    },
+    {
+      "table": "0x11b2608",
+      "key": "0x11b2618",
+      "xor": "0xaf7b1bf0",
+      "targets": [
+        "0x1aa2d4",
+        "0x1aa2a8"
+      ]
+    },
+    {
+      "table": "0x11b2648",
+      "key": "0x11b2658",
+      "xor": "0x9c479052",
+      "targets": [
+        "0x1aa524",
+        "0x1aa544"
+      ]
+    },
+    {
+      "table": "0x11b2660",
+      "key": "0x11b2670",
+      "xor": "0x4a22d35d",
+      "targets": [
+        "0x1aa584",
+        "0x1aa59c"
+      ]
+    },
+    {
+      "table": "0x11b2690",
+      "key": "0x11b26a0",
+      "xor": "0xba25c2fc",
+      "targets": [
+        "0x1aa698",
+        "0x1aa69c"
+      ]
+    },
+    {
+      "table": "0x11b26b0",
+      "key": "0x11b26c0",
+      "xor": "0xecb834e2",
+      "targets": [
+        "0x1aa6e8",
+        "0x1aa714"
+      ]
+    },
+    {
+      "table": "0x11b26d8",
+      "key": "0x11b26e8",
+      "xor": "0x5866bd98",
+      "targets": [
+        "0x1aa7fc",
+        "0x1aa77c"
+      ]
+    },
+    {
+      "table": "0x11b26f0",
+      "key": "0x11b2700",
+      "xor": "0x74078f9",
+      "targets": [
+        "0x1aa7fc",
+        "0x1aa7b8"
+      ]
+    },
+    {
+      "table": "0x11b2708",
+      "key": "0x11b2718",
+      "xor": "0x28a02471",
+      "targets": [
+        "0x1aa874",
+        "0x1aa7fc"
+      ]
+    },
+    {
+      "table": "0x11b2720",
+      "key": "0x11b2730",
+      "xor": "0x97de95f",
+      "targets": [
+        "0x1aa6e8",
+        "0x1aa830"
+      ]
+    },
+    {
+      "table": "0x11b2770",
+      "key": "0x11b2780",
+      "xor": "0x84b2987c",
+      "targets": [
+        "0x1aaab4",
+        "0x1aaad8"
+      ]
+    }
+  ],
+  "constants": [
+    {
+      "address": "0xb9a8b0",
+      "double": 0.059
+    },
+    {
+      "address": "0xb9a8b8",
+      "double": 0.001
+    },
+    {
+      "address": "0xb9a8c0",
+      "double": 0.059
+    },
+    {
+      "address": "0xb9a8c8",
+      "double": 0.129
+    }
+  ],
+  "excluded_instructions": [
+    {
+      "address": "0x1b6708",
+      "word": "0xd40f59e1",
+      "reason": "System-trap side effect omitted; version-gate audit does not establish parity for it."
+    }
+  ]
+}

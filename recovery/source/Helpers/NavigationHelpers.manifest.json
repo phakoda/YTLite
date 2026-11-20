@@ -1,0 +1,409 @@
+{
+  "binary_sha256": "bdcc4d4ccaa5835d35bc97ccbdfc1c3dff514cb7161848265dcc0585f364c0ca",
+  "classes": [
+    {
+      "name": "DVNHorizontalPanDelegate",
+      "address": "0x114fbc0",
+      "superclass": "NSObject",
+      "methods": [
+        {
+          "kind": "-",
+          "selector": "gestureRecognizerShouldBegin:",
+          "encoding": "B24@0:8@16",
+          "address": "0x1b9608"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hash",
+          "attributes": "TQ,R"
+        },
+        {
+          "name": "superclass",
+          "attributes": "T#,R"
+        },
+        {
+          "name": "description",
+          "attributes": "T@\"NSString\",R,C"
+        },
+        {
+          "name": "debugDescription",
+          "attributes": "T@\"NSString\",?,R,C"
+        }
+      ]
+    },
+    {
+      "name": "DVNLongPressDelegate",
+      "address": "0x1150070",
+      "superclass": "NSObject",
+      "methods": [
+        {
+          "kind": "-",
+          "selector": "isTouchInSpeedZone:",
+          "encoding": "B32@0:8{CGPoint=dd}16",
+          "address": "0x1f21c0"
+        },
+        {
+          "kind": "-",
+          "selector": "gestureRecognizer:shouldReceiveTouch:",
+          "encoding": "B32@0:8@16@24",
+          "address": "0x1f2444"
+        },
+        {
+          "kind": "-",
+          "selector": "view",
+          "encoding": "@16@0:8",
+          "address": "0x1f24dc"
+        },
+        {
+          "kind": "-",
+          "selector": "setView:",
+          "encoding": "v24@0:8@16",
+          "address": "0x1f24f4"
+        },
+        {
+          "kind": "-",
+          "selector": "mode",
+          "encoding": "q16@0:8",
+          "address": "0x1f2528"
+        },
+        {
+          "kind": "-",
+          "selector": "setMode:",
+          "encoding": "v24@0:8q16",
+          "address": "0x1f2530"
+        },
+        {
+          "kind": "-",
+          "selector": ".cxx_destruct",
+          "encoding": "v16@0:8",
+          "address": "0x1f2550"
+        }
+      ],
+      "properties": [
+        {
+          "name": "view",
+          "attributes": "T@\"UIView\",W,N,V_view"
+        },
+        {
+          "name": "mode",
+          "attributes": "Tq,N,V_mode"
+        },
+        {
+          "name": "hash",
+          "attributes": "TQ,R"
+        },
+        {
+          "name": "superclass",
+          "attributes": "T#,R"
+        },
+        {
+          "name": "description",
+          "attributes": "T@\"NSString\",R,C"
+        },
+        {
+          "name": "debugDescription",
+          "attributes": "T@\"NSString\",?,R,C"
+        }
+      ]
+    },
+    {
+      "name": "YTPPlayerHelper",
+      "address": "0x11500c0",
+      "superclass": "NSObject",
+      "methods": [
+        {
+          "kind": "+",
+          "selector": "getVideoID:",
+          "encoding": "@24@0:8@16",
+          "address": "0x1f2660"
+        },
+        {
+          "kind": "+",
+          "selector": "openVideoWithID:",
+          "encoding": "v24@0:8@16",
+          "address": "0x1f2a1c"
+        },
+        {
+          "kind": "+",
+          "selector": "openVideoWithID:handler:",
+          "encoding": "v32@0:8@16@24",
+          "address": "0x1f2dfc"
+        },
+        {
+          "kind": "+",
+          "selector": "openVideoWithID:viewController:",
+          "encoding": "v32@0:8@16@24",
+          "address": "0x1f3740"
+        }
+      ],
+      "properties": []
+    }
+  ],
+  "methods": [
+    {
+      "kind": "-",
+      "selector": "gestureRecognizerShouldBegin:",
+      "encoding": "B24@0:8@16",
+      "address": "0x1b9608",
+      "class_name": "DVNHorizontalPanDelegate",
+      "instruction_end": "0x1b9b98",
+      "instruction_sha256": "87d47258c580f74b25e453d9acd9dc0c6b653b3ac04779f79d56939beeb65a02"
+    },
+    {
+      "kind": "-",
+      "selector": "isTouchInSpeedZone:",
+      "encoding": "B32@0:8{CGPoint=dd}16",
+      "address": "0x1f21c0",
+      "class_name": "DVNLongPressDelegate",
+      "instruction_end": "0x1f2444",
+      "instruction_sha256": "389230cef232ad820942193285e9366dbe72f708e17a8769db147ff29bf3f071"
+    },
+    {
+      "kind": "-",
+      "selector": "gestureRecognizer:shouldReceiveTouch:",
+      "encoding": "B32@0:8@16@24",
+      "address": "0x1f2444",
+      "class_name": "DVNLongPressDelegate",
+      "instruction_end": "0x1f24dc",
+      "instruction_sha256": "c4caa30a8674d1613e3eef4688027f309030845917fd5eb12b7f3bdb9d1a9c76"
+    },
+    {
+      "kind": "-",
+      "selector": "view",
+      "encoding": "@16@0:8",
+      "address": "0x1f24dc",
+      "class_name": "DVNLongPressDelegate",
+      "instruction_end": "0x1f24f4",
+      "instruction_sha256": "e284ee6576d4c4e8fb0bb0a74d82b4389db76466b3f347fcdba9a550537770c7"
+    },
+    {
+      "kind": "-",
+      "selector": "setView:",
+      "encoding": "v24@0:8@16",
+      "address": "0x1f24f4",
+      "class_name": "DVNLongPressDelegate",
+      "instruction_end": "0x1f2528",
+      "instruction_sha256": "e53ecda2393f6e674d23d0e0194fd63b57381f69c884153e4f17e46444d9c6a9"
+    },
+    {
+      "kind": "-",
+      "selector": "mode",
+      "encoding": "q16@0:8",
+      "address": "0x1f2528",
+      "class_name": "DVNLongPressDelegate",
+      "instruction_end": "0x1f2530",
+      "instruction_sha256": "dfb556a413c8bda5332942d0202e8d5f1e52f45158aec3676294cf11ad5909cb"
+    },
+    {
+      "kind": "-",
+      "selector": "setMode:",
+      "encoding": "v24@0:8q16",
+      "address": "0x1f2530",
+      "class_name": "DVNLongPressDelegate",
+      "instruction_end": "0x1f2550",
+      "instruction_sha256": "5f142f2c90e42b792493c470bf59f609ea60489f7ff6144a2f8eb6915d1a34b7"
+    },
+    {
+      "kind": "-",
+      "selector": ".cxx_destruct",
+      "encoding": "v16@0:8",
+      "address": "0x1f2550",
+      "class_name": "DVNLongPressDelegate",
+      "instruction_end": "0x1f2558",
+      "instruction_sha256": "7dde405cf32d0673cbdb384011a8a0226b5902d3112dd2d44a27d2bf3610fdd5"
+    },
+    {
+      "kind": "+",
+      "selector": "getVideoID:",
+      "encoding": "@24@0:8@16",
+      "address": "0x1f2660",
+      "class_name": "YTPPlayerHelper",
+      "instruction_end": "0x1f2a1c",
+      "instruction_sha256": "9fb0a49f3ec1facdc10e27862649177b19b71fc53825014c8b6d38bd6700a458"
+    },
+    {
+      "kind": "+",
+      "selector": "openVideoWithID:",
+      "encoding": "v24@0:8@16",
+      "address": "0x1f2a1c",
+      "class_name": "YTPPlayerHelper",
+      "instruction_end": "0x1f2dfc",
+      "instruction_sha256": "8b91f444bf21bcd8fec63779e1006bb399e4489ddb90222d2f869a20c539a3ae"
+    },
+    {
+      "kind": "+",
+      "selector": "openVideoWithID:handler:",
+      "encoding": "v32@0:8@16@24",
+      "address": "0x1f2dfc",
+      "class_name": "YTPPlayerHelper",
+      "instruction_end": "0x1f3740",
+      "instruction_sha256": "32404106d6f21b901bce27fe1e1b285999aaefff73680f63698acc2e23d30b74"
+    },
+    {
+      "kind": "+",
+      "selector": "openVideoWithID:viewController:",
+      "encoding": "v32@0:8@16@24",
+      "address": "0x1f3740",
+      "class_name": "YTPPlayerHelper",
+      "instruction_end": "0x1f3b3c",
+      "instruction_sha256": "492b55467aaf8d8b5e7fe76e31d49f54d5f156ad4d5526a8b83b786deb3e997a"
+    }
+  ],
+  "cfstrings": {
+    "0x11bd980": "_context",
+    "0x11bd7f0": "/vi/([^/]+)/",
+    "0x11bd870": "vnd.youtube://%@",
+    "0x11b3090": "YTMainAppVideoPlayerOverlayViewController",
+    "0x11bd9c0": "_controller"
+  },
+  "cstrings": {
+    "0x11bd930": "YTCommandResponderEvent",
+    "0x11bda23": "YTICommand",
+    "0x11bd8b0": "YTElementsCellController",
+    "0x11bda00": "YTCommandResponderEvent",
+    "0x11bd8e6": "YTICommand",
+    "0x11bd8d2": "_context",
+    "0x1161081": "YTICommand"
+  },
+  "branch_tables": [
+    {
+      "table": "0x11b3150",
+      "key": "0x11b3160",
+      "xor": "0xe9a32029",
+      "targets": [
+        "0x1b9afc",
+        "0x1b9ac0"
+      ]
+    },
+    {
+      "table": "0x11b3138",
+      "key": "0x11b3148",
+      "xor": "0xfbaa5f66",
+      "targets": [
+        "0x1b9b04",
+        "0x1b9a54"
+      ]
+    },
+    {
+      "table": "0x11bdcd0",
+      "key": "0x11bdce0",
+      "xor": "0x7a351179",
+      "targets": [
+        "0x1f357c",
+        "0x1f35ac"
+      ]
+    },
+    {
+      "table": "0x11bd718",
+      "key": "0x11bd728",
+      "xor": "0x8ec836a3",
+      "targets": [
+        "0x1f22e0",
+        "0x1f2420"
+      ]
+    },
+    {
+      "table": "0x11bdd48",
+      "key": "0x11bdd58",
+      "xor": "0x3073c2d7",
+      "targets": [
+        "0x1f3a60",
+        "0x1f3ae0"
+      ]
+    },
+    {
+      "table": "0x11bdb88",
+      "key": "0x11bdb98",
+      "xor": "0x60f62f76",
+      "targets": [
+        "0x1f2878",
+        "0x1f28e8"
+      ]
+    },
+    {
+      "table": "0x11bdcf0",
+      "key": "0x11bdd00",
+      "xor": "0x65faefad",
+      "targets": [
+        "0x1f3620",
+        "0x1f36c4"
+      ]
+    },
+    {
+      "table": "0x11bdcb0",
+      "key": "0x11bdcc0",
+      "xor": "0xebb355cb",
+      "targets": [
+        "0x1f34e8",
+        "0x1f3594"
+      ]
+    },
+    {
+      "table": "0x11b3168",
+      "key": "0x11b3178",
+      "xor": "0x5a84bcad",
+      "targets": [
+        "0x1b9afc",
+        "0x1b9b80"
+      ]
+    },
+    {
+      "table": "0x11bdc28",
+      "key": "0x11bdc38",
+      "xor": "0xfc07c4b0",
+      "targets": [
+        "0x1f2c74",
+        "0x1f2ce4"
+      ]
+    },
+    {
+      "table": "0x11b3120",
+      "key": "0x11b3130",
+      "xor": "0xe96310ad",
+      "targets": [
+        "0x1b9b0c",
+        "0x1b99d8"
+      ]
+    }
+  ],
+  "instruction_words": {
+    "0x1b9a8c": "0021601ee8579f1a",
+    "0x1b9b48": "00c1601e21c1601e0020611ef4d79f1a",
+    "0x1f2300": "b20000940010611e4918601ee00315aafb9526940021691ef5879f1a2a29691e00216a1ef6b79f1a",
+    "0x1f23d4": "0021691ee8879f1a00216a1e15b59f1a0f0000141f0400f1",
+    "0x1f24dc": "fd7bbfa9fd030091002000917c952694fd7bc1a856952614",
+    "0x1f24f4": "fd7bbfa9fd030091e10302aa0020009199952694e00380d202008052500380d20300805201008052a12611d4fd7bc1a8c0035fd6000840f9c0035fd6",
+    "0x1f2528": "000840f9c0035fd6",
+    "0x1f2530": "020800f910008052e1038052030080524003805202008052e15705d4c0035fd6",
+    "0x1f2550": "0020009149952614"
+  },
+  "omitted_supervisor_calls": [
+    {
+      "address": "0x1f251c",
+      "word": "0xd41126a1",
+      "immediate": "0x8935"
+    },
+    {
+      "address": "0x1f2548",
+      "word": "0xd40557e1",
+      "immediate": "0x2abf"
+    },
+    {
+      "address": "0x1f371c",
+      "word": "0xd4079701",
+      "immediate": "0x3cb8"
+    },
+    {
+      "address": "0x1f3b20",
+      "word": "0xd416cb61",
+      "immediate": "0xb65b"
+    }
+  ],
+  "limitations": [
+    "No supplied image or real UIKit/YouTube/URL operation is executed; runtime tests use concrete synthetic boundaries.",
+    "Constant-decryption and obfuscator flags are omitted; decoded constants and functional branches are preserved.",
+    "Four packaged SVCs are omitted; method return ABI follows original metadata.",
+    "Actual host object class identities beyond the used runtime checks remain protocol/id contracts."
+  ]
+}

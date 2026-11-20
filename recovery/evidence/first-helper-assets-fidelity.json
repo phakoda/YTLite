@@ -1,0 +1,212 @@
+{
+  "binary_sha256": "59b0ddc0c8ca14863d20b0005c0c48e062e81a0df6611e213a3a66fa2b796023",
+  "spans": [
+    {
+      "start": "0x22ef58",
+      "end": "0x22f038",
+      "sha256": "15c0a56db5a05af86352c5f72548422859110d387ea2fe8008effaa86f20c5ad"
+    },
+    {
+      "start": "0x22f038",
+      "end": "0x22f20c",
+      "sha256": "fb4394af7618af9d1d13916ce8b5863afe82ef43fa6559a52e17abac6601c7f0"
+    },
+    {
+      "start": "0x22f20c",
+      "end": "0x22f300",
+      "sha256": "2df54195700cdaca69a64dd72d01bb1b1ea911c4f0d3906d9d810e36e6e59d2f"
+    },
+    {
+      "start": "0x22f300",
+      "end": "0x22f4c0",
+      "sha256": "ff2121610fbd700caa09a0aeb36775ef43b701c98a83e213613beb6c32b67635"
+    },
+    {
+      "start": "0x22f4c0",
+      "end": "0x22f6b4",
+      "sha256": "4c00bc763fdff0ccc78a4163bef3ca941a7e4699587d23b3194c406dd8d5f36b"
+    },
+    {
+      "start": "0x22f6b4",
+      "end": "0x22f8b8",
+      "sha256": "43a5eadb5484d6b197eacef7efa95b183c5dc016029f30be6f704303d45c5a21"
+    },
+    {
+      "start": "0x2311f0",
+      "end": "0x231388",
+      "sha256": "c2542a3044a0eae863034813558611205b9195773444320b444629c27e41caec"
+    },
+    {
+      "start": "0x231388",
+      "end": "0x231468",
+      "sha256": "9c6f7d98716515d1665b060bc85256b19c5e5850118c9906b26ca57dc56c6e83"
+    },
+    {
+      "start": "0x231468",
+      "end": "0x2315d8",
+      "sha256": "0529d19b2976532f3908cf22edf44338278cf7de03b14c0c24d730f97d2e108c"
+    },
+    {
+      "start": "0x232d90",
+      "end": "0x233350",
+      "sha256": "5e246202099210bb6a32623bf007383a435b2d58bb58f663d926a2ba5683da7e"
+    },
+    {
+      "start": "0x233e10",
+      "end": "0x234154",
+      "sha256": "4b4b8b46dc672a0a5f5fa73db9c4c0fb92e9238c014d3919d2f0813f75b44955"
+    },
+    {
+      "start": "0xb9aa30",
+      "end": "0xb9aa38",
+      "sha256": "aef91048969a6404688fdb9497835e1ba1af99ab866052cbbcc84d888c9b9fa7"
+    }
+  ],
+  "branches": [
+    {
+      "table": "0x11d1970",
+      "key": "0x11d1980",
+      "xor": "0xb8502eaf",
+      "targets": [
+        "0x231334",
+        "0x231344"
+      ]
+    }
+  ],
+  "strings": [
+    {
+      "address": "0x11d0c20",
+      "value": "YTAssetLoader"
+    },
+    {
+      "address": "0x11d0c80",
+      "value": "YTAssetLoader"
+    }
+  ],
+  "selectors": [
+    {
+      "reference": "0x114b938",
+      "name": "initWithSize:"
+    },
+    {
+      "reference": "0x114b950",
+      "name": "imageWithActions:"
+    },
+    {
+      "reference": "0x114b770",
+      "name": "initWithFrame:"
+    },
+    {
+      "reference": "0x114b5d0",
+      "name": "initWithImage:"
+    },
+    {
+      "reference": "0x114b728",
+      "name": "setContentMode:"
+    },
+    {
+      "reference": "0x114b900",
+      "name": "setClipsToBounds:"
+    },
+    {
+      "reference": "0x114aff8",
+      "name": "labelColor"
+    },
+    {
+      "reference": "0x114b548",
+      "name": "colorWithAlphaComponent:"
+    },
+    {
+      "reference": "0x114b000",
+      "name": "setTintColor:"
+    },
+    {
+      "reference": "0x114b568",
+      "name": "bounds"
+    },
+    {
+      "reference": "0x114b570",
+      "name": "setFrame:"
+    },
+    {
+      "reference": "0x114b0a8",
+      "name": "addSubview:"
+    },
+    {
+      "reference": "0x114ae60",
+      "name": "layer"
+    },
+    {
+      "reference": "0x114b940",
+      "name": "CGContext"
+    },
+    {
+      "reference": "0x114b948",
+      "name": "renderInContext:"
+    },
+    {
+      "reference": "0x114b850",
+      "name": "imageWithRenderingMode:"
+    },
+    {
+      "reference": "0x114ae50",
+      "name": "ytl_defaultBundle"
+    },
+    {
+      "reference": "0x114b5c8",
+      "name": "imageNamed:inBundle:compatibleWithTraitCollection:"
+    },
+    {
+      "reference": "0x114adf8",
+      "name": "mainBundle"
+    },
+    {
+      "reference": "0x114c8a0",
+      "name": "initWithBundle:"
+    },
+    {
+      "reference": "0x114b800",
+      "name": "imageNamed:"
+    },
+    {
+      "reference": "0x114c8b0",
+      "name": "frame"
+    },
+    {
+      "reference": "0x114c8c0",
+      "name": "CGColor"
+    }
+  ],
+  "method_contracts": [
+    {
+      "kind": "-",
+      "selector": "resizeImage:toSize:",
+      "address": "0x22ef58"
+    },
+    {
+      "kind": "-",
+      "selector": "imageNamed:",
+      "address": "0x22f20c"
+    },
+    {
+      "kind": "+",
+      "selector": "YTImageNamed:",
+      "address": "0x22f4c0"
+    },
+    {
+      "kind": "+",
+      "selector": "YTLImageNamed:",
+      "address": "0x22f6b4"
+    },
+    {
+      "kind": "+",
+      "selector": "genImageFromLayer:backgroundColor:completionHandler:",
+      "address": "0x2311f0"
+    },
+    {
+      "kind": "+",
+      "selector": "resizeImage:toSize:",
+      "address": "0x231388"
+    }
+  ]
+}

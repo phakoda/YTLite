@@ -1,0 +1,378 @@
+{
+  "binary_sha256": "bdcc4d4ccaa5835d35bc97ccbdfc1c3dff514cb7161848265dcc0585f364c0ca",
+  "status": "all-three-registrations-and-shared-helper-reconstructed",
+  "registrations": [
+    {
+      "class_name": "MPRemoteCommand",
+      "kind": "-",
+      "selector": "addTarget:action:",
+      "implementation": "0x0004e6fc",
+      "operation": "replace",
+      "original_pointer": "0x01225f38",
+      "registration": "0004cf00",
+      "complete": true
+    },
+    {
+      "class_name": "MPNowPlayingInfoCenter",
+      "kind": "-",
+      "selector": "setNowPlayingInfo:",
+      "implementation": "0x0004e8fc",
+      "operation": "replace",
+      "original_pointer": "0x01225f40",
+      "registration": "0004cf00",
+      "complete": true
+    },
+    {
+      "class_name": "YTWatchController",
+      "kind": "-",
+      "selector": "handleRemoteControlEvent:withInterval:",
+      "implementation": "0x000aa244",
+      "operation": "replace",
+      "original_pointer": "0x01226668",
+      "registration": "00053fac",
+      "complete": true
+    }
+  ],
+  "source_owner": "recovery/source/Hooks/RemoteControls.x",
+  "helper": {
+    "original": "0xbc45c",
+    "source": "YTLUpdateRemoteControls",
+    "signature": "void (void)",
+    "nested_blocks": []
+  },
+  "globals": [
+    {
+      "address": "0x1226848",
+      "type": "byte Boolean",
+      "initial": 0,
+      "source": "YTLRemoteBackwardRegistered"
+    },
+    {
+      "address": "0x1226849",
+      "type": "byte Boolean",
+      "initial": 0,
+      "source": "YTLRemoteForwardRegistered"
+    }
+  ],
+  "instruction_intervals": [
+    {
+      "start": "0x4e6fc",
+      "end": "0x4e8fc",
+      "sha256": "5387ee8e08abeba18823ab4c95319a2483cdaf46f36a94fd1aa8e3b3a6cd8502"
+    },
+    {
+      "start": "0x4e8fc",
+      "end": "0x4e934",
+      "sha256": "483d311f2ef5ae8d425c43158631445ab34bc944345e69c0d88bdce542a29168"
+    },
+    {
+      "start": "0xaa244",
+      "end": "0xaa890",
+      "sha256": "dae4069d13bf85eb128264db7ba1a4285c34e8bc677690c9ab58b2a215c5a868"
+    },
+    {
+      "start": "0xbc45c",
+      "end": "0xbcc04",
+      "sha256": "b457aa7538fb61b7d53e790aaae95c7eb7b71d2a67889bc8fd8ff046b686ebce"
+    },
+    {
+      "start": "0xd0d90",
+      "end": "0xd0da0",
+      "sha256": "8c338ecb6fe14eed2a41042604473c098d139db02017c9409e083349d56e510a"
+    },
+    {
+      "start": "0xd0dd0",
+      "end": "0xd0de0",
+      "sha256": "8c338ecb6fe14eed2a41042604473c098d139db02017c9409e083349d56e510a"
+    }
+  ],
+  "decoded_strings": [
+    {
+      "address": "0x116dff0",
+      "value": "rcSkipForwardSec"
+    },
+    {
+      "address": "0x116e030",
+      "value": "rcSkipBackwardSec"
+    },
+    {
+      "address": "0x116e050",
+      "value": "rcSkipForward"
+    },
+    {
+      "address": "0x116e06d",
+      "value": "rcSkipBackward"
+    },
+    {
+      "address": "0x1171880",
+      "value": "rcSkipForwardSec"
+    },
+    {
+      "address": "0x11718c0",
+      "value": "rcSkipBackwardSec"
+    },
+    {
+      "address": "0x11718e0",
+      "value": "rcSkipForward"
+    },
+    {
+      "address": "0x11718fd",
+      "value": "rcSkipBackward"
+    },
+    {
+      "address": "0x1193dd0",
+      "value": "rcSkipForwardSec"
+    },
+    {
+      "address": "0x1193def",
+      "value": "rcSkipForward"
+    },
+    {
+      "address": "0x1194195",
+      "value": "rcSkipBackward"
+    },
+    {
+      "address": "0x1195c90",
+      "value": "rcSkipBackwardSec"
+    },
+    {
+      "address": "0x11bafa0",
+      "value": "rcSkipForwardSec"
+    },
+    {
+      "address": "0x11bb000",
+      "value": "rcSkipBackwardSec"
+    }
+  ],
+  "original_branch_records": [
+    {
+      "address": "0xaa2fc",
+      "original": [
+        "0xd61f0140"
+      ],
+      "replacement": [
+        "0x14fd5f3c"
+      ],
+      "island": "0x4001fec",
+      "island_words": [
+        "0x54000040",
+        "0x1702a0c4",
+        "0x1702a0f6"
+      ],
+      "condition": "eq",
+      "flags_at": "0xaa27c",
+      "targets": [
+        "0xaa300",
+        "0xaa3cc"
+      ]
+    },
+    {
+      "address": "0xaa368",
+      "original": [
+        "0xd61f0100"
+      ],
+      "replacement": [
+        "0x14fd5f24"
+      ],
+      "island": "0x4001ff8",
+      "island_words": [
+        "0x54000040",
+        "0x1702a21b",
+        "0x1702a0db"
+      ],
+      "condition": "eq",
+      "flags_at": "0xaa338",
+      "targets": [
+        "0xaa868",
+        "0xaa36c"
+      ]
+    },
+    {
+      "address": "0xaa3a4",
+      "original": [
+        "0xd61f0100"
+      ],
+      "replacement": [
+        "0x14fd5f18"
+      ],
+      "island": "0x4002004",
+      "island_words": [
+        "0x35000040",
+        "0x1702a218",
+        "0x1702a0e7"
+      ],
+      "condition": "reg:w0",
+      "flags_at": "0xaa374",
+      "targets": [
+        "0xaa868",
+        "0xaa3a8"
+      ]
+    },
+    {
+      "address": "0xaa804",
+      "original": [
+        "0xd61f0100"
+      ],
+      "replacement": [
+        "0x14fd5e03"
+      ],
+      "island": "0x4002010",
+      "island_words": [
+        "0x54000040",
+        "0x1702a215",
+        "0x1702a1fc"
+      ],
+      "condition": "eq",
+      "flags_at": "0xaa7d4",
+      "targets": [
+        "0xaa868",
+        "0xaa808"
+      ]
+    },
+    {
+      "address": "0xaa840",
+      "original": [
+        "0xd61f0100"
+      ],
+      "replacement": [
+        "0x14fd5df7"
+      ],
+      "island": "0x400201c",
+      "island_words": [
+        "0x35000040",
+        "0x1702a212",
+        "0x1702a208"
+      ],
+      "condition": "reg:w0",
+      "flags_at": "0xaa810",
+      "targets": [
+        "0xaa868",
+        "0xaa844"
+      ]
+    },
+    {
+      "address": "0xbc4e0",
+      "original": [
+        "0xd61f0120"
+      ],
+      "replacement": [
+        "0x14fd17e9"
+      ],
+      "island": "0x4002484",
+      "island_words": [
+        "0x54000040",
+        "0x1702e90d",
+        "0x1702e816"
+      ],
+      "condition": "eq",
+      "flags_at": "0xbc4a4",
+      "targets": [
+        "0xbc8bc",
+        "0xbc4e4"
+      ]
+    }
+  ],
+  "explicit_branch_audits": [
+    {
+      "branch": "0x4e7f0",
+      "table": "0x117a298",
+      "constant": "0x117a2a8",
+      "xor": "0x17bee725",
+      "index": "(self != previousTrackCommand || backwardRegistered) & 1",
+      "targets": [
+        "0x4e7f4",
+        "0x4e830"
+      ]
+    },
+    {
+      "branch": "0x4e890",
+      "table": "0x117a2b8",
+      "constant": "0x117a2c8",
+      "xor": "0x61b83602",
+      "index": "(self != nextTrackCommand || forwardRegistered) & 1",
+      "targets": [
+        "0x4e894",
+        "0x4e8d0"
+      ]
+    },
+    {
+      "branch": "0xaa334",
+      "table": "0x11810a8",
+      "constant": "0x11810b8",
+      "xor": "0x8311c0d",
+      "index": "signed event < 105",
+      "targets": [
+        "0xaa338",
+        "0xaa7d4"
+      ]
+    },
+    {
+      "branch": "0xaa7d0",
+      "table": "0x11810a8",
+      "constant": "0x11810b8",
+      "xor": "0x8311c0d",
+      "index": "signed event < 105",
+      "targets": [
+        "0xaa338",
+        "0xaa7d4"
+      ]
+    },
+    {
+      "branch": "0xaa368",
+      "table": "0x11810c0",
+      "constant": "0x11810d0",
+      "xor": "0xd797b8d6",
+      "index": "event == 105",
+      "targets": [
+        "0xaa868",
+        "0xaa36c"
+      ]
+    },
+    {
+      "branch": "0xaa3a4",
+      "table": "0x11810f0",
+      "constant": "0x1181100",
+      "xor": "0x2ed0aaa5",
+      "index": "ytpBool(rcSkipBackward)",
+      "targets": [
+        "0xaa868",
+        "0xaa3a8"
+      ]
+    },
+    {
+      "branch": "0xaa804",
+      "table": "0x11810d8",
+      "constant": "0x11810e8",
+      "xor": "0x5960eb1c",
+      "index": "event == 104",
+      "targets": [
+        "0xaa868",
+        "0xaa808"
+      ]
+    },
+    {
+      "branch": "0xaa840",
+      "table": "0x1181110",
+      "constant": "0x1181120",
+      "xor": "0xa9ffe5a1",
+      "index": "ytpBool(rcSkipForward)",
+      "targets": [
+        "0xaa868",
+        "0xaa844"
+      ]
+    }
+  ],
+  "abi": {
+    "addTarget": "void (id, SEL, id, SEL)",
+    "setNowPlayingInfo": "void (id, SEL, NSDictionary *)",
+    "handleRemoteControlEvent": "void (id, SEL, NSInteger, double)",
+    "floatForKey": "YTLUserDefaults class method returns double in d0",
+    "captures": "None; target retained only during callback; two process-wide one-byte registration flags."
+  },
+  "limitations": [
+    "The original supplied binary was inspected, not executed. Generated Logos source runs against mocked MediaPlayer commands and synthetic preferences.",
+    "The canonical ytpBool boundary uses parent-owned local feature policy; the packaged policy implementation is not reintroduced by this module. The updater intentionally reads instance defaults directly instead.",
+    "Obfuscation bookkeeping, decoded-string initialization and protection syscalls are omitted.",
+    "Registration flags are process-wide and set only after nested addTarget returns; no once guards, weak target state, or callback blocks are introduced."
+  ]
+}

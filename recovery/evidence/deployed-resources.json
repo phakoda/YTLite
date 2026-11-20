@@ -1,0 +1,404 @@
+{
+  "package_resource_variants": {
+    "arm": {
+      "Assets.car": "5bd317feeeeed82a856223d7a996e951d76904afc0722e9502688449dbd795ec",
+      "Info.plist": "5e8beea91290c056f5f8f5bacb3a6ffc353fb22db3ba84dc31b6ed36693d28e1",
+      "SponsorAudio.m4a": "bfe134f5eca363146c94a1571c05a72e81952194b7f763c42d803da3af6b3d8a",
+      "ar.lproj/Localizable.strings": "d80d00ac38486ca5078e382e84ac814bb9310fffc3cca269e881ea3c32cac12a",
+      "en.lproj/Localizable.strings": "e6392c8dbbada63668e9d008fca2a9393b6e9d8557129c6db5f30e017a59c589",
+      "es.lproj/Localizable.strings": "08b649886f5660a7497cffaeaa2f687f67ed46f7a979f211339acd7620654c77",
+      "fr.lproj/Localizable.strings": "3ef0363d51380a892590933106f0c5cf3e2ae7f7c9656d21b2be7acb42b45a67",
+      "it.lproj/Localizable.strings": "856857791b9add01c7b71ec907d1c20f98c22c5276434226a0fa288590648276",
+      "ja.lproj/Localizable.strings": "901957b8f7373aa81c1e98f6617d8cd9c214bda7e227ac12c45faee6555bddc4",
+      "ko.lproj/Localizable.strings": "aa1062b03b35dd1c814fcdb11638e6fc638d89821bfb4eb2f82da32e377a0c0e",
+      "pl.lproj/Localizable.strings": "5dda7b1fcd949a6814e001370a4851b19cb5fb640e732ec63b9e228d652d25c0",
+      "ru.lproj/Localizable.strings": "6c515e4215ba9cebf0abf760ae71cb75400dc62556fd2868d2eace1582c9d10c",
+      "tr.lproj/Localizable.strings": "fda8db0300e0d083f1aed3e224e4cdab63e8e2b4b9d51ce70d9290a67bfca9d8",
+      "vi.lproj/Localizable.strings": "91a71151f447f120d762ebf381b7e76752f7e078b66f3cb871146477e9d7999e",
+      "zh-Hans.lproj/Localizable.strings": "045b25d4607494dbdd9ce9113598d7acf681bb1f46a117315afb6fa0c88a75e8",
+      "zh-Hant.lproj/Localizable.strings": "8b881bfea550a6977e93444a7ef354870b75c5d8dc6d0d54b2bcec95634a36cc"
+    },
+    "arm64": {
+      "Assets.car": "5bd317feeeeed82a856223d7a996e951d76904afc0722e9502688449dbd795ec",
+      "Info.plist": "5e8beea91290c056f5f8f5bacb3a6ffc353fb22db3ba84dc31b6ed36693d28e1",
+      "SponsorAudio.m4a": "bfe134f5eca363146c94a1571c05a72e81952194b7f763c42d803da3af6b3d8a",
+      "ar.lproj/Localizable.strings": "d80d00ac38486ca5078e382e84ac814bb9310fffc3cca269e881ea3c32cac12a",
+      "en.lproj/Localizable.strings": "e6392c8dbbada63668e9d008fca2a9393b6e9d8557129c6db5f30e017a59c589",
+      "es.lproj/Localizable.strings": "08b649886f5660a7497cffaeaa2f687f67ed46f7a979f211339acd7620654c77",
+      "fr.lproj/Localizable.strings": "3ef0363d51380a892590933106f0c5cf3e2ae7f7c9656d21b2be7acb42b45a67",
+      "it.lproj/Localizable.strings": "856857791b9add01c7b71ec907d1c20f98c22c5276434226a0fa288590648276",
+      "ja.lproj/Localizable.strings": "901957b8f7373aa81c1e98f6617d8cd9c214bda7e227ac12c45faee6555bddc4",
+      "ko.lproj/Localizable.strings": "aa1062b03b35dd1c814fcdb11638e6fc638d89821bfb4eb2f82da32e377a0c0e",
+      "pl.lproj/Localizable.strings": "5dda7b1fcd949a6814e001370a4851b19cb5fb640e732ec63b9e228d652d25c0",
+      "ru.lproj/Localizable.strings": "6c515e4215ba9cebf0abf760ae71cb75400dc62556fd2868d2eace1582c9d10c",
+      "tr.lproj/Localizable.strings": "fda8db0300e0d083f1aed3e224e4cdab63e8e2b4b9d51ce70d9290a67bfca9d8",
+      "vi.lproj/Localizable.strings": "91a71151f447f120d762ebf381b7e76752f7e078b66f3cb871146477e9d7999e",
+      "zh-Hans.lproj/Localizable.strings": "045b25d4607494dbdd9ce9113598d7acf681bb1f46a117315afb6fa0c88a75e8",
+      "zh-Hant.lproj/Localizable.strings": "8b881bfea550a6977e93444a7ef354870b75c5d8dc6d0d54b2bcec95634a36cc"
+    },
+    "arm64e": {
+      "Assets.car": "5bd317feeeeed82a856223d7a996e951d76904afc0722e9502688449dbd795ec",
+      "Info.plist": "5e8beea91290c056f5f8f5bacb3a6ffc353fb22db3ba84dc31b6ed36693d28e1",
+      "SponsorAudio.m4a": "bfe134f5eca363146c94a1571c05a72e81952194b7f763c42d803da3af6b3d8a",
+      "ar.lproj/Localizable.strings": "d80d00ac38486ca5078e382e84ac814bb9310fffc3cca269e881ea3c32cac12a",
+      "en.lproj/Localizable.strings": "e6392c8dbbada63668e9d008fca2a9393b6e9d8557129c6db5f30e017a59c589",
+      "es.lproj/Localizable.strings": "08b649886f5660a7497cffaeaa2f687f67ed46f7a979f211339acd7620654c77",
+      "fr.lproj/Localizable.strings": "3ef0363d51380a892590933106f0c5cf3e2ae7f7c9656d21b2be7acb42b45a67",
+      "it.lproj/Localizable.strings": "856857791b9add01c7b71ec907d1c20f98c22c5276434226a0fa288590648276",
+      "ja.lproj/Localizable.strings": "901957b8f7373aa81c1e98f6617d8cd9c214bda7e227ac12c45faee6555bddc4",
+      "ko.lproj/Localizable.strings": "aa1062b03b35dd1c814fcdb11638e6fc638d89821bfb4eb2f82da32e377a0c0e",
+      "pl.lproj/Localizable.strings": "5dda7b1fcd949a6814e001370a4851b19cb5fb640e732ec63b9e228d652d25c0",
+      "ru.lproj/Localizable.strings": "6c515e4215ba9cebf0abf760ae71cb75400dc62556fd2868d2eace1582c9d10c",
+      "tr.lproj/Localizable.strings": "fda8db0300e0d083f1aed3e224e4cdab63e8e2b4b9d51ce70d9290a67bfca9d8",
+      "vi.lproj/Localizable.strings": "91a71151f447f120d762ebf381b7e76752f7e078b66f3cb871146477e9d7999e",
+      "zh-Hans.lproj/Localizable.strings": "045b25d4607494dbdd9ce9113598d7acf681bb1f46a117315afb6fa0c88a75e8",
+      "zh-Hant.lproj/Localizable.strings": "8b881bfea550a6977e93444a7ef354870b75c5d8dc6d0d54b2bcec95634a36cc"
+    }
+  },
+  "deployed_assets_sha256": "5bd317feeeeed82a856223d7a996e951d76904afc0722e9502688449dbd795ec",
+  "asset_names": [
+    "FEhistory",
+    "FEhistory_cairo",
+    "FEhistory_cairo_selected",
+    "FEhistory_selected",
+    "FEhype_leaderboard",
+    "FEhype_leaderboard_cairo",
+    "FEhype_leaderboard_cairo_selected",
+    "FEhype_leaderboard_selected",
+    "FElibrary",
+    "FElibrary_cairo",
+    "FEnotifications_inbox",
+    "FEnotifications_inbox_cairo",
+    "FEnotifications_inbox_cairo_selected",
+    "FEnotifications_inbox_selected",
+    "FEpost_home",
+    "FEpost_home_cairo",
+    "FEpost_home_cairo_selected",
+    "FEpost_home_selected",
+    "FEshorts",
+    "FEshorts_cairo",
+    "FEsubscriptions",
+    "FEsubscriptions_cairo",
+    "FEuploads",
+    "FEuploads_cairo",
+    "FEwhat_to_watch",
+    "FEwhat_to_watch_cairo",
+    "UC-9-kyTW8ZkZNDHQJ6FgpwQ",
+    "UC-9-kyTW8ZkZNDHQJ6FgpwQ_cairo",
+    "UC-9-kyTW8ZkZNDHQJ6FgpwQ_cairo_selected",
+    "UC-9-kyTW8ZkZNDHQJ6FgpwQ_selected",
+    "UC4R8DWoMoI7CAwX8_LjQHig",
+    "UC4R8DWoMoI7CAwX8_LjQHig_cairo",
+    "UC4R8DWoMoI7CAwX8_LjQHig_cairo_selected",
+    "UC4R8DWoMoI7CAwX8_LjQHig_selected",
+    "UCEgdi0XIXXZ-qJOFPf4JSKw",
+    "UCEgdi0XIXXZ-qJOFPf4JSKw_cairo",
+    "UCEgdi0XIXXZ-qJOFPf4JSKw_cairo_selected",
+    "UCEgdi0XIXXZ-qJOFPf4JSKw_selected",
+    "UCOpNcN46UbXVtpKMrmU4Abg",
+    "UCOpNcN46UbXVtpKMrmU4Abg_cairo",
+    "UCOpNcN46UbXVtpKMrmU4Abg_cairo_selected",
+    "UCOpNcN46UbXVtpKMrmU4Abg_selected",
+    "VLWL",
+    "VLWL_cairo",
+    "VLWL_cairo_selected",
+    "VLWL_selected",
+    "accs",
+    "accs_cairo",
+    "backward.circle",
+    "bnb",
+    "boosty",
+    "box_checkmark",
+    "box_checkmark_cairo",
+    "box_empty",
+    "box_empty_cairo",
+    "captions",
+    "captions_cairo",
+    "check",
+    "check_cairo",
+    "coffee",
+    "copy",
+    "copy_cairo",
+    "credits",
+    "credits_cairo",
+    "discord",
+    "discord_cairo",
+    "discord_fill",
+    "discord_fill_cairo",
+    "donation",
+    "donor",
+    "donor_cairo",
+    "download",
+    "downloading",
+    "downloading_cairo",
+    "dvn",
+    "empty",
+    "fast_forward",
+    "fast_forward_cairo",
+    "feed",
+    "feed_cairo",
+    "forward.circle",
+    "github",
+    "github_logo",
+    "heart",
+    "heart_prefs",
+    "image",
+    "image_cairo",
+    "image_library",
+    "image_library_cairo",
+    "infuse",
+    "interface",
+    "interface_cairo",
+    "libs",
+    "libs_cairo",
+    "link",
+    "link_cairo",
+    "localization",
+    "localization_cairo",
+    "lock",
+    "lock_cairo",
+    "login",
+    "login_cairo",
+    "logout",
+    "logout_cairo",
+    "message",
+    "message_cairo",
+    "moon",
+    "music",
+    "music_cairo",
+    "navbar",
+    "navbar_cairo",
+    "open_new",
+    "open_new_cairo",
+    "patreon",
+    "play_circle",
+    "play_circle_cairo",
+    "player",
+    "player_cairo",
+    "sadface",
+    "save_photos",
+    "show_image",
+    "show_image_cairo",
+    "sleep",
+    "sort",
+    "speed.fast",
+    "speed.reg",
+    "speed.slow",
+    "sponsorblock",
+    "sponsorblock_cairo",
+    "star_half",
+    "star_half_cairo",
+    "sun.max",
+    "sun.mid",
+    "sun.min",
+    "support",
+    "support_cairo",
+    "tabbar",
+    "tabbar_cairo",
+    "tg_logo",
+    "thumb",
+    "usdt",
+    "vlc",
+    "vol.low",
+    "vol.max",
+    "vol.mid",
+    "vol.off",
+    "vol_off",
+    "vol_off_cairo",
+    "vol_on",
+    "vol_on_cairo",
+    "x",
+    "x_prefs",
+    "youtube_logo",
+    "youtube_logo_cairo",
+    "ytl_cairo",
+    "ytl_icon",
+    "ytl_logo",
+    "ytl_outline",
+    "ytl_sad_logo",
+    "ytl_settings",
+    "ytl_settings_cairo"
+  ],
+  "audio": "exact packaged bytes",
+  "bundle_metadata": "equal property list values",
+  "locale_policy": "Preserve existing working-copy locale edits; record differences without overwriting.",
+  "locale_differences": {
+    "ar.lproj/Localizable.strings": {
+      "FeaturesNotActivated": {
+        "package": "You are not logged in. To access YouTube Plus features, please log in to an account with an active subscription.",
+        "working_copy": "You are not logged in. To access YouTube Plus features, please log in with an active subscription."
+      }
+    },
+    "en.lproj/Localizable.strings": {
+      "FeaturesNotActivated": {
+        "package": "You are not logged in. To access YouTube Plus features, please log in to an account with an active subscription.",
+        "working_copy": "You are not logged in. To access YouTube Plus features, please log in with an active subscription."
+      }
+    },
+    "es.lproj/Localizable.strings": {
+      "Account": {
+        "package": "Cuenta",
+        "working_copy": "Account"
+      },
+      "FeaturesNotActivated": {
+        "package": "No has iniciado sesión. Para acceder a las características de YouTube Plus, por favor inicia sesión con una cuenta con una suscripción activa.",
+        "working_copy": "No has iniciado sesión. Para acceder a las características de YouTube Plus, por favor inicia sesión con una subscripción activa."
+      },
+      "LogIn": {
+        "package": "Iniciar sesión",
+        "working_copy": "Log in"
+      }
+    },
+    "fr.lproj/Localizable.strings": {
+      "FeaturesNotActivated": {
+        "package": "You are not logged in. To access YouTube Plus features, please log in to an account with an active subscription.",
+        "working_copy": "You are not logged in. To access YouTube Plus features, please log in with an active subscription."
+      }
+    },
+    "it.lproj/Localizable.strings": {
+      "FeaturesNotActivated": {
+        "package": "You are not logged in. To access YouTube Plus features, please log in to an account with an active subscription.",
+        "working_copy": "You are not logged in. To access YouTube Plus features, please log in with an active subscription."
+      }
+    },
+    "ja.lproj/Localizable.strings": {
+      "FeaturesNotActivated": {
+        "package": "You are not logged in. To access YouTube Plus features, please log in to an account with an active subscription.",
+        "working_copy": "You are not logged in. To access YouTube Plus features, please log in with an active subscription."
+      }
+    },
+    "ko.lproj/Localizable.strings": {
+      "FeaturesNotActivated": {
+        "package": "You are not logged in. To access YouTube Plus features, please log in to an account with an active subscription.",
+        "working_copy": "You are not logged in. To access YouTube Plus features, please log in with an active subscription."
+      }
+    },
+    "pl.lproj/Localizable.strings": {
+      "FeaturesNotActivated": {
+        "package": "Nie jesteś zalogowany. Aby uzyskać dostęp do funkcji YouTube Plus, zaloguj się na konto z aktywną subskrypcją.",
+        "working_copy": "Nie jesteś zalogowany. Aby uzyskać dostęp do funkcji YouTube Plus zaloguj się z aktywną subskrypcją."
+      },
+      "NoMoreVideosButton": {
+        "package": null,
+        "working_copy": "Ukryj przycisk więcej filmów"
+      },
+      "NoMoreVideosButtonDesc": {
+        "package": null,
+        "working_copy": "Ukrywa przycisk więcej filmów w trybie pełnoekranowym."
+      }
+    },
+    "ru.lproj/Localizable.strings": {
+      "Account": {
+        "package": "Аккаунт",
+        "working_copy": "Account"
+      },
+      "FeaturesNotActivated": {
+        "package": "Вы не вошли в аккаунт. Для доступа к функциям YouTube Plus войдите в аккаунт с активной подпиской.",
+        "working_copy": "Вы не вошли в аккаунт. Для доступа к функциям YouTube Plus войдите с активной подпиской."
+      },
+      "LogIn": {
+        "package": "Авторизация",
+        "working_copy": "Log in"
+      },
+      "NoMoreVideosButton": {
+        "package": "Скрыть кнопку «Больше видео»",
+        "working_copy": "Hide more videos button"
+      },
+      "NoMoreVideosButtonDesc": {
+        "package": "Скрывает кнопку «Больше видео» из панели действий.",
+        "working_copy": "Hides the more videos button in fullscreen mode."
+      }
+    },
+    "tr.lproj/Localizable.strings": {
+      "Account": {
+        "package": "Hesap",
+        "working_copy": "Account"
+      },
+      "FeaturesNotActivated": {
+        "package": "Henüz giriş yapmadın. YouTube Plus özelliklerine erişmek için aktif bir aboneliği olan bir hesapla giriş yapmalısın.",
+        "working_copy": "Henüz giriş yapmadın. YouTube Plus özelliklerine erişmek için aktif bir abonelikle giriş yapman gerekiyor."
+      },
+      "LogIn": {
+        "package": null,
+        "working_copy": "Log in"
+      },
+      "LogШn": {
+        "package": "Giriş yap",
+        "working_copy": null
+      },
+      "NoMoreVideosButton": {
+        "package": "Daha fazla video düğmesini gizle",
+        "working_copy": "Hide more videos button"
+      },
+      "NoMoreVideosButtonDesc": {
+        "package": "Tam ekran modunda daha fazla video düğmesini gizler.",
+        "working_copy": "Hides the more videos button in fullscreen mode."
+      }
+    },
+    "vi.lproj/Localizable.strings": {
+      "Account": {
+        "package": "Tài khoản",
+        "working_copy": "Account"
+      },
+      "FeaturesNotActivated": {
+        "package": "Bạn hiện chưa đăng nhập. Để sử dụng được các tính năng của YouTube Plus, vui lòng đăng nhập bằng tài khoản đang có gói đăng ký hợp lệ.",
+        "working_copy": "Bạn hiện chưa đăng nhập. Để sử dụng được các tính năng của YouTube Plus, vui lòng đăng nhập bằng tài khoản có gói đăng ký đang hoạt động."
+      },
+      "LogIn": {
+        "package": "Đăng nhập",
+        "working_copy": "Log in"
+      },
+      "NoMoreVideosButton": {
+        "package": null,
+        "working_copy": "Hide more videos button"
+      },
+      "NoMoreVideosButtonDesc": {
+        "package": null,
+        "working_copy": "Hides the more videos button in fullscreen mode."
+      }
+    },
+    "zh-Hans.lproj/Localizable.strings": {
+      "Account": {
+        "package": "账户",
+        "working_copy": "Account"
+      },
+      "FeaturesNotActivated": {
+        "package": "您尚未登录。要访问 YouTube Plus 功能，请使用有有效订阅的账户登录。",
+        "working_copy": "您尚未登录。要访问 YouTube Plus 功能，请使用有效订阅登录。"
+      },
+      "LogIn": {
+        "package": "登录",
+        "working_copy": "Log in"
+      }
+    },
+    "zh-Hant.lproj/Localizable.strings": {
+      "Account": {
+        "package": "帳戶",
+        "working_copy": "Account"
+      },
+      "LogIn": {
+        "package": "登入",
+        "working_copy": "Log in"
+      }
+    }
+  },
+  "deployed_files": {
+    "Assets.car": "5bd317feeeeed82a856223d7a996e951d76904afc0722e9502688449dbd795ec",
+    "Info.plist": "09c00b4738349577632c42f6caaf74a3d2442f5ed860d2f13889ee0defd1383c",
+    "SponsorAudio.m4a": "bfe134f5eca363146c94a1571c05a72e81952194b7f763c42d803da3af6b3d8a",
+    "ar.lproj/Localizable.strings": "b739186f88c5797c9104b75c0d630ccf36fc0ac00158e008a55fad3156ad05ec",
+    "en.lproj/Localizable.strings": "e76902ef937bc27ce87f2a446a5eed700d820d01946370e3428e28a9336bf9f2",
+    "es.lproj/Localizable.strings": "549402efdd43654ca32bb1cf4f30513a04c0e166834f270a9c8974f8b3c7a001",
+    "fr.lproj/Localizable.strings": "54e8b5b51be496091c3b7fbbd8ee6baeb48c3c354a203d9224c070191fd98c68",
+    "it.lproj/Localizable.strings": "33c87be9ce9a0ed11d9d1c20172c59c1653f7bc95cf99f5a349340018912449d",
+    "ja.lproj/Localizable.strings": "e0a1420583a9682000ee0714fbba25cbe0fc7955e4b92a9ea343f2dc849de2f2",
+    "ko.lproj/Localizable.strings": "015e5d2205ee3cc35126c8cb594842b8e01b1ce79ab88ceb1509f9f5002f2df5",
+    "pl.lproj/Localizable.strings": "342bc0d3c6c80a311b4c1b38f4d6f7e38ddbcd5b07a34f879c8a45b3da7db9de",
+    "ru.lproj/Localizable.strings": "dc7be2c2e49ffd78a98c41da8b446d4e944d8fce3cd3763e2a65102e309e1e47",
+    "tr.lproj/Localizable.strings": "c0c611ffe1b6503397bbafbe338b25f4c24689d993f5aba9292374dffee4dcd5",
+    "vi.lproj/Localizable.strings": "5cac6c8110c0224f66b0e19f6f83a14910831b8265f6605a86c9412998daf7f6",
+    "zh-Hans.lproj/Localizable.strings": "2fe4db6642f9a890d69619c1e4bc854b66e9b7f117f821dd7f1a26f447e8593e",
+    "zh-Hant.lproj/Localizable.strings": "143783025cccfd8aa10d66dfb42daf08e5e4626db00a911533409f8468d5e13b"
+  },
+  "original_binary_executed": false
+}

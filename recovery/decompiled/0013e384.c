@@ -1,0 +1,194 @@
+/* Decompiled from supplied 5.2.2 arm package. VA 0x13e384. navbarTable */
+
+/* Function Stack Size: 0x10 bytes */
+
+ID YTPSettingsBuilder::navbarTable(ID param_1,SEL param_2)
+
+{
+  undefined *puVar1;
+  undefined *puVar2;
+  undefined *puVar3;
+  undefined8 uVar4;
+  undefined8 uVar5;
+  undefined8 uVar6;
+  undefined8 uVar7;
+  undefined8 uVar8;
+  undefined8 uVar9;
+  undefined8 uVar10;
+  undefined8 uVar11;
+  undefined8 uVar12;
+  undefined8 uVar13;
+  ID IVar14;
+  undefined8 uStack_190;
+  undefined **ppuStack_188;
+  undefined **ppuStack_180;
+  undefined8 uStack_178;
+  undefined8 uStack_170;
+  undefined8 uStack_168;
+  undefined8 uStack_160;
+  undefined8 uStack_158;
+  undefined8 uStack_150;
+  undefined8 uStack_148;
+  undefined8 uStack_140;
+  undefined8 uStack_130;
+  undefined8 uStack_128;
+  undefined8 uStack_120;
+  undefined8 uStack_118;
+  undefined8 uStack_110;
+  undefined8 uStack_108;
+  undefined8 uStack_100;
+  undefined8 uStack_f8;
+  undefined8 uStack_f0;
+  undefined8 uStack_e8;
+  undefined8 *puStack_e0;
+  undefined *puStack_d8;
+  undefined8 uStack_d0;
+  undefined8 uStack_c8;
+  undefined8 *puStack_c0;
+  undefined8 uStack_b8;
+  undefined8 uStack_b0;
+  undefined8 uStack_a8;
+  undefined8 uStack_a0;
+  undefined8 uStack_98;
+  undefined8 uStack_90;
+  undefined **local_88;
+  uint local_7c;
+  undefined **local_78;
+  long local_70;
+  
+  puVar2 = PTR_DVNTableModel_0114ee88;
+  puVar1 = PTR_s_ytl_localized_0114d190;
+  local_70 = *(long *)PTR____stack_chk_guard_01060708;
+  local_78 = &PTR_LAB_011a7f90;
+  local_7c = (uint)(DAT_01227434 == 0);
+  local_88 = &PTR_LAB_011a7950;
+  DAT_01227434 = 1;
+  puStack_c0 = &uStack_170;
+  puStack_e0 = &uStack_190;
+  _objc_msgSend(&PTR____CFConstantStringClassReference_01192860,PTR_s_ytl_localized_0114d190);
+  uVar4 = _objc_retainAutoreleasedReturnValue();
+  _objc_msgSend(puVar2,PTR_s_modelWithTitle_sections__0114d6e0,uVar4,0);
+  uVar5 = _objc_retainAutoreleasedReturnValue();
+  uStack_f0 = uVar5;
+  _objc_release(uVar4);
+  _objc_msgSend(uVar5,PTR_s_setSupportsSearching__0114d6e8,1);
+  puVar3 = PTR_DVNCell_0114ee98;
+  puStack_d8 = PTR_DVNSection_0114ee90;
+  _objc_msgSend(&PTR____CFConstantStringClassReference_01192720,puVar1);
+  uVar4 = _objc_retainAutoreleasedReturnValue();
+  uStack_90 = uVar4;
+  _objc_msgSend(&PTR____CFConstantStringClassReference_01192a60,puVar1);
+  uStack_98 = _objc_retainAutoreleasedReturnValue();
+  puVar2 = PTR_s_cellWithTitle_subtitle_type_key__0114d788;
+  _objc_msgSend(puVar3,PTR_s_cellWithTitle_subtitle_type_key__0114d788,uVar4,uStack_98,0,
+                &PTR____CFConstantStringClassReference_011929a0);
+  uStack_170 = _objc_retainAutoreleasedReturnValue();
+  puVar3 = PTR_DVNCell_0114ee98;
+  uStack_a0 = uStack_170;
+  _objc_msgSend(&PTR____CFConstantStringClassReference_011929e0,puVar1);
+  uVar4 = _objc_retainAutoreleasedReturnValue();
+  uStack_a8 = uVar4;
+  _objc_msgSend(&PTR____CFConstantStringClassReference_01192a20,puVar1);
+  uStack_b0 = _objc_retainAutoreleasedReturnValue();
+  _objc_msgSend(puVar3,puVar2,uVar4,uStack_b0,0,&PTR____CFConstantStringClassReference_011926a0);
+  uStack_168 = _objc_retainAutoreleasedReturnValue();
+  puVar3 = PTR_DVNCell_0114ee98;
+  uStack_b8 = uStack_168;
+  _objc_msgSend(&PTR____CFConstantStringClassReference_011928a0,puVar1);
+  uVar4 = _objc_retainAutoreleasedReturnValue();
+  uStack_c8 = uVar4;
+  _objc_msgSend(&PTR____CFConstantStringClassReference_011927e0,puVar1);
+  uStack_d0 = _objc_retainAutoreleasedReturnValue();
+  _objc_msgSend(puVar3,puVar2,uVar4,uStack_d0,0,&PTR____CFConstantStringClassReference_01192960);
+  uStack_160 = _objc_retainAutoreleasedReturnValue();
+  puVar3 = PTR_DVNCell_0114ee98;
+  uStack_e8 = uStack_160;
+  _objc_msgSend(&PTR____CFConstantStringClassReference_01192760,puVar1);
+  uVar4 = _objc_retainAutoreleasedReturnValue();
+  uStack_f8 = uVar4;
+  _objc_msgSend(&PTR____CFConstantStringClassReference_011926e0,puVar1);
+  uStack_100 = _objc_retainAutoreleasedReturnValue();
+  _objc_msgSend(puVar3,puVar2,uVar4,uStack_100,0,&PTR____CFConstantStringClassReference_01192920);
+  uStack_158 = _objc_retainAutoreleasedReturnValue();
+  puVar3 = PTR_DVNCell_0114ee98;
+  uStack_108 = uStack_158;
+  _objc_msgSend(&PTR____CFConstantStringClassReference_01192660,puVar1);
+  uVar4 = _objc_retainAutoreleasedReturnValue();
+  uStack_110 = uVar4;
+  _objc_msgSend(&PTR____CFConstantStringClassReference_011925e0,puVar1);
+  uStack_118 = _objc_retainAutoreleasedReturnValue();
+  _objc_msgSend(puVar3,puVar2,uVar4,uStack_118,0,&PTR____CFConstantStringClassReference_011927a0);
+  uStack_150 = _objc_retainAutoreleasedReturnValue();
+  puVar3 = PTR_DVNCell_0114ee98;
+  uStack_120 = uStack_150;
+  _objc_msgSend(&PTR____CFConstantStringClassReference_01192560,puVar1);
+  uVar4 = _objc_retainAutoreleasedReturnValue();
+  uStack_128 = uVar4;
+  _objc_msgSend(&PTR____CFConstantStringClassReference_011925a0,puVar1);
+  uStack_130 = _objc_retainAutoreleasedReturnValue();
+  _objc_msgSend(puVar3,puVar2,uVar4,uStack_130,0,&PTR____CFConstantStringClassReference_011924e0);
+  uVar5 = _objc_retainAutoreleasedReturnValue();
+  puVar2 = PTR_DVNCell_0114ee98;
+  uStack_148 = uVar5;
+  _objc_msgSend(&PTR____CFConstantStringClassReference_011928e0,puVar1);
+  uVar6 = _objc_retainAutoreleasedReturnValue();
+  _objc_msgSend(&PTR____CFConstantStringClassReference_01192620,puVar1);
+  uVar7 = _objc_retainAutoreleasedReturnValue();
+  _objc_msgSend(&PTR____CFConstantStringClassReference_01192aa0,puVar1);
+  uVar8 = _objc_retainAutoreleasedReturnValue();
+  ppuStack_188 = &PTR____CFConstantStringClassReference_01192520;
+  ppuStack_180 = &PTR____CFConstantStringClassReference_011924a0;
+  uStack_190 = uVar8;
+  _objc_msgSend(&PTR____CFConstantStringClassReference_01192820,puVar1);
+  uVar9 = _objc_retainAutoreleasedReturnValue();
+  puVar1 = PTR_s_arrayWithObjects_count__0114b600;
+  uStack_178 = uVar9;
+  _objc_msgSend(PTR__OBJC_CLASS___NSArray_0114ec18,PTR_s_arrayWithObjects_count__0114b600,puStack_e0
+                ,4);
+  uVar10 = _objc_retainAutoreleasedReturnValue();
+  _objc_msgSend(puVar2,PTR_s_cellWithTitle_subtitle_titleInde_0114d7a8,uVar6,uVar7,uVar10,3,
+                &PTR____CFConstantStringClassReference_01192460);
+  uVar11 = _objc_retainAutoreleasedReturnValue();
+  uVar4 = uStack_f0;
+  uStack_140 = uVar11;
+  _objc_msgSend(PTR__OBJC_CLASS___NSArray_0114ec18,puVar1,puStack_c0,7);
+  uVar12 = _objc_retainAutoreleasedReturnValue();
+  _objc_msgSend(puStack_d8,PTR_s_sectionWithCells_identifier__0114d770,uVar12,
+                &PTR____CFConstantStringClassReference_01192420);
+  uVar13 = _objc_retainAutoreleasedReturnValue();
+  _objc_msgSend(uVar4,PTR_s_addSection__0114d710,uVar13);
+  _objc_release(uVar13);
+  _objc_release(uVar12);
+  _objc_release(uVar11);
+  _objc_release(uVar10);
+  _objc_release(uVar9);
+  _objc_release(uVar8);
+  _objc_release(uVar7);
+  _objc_release(uVar6);
+  _objc_release(uVar5);
+  _objc_release(uStack_130);
+  _objc_release(uStack_128);
+  _objc_release(uStack_120);
+  _objc_release(uStack_118);
+  _objc_release(uStack_110);
+  _objc_release(uStack_108);
+  _objc_release(uStack_100);
+  _objc_release(uStack_f8);
+  _objc_release(uStack_e8);
+  _objc_release(uStack_d0);
+  _objc_release(uStack_c8);
+  _objc_release(uStack_b8);
+  _objc_release(uStack_b0);
+  _objc_release(uStack_a8);
+  _objc_release(uStack_a0);
+  _objc_release(uStack_98);
+  _objc_release(uStack_90);
+  if (*(long *)PTR____stack_chk_guard_01060708 == local_70) {
+    IVar14 = (*(code *)PTR__objc_autoreleaseReturnValue_01060fb0)(uVar4);
+    return IVar14;
+  }
+                    /* WARNING: Subroutine does not return */
+  ___stack_chk_fail();
+}
+
+

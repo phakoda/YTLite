@@ -1,0 +1,590 @@
+[
+  {
+    "address": "0x113acf0",
+    "value": ""
+  },
+  {
+    "address": "0x113ad10",
+    "value": "EnableHardwareAcceleratedVideoDecoder"
+  },
+  {
+    "address": "0x113ad30",
+    "value": "RequireHardwareAcceleratedVideoDecoder"
+  },
+  {
+    "address": "0x113ad50",
+    "value": "esds"
+  },
+  {
+    "address": "0x113ad70",
+    "value": "avcC"
+  },
+  {
+    "address": "0x113ad90",
+    "value": "hvcC"
+  },
+  {
+    "address": "0x113adb0",
+    "value": "ITU_R_2020"
+  },
+  {
+    "address": "0x113add0",
+    "value": "H264EntropyMode"
+  },
+  {
+    "address": "0x113adf0",
+    "value": "CAVLC"
+  },
+  {
+    "address": "0x113ae10",
+    "value": "CABAC"
+  },
+  {
+    "address": "0x113ae30",
+    "value": "H264_Baseline_4_0"
+  },
+  {
+    "address": "0x113ae50",
+    "value": "H264_Baseline_4_2"
+  },
+  {
+    "address": "0x113ae70",
+    "value": "H264_Baseline_5_0"
+  },
+  {
+    "address": "0x113ae90",
+    "value": "H264_Baseline_5_1"
+  },
+  {
+    "address": "0x113aeb0",
+    "value": "H264_Baseline_5_2"
+  },
+  {
+    "address": "0x113aed0",
+    "value": "H264_Baseline_AutoLevel"
+  },
+  {
+    "address": "0x113aef0",
+    "value": "H264_Main_4_2"
+  },
+  {
+    "address": "0x113af10",
+    "value": "H264_Main_5_1"
+  },
+  {
+    "address": "0x113af30",
+    "value": "H264_Main_5_2"
+  },
+  {
+    "address": "0x113af50",
+    "value": "H264_Main_AutoLevel"
+  },
+  {
+    "address": "0x113af70",
+    "value": "H264_High_3_0"
+  },
+  {
+    "address": "0x113af90",
+    "value": "H264_High_3_1"
+  },
+  {
+    "address": "0x113afb0",
+    "value": "H264_High_3_2"
+  },
+  {
+    "address": "0x113afd0",
+    "value": "H264_High_4_0"
+  },
+  {
+    "address": "0x113aff0",
+    "value": "H264_High_4_1"
+  },
+  {
+    "address": "0x113b010",
+    "value": "H264_High_4_2"
+  },
+  {
+    "address": "0x113b030",
+    "value": "H264_High_5_1"
+  },
+  {
+    "address": "0x113b050",
+    "value": "H264_High_5_2"
+  },
+  {
+    "address": "0x113b070",
+    "value": "H264_High_AutoLevel"
+  },
+  {
+    "address": "0x113b090",
+    "value": "H264_Extended_5_0"
+  },
+  {
+    "address": "0x113b0b0",
+    "value": "H264_Extended_AutoLevel"
+  },
+  {
+    "address": "0x113b0d0",
+    "value": "HEVC_Main_AutoLevel"
+  },
+  {
+    "address": "0x113b0f0",
+    "value": "HEVC_Main10_AutoLevel"
+  },
+  {
+    "address": "0x113b110",
+    "value": "RealTime"
+  },
+  {
+    "address": "0x113b130",
+    "value": "x86_64"
+  },
+  {
+    "address": "0x113b150",
+    "value": "x86"
+  },
+  {
+    "address": "0x113b170",
+    "value": "_64h"
+  },
+  {
+    "address": "0x113b190",
+    "value": "_64all"
+  },
+  {
+    "address": "0x113b1b0",
+    "value": "_arch1"
+  },
+  {
+    "address": "0x113b1d0",
+    "value": "arm64"
+  },
+  {
+    "address": "0x113b1f0",
+    "value": "v8"
+  },
+  {
+    "address": "0x113b210",
+    "value": "arm"
+  },
+  {
+    "address": "0x113b230",
+    "value": "xscale"
+  },
+  {
+    "address": "0x113b250",
+    "value": "v4t"
+  },
+  {
+    "address": "0x113b270",
+    "value": "v5tej"
+  },
+  {
+    "address": "0x113b290",
+    "value": "v6"
+  },
+  {
+    "address": "0x113b2b0",
+    "value": "v6m"
+  },
+  {
+    "address": "0x113b2d0",
+    "value": "v7"
+  },
+  {
+    "address": "0x113b2f0",
+    "value": "v7em"
+  },
+  {
+    "address": "0x113b310",
+    "value": "v7f"
+  },
+  {
+    "address": "0x113b330",
+    "value": "v7k"
+  },
+  {
+    "address": "0x113b350",
+    "value": "v7m"
+  },
+  {
+    "address": "0x113b370",
+    "value": "v7s"
+  },
+  {
+    "address": "0x113b390",
+    "value": "%d"
+  },
+  {
+    "address": "0x113b3b0",
+    "value": "4.4"
+  },
+  {
+    "address": "0x113b3d0",
+    "value": "Loaded mobile-ffmpeg-%@-%@-%@-%@\n"
+  },
+  {
+    "address": "0x113b3f0",
+    "value": " "
+  },
+  {
+    "address": "0x113b410",
+    "value": "%C"
+  },
+  {
+    "address": "0x113b430",
+    "value": "null"
+  },
+  {
+    "address": "0x113b450",
+    "value": "mobile-ffmpeg"
+  },
+  {
+    "address": "0x113b470",
+    "value": "mf_pipe_"
+  },
+  {
+    "address": "0x113b490",
+    "value": "Async callback block started.\n"
+  },
+  {
+    "address": "0x113b4b0",
+    "value": "%@: %@"
+  },
+  {
+    "address": "0x113b4d0",
+    "value": "Async callback block received error: %@n\n"
+  },
+  {
+    "address": "0x113b4f0",
+    "value": "%@"
+  },
+  {
+    "address": "0x113b510",
+    "value": "Async callback block stopped.\n"
+  },
+  {
+    "address": "0x113b530",
+    "value": "fontconfig"
+  },
+  {
+    "address": "0x113b550",
+    "value": "freetype"
+  },
+  {
+    "address": "0x113b570",
+    "value": "fribidi"
+  },
+  {
+    "address": "0x113b590",
+    "value": "gmp"
+  },
+  {
+    "address": "0x113b5b0",
+    "value": "gnutls"
+  },
+  {
+    "address": "0x113b5d0",
+    "value": "kvazaar"
+  },
+  {
+    "address": "0x113b5f0",
+    "value": "mp3lame"
+  },
+  {
+    "address": "0x113b610",
+    "value": "libaom"
+  },
+  {
+    "address": "0x113b630",
+    "value": "libass"
+  },
+  {
+    "address": "0x113b650",
+    "value": "iconv"
+  },
+  {
+    "address": "0x113b670",
+    "value": "libilbc"
+  },
+  {
+    "address": "0x113b690",
+    "value": "libtheora"
+  },
+  {
+    "address": "0x113b6b0",
+    "value": "libvidstab"
+  },
+  {
+    "address": "0x113b6d0",
+    "value": "libvorbis"
+  },
+  {
+    "address": "0x113b6f0",
+    "value": "libvpx"
+  },
+  {
+    "address": "0x113b710",
+    "value": "libwebp"
+  },
+  {
+    "address": "0x113b730",
+    "value": "libxml2"
+  },
+  {
+    "address": "0x113b750",
+    "value": "opencore-amr"
+  },
+  {
+    "address": "0x113b770",
+    "value": "openh264"
+  },
+  {
+    "address": "0x113b790",
+    "value": "opus"
+  },
+  {
+    "address": "0x113b7b0",
+    "value": "rubberband"
+  },
+  {
+    "address": "0x113b7d0",
+    "value": "sdl2"
+  },
+  {
+    "address": "0x113b7f0",
+    "value": "shine"
+  },
+  {
+    "address": "0x113b810",
+    "value": "snappy"
+  },
+  {
+    "address": "0x113b830",
+    "value": "soxr"
+  },
+  {
+    "address": "0x113b850",
+    "value": "speex"
+  },
+  {
+    "address": "0x113b870",
+    "value": "tesseract"
+  },
+  {
+    "address": "0x113b890",
+    "value": "twolame"
+  },
+  {
+    "address": "0x113b8b0",
+    "value": "wavpack"
+  },
+  {
+    "address": "0x113b8d0",
+    "value": "x264"
+  },
+  {
+    "address": "0x113b8f0",
+    "value": "x265"
+  },
+  {
+    "address": "0x113b910",
+    "value": "xvid"
+  },
+  {
+    "address": "0x113b930",
+    "value": "STDERR"
+  },
+  {
+    "address": "0x113b950",
+    "value": "TRACE"
+  },
+  {
+    "address": "0x113b970",
+    "value": "DEBUG"
+  },
+  {
+    "address": "0x113b990",
+    "value": "VERBOSE"
+  },
+  {
+    "address": "0x113b9b0",
+    "value": "INFO"
+  },
+  {
+    "address": "0x113b9d0",
+    "value": "WARNING"
+  },
+  {
+    "address": "0x113b9f0",
+    "value": "ERROR"
+  },
+  {
+    "address": "0x113ba10",
+    "value": "FATAL"
+  },
+  {
+    "address": "0x113ba30",
+    "value": "PANIC"
+  },
+  {
+    "address": "0x113ba50",
+    "value": ".mobileffmpeg"
+  },
+  {
+    "address": "0x113ba70",
+    "value": "fonts.conf"
+  },
+  {
+    "address": "0x113ba90",
+    "value": "Failed to set font directory. Error received while creating temp conf directory: %@."
+  },
+  {
+    "address": "0x113bab0",
+    "value": "Created temporary font conf directory: TRUE."
+  },
+  {
+    "address": "0x113bad0",
+    "value": "Deleted old temporary font configuration: %s."
+  },
+  {
+    "address": "0x113baf0",
+    "value": "%@\n%@\n%@%@%@\n%@\n%@\n%@%@%@\n%@\n%@\n"
+  },
+  {
+    "address": "0x113bb10",
+    "value": "        <match target=\"pattern\">"
+  },
+  {
+    "address": "0x113bb30",
+    "value": "                <test qual=\"any\" name=\"family\">"
+  },
+  {
+    "address": "0x113bb50",
+    "value": "                        <string>"
+  },
+  {
+    "address": "0x113bb70",
+    "value": "</string>"
+  },
+  {
+    "address": "0x113bb90",
+    "value": "                </test>"
+  },
+  {
+    "address": "0x113bbb0",
+    "value": "                <edit name=\"family\" mode=\"assign\" binding=\"same\">"
+  },
+  {
+    "address": "0x113bbd0",
+    "value": "                </edit>"
+  },
+  {
+    "address": "0x113bbf0",
+    "value": "        </match>"
+  },
+  {
+    "address": "0x113bc10",
+    "value": "%@\n%@\n%@\n%@\n%@%@%@\n%@\n%@\n"
+  },
+  {
+    "address": "0x113bc30",
+    "value": "<?xml version=\"1.0\"?>"
+  },
+  {
+    "address": "0x113bc50",
+    "value": "<!DOCTYPE fontconfig SYSTEM \"fonts.dtd\">"
+  },
+  {
+    "address": "0x113bc70",
+    "value": "<fontconfig>"
+  },
+  {
+    "address": "0x113bc90",
+    "value": "    <dir>.</dir>"
+  },
+  {
+    "address": "0x113bcb0",
+    "value": "    <dir>"
+  },
+  {
+    "address": "0x113bcd0",
+    "value": "</dir>"
+  },
+  {
+    "address": "0x113bcf0",
+    "value": "</fontconfig>"
+  },
+  {
+    "address": "0x113bd10",
+    "value": "Failed to set font directory. Error received while saving font configuration: %@."
+  },
+  {
+    "address": "0x113bd30",
+    "value": "Saved new temporary font configuration with %d font name mappings."
+  },
+  {
+    "address": "0x113bd50",
+    "value": "Font directory %@ registered successfully."
+  },
+  {
+    "address": "0x113bd70",
+    "value": "full-gpl"
+  },
+  {
+    "address": "0x113bd90",
+    "value": "custom"
+  },
+  {
+    "address": "0x113bdb0",
+    "value": "full"
+  },
+  {
+    "address": "0x113bdd0",
+    "value": "video"
+  },
+  {
+    "address": "0x113bdf0",
+    "value": "audio"
+  },
+  {
+    "address": "0x113be10",
+    "value": "https-gpl"
+  },
+  {
+    "address": "0x113be30",
+    "value": "https"
+  },
+  {
+    "address": "0x113be50",
+    "value": "min-gpl"
+  },
+  {
+    "address": "0x113be70",
+    "value": "min"
+  },
+  {
+    "address": "0x113be90",
+    "value": "enable-%@"
+  },
+  {
+    "address": "0x113beb0",
+    "value": "enable-lib%@"
+  },
+  {
+    "address": "0x113bed0",
+    "value": "%@/%@%d"
+  },
+  {
+    "address": "0x113bef0",
+    "value": "Failed to register new FFmpeg pipe %@. Operation failed with rc=%d."
+  },
+  {
+    "address": "0x113bf10",
+    "value": "%@-lts"
+  },
+  {
+    "address": "0x113bf30",
+    "value": "http/1.1"
+  }
+]

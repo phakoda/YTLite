@@ -1,0 +1,5 @@
+# BlurButton allocation order
+
+The original factory at `0x22311c` calls `UIBlurEffect effectWithStyle:16` at `0x2231d0`, retains its result, and then allocates UIVisualEffectView at `0x2231e8`. The nested initializer expression in the earlier reconstruction evaluated allocation first. A local effect variable now preserves the original sequence.
+
+The rest of the factory matches the inspected method: concrete BlurButton factory, 28-point frame, 14-point blur corner radius, 18-point centered image, noninteractive blur, white image tint, menu branch or target/action branch, and retained image-view ivar. `setHighlighted:` calls its superclass and applies alpha 0.25 or 1.0. ARC emits the single ivar destructor. Raw original annotations are in `.recovery-work/analysis/0022311c-00223504.txt`; the canonical image is pinned by the package SHA-256. The shared presentation runtime executes these actual source methods with synthetic UIKit and tests their layout, menu/action and highlighted behavior. No original binary or device UI runs.

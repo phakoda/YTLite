@@ -1,0 +1,887 @@
+{
+  "binary_sha256": "bdcc4d4ccaa5835d35bc97ccbdfc1c3dff514cb7161848265dcc0585f364c0ca",
+  "methods": [
+    {
+      "kind": "-",
+      "selector": "initWithText:",
+      "encoding": "@24@0:8@16",
+      "address": "0x1e06b4"
+    },
+    {
+      "kind": "-",
+      "selector": "viewDidLoad",
+      "encoding": "v16@0:8",
+      "address": "0x1e13ac"
+    },
+    {
+      "kind": "-",
+      "selector": "closeButtonTapped",
+      "encoding": "v16@0:8",
+      "address": "0x1e1964"
+    },
+    {
+      "kind": "-",
+      "selector": "tableView:willDisplayHeaderView:forSection:",
+      "encoding": "v40@0:8@16@24q32",
+      "address": "0x1e19a0"
+    },
+    {
+      "kind": "-",
+      "selector": "tableView:heightForRowAtIndexPath:",
+      "encoding": "d32@0:8@16@24",
+      "address": "0x1e1bd4"
+    },
+    {
+      "kind": "-",
+      "selector": "numberOfSectionsInTableView:",
+      "encoding": "q24@0:8@16",
+      "address": "0x1e1c44"
+    },
+    {
+      "kind": "-",
+      "selector": "tableView:numberOfRowsInSection:",
+      "encoding": "q32@0:8@16q24",
+      "address": "0x1e1c5c"
+    },
+    {
+      "kind": "-",
+      "selector": "tableView:cellForRowAtIndexPath:",
+      "encoding": "@32@0:8@16@24",
+      "address": "0x1e1cb8"
+    },
+    {
+      "kind": "-",
+      "selector": "menuButtonWithTitle:array:",
+      "encoding": "@32@0:8@16@24",
+      "address": "0x1e3458"
+    },
+    {
+      "kind": "-",
+      "selector": "systemImage:withSize:",
+      "encoding": "@32@0:8@16d24",
+      "address": "0x1e3d38"
+    },
+    {
+      "kind": "-",
+      "selector": "isRTL",
+      "encoding": "B16@0:8",
+      "address": "0x1e3fa0"
+    },
+    {
+      "kind": "-",
+      "selector": "translateText",
+      "encoding": "v16@0:8",
+      "address": "0x1e400c"
+    },
+    {
+      "kind": "-",
+      "selector": "tableView:shouldHighlightRowAtIndexPath:",
+      "encoding": "B32@0:8@16@24",
+      "address": "0x1e46fc"
+    },
+    {
+      "kind": "-",
+      "selector": "tableView:didSelectRowAtIndexPath:",
+      "encoding": "v32@0:8@16@24",
+      "address": "0x1e4704"
+    },
+    {
+      "kind": "-",
+      "selector": ".cxx_destruct",
+      "encoding": "v16@0:8",
+      "address": "0x1e471c"
+    }
+  ],
+  "spans": [
+    {
+      "start": "0x150e8",
+      "end": "0x15118",
+      "sha256": "953271d7d15f71a638a69f6514c05634f4873d108ae7d7e0faf2ef11474aa83c"
+    },
+    {
+      "start": "0x15118",
+      "end": "0x15148",
+      "sha256": "0b1c81b7669062645c9fd95d235ff4dc994dba1b446e8d4a99fb17a593d3a945"
+    },
+    {
+      "start": "0x440f4",
+      "end": "0x44124",
+      "sha256": "c9e6cd2f7e7a5f7116baf14bd7d0e4a40d3d6acd21625e3b4acaee80419abb34"
+    },
+    {
+      "start": "0x44124",
+      "end": "0x44170",
+      "sha256": "3a46c601ffa4786bf71e7db8d6a9fcde7e493cdb0724d97d7ebc6e96a4532347"
+    },
+    {
+      "start": "0x1e06b4",
+      "end": "0x1e13ac",
+      "sha256": "fd6fead887dde37cf3c37e4a46660bf5876d1790151cd8087238ae70c4484827"
+    },
+    {
+      "start": "0x1e13ac",
+      "end": "0x1e1910",
+      "sha256": "0bd65fb64b5800b66708635da81054725ef7b313d2507f90a42de7a26cd8f8f1"
+    },
+    {
+      "start": "0x1e1910",
+      "end": "0x1e1964",
+      "sha256": "c121163176c6ba4f3b64703902be0ae94cc79c47419a3634567f2e1bee8d2e9f"
+    },
+    {
+      "start": "0x1e1964",
+      "end": "0x1e19a0",
+      "sha256": "2dfe68ca87890c24e9f192941cb14a8a0954871af473480437011c194fbce22c"
+    },
+    {
+      "start": "0x1e19a0",
+      "end": "0x1e1bd4",
+      "sha256": "ddac09a4cadeb08b3823fc36fc1d4c44584cbaea4ec2fd6d51b7470aab6fd382"
+    },
+    {
+      "start": "0x1e1bd4",
+      "end": "0x1e1c44",
+      "sha256": "5160d038a0ef679e8264b8e150a45c610bad244c1d53b41a93b9a63a0050766d"
+    },
+    {
+      "start": "0x1e1c44",
+      "end": "0x1e1c5c",
+      "sha256": "4a6c25b45c87e1ae467045ad0263c8b0ca90346dea769b5bc6e241a8bbfb05c0"
+    },
+    {
+      "start": "0x1e1c5c",
+      "end": "0x1e1cb8",
+      "sha256": "cd4c4661c12466c272adb5042bc512bff0e5323b3f2b1950c45a95694c33af0c"
+    },
+    {
+      "start": "0x1e1cb8",
+      "end": "0x1e3458",
+      "sha256": "342af9cad314ad9475b5d21e5a551839631dfe9fb69c5f2c3a1883a135e392d5"
+    },
+    {
+      "start": "0x1e3458",
+      "end": "0x1e3c1c",
+      "sha256": "ced72ac544c299df226281440787beedbf31552aa05c187de6fb88b059bb5400"
+    },
+    {
+      "start": "0x1e3c1c",
+      "end": "0x1e3d38",
+      "sha256": "26d6676df9283399617bd99b51b758e60e6ba419e27026f7505813aa2136829c"
+    },
+    {
+      "start": "0x1e3d38",
+      "end": "0x1e3e18",
+      "sha256": "b8dfdf561f9a7122117250e371d20f5b0f699e971f3498fac13063ba7e3d9f69"
+    },
+    {
+      "start": "0x1e3e18",
+      "end": "0x1e3fa0",
+      "sha256": "bd5f80f360a8e7cc6e3ca98de795be8e99e4384a9d3d516225315b1bfc894607"
+    },
+    {
+      "start": "0x1e3fa0",
+      "end": "0x1e400c",
+      "sha256": "73cdd7f6fa47a3863815ef1979cfdedd3a002e6d185b590e5fa7a2a6471b834f"
+    },
+    {
+      "start": "0x1e400c",
+      "end": "0x1e431c",
+      "sha256": "a93011053e04e5661c8af05f731ffa67759b5166191e592d5ceb3bd109c17bf0"
+    },
+    {
+      "start": "0x1e431c",
+      "end": "0x1e43d8",
+      "sha256": "af3ad260268b00c59ffadcbc63b4bd1c54dba75da28d8e83bd8b2fe8ce75634f"
+    },
+    {
+      "start": "0x1e43d8",
+      "end": "0x1e46fc",
+      "sha256": "2157496aa5d2c61c1d308f42388156de0a4966f93a8b26ab2fff9a1633a896c8"
+    },
+    {
+      "start": "0x1e46fc",
+      "end": "0x1e4704",
+      "sha256": "2f6110664dbd16b514a0c2c7c8326932a36e85d2f15b91e57ca76efd2c7a625a"
+    },
+    {
+      "start": "0x1e4704",
+      "end": "0x1e471c",
+      "sha256": "3b857b2799d420ef5a5611680c14013afce3e4ce41f6795c3a6519328effc42d"
+    },
+    {
+      "start": "0x1e471c",
+      "end": "0x1e47d4",
+      "sha256": "4bb7810e255e4052e93c2cd2597a2eeaf886b5b647a364ebd68d16f8eebf9bc2"
+    }
+  ],
+  "data_bytes": {
+    "0xc4c2f8": "cdccccccccccec3f",
+    "0xc4c2f0": "9a9999999999b93f",
+    "0xc4c358": "0000000000804640",
+    "0xc4c238": "0000000000c07240",
+    "0x10623d0": "00000000000000002800000000000000e850010000001000185101000000100068b3b900000040000001000000000000",
+    "0x1062e20": "00000000000000003000000000000000e8500100000010001851010000001000ecb0b900000040000001000000000000",
+    "0x10624f0": "0000000000000000300000000000000026b1b900000040000001000000000000",
+    "0x1061910": "00000000000000003800000000000000f440040000001000244104000000100004b0b900000040000003000000000000",
+    "0xc4c228": "000000c200000000",
+    "0xc4c2a8": "000080d000000000"
+  },
+  "decoded_cstrings": {
+    "0x11b9bde": "translateText",
+    "0x11b9bf3": "action",
+    "0x11b9c08": "translateCell",
+    "0x11b9c1f": "textView",
+    "0x11b9c32": "Translate",
+    "0x11b9c41": "type",
+    "0x11b9c4f": "typeCell",
+    "0x11b9c61": "Language",
+    "0x11b9c7a": "translationCell",
+    "0x11b9c8e": "key",
+    "0x11b9c95": "id",
+    "0x11b9c9d": "menu",
+    "0x11b9cae": "languageKey",
+    "0x11b9cc2": "indexes",
+    "0x11b9cd0": "title",
+    "0x11ba0ac": "Translating",
+    "0x11ba0c2": "oledTheme",
+    "0x11ba0d8": "Translation",
+    "0x11ba1b4": "key",
+    "0x11ba1c6": "translateText",
+    "0x11ba1dd": "textView",
+    "0x11ba1ee": "indexes",
+    "0x11ba1f9": "id",
+    "0x11ba202": "title",
+    "0x11ba20d": "menu",
+    "0x11ba217": "type",
+    "0x11ba221": "cell",
+    "0x11ba490": "chevron.up.chevron.down",
+    "0x11ba4f5": "auto",
+    "0x11ba506": "Translating",
+    "0x11ba5aa": "Translate"
+  },
+  "original_branch_records": [
+    {
+      "address": "0x1e074c",
+      "original": [
+        "0xd61f0120"
+      ],
+      "replacement": [
+        "0x14f893cc"
+      ],
+      "island": "0x400567c",
+      "island_words": [
+        "0x54000040",
+        "0x17076e41",
+        "0x17076c33"
+      ],
+      "condition": "eq",
+      "flags_at": "0x1e0704",
+      "targets": [
+        "0x1e0f84",
+        "0x1e0750"
+      ]
+    },
+    {
+      "address": "0x1e1050",
+      "original": [
+        "0xd61f0100"
+      ],
+      "replacement": [
+        "0x14f8918e"
+      ],
+      "island": "0x4005688",
+      "island_words": [
+        "0x54000040",
+        "0x17076e72",
+        "0x17076f35"
+      ],
+      "condition": "eq",
+      "flags_at": "0x1e1020",
+      "targets": [
+        "0x1e1054",
+        "0x1e1364"
+      ]
+    },
+    {
+      "address": "0x1e1428",
+      "original": [
+        "0xd61f0120"
+      ],
+      "replacement": [
+        "0x14f8909b"
+      ],
+      "island": "0x4005694",
+      "island_words": [
+        "0x54000040",
+        "0x17076fee",
+        "0x17076f64"
+      ],
+      "condition": "eq",
+      "flags_at": "0x1e13e0",
+      "targets": [
+        "0x1e1650",
+        "0x1e142c"
+      ]
+    },
+    {
+      "address": "0x1e1830",
+      "original": [
+        "0xd61f0100"
+      ],
+      "replacement": [
+        "0x14f88f9c"
+      ],
+      "island": "0x40056a0",
+      "island_words": [
+        "0x35000057",
+        "0x1707707b",
+        "0x17077063"
+      ],
+      "condition": "reg:w0",
+      "flags_at": "0x1e17f8",
+      "targets": [
+        "0x1e1890",
+        "0x1e1834"
+      ]
+    },
+    {
+      "address": "0x1e1d98",
+      "original": [
+        "0xd61f0120"
+      ],
+      "replacement": [
+        "0x14f88e45"
+      ],
+      "island": "0x40056ac",
+      "island_words": [
+        "0x54000040",
+        "0x170772b8",
+        "0x170771ba"
+      ],
+      "condition": "eq",
+      "flags_at": "0x1e1d10",
+      "targets": [
+        "0x1e2190",
+        "0x1e1d9c"
+      ]
+    },
+    {
+      "address": "0x1e2230",
+      "original": [
+        "0xd61f0100"
+      ],
+      "replacement": [
+        "0x14f88d22"
+      ],
+      "island": "0x40056b8",
+      "island_words": [
+        "0x54000040",
+        "0x170772e5",
+        "0x170772dd"
+      ],
+      "condition": "eq",
+      "flags_at": "0x1e21f8",
+      "targets": [
+        "0x1e2250",
+        "0x1e2234"
+      ]
+    },
+    {
+      "address": "0x1e22d4",
+      "original": [
+        "0xd61f0100"
+      ],
+      "replacement": [
+        "0x14f88cfc"
+      ],
+      "island": "0x40056c4",
+      "island_words": [
+        "0x54000040",
+        "0x17077304",
+        "0x1707774a"
+      ],
+      "condition": "eq",
+      "flags_at": "0x1e229c",
+      "targets": [
+        "0x1e22d8",
+        "0x1e33f4"
+      ]
+    },
+    {
+      "address": "0x1e2410",
+      "original": [
+        "0xd61f0100"
+      ],
+      "replacement": [
+        "0x14f88cb0"
+      ],
+      "island": "0x40056d0",
+      "island_words": [
+        "0x35000055",
+        "0x170773ef",
+        "0x1707734f"
+      ],
+      "condition": "reg:w0",
+      "flags_at": "0x1e23c8",
+      "targets": [
+        "0x1e2690",
+        "0x1e2414"
+      ]
+    },
+    {
+      "address": "0x1e26f8",
+      "original": [
+        "0xd61f0100"
+      ],
+      "replacement": [
+        "0x14f88bf9"
+      ],
+      "island": "0x40056dc",
+      "island_words": [
+        "0x35000055",
+        "0x17077575",
+        "0x17077406"
+      ],
+      "condition": "reg:w0",
+      "flags_at": "0x1e26bc",
+      "targets": [
+        "0x1e2cb4",
+        "0x1e26fc"
+      ]
+    },
+    {
+      "address": "0x1e2d18",
+      "original": [
+        "0xd61f0100"
+      ],
+      "replacement": [
+        "0x14f88a74"
+      ],
+      "island": "0x40056e8",
+      "island_words": [
+        "0x35000055",
+        "0x1707773d",
+        "0x1707758b"
+      ],
+      "condition": "reg:w0",
+      "flags_at": "0x1e2ce0",
+      "targets": [
+        "0x1e33e0",
+        "0x1e2d1c"
+      ]
+    },
+    {
+      "address": "0x1e351c",
+      "original": [
+        "0xd61f0120"
+      ],
+      "replacement": [
+        "0x14f88876"
+      ],
+      "island": "0x40056f4",
+      "island_words": [
+        "0x54000040",
+        "0x170777e4",
+        "0x17077789"
+      ],
+      "condition": "eq",
+      "flags_at": "0x1e34ac",
+      "targets": [
+        "0x1e3688",
+        "0x1e3520"
+      ]
+    },
+    {
+      "address": "0x1e3938",
+      "original": [
+        "0xd61f0100"
+      ],
+      "replacement": [
+        "0x14f88772"
+      ],
+      "island": "0x4005700",
+      "island_words": [
+        "0x54000040",
+        "0x1707788e",
+        "0x17077910"
+      ],
+      "condition": "eq",
+      "flags_at": "0x1e3908",
+      "targets": [
+        "0x1e393c",
+        "0x1e3b48"
+      ]
+    },
+    {
+      "address": "0x1e39c4",
+      "original": [
+        "0xd61f0100"
+      ],
+      "replacement": [
+        "0x14f88752"
+      ],
+      "island": "0x400570c",
+      "island_words": [
+        "0x54000040",
+        "0x170778f5",
+        "0x170778ad"
+      ],
+      "condition": "eq",
+      "flags_at": "0x1e3994",
+      "targets": [
+        "0x1e3ae4",
+        "0x1e39c8"
+      ]
+    },
+    {
+      "address": "0x1e3a98",
+      "original": [
+        "0xd61f0100"
+      ],
+      "replacement": [
+        "0x14f88720"
+      ],
+      "island": "0x4005718",
+      "island_words": [
+        "0x54000040",
+        "0x170778e0",
+        "0x170778f4"
+      ],
+      "condition": "eq",
+      "flags_at": "0x1e3a68",
+      "targets": [
+        "0x1e3a9c",
+        "0x1e3af0"
+      ]
+    },
+    {
+      "address": "0x1e3ae0",
+      "original": [
+        "0xd61f0100"
+      ],
+      "replacement": [
+        "0x14f88711"
+      ],
+      "island": "0x4005724",
+      "island_words": [
+        "0x54000040",
+        "0x170778ef",
+        "0x170778a7"
+      ],
+      "condition": "eq",
+      "flags_at": "0x1e3ab0",
+      "targets": [
+        "0x1e3ae4",
+        "0x1e39c8"
+      ]
+    },
+    {
+      "address": "0x1e3b40",
+      "original": [
+        "0xd61f0100"
+      ],
+      "replacement": [
+        "0x14f886fc"
+      ],
+      "island": "0x4005730",
+      "island_words": [
+        "0x54000040",
+        "0x17077904",
+        "0x17077904"
+      ],
+      "condition": "eq",
+      "flags_at": "0x1e3b10",
+      "targets": [
+        "0x1e3b44",
+        "0x1e3b48"
+      ]
+    },
+    {
+      "address": "0x1e3c7c",
+      "original": [
+        "0xd61f0120"
+      ],
+      "replacement": [
+        "0x14f886b0"
+      ],
+      "island": "0x400573c",
+      "island_words": [
+        "0x54000040",
+        "0x17077950",
+        "0x17077972"
+      ],
+      "condition": "eq",
+      "flags_at": "0x1e3c44",
+      "targets": [
+        "0x1e3c80",
+        "0x1e3d0c"
+      ]
+    },
+    {
+      "address": "0x1e407c",
+      "original": [
+        "0xd61f0120"
+      ],
+      "replacement": [
+        "0x14f885b3"
+      ],
+      "island": "0x4005748",
+      "island_words": [
+        "0x54000040",
+        "0x17077a95",
+        "0x17077a4c"
+      ],
+      "condition": "eq",
+      "flags_at": "0x1e4040",
+      "targets": [
+        "0x1e41a0",
+        "0x1e4080"
+      ]
+    },
+    {
+      "address": "0x1e4454",
+      "original": [
+        "0xd61f0120"
+      ],
+      "replacement": [
+        "0x14f884c0"
+      ],
+      "island": "0x4005754",
+      "island_words": [
+        "0x54000040",
+        "0x17077b67",
+        "0x17077b3f"
+      ],
+      "condition": "eq",
+      "flags_at": "0x1e4408",
+      "targets": [
+        "0x1e44f4",
+        "0x1e4458"
+      ]
+    },
+    {
+      "address": "0x1e4598",
+      "original": [
+        "0xd61f0100"
+      ],
+      "replacement": [
+        "0x14f88472"
+      ],
+      "island": "0x4005760",
+      "island_words": [
+        "0x54000040",
+        "0x17077b8e",
+        "0x17077bb6"
+      ],
+      "condition": "eq",
+      "flags_at": "0x1e4568",
+      "targets": [
+        "0x1e459c",
+        "0x1e4640"
+      ]
+    }
+  ],
+  "branch_tables": [
+    {
+      "branch": "0x1e074c",
+      "table": "0x11ba738",
+      "key": "0x11ba748",
+      "xor": "0x9b084bff",
+      "destinations": [
+        "0x1e0f84",
+        "0x1e0750"
+      ]
+    },
+    {
+      "branch": "0x1e1050",
+      "table": "0x11ba758",
+      "key": "0x11ba768",
+      "xor": "0x626a9503",
+      "destinations": [
+        "0x1e1054",
+        "0x1e1364"
+      ]
+    },
+    {
+      "branch": "0x1e1428",
+      "table": "0x11ba778",
+      "key": "0x11ba788",
+      "xor": "0xa504c7e2",
+      "destinations": [
+        "0x1e1650",
+        "0x1e142c"
+      ]
+    },
+    {
+      "branch": "0x1e1830",
+      "table": "0x11ba798",
+      "key": "0x11ba7a8",
+      "xor": "0xa315ce46",
+      "destinations": [
+        "0x1e1890",
+        "0x1e1834"
+      ]
+    },
+    {
+      "branch": "0x1e1d98",
+      "table": "0x11ba7b8",
+      "key": "0x11ba7c8",
+      "xor": "0x24cdfc8e",
+      "destinations": [
+        "0x1e2190",
+        "0x1e1d9c"
+      ]
+    },
+    {
+      "branch": "0x1e2230",
+      "table": "0x11ba7d8",
+      "key": "0x11ba7e8",
+      "xor": "0x64d0ba4c",
+      "destinations": [
+        "0x1e2250",
+        "0x1e2234"
+      ]
+    },
+    {
+      "branch": "0x1e22d4",
+      "table": "0x11ba7f8",
+      "key": "0x11ba808",
+      "xor": "0xac027753",
+      "destinations": [
+        "0x1e22d8",
+        "0x1e33f4"
+      ]
+    },
+    {
+      "branch": "0x1e2410",
+      "table": "0x11ba810",
+      "key": "0x11ba820",
+      "xor": "0xe1b2e358",
+      "destinations": [
+        "0x1e2690",
+        "0x1e2414"
+      ]
+    },
+    {
+      "branch": "0x1e26f8",
+      "table": "0x11ba830",
+      "key": "0x11ba840",
+      "xor": "0x49293ac6",
+      "destinations": [
+        "0x1e2cb4",
+        "0x1e26fc"
+      ]
+    },
+    {
+      "branch": "0x1e2d18",
+      "table": "0x11ba850",
+      "key": "0x11ba860",
+      "xor": "0x61762124",
+      "destinations": [
+        "0x1e33e0",
+        "0x1e2d1c"
+      ]
+    },
+    {
+      "branch": "0x1e351c",
+      "table": "0x11ba880",
+      "key": "0x11ba890",
+      "xor": "0x30076789",
+      "destinations": [
+        "0x1e3688",
+        "0x1e3520"
+      ]
+    },
+    {
+      "branch": "0x1e3938",
+      "table": "0x11ba8a0",
+      "key": "0x11ba8b0",
+      "xor": "0xec9b3caa",
+      "destinations": [
+        "0x1e393c",
+        "0x1e3b48"
+      ]
+    },
+    {
+      "branch": "0x1e39c4",
+      "table": "0x11ba8c8",
+      "key": "0x11ba8d8",
+      "xor": "0x2bb8da07",
+      "destinations": [
+        "0x1e3ae4",
+        "0x1e39c8"
+      ]
+    },
+    {
+      "branch": "0x1e3a98",
+      "table": "0x11ba8e8",
+      "key": "0x11ba8f8",
+      "xor": "0x824ce86",
+      "destinations": [
+        "0x1e3a9c",
+        "0x1e3af0"
+      ]
+    },
+    {
+      "branch": "0x1e3ae0",
+      "table": "0x11ba8c8",
+      "key": "0x11ba8d8",
+      "xor": "0x2bb8da07",
+      "destinations": [
+        "0x1e3ae4",
+        "0x1e39c8"
+      ]
+    },
+    {
+      "branch": "0x1e3b40",
+      "table": "0x11ba900",
+      "key": "0x11ba910",
+      "xor": "0x27262d9f",
+      "destinations": [
+        "0x1e3b44",
+        "0x1e3b48"
+      ]
+    },
+    {
+      "branch": "0x1e3c7c",
+      "table": "0x11ba918",
+      "key": "0x11ba928",
+      "xor": "0xad7d5a59",
+      "destinations": [
+        "0x1e3c80",
+        "0x1e3d0c"
+      ]
+    },
+    {
+      "branch": "0x1e407c",
+      "table": "0x11ba938",
+      "key": "0x11ba948",
+      "xor": "0x3abc288f",
+      "destinations": [
+        "0x1e41a0",
+        "0x1e4080"
+      ]
+    },
+    {
+      "branch": "0x1e4454",
+      "table": "0x11ba958",
+      "key": "0x11ba968",
+      "xor": "0xc01873b2",
+      "destinations": [
+        "0x1e44f4",
+        "0x1e4458"
+      ]
+    },
+    {
+      "branch": "0x1e4598",
+      "table": "0x11ba978",
+      "key": "0x11ba988",
+      "xor": "0x43e77d86",
+      "destinations": [
+        "0x1e459c",
+        "0x1e4640"
+      ]
+    }
+  ],
+  "scope": "All 15 TranslatorVC methods, five nested callbacks and four block copy/dispose helpers. No executable package code is run."
+}

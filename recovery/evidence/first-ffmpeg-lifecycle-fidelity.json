@@ -1,0 +1,258 @@
+{
+  "class_name": "FFMpegHelper",
+  "binary_sha256": "59b0ddc0c8ca14863d20b0005c0c48e062e81a0df6611e213a3a66fa2b796023",
+  "spans": [
+    {
+      "start": "0x1f3a68",
+      "end": "0x1f3e30",
+      "sha256": "953385607befeee37eea0090da9accd624c6c9484c43c7c197b9cf81016786c6"
+    },
+    {
+      "start": "0x1fc630",
+      "end": "0x1fc708",
+      "sha256": "116a06579c222d1ab40ef174460b3c75530d5af0173e48cad6a740a20eb92043"
+    }
+  ],
+  "method_contracts": [
+    {
+      "kind": "-",
+      "selector": "init",
+      "encoding": "@16@0:8",
+      "address": "0x1f3b60"
+    },
+    {
+      "kind": "-",
+      "selector": ".cxx_destruct",
+      "encoding": "v16@0:8",
+      "address": "0x1fc630"
+    },
+    {
+      "kind": "+",
+      "selector": "sharedInstance",
+      "encoding": "@16@0:8",
+      "address": "0x1f3a68"
+    }
+  ],
+  "strings": [],
+  "selectors": [
+    {
+      "page_instruction": "0x1f3db0",
+      "load_instruction": "0x1f3db4",
+      "reference": "0x114d960",
+      "name": "init"
+    }
+  ],
+  "selector_loads_required": true,
+  "calls": [
+    {
+      "address": "0x1f3b00",
+      "target": "0x1fc698"
+    },
+    {
+      "address": "0x1f3b28",
+      "target": "0x1fc6b8"
+    },
+    {
+      "address": "0x1f3b3c",
+      "target": "0xb9723c"
+    },
+    {
+      "address": "0x1f3dbc",
+      "target": "0x1fc6d8"
+    },
+    {
+      "address": "0x1f3e04",
+      "target": "0x1fc6f8"
+    },
+    {
+      "address": "0x1f3e14",
+      "target": "0xb9723c"
+    },
+    {
+      "address": "0x1fc648",
+      "target": "0xb9729c"
+    },
+    {
+      "address": "0x1fc654",
+      "target": "0xb9729c"
+    },
+    {
+      "address": "0x1fc660",
+      "target": "0xb9729c"
+    },
+    {
+      "address": "0x1fc68c",
+      "target": "0xb96c0c"
+    },
+    {
+      "address": "0x1fc69c",
+      "target": "0x1fc688"
+    },
+    {
+      "address": "0x1fc6ac",
+      "target": "0xb97158"
+    },
+    {
+      "address": "0x1fc6bc",
+      "target": "0x1fc6a8"
+    },
+    {
+      "address": "0x1fc6cc",
+      "target": "0xb97230"
+    },
+    {
+      "address": "0x1fc6dc",
+      "target": "0x1fc6c8"
+    },
+    {
+      "address": "0x1fc6ec",
+      "target": "0xb96c24"
+    },
+    {
+      "address": "0x1fc6fc",
+      "target": "0x1fc6e8"
+    }
+  ],
+  "branches": [
+    {
+      "table": "0x11c1890",
+      "key": "0x11c18a0",
+      "xor": "0x62bb640",
+      "targets": [
+        "0x1f3af4",
+        "0x1f3b08"
+      ],
+      "meaning": "Once token complete"
+    },
+    {
+      "table": "0x11c18b8",
+      "key": "0x11c18c8",
+      "xor": "0x2c19c7f6",
+      "targets": [
+        "0x1f3d90",
+        "0x1f3bd4"
+      ],
+      "meaning": "Queue label initialization"
+    },
+    {
+      "table": "0x11c18d8",
+      "key": "0x11c18e8",
+      "xor": "0x83620b81",
+      "targets": [
+        "0x1f3df8",
+        "0x1f3e1c"
+      ],
+      "meaning": "Superclass init returned nil"
+    }
+  ],
+  "excluded_instructions": [
+    {
+      "address": "0x1f3b54",
+      "word": "0xd41aa501",
+      "reason": "Original system trap omitted from reconstruction"
+    },
+    {
+      "address": "0x1fc678",
+      "word": "0xd406e9e1",
+      "reason": "Original system trap omitted from reconstruction"
+    }
+  ],
+  "imports": [],
+  "instructions": [
+    {
+      "address": "0x1f3aac",
+      "word": "0xf9001fe0",
+      "meaning": "Capture receiving class at block offset32"
+    },
+    {
+      "address": "0x1f3ab4",
+      "word": "0xf947a129",
+      "meaning": "Read once token"
+    },
+    {
+      "address": "0x1f3b0c",
+      "word": "0xf9479d00",
+      "meaning": "Read shared instance"
+    },
+    {
+      "address": "0x1f3b24",
+      "word": "0xf9401000",
+      "meaning": "Use captured receiving class"
+    },
+    {
+      "address": "0x1f3b34",
+      "word": "0xf9079d20",
+      "meaning": "Store initialized singleton"
+    },
+    {
+      "address": "0x1f3b38",
+      "word": "0xaa0803e0",
+      "meaning": "Release previous singleton after store"
+    },
+    {
+      "address": "0x1f3da8",
+      "word": "0xf940954a",
+      "meaning": "Super call class reference"
+    },
+    {
+      "address": "0x1f3dac",
+      "word": "0xa93f2920",
+      "meaning": "Super call receiver and current class"
+    },
+    {
+      "address": "0x1f3dc0",
+      "word": "0xaa0003f3",
+      "meaning": "Superclass result replaces receiver"
+    },
+    {
+      "address": "0x1f3e00",
+      "word": "0xd2800001",
+      "meaning": "Queue attributes nil"
+    },
+    {
+      "address": "0x1f3e08",
+      "word": "0xf9400668",
+      "meaning": "Read old queue"
+    },
+    {
+      "address": "0x1f3e0c",
+      "word": "0xf9000660",
+      "meaning": "Store queue at offset8"
+    },
+    {
+      "address": "0x1f3e10",
+      "word": "0xaa0803e0",
+      "meaning": "Release old queue after storing new"
+    },
+    {
+      "address": "0x1f3e18",
+      "word": "0x3900a27f",
+      "meaning": "Clear processing byte after release"
+    },
+    {
+      "address": "0x1fc640",
+      "word": "0x91006000",
+      "meaning": "Toast slot24 cleared first"
+    },
+    {
+      "address": "0x1fc64c",
+      "word": "0x91004260",
+      "meaning": "Statistics slot16 cleared second"
+    },
+    {
+      "address": "0x1fc658",
+      "word": "0x91002260",
+      "meaning": "Queue slot8 cleared last"
+    }
+  ],
+  "cstrings": [
+    {
+      "address": "0x11bde90",
+      "value": "com.dvntm.ffmpeg.serialqueue"
+    }
+  ],
+  "super_reference": {
+    "address": "0x114f128",
+    "class_name": "FFMpegHelper"
+  }
+}

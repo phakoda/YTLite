@@ -1,0 +1,175 @@
+{
+  "YTColdConfig": {
+    "mainAppCoreClientIosEnableStartupAnimation": [
+      "startup"
+    ],
+    "removeNextPaddleForSingletonVideos": [
+      "gated",
+      "hidePrevNext",
+      true
+    ],
+    "removePreviousPaddleForSingletonVideos": [
+      "gated",
+      "hidePrevNext",
+      true
+    ],
+    "replaceNextPaddleWithFastForwardButtonForSingletonVods": [
+      "gated",
+      "replacePrevNext",
+      true
+    ],
+    "replacePreviousPaddleWithRewindButtonForSingletonVods": [
+      "gated",
+      "replacePrevNext",
+      true
+    ],
+    "enableHideChipsInTheCommentsHeaderOnScrollIos": [
+      "gated",
+      "stickSortComments",
+      false
+    ],
+    "enableChipsInTheCommentsHeaderIos": [
+      "gated",
+      "hideSortComments",
+      false
+    ],
+    "shouldUseAppThemeSetting": [
+      "constant",
+      true
+    ],
+    "isLandscapeEngagementPanelSwipeRightToDismissEnabled": [
+      "constant",
+      true
+    ],
+    "enableSwipeToRemoveInPlaylistWatchEp": [
+      "constant",
+      true
+    ],
+    "enableLightThemeAmbientMode": [
+      "gated",
+      "disableAmbientMode",
+      false
+    ],
+    "iosAmbientModeExtendWidthInLandscape": [
+      "gated",
+      "disableAmbientMode",
+      false
+    ],
+    "iosEnableFullScreenAmbientMode": [
+      "gated",
+      "disableAmbientMode",
+      false
+    ],
+    "enableTurnOffCinematicForFrameWithBlackBars": [
+      "gated",
+      "disableAmbientMode",
+      true
+    ],
+    "queueClientGlobalConfigEnableFloatingPlaylistMinibar": [
+      "gated",
+      "playlistOldMinibar",
+      false
+    ],
+    "disablePlaybackLockScreenController": [
+      "gated",
+      "ytlLockButton",
+      false
+    ],
+    "iosEnableVideoPlayerScrubber": [
+      "direct",
+      "shortsProgress"
+    ],
+    "mobileShortsTabInlined": [
+      "direct",
+      "shortsProgress"
+    ],
+    "iosUseSystemVolumeControlInFullscreen": [
+      "direct",
+      "stockVolumeHUD"
+    ],
+    "enableYouthereCommandsOnIos": [
+      "constant",
+      false
+    ],
+    "cxClientEnableIosLocalNetworkPermissionWifiFixes": [
+      "constant",
+      true
+    ],
+    "cxClientEnableIosLocalNetworkPermissionUsingSockets": [
+      "constant",
+      false
+    ],
+    "cxClientEnableIosLocalNetworkPermissionReliabilityFixes": [
+      "constant",
+      true
+    ],
+    "iosPlayerClientSharedConfigPopulateSwAv1MediaCapabilities": [
+      "constant",
+      false
+    ],
+    "mediaEngineClientForceSoftwareDecoderOnDecoderRetry": [
+      "constant",
+      false
+    ]
+  },
+  "YTIPlayerColdConfig": {
+    "iosDisablePlaybackLockScreenController": [
+      "gated",
+      "ytlLockButton",
+      false
+    ]
+  },
+  "YTIMediaQualitySettingsHotConfig": {
+    "enableQuickMenuVideoQualitySettings": [
+      "added",
+      false
+    ],
+    "omitAdvancedMenuOptionForAirPlay": [
+      "added",
+      false
+    ]
+  },
+  "YTHotConfig": {
+    "enablePlayerBarForVerticalVideoWhenControlsHiddenInFullscreen": [
+      "direct",
+      "shortsProgress"
+    ],
+    "isPromptForLocalNetworkPermissionsEnabled": [
+      "constant",
+      false
+    ],
+    "clientInfraClientConfigIosEnableFillingEncodedHacksInnertubeContext": [
+      "constant",
+      false
+    ],
+    "enableShortsVideoQualityPicker": [
+      "gated",
+      "shortsForceQuality",
+      false
+    ]
+  },
+  "YTIHamplayerServerABRConfig": {
+    "skipFilterPreferredVideoFormats": [
+      "constant",
+      true
+    ],
+    "fallbackOnError": [
+      "constant",
+      true
+    ],
+    "setFallbackOnError:": [
+      "setter"
+    ],
+    "useReloadContextForFallback": [
+      "constant",
+      true
+    ],
+    "setUseReloadContextForFallback:": [
+      "setter"
+    ],
+    "maxFallbackAttempts": [
+      "int",
+      2147483647
+    ]
+  }
+}

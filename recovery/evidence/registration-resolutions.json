@@ -1,0 +1,385 @@
+{
+  "binary_sha256": "bdcc4d4ccaa5835d35bc97ccbdfc1c3dff514cb7161848265dcc0585f364c0ca",
+  "scope": "Static resolution of four historical extractor records to existing recovered owners. No new production behavior or security bypass implementation.",
+  "resolutions": [
+    {
+      "original_inventory_row": {
+        "class_name": null,
+        "kind": "?",
+        "selector": null,
+        "implementation": "uVar6",
+        "operation": "add",
+        "original_pointer": null,
+        "registration": "001c8fb4",
+        "complete": false
+      },
+      "source_owner": "recovery/source/Presentation/ToastWindow.m",
+      "class_name": "ToastWindow",
+      "kind": "-",
+      "selector": "_canAffectStatusBarAppearance",
+      "implementation": "0x1c8cc4",
+      "operation": "add",
+      "call_site": "0x1c938c",
+      "call_instruction": "940001a3",
+      "call_wrapper": "0x1c9a18",
+      "registration_api": "_class_addMethod",
+      "resolution_kind": "dynamic-alias",
+      "existing_method_implementation": null,
+      "behavior": "Alias existing instance method implementation and type encoding. Second addition fails for ToastWindow because that class already owns the selector. No new callback body.",
+      "encoding": "B16@0:8"
+    },
+    {
+      "original_inventory_row": {
+        "class_name": null,
+        "kind": "?",
+        "selector": null,
+        "implementation": "uVar7",
+        "operation": "add",
+        "original_pointer": null,
+        "registration": "001c8fb4",
+        "complete": false
+      },
+      "source_owner": "recovery/source/Presentation/ToastWindow.m",
+      "class_name": "ToastWindow",
+      "kind": "-",
+      "selector": "_canBecomeKeyWindow",
+      "implementation": "0x1c8c00",
+      "operation": "add",
+      "call_site": "0x1c9420",
+      "call_instruction": "940001ba",
+      "call_wrapper": "0x1c9b08",
+      "registration_api": "_class_addMethod",
+      "resolution_kind": "duplicate-add-attempt",
+      "existing_method_implementation": "0x1c8cd4",
+      "behavior": "Alias existing instance method implementation and type encoding. Second addition fails for ToastWindow because that class already owns the selector. No new callback body.",
+      "encoding": "B16@0:8"
+    },
+    {
+      "original_inventory_row": {
+        "class_name": "NSBundle",
+        "kind": "-",
+        "selector": "infoDictionary",
+        "implementation": "0x00000000000148c8",
+        "operation": "replace",
+        "original_pointer": "&_orig_infoDictionary",
+        "registration": "00014e60",
+        "complete": true
+      },
+      "source_owner": "recovery/source/Runtime/InitWorkaround.m",
+      "class_name": "NSBundle",
+      "kind": "-",
+      "selector": "infoDictionary",
+      "implementation": "0x148c8",
+      "operation": "replace",
+      "original_pointer": "0x191b7c0",
+      "call_site": "0x14f9c",
+      "call_instruction": "94001e0d",
+      "call_wrapper": "0x1c7d0",
+      "registration_api": "_MSHookMessageEx",
+      "resolution_kind": "existing-shared-replacement-alternative-path",
+      "source_function": "replaceInfoDict",
+      "source_installer": "YTLInstallBundleInfoHook",
+      "activation": "InitWorkaround delayed callback after two seconds, then animated dismissal/completion",
+      "behavior": "Always mutable-copy original dictionary; only the main bundle receives the canonical CFBundleIdentifier. Both records use the same original IMP slot and callback; not two independent layers."
+    },
+    {
+      "original_inventory_row": {
+        "class_name": "NSBundle",
+        "kind": "-",
+        "selector": "infoDictionary",
+        "implementation": "0x00000000000148c8",
+        "operation": "replace",
+        "original_pointer": "&_orig_infoDictionary",
+        "registration": "00018c88",
+        "complete": true
+      },
+      "source_owner": "recovery/source/Runtime/InitWorkaround.m",
+      "class_name": "NSBundle",
+      "kind": "-",
+      "selector": "infoDictionary",
+      "implementation": "0x148c8",
+      "operation": "replace",
+      "original_pointer": "0x191b7c0",
+      "call_site": "0x18e08",
+      "call_instruction": "9400115e",
+      "call_wrapper": "0x1d380",
+      "registration_api": "_MSHookMessageEx",
+      "resolution_kind": "existing-shared-replacement-alternative-path",
+      "source_function": "replaceInfoDict",
+      "source_installer": "YTLInstallBundleInfoHook",
+      "activation": "Inline sign-in callback checks first-time flag, clears it, installs, then forwards original",
+      "behavior": "Always mutable-copy original dictionary; only the main bundle receives the canonical CFBundleIdentifier. Both records use the same original IMP slot and callback; not two independent layers."
+    }
+  ],
+  "instruction_intervals": [
+    {
+      "start": "0x148c8",
+      "end": "0x14cc0",
+      "sha256": "017179c60031c0b26a8052c2a85fe2f595e3d9483cccc60921930782bb8d08d8"
+    },
+    {
+      "start": "0x14cc0",
+      "end": "0x14e60",
+      "sha256": "e7add12784504e5794193708bf527024c9e07da092b072d0b0807c8b782e2809"
+    },
+    {
+      "start": "0x14e60",
+      "end": "0x15014",
+      "sha256": "525db17171bdda4cdf1a934c035c86b219b770a5f34b332c2fe574430ed714b4"
+    },
+    {
+      "start": "0x18c88",
+      "end": "0x18e2c",
+      "sha256": "6ed81a5662ef0a567aefee59752fe4b0bd1eee325b0575a9521b4d9aa7f4fb26"
+    },
+    {
+      "start": "0x1c8fb4",
+      "end": "0x1c9480",
+      "sha256": "0326555d9c58a16cc00b9085823341275120da68aded4ac0c06415863292ce14"
+    },
+    {
+      "start": "0x18e2c",
+      "end": "0x18fbc",
+      "sha256": "8a9d1e61bdd8b0a60b1fa8d1dd6e346ac8a7ab0da71d2f86f0bfb796ea9bc125"
+    }
+  ],
+  "decoded_constants": [
+    {
+      "address": "0x1153560",
+      "value": "CFBundleIdentifier",
+      "instructions": [
+        "0x14ac8",
+        "0x14ad8",
+        "0x14ae8",
+        "0x14af4",
+        "0x14b00",
+        "0x14b0c",
+        "0x14b1c",
+        "0x14b28",
+        "0x14b38",
+        "0x14b48",
+        "0x14b58",
+        "0x14b64",
+        "0x14b74",
+        "0x14b80",
+        "0x14b90",
+        "0x14ba0",
+        "0x14bb0",
+        "0x14bbc",
+        "0x14bcc"
+      ]
+    },
+    {
+      "address": "0x11535a0",
+      "value": "com.google.ios.youtube",
+      "instructions": [
+        "0x14964",
+        "0x14970",
+        "0x14980",
+        "0x14990",
+        "0x1499c",
+        "0x149ac",
+        "0x149bc",
+        "0x149cc",
+        "0x149dc",
+        "0x149e8",
+        "0x149f8",
+        "0x14a08",
+        "0x14a18",
+        "0x14a28",
+        "0x14a34",
+        "0x14a40",
+        "0x14a50",
+        "0x14a5c",
+        "0x14a6c",
+        "0x14a7c",
+        "0x14a8c",
+        "0x14a9c",
+        "0x14aac"
+      ]
+    },
+    {
+      "address": "0x1153649",
+      "value": "NSBundle",
+      "instructions": [
+        "0x14eec",
+        "0x14efc",
+        "0x14f0c",
+        "0x14f18",
+        "0x14f28",
+        "0x14f38",
+        "0x14f48",
+        "0x14f50",
+        "0x14f60"
+      ]
+    },
+    {
+      "address": "0x11542e9",
+      "value": "NSBundle",
+      "instructions": [
+        "0x18d20",
+        "0x18d2c",
+        "0x18d3c",
+        "0x18d4c",
+        "0x18d5c",
+        "0x18d6c",
+        "0x18d7c",
+        "0x18d88",
+        "0x18d98"
+      ]
+    },
+    {
+      "address": "0x11b4824",
+      "value": "_%@",
+      "instructions": [
+        "0x1c928c",
+        "0x1c929c",
+        "0x1c92a8",
+        "0x1c92b4"
+      ]
+    },
+    {
+      "address": "0x11b482c",
+      "value": "Bar",
+      "instructions": [
+        "0x1c9244",
+        "0x1c9254",
+        "0x1c9260",
+        "0x1c926c"
+      ]
+    },
+    {
+      "address": "0x11b4835",
+      "value": "_can",
+      "instructions": [
+        "0x1c913c",
+        "0x1c914c",
+        "0x1c915c",
+        "0x1c916c",
+        "0x1c9180"
+      ]
+    },
+    {
+      "address": "0x11b4841",
+      "value": "Status",
+      "instructions": [
+        "0x1c9050",
+        "0x1c9060",
+        "0x1c9070",
+        "0x1c907c",
+        "0x1c908c",
+        "0x1c9098",
+        "0x1c90a4"
+      ]
+    },
+    {
+      "address": "0x11b484f",
+      "value": "Affect",
+      "instructions": [
+        "0x1c90c4",
+        "0x1c90d4",
+        "0x1c90e0",
+        "0x1c90f0",
+        "0x1c9100",
+        "0x1c9110",
+        "0x1c9120"
+      ]
+    },
+    {
+      "address": "0x11b4861",
+      "value": "Appearance",
+      "instructions": [
+        "0x1c9198",
+        "0x1c91a8",
+        "0x1c91b8",
+        "0x1c91c8",
+        "0x1c91d4",
+        "0x1c91e0",
+        "0x1c91ec",
+        "0x1c91fc",
+        "0x1c920c",
+        "0x1c921c",
+        "0x1c9228"
+      ]
+    }
+  ],
+  "toast_method_metadata": [
+    {
+      "kind": "-",
+      "selector": "canBecomeKeyWindow",
+      "encoding": "B16@0:8",
+      "address": "0x1c8c00"
+    },
+    {
+      "kind": "-",
+      "selector": "shouldAffectStatusBarAppearance",
+      "encoding": "B16@0:8",
+      "address": "0x1c8cc4"
+    },
+    {
+      "kind": "-",
+      "selector": "_canBecomeKeyWindow",
+      "encoding": "B16@0:8",
+      "address": "0x1c8cd4"
+    },
+    {
+      "kind": "+",
+      "selector": "initialize",
+      "encoding": "v16@0:8",
+      "address": "0x1c8fb4"
+    }
+  ],
+  "source_behavior_limits": [
+    "Bundle-info installer currently has no independent once guard, as in original. The historical paths coordinate through the first-time flag; do not schedule both records as two unconditional hooks.",
+    "Static owner checks are not substitutes for original owner runtime verifiers."
+  ],
+  "original_binary_executed": false,
+  "network_requests": 0,
+  "additional_registrations": [
+    {
+      "class_name": "NSBundle",
+      "kind": "-",
+      "selector": "infoDictionary",
+      "operation": "replace",
+      "implementation": "0x148c8",
+      "registration": "00018e2c",
+      "call_site": "0x18fac",
+      "call_instruction": "14001105",
+      "call_wrapper": "0x1d3c0",
+      "registration_api": "_MSHookMessageEx",
+      "original_slot": "0x191b7c0",
+      "source_owner": "recovery/source/Runtime/InitWorkaround.m",
+      "source_function": "replaceInfoDict",
+      "source_installer": "YTLInstallBundleInfoHook",
+      "activation_class": "YTFirstTimeSignInViewController",
+      "activation_selector": "viewDidAppear:",
+      "activation_source_owner": "recovery/source/Hooks/SideloadIdentity.x",
+      "activation_status": "recovered-and-runtime-verified",
+      "activation": "Forward original viewDidAppear first, then if first-time flag is set clear it and tail-install the common bundle-info replacement.",
+      "descriptor_kind": "previously-unextracted-tail-registration",
+      "activation_evidence": "recovery/source/Hooks/SideloadIdentity.manifest.json"
+    }
+  ],
+  "initial_state_evidence": {
+    "symbol": "isYTPFirstTime",
+    "address": "0x1153530",
+    "raw_initial_byte": 1,
+    "decoded_overlay_value": 0,
+    "overlay_source": "0x179bfc",
+    "overlay_source_instruction": "3900011f",
+    "warning": "The overlay source is a later runtime store, not an initializer. Use raw initial byte; canonical source correction is owned by parent."
+  },
+  "toast_source_verification": {
+    "source": "recovery/source/Presentation/ToastWindow.m",
+    "fixture": "recovery/tests/presentation_runtime.m",
+    "status": "extra-source-class-guard-removed",
+    "scope": "Base, subclass and grandchild alias addition; inherited public IMP/type encoding; duplicate additions preserve own private methods.",
+    "fixture_assertions_for_added_coverage": 12,
+    "full_presentation_runtime_assertions": 1518,
+    "ios_method_encodings": 9,
+    "verification_owner": "whitelist",
+    "original_evidence": "No receiver-class guard in original 0x1c8fb4; class_getInstanceMethod and class_addMethod use self for both additions.",
+    "runtime_report": ".recovery-work/presentation-helpers/runtime-verification.json",
+    "abi_report": ".recovery-work/presentation-helpers/source-verification.json"
+  }
+}

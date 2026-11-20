@@ -1,0 +1,9 @@
+# InitWorkaround and bundle info replacement
+
+All four packaged methods, the copied completion property and its ivar are reconstructed. `InitWorkaround.manifest.json` pins their original instruction intervals, the two completion callbacks and `replaceInfoDict` at `0x148c8` to the supplied arm package.
+
+`viewDidLoad` calls super, clears `isYTPFirstTime`, adds a white large activity indicator centered at the view's center, starts it, and schedules work after two seconds on the main queue. The delayed block installs the `NSBundle infoDictionary` replacement, then dismisses the controller with animation. The dismissal callback invokes the copied completion if present. The packaged `isYTPFirstTime` data byte at `0x1153530` starts at one. The decoded-byte overlay previously showed zero because it included a later runtime store at `0x179bfc`; initialization now uses the raw packaged data byte.
+
+The replacement calls its saved original implementation and makes a mutable copy. For the main bundle, it sets `CFBundleIdentifier` to `com.google.ios.youtube`, including when that key was absent. Other bundles also receive mutable copies, preserving their data. This is distinct from the backup's older call-stack-dependent bundle hook. `YTLInstallBundleInfoHook` names the original inline registration sequence for reuse.
+
+Run `python3 recovery/tools/verify_bootstrap_helpers.py`. It checks original instruction hashes, exact iOS method/property/ivar metadata and actual source execution under UBSan. Runtime fixtures intercept hook installation and scheduling, verify spinner attributes, the two-second delay, dismissal/completion ordering and mutable dictionary behavior. They install no hooks in YouTube and do not execute the supplied binary. Final bootstrap integration and device behavior require the parent recovery's registration-order audit.

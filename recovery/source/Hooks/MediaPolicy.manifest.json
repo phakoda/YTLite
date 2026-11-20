@@ -1,0 +1,1252 @@
+{
+  "binary_sha256": "bdcc4d4ccaa5835d35bc97ccbdfc1c3dff514cb7161848265dcc0585f364c0ca",
+  "registrations": [
+    {
+      "class_name": "YTIPlayabilityStatus",
+      "kind": "-",
+      "selector": "isPlayableInBackground",
+      "implementation": "0x000662c8",
+      "operation": "replace",
+      "original_pointer": "0x01226000",
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x66464",
+      "instruction_sha256": "24203e4d6ce280132689422ac4f135367250895e69b5e4cc110a678c2e75696f"
+    },
+    {
+      "class_name": "MLVideo",
+      "kind": "-",
+      "selector": "playableInBackground",
+      "implementation": "0x00066464",
+      "operation": "replace",
+      "original_pointer": "0x01226008",
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x66600",
+      "instruction_sha256": "80b7a5c54911b52f64b2f493bfab57e5f527b2b8ffa2a73fa6eb3e7adaecf1c4"
+    },
+    {
+      "class_name": "YTIBackgroundOfflineSettingCategoryEntryRenderer",
+      "kind": "-",
+      "selector": "isBackgroundEnabled",
+      "implementation": "0x00066600",
+      "operation": "replace",
+      "original_pointer": "0x01226010",
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x667a0",
+      "instruction_sha256": "361448f90248b8ed3daa3917bc8155abdbe2cdccd6ae176514ee6e2b68732e48"
+    },
+    {
+      "class_name": "YTGlobalConfig",
+      "kind": "-",
+      "selector": "shouldBlockUpgradeDialog",
+      "implementation": "0x000667a0",
+      "operation": "replace",
+      "original_pointer": "0x01226018",
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x668fc",
+      "instruction_sha256": "d9269e38ea36244bb67e0f4735a9b356e081d788b8a558771983df648930f6c3"
+    },
+    {
+      "class_name": "YTIPlayerResponse",
+      "kind": "-",
+      "selector": "isMonetized",
+      "implementation": "0x000668fc",
+      "operation": "replace",
+      "original_pointer": "0x01226020",
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x66a5c",
+      "instruction_sha256": "cbb1a595e602960e679554b9b920bed913c9d68ec1946467ef0f5df7a68d019e"
+    },
+    {
+      "class_name": "YTIPlayerResponse",
+      "kind": "-",
+      "selector": "playerAdsArray",
+      "implementation": "0x00066a5c",
+      "operation": "replace",
+      "original_pointer": "0x01226028",
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x66bcc",
+      "instruction_sha256": "1c35eb77d34546d77af76a622c784ac314923f8cc3080b97cbf72f8d8b8c8634"
+    },
+    {
+      "class_name": "YTIPlayerResponse",
+      "kind": "-",
+      "selector": "adSlotsArray",
+      "implementation": "0x00066bcc",
+      "operation": "replace",
+      "original_pointer": "0x01226030",
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x66d40",
+      "instruction_sha256": "fed3258af6e56de6cb53955fdb09de321d1e8ba5e511061ba1a2305b00f2cd65"
+    },
+    {
+      "class_name": "YTIPlayerResponse",
+      "kind": "-",
+      "selector": "auxiliaryUi",
+      "implementation": "0x00066d40",
+      "operation": "replace",
+      "original_pointer": "0x01226038",
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x66d48",
+      "instruction_sha256": "d3c844a0173107453aa9896cdb7276470625501e7ff067cd764c7a160ece5ca3"
+    },
+    {
+      "class_name": "YTIPlayerResponse",
+      "kind": "-",
+      "selector": "setHasAuxiliaryUi:",
+      "implementation": "0x00066d48",
+      "operation": "replace",
+      "original_pointer": "0x01226040",
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x66d80",
+      "instruction_sha256": "ca2f7b9c323e4ea9263bddfc31103aca4562370ddba68a0994858c11731e248c"
+    },
+    {
+      "class_name": "YTIPlayerResponse",
+      "kind": "-",
+      "selector": "setAuxiliaryUi:",
+      "implementation": "0x00066d80",
+      "operation": "replace",
+      "original_pointer": "0x01226048",
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x66db8",
+      "instruction_sha256": "6ce2adf6d963ebee36bf4b4d3e41209fa3b1532af1bcd2a01ea4851ad45a2bdf"
+    },
+    {
+      "class_name": "YTIClientMdxGlobalConfig",
+      "kind": "-",
+      "selector": "enableSkippableAd",
+      "implementation": "0x00066db8",
+      "operation": "replace",
+      "original_pointer": "0x01226050",
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x66f14",
+      "instruction_sha256": "230c31f17968de806ad1f2bae3a49f3ed4c3f744647bac6826deef27b0547b5f"
+    },
+    {
+      "class_name": "YTAdShieldUtils",
+      "kind": "+",
+      "selector": "spamSignalsDictionary",
+      "implementation": "0x00066f14",
+      "operation": "replace",
+      "original_pointer": "0x01226058",
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x6707c",
+      "instruction_sha256": "f6692974cf589ac5a01a95cd98168df38ffac1061b1e4bb5389242e26acc1741"
+    },
+    {
+      "class_name": "YTAdShieldUtils",
+      "kind": "+",
+      "selector": "spamSignalsDictionaryWithoutIDFA",
+      "implementation": "0x0006707c",
+      "operation": "replace",
+      "original_pointer": "0x01226060",
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x671e4",
+      "instruction_sha256": "0f96548eb63249a7daf0d83c685d39829225faf4817e6e2437571ec40da16518"
+    },
+    {
+      "class_name": "YTDataUtils",
+      "kind": "+",
+      "selector": "spamSignalsDictionary",
+      "implementation": "0x000671e4",
+      "operation": "replace",
+      "original_pointer": "0x01226068",
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x67350",
+      "instruction_sha256": "5ce88b0fb9bd4fd3b1dea6290e57c6a1383e64bc514ebd85ab3d311523d1d2a8"
+    },
+    {
+      "class_name": "YTDataUtils",
+      "kind": "+",
+      "selector": "spamSignalsDictionaryWithoutIDFA",
+      "implementation": "0x00067350",
+      "operation": "replace",
+      "original_pointer": "0x01226070",
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x674bc",
+      "instruction_sha256": "e8ef4a347ca2f928f42a87d2ab89d169fcc6911d4460e2dca3bcae611f8da265"
+    },
+    {
+      "class_name": "YTAdsInnerTubeContextDecorator",
+      "kind": "-",
+      "selector": "decorateContext:",
+      "implementation": "0x000674bc",
+      "operation": "replace",
+      "original_pointer": "0x01226078",
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x6760c",
+      "instruction_sha256": "c4c916b0cfb9cde066744744f42317478bf277f82d70e1855bd3ae7d1144ffd3"
+    },
+    {
+      "class_name": "YTAccountScopedAdsInnerTubeContextDecorator",
+      "kind": "-",
+      "selector": "decorateContext:",
+      "implementation": "0x0006760c",
+      "operation": "replace",
+      "original_pointer": "0x01226080",
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x6775c",
+      "instruction_sha256": "dc6db3286ceb3f7ab3544faa9683f93ed52777b71f34f6dbd60b1a73f23582d4"
+    },
+    {
+      "class_name": "YTLocalPlaybackController",
+      "kind": "-",
+      "selector": "createAdsPlaybackCoordinator",
+      "implementation": "0x0006775c",
+      "operation": "replace",
+      "original_pointer": "0x01226088",
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x678b4",
+      "instruction_sha256": "a5be265fa0538c067ac055a6b28e07b2c4f06fe2879630d94e723adce1f54d46"
+    },
+    {
+      "class_name": "MDXSession",
+      "kind": "-",
+      "selector": "adPlaying:",
+      "implementation": "0x000678b4",
+      "operation": "replace",
+      "original_pointer": "0x01226090",
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x67a34",
+      "instruction_sha256": "0538cb74542988efe5f5c39ec773a9befa4449a2e7953537bc9b99d5f7c36c01"
+    },
+    {
+      "class_name": "YTIAuxiliaryUi",
+      "kind": "-",
+      "selector": "setHasMessageRenderers:",
+      "implementation": "0x0006e46c",
+      "operation": "replace",
+      "original_pointer": "0x01226130",
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x6e4a4",
+      "instruction_sha256": "6bed629b241305f319d6e76c1213e87fcbfbbd090cf65a1fa57788629cd50f9d"
+    },
+    {
+      "class_name": "YTIAuxiliaryUi",
+      "kind": "-",
+      "selector": "setMessageRenderers:",
+      "implementation": "0x0006e4a4",
+      "operation": "replace",
+      "original_pointer": "0x01226138",
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x6e4dc",
+      "instruction_sha256": "4229e4101b3f2b9d0f65868d9fc4b66f4033df1e9151319d15b7bb28cae28853"
+    },
+    {
+      "class_name": "YTITriggerConditions",
+      "kind": "-",
+      "selector": "hasPlayerCueRangeSet",
+      "implementation": "0x0006e4dc",
+      "operation": "replace",
+      "original_pointer": "0x01226140",
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x6e4e4",
+      "instruction_sha256": "2f6110664dbd16b514a0c2c7c8326932a36e85d2f15b91e57ca76efd2c7a625a"
+    },
+    {
+      "class_name": "YTITriggerConditions",
+      "kind": "-",
+      "selector": "validAdsStatesArray_Count",
+      "implementation": "0x0006e4e4",
+      "operation": "replace",
+      "original_pointer": "0x01226148",
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x6e4ec",
+      "instruction_sha256": "d3c844a0173107453aa9896cdb7276470625501e7ff067cd764c7a160ece5ca3"
+    },
+    {
+      "class_name": "YTIVideoPlaybackRelativePosition",
+      "kind": "-",
+      "selector": "streamTimeMs",
+      "implementation": "0x0006e4ec",
+      "operation": "replace",
+      "original_pointer": "0x01226150",
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x6e4f4",
+      "instruction_sha256": "d3c844a0173107453aa9896cdb7276470625501e7ff067cd764c7a160ece5ca3"
+    },
+    {
+      "class_name": "YTIVideoPlaybackRelativePosition",
+      "kind": "-",
+      "selector": "hasStreamTimeMs",
+      "implementation": "0x0006e4f4",
+      "operation": "replace",
+      "original_pointer": "0x01226158",
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x6e4fc",
+      "instruction_sha256": "2f6110664dbd16b514a0c2c7c8326932a36e85d2f15b91e57ca76efd2c7a625a"
+    },
+    {
+      "class_name": "YTICoWatchability",
+      "kind": "-",
+      "selector": "type",
+      "implementation": "0x0006e4fc",
+      "operation": "replace",
+      "original_pointer": "0x01226160",
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x6e504",
+      "instruction_sha256": "0becf359e148792c5ed24ca79a91209e5f15e0f015d2a0b9f4d69c2e82d59f3a"
+    },
+    {
+      "class_name": "YTICoWatchability",
+      "kind": "-",
+      "selector": "setType:",
+      "implementation": "0x0006e504",
+      "operation": "replace",
+      "original_pointer": "0x01226168",
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x6e53c",
+      "instruction_sha256": "a943546dd9d58e25509a1f3cf8896a12aba8499c3638e87a4e0651b1c08b73ab"
+    }
+  ],
+  "gate_wrappers": [
+    {
+      "address": "0xd6d9c",
+      "terminal": "_ytpBool"
+    },
+    {
+      "address": "0xd6dc0",
+      "terminal": "_ytpBool"
+    },
+    {
+      "address": "0xd6de4",
+      "terminal": "_ytpBool"
+    },
+    {
+      "address": "0xd6e08",
+      "terminal": "_ytpBool"
+    },
+    {
+      "address": "0xd6e2c",
+      "terminal": "_ytpBool"
+    },
+    {
+      "address": "0xd6e70",
+      "terminal": "_ytpBool"
+    },
+    {
+      "address": "0xd6e94",
+      "terminal": "_ytpBool"
+    },
+    {
+      "address": "0xd6ed8",
+      "terminal": "_ytpBool"
+    },
+    {
+      "address": "0xd6efc",
+      "terminal": "_ytpBool"
+    },
+    {
+      "address": "0xd6f20",
+      "terminal": "_ytpBool"
+    },
+    {
+      "address": "0xd6f44",
+      "terminal": "_ytpBool"
+    },
+    {
+      "address": "0xd6f68",
+      "terminal": "_ytpBool"
+    },
+    {
+      "address": "0xd6f8c",
+      "terminal": "_ytpBool"
+    },
+    {
+      "address": "0xd6fb0",
+      "terminal": "_ytpBool"
+    },
+    {
+      "address": "0xd6fd4",
+      "terminal": "_ytpBool"
+    },
+    {
+      "address": "0xd6ff8",
+      "terminal": "_ytpBool"
+    }
+  ],
+  "decoded_constants": [
+    {
+      "address": "0x1161a40",
+      "value": "backgroundPlayback",
+      "instructions": [
+        "0x66340",
+        "0x66350",
+        "0x66360",
+        "0x66370",
+        "0x6637c",
+        "0x6638c",
+        "0x6639c",
+        "0x663ac",
+        "0x663b8",
+        "0x663c8",
+        "0x663d8",
+        "0x663e8",
+        "0x663f8",
+        "0x66404",
+        "0x66414",
+        "0x66420",
+        "0x66430",
+        "0x6643c",
+        "0x66448"
+      ]
+    },
+    {
+      "address": "0x1161ac0",
+      "value": "backgroundPlayback",
+      "instructions": [
+        "0x664dc",
+        "0x664e8",
+        "0x664f8",
+        "0x66508",
+        "0x66518",
+        "0x66528",
+        "0x66538",
+        "0x66548",
+        "0x66554",
+        "0x66564",
+        "0x66570",
+        "0x6657c",
+        "0x6658c",
+        "0x6659c",
+        "0x665ac",
+        "0x665b8",
+        "0x665c8",
+        "0x665d8",
+        "0x665e4"
+      ]
+    },
+    {
+      "address": "0x1161b40",
+      "value": "backgroundPlayback",
+      "instructions": [
+        "0x66674",
+        "0x66684",
+        "0x66694",
+        "0x666a4",
+        "0x666b4",
+        "0x666c4",
+        "0x666d0",
+        "0x666e0",
+        "0x666f0",
+        "0x66700",
+        "0x66710",
+        "0x66720",
+        "0x6672c",
+        "0x66738",
+        "0x66748",
+        "0x66758",
+        "0x66764",
+        "0x66774",
+        "0x66784"
+      ]
+    },
+    {
+      "address": "0x1161ba6",
+      "value": "noAds",
+      "instructions": [
+        "0x66838",
+        "0x66848",
+        "0x66858",
+        "0x66864",
+        "0x66874",
+        "0x66884"
+      ]
+    },
+    {
+      "address": "0x1161bf6",
+      "value": "noAds",
+      "instructions": [
+        "0x66994",
+        "0x669a4",
+        "0x669b4",
+        "0x669c4",
+        "0x669d4",
+        "0x669e4"
+      ]
+    },
+    {
+      "address": "0x1161c46",
+      "value": "noAds",
+      "instructions": [
+        "0x66af4",
+        "0x66b00",
+        "0x66b0c",
+        "0x66b1c",
+        "0x66b2c",
+        "0x66b3c"
+      ]
+    },
+    {
+      "address": "0x1161c96",
+      "value": "noAds",
+      "instructions": [
+        "0x66c68",
+        "0x66c74",
+        "0x66c84",
+        "0x66c94",
+        "0x66ca0",
+        "0x66cb0"
+      ]
+    },
+    {
+      "address": "0x1161ce6",
+      "value": "noAds",
+      "instructions": [
+        "0x66e50",
+        "0x66e60",
+        "0x66e70",
+        "0x66e80",
+        "0x66e8c",
+        "0x66e9c"
+      ]
+    },
+    {
+      "address": "0x1161d36",
+      "value": "noAds",
+      "instructions": [
+        "0x66fb0",
+        "0x66fc0",
+        "0x66fcc",
+        "0x66fdc",
+        "0x66fec",
+        "0x66ff8"
+      ]
+    },
+    {
+      "address": "0x1161d86",
+      "value": "noAds",
+      "instructions": [
+        "0x67114",
+        "0x67124",
+        "0x67134",
+        "0x67140",
+        "0x67150",
+        "0x67160"
+      ]
+    },
+    {
+      "address": "0x1161dd6",
+      "value": "noAds",
+      "instructions": [
+        "0x67280",
+        "0x67290",
+        "0x672a0",
+        "0x672b0",
+        "0x672bc",
+        "0x672cc"
+      ]
+    },
+    {
+      "address": "0x1161e26",
+      "value": "noAds",
+      "instructions": [
+        "0x673e8",
+        "0x673f8",
+        "0x67408",
+        "0x67418",
+        "0x67428",
+        "0x67438"
+      ]
+    },
+    {
+      "address": "0x1161e76",
+      "value": "noAds",
+      "instructions": [
+        "0x67550",
+        "0x67560",
+        "0x67570",
+        "0x67580",
+        "0x6758c",
+        "0x6759c"
+      ]
+    },
+    {
+      "address": "0x1161ec6",
+      "value": "noAds",
+      "instructions": [
+        "0x6769c",
+        "0x676ac",
+        "0x676bc",
+        "0x676cc",
+        "0x676dc",
+        "0x676ec"
+      ]
+    },
+    {
+      "address": "0x1161f16",
+      "value": "noAds",
+      "instructions": [
+        "0x677f4",
+        "0x67804",
+        "0x67810",
+        "0x67820",
+        "0x6782c",
+        "0x6783c"
+      ]
+    },
+    {
+      "address": "0x1161f66",
+      "value": "noAds",
+      "instructions": [
+        "0x67954",
+        "0x67964",
+        "0x67974",
+        "0x67980",
+        "0x6798c",
+        "0x6799c"
+      ]
+    }
+  ],
+  "branch_evidence": [
+    {
+      "address": "0x66320",
+      "original": [
+        "0xd61f0120"
+      ],
+      "replacement": [
+        "0x14fe6a7d"
+      ],
+      "island": "0x4000d14",
+      "island_words": [
+        "0x54000040",
+        "0x170195cd",
+        "0x17019582"
+      ],
+      "condition": "eq",
+      "flags_at": "0x662e4",
+      "targets": [
+        "0x6644c",
+        "0x66324"
+      ]
+    },
+    {
+      "address": "0x664bc",
+      "original": [
+        "0xd61f0120"
+      ],
+      "replacement": [
+        "0x14fe6a19"
+      ],
+      "island": "0x4000d20",
+      "island_words": [
+        "0x54000040",
+        "0x17019631",
+        "0x170195e6"
+      ],
+      "condition": "eq",
+      "flags_at": "0x66480",
+      "targets": [
+        "0x665e8",
+        "0x664c0"
+      ]
+    },
+    {
+      "address": "0x66658",
+      "original": [
+        "0xd61f0120"
+      ],
+      "replacement": [
+        "0x14fe69b5"
+      ],
+      "island": "0x4000d2c",
+      "island_words": [
+        "0x54000040",
+        "0x17019696",
+        "0x1701964a"
+      ],
+      "condition": "eq",
+      "flags_at": "0x6661c",
+      "targets": [
+        "0x66788",
+        "0x6665c"
+      ]
+    },
+    {
+      "address": "0x66818",
+      "original": [
+        "0xd61f0120"
+      ],
+      "replacement": [
+        "0x14fe6948"
+      ],
+      "island": "0x4000d38",
+      "island_words": [
+        "0x54000040",
+        "0x170196d3",
+        "0x170196b7"
+      ],
+      "condition": "eq",
+      "flags_at": "0x667d0",
+      "targets": [
+        "0x66888",
+        "0x6681c"
+      ]
+    },
+    {
+      "address": "0x668c4",
+      "original": [
+        "0xd61f0100"
+      ],
+      "replacement": [
+        "0x14fe6920"
+      ],
+      "island": "0x4000d44",
+      "island_words": [
+        "0x35000040",
+        "0x170196e0",
+        "0x170196e7"
+      ],
+      "condition": "reg:w0",
+      "flags_at": "0x66898",
+      "targets": [
+        "0x668c8",
+        "0x668e8"
+      ]
+    },
+    {
+      "address": "0x66974",
+      "original": [
+        "0xd61f0120"
+      ],
+      "replacement": [
+        "0x14fe68f7"
+      ],
+      "island": "0x4000d50",
+      "island_words": [
+        "0x54000040",
+        "0x17019725",
+        "0x17019708"
+      ],
+      "condition": "eq",
+      "flags_at": "0x6692c",
+      "targets": [
+        "0x669e8",
+        "0x66978"
+      ]
+    },
+    {
+      "address": "0x66a24",
+      "original": [
+        "0xd61f0100"
+      ],
+      "replacement": [
+        "0x14fe68ce"
+      ],
+      "island": "0x4000d5c",
+      "island_words": [
+        "0x35000040",
+        "0x17019732",
+        "0x17019739"
+      ],
+      "condition": "reg:w0",
+      "flags_at": "0x669f8",
+      "targets": [
+        "0x66a28",
+        "0x66a48"
+      ]
+    },
+    {
+      "address": "0x66ad8",
+      "original": [
+        "0xd61f0120"
+      ],
+      "replacement": [
+        "0x14fe68a4"
+      ],
+      "island": "0x4000d68",
+      "island_words": [
+        "0x54000040",
+        "0x17019775",
+        "0x1701975b"
+      ],
+      "condition": "eq",
+      "flags_at": "0x66a8c",
+      "targets": [
+        "0x66b40",
+        "0x66adc"
+      ]
+    },
+    {
+      "address": "0x66b7c",
+      "original": [
+        "0xd61f0100"
+      ],
+      "replacement": [
+        "0x14fe687e"
+      ],
+      "island": "0x4000d74",
+      "island_words": [
+        "0x35000040",
+        "0x17019782",
+        "0x17019789"
+      ],
+      "condition": "reg:w0",
+      "flags_at": "0x66b50",
+      "targets": [
+        "0x66b80",
+        "0x66ba0"
+      ]
+    },
+    {
+      "address": "0x66c48",
+      "original": [
+        "0xd61f0120"
+      ],
+      "replacement": [
+        "0x14fe684e"
+      ],
+      "island": "0x4000d80",
+      "island_words": [
+        "0x54000040",
+        "0x170197cc",
+        "0x170197b1"
+      ],
+      "condition": "eq",
+      "flags_at": "0x66bfc",
+      "targets": [
+        "0x66cb4",
+        "0x66c4c"
+      ]
+    },
+    {
+      "address": "0x66cf0",
+      "original": [
+        "0xd61f0100"
+      ],
+      "replacement": [
+        "0x14fe6827"
+      ],
+      "island": "0x4000d8c",
+      "island_words": [
+        "0x35000040",
+        "0x170197d9",
+        "0x170197e0"
+      ],
+      "condition": "reg:w0",
+      "flags_at": "0x66cc4",
+      "targets": [
+        "0x66cf4",
+        "0x66d14"
+      ]
+    },
+    {
+      "address": "0x66e30",
+      "original": [
+        "0xd61f0120"
+      ],
+      "replacement": [
+        "0x14fe67da"
+      ],
+      "island": "0x4000d98",
+      "island_words": [
+        "0x54000040",
+        "0x17019841",
+        "0x17019825"
+      ],
+      "condition": "eq",
+      "flags_at": "0x66de8",
+      "targets": [
+        "0x66ea0",
+        "0x66e34"
+      ]
+    },
+    {
+      "address": "0x66edc",
+      "original": [
+        "0xd61f0100"
+      ],
+      "replacement": [
+        "0x14fe67b2"
+      ],
+      "island": "0x4000da4",
+      "island_words": [
+        "0x35000040",
+        "0x1701984e",
+        "0x17019855"
+      ],
+      "condition": "reg:w0",
+      "flags_at": "0x66eb0",
+      "targets": [
+        "0x66ee0",
+        "0x66f00"
+      ]
+    },
+    {
+      "address": "0x66f90",
+      "original": [
+        "0xd61f0120"
+      ],
+      "replacement": [
+        "0x14fe6788"
+      ],
+      "island": "0x4000db0",
+      "island_words": [
+        "0x54000040",
+        "0x17019892",
+        "0x17019877"
+      ],
+      "condition": "eq",
+      "flags_at": "0x66f44",
+      "targets": [
+        "0x66ffc",
+        "0x66f94"
+      ]
+    },
+    {
+      "address": "0x67038",
+      "original": [
+        "0xd61f0100"
+      ],
+      "replacement": [
+        "0x14fe6761"
+      ],
+      "island": "0x4000dbc",
+      "island_words": [
+        "0x35000040",
+        "0x1701989f",
+        "0x170198a6"
+      ],
+      "condition": "reg:w0",
+      "flags_at": "0x6700c",
+      "targets": [
+        "0x6703c",
+        "0x6705c"
+      ]
+    },
+    {
+      "address": "0x670f8",
+      "original": [
+        "0xd61f0120"
+      ],
+      "replacement": [
+        "0x14fe6734"
+      ],
+      "island": "0x4000dc8",
+      "island_words": [
+        "0x54000040",
+        "0x170198e6",
+        "0x170198cb"
+      ],
+      "condition": "eq",
+      "flags_at": "0x670ac",
+      "targets": [
+        "0x67164",
+        "0x670fc"
+      ]
+    },
+    {
+      "address": "0x671a0",
+      "original": [
+        "0xd61f0100"
+      ],
+      "replacement": [
+        "0x14fe670d"
+      ],
+      "island": "0x4000dd4",
+      "island_words": [
+        "0x35000040",
+        "0x170198f3",
+        "0x170198fa"
+      ],
+      "condition": "reg:w0",
+      "flags_at": "0x67174",
+      "targets": [
+        "0x671a4",
+        "0x671c4"
+      ]
+    },
+    {
+      "address": "0x67260",
+      "original": [
+        "0xd61f0120"
+      ],
+      "replacement": [
+        "0x14fe66e0"
+      ],
+      "island": "0x4000de0",
+      "island_words": [
+        "0x54000040",
+        "0x1701993b",
+        "0x1701991f"
+      ],
+      "condition": "eq",
+      "flags_at": "0x67214",
+      "targets": [
+        "0x672d0",
+        "0x67264"
+      ]
+    },
+    {
+      "address": "0x6730c",
+      "original": [
+        "0xd61f0100"
+      ],
+      "replacement": [
+        "0x14fe66b8"
+      ],
+      "island": "0x4000dec",
+      "island_words": [
+        "0x35000040",
+        "0x17019948",
+        "0x1701994f"
+      ],
+      "condition": "reg:w0",
+      "flags_at": "0x672e0",
+      "targets": [
+        "0x67310",
+        "0x67330"
+      ]
+    },
+    {
+      "address": "0x673cc",
+      "original": [
+        "0xd61f0120"
+      ],
+      "replacement": [
+        "0x14fe668b"
+      ],
+      "island": "0x4000df8",
+      "island_words": [
+        "0x54000040",
+        "0x17019990",
+        "0x17019974"
+      ],
+      "condition": "eq",
+      "flags_at": "0x67380",
+      "targets": [
+        "0x6743c",
+        "0x673d0"
+      ]
+    },
+    {
+      "address": "0x67478",
+      "original": [
+        "0xd61f0100"
+      ],
+      "replacement": [
+        "0x14fe6663"
+      ],
+      "island": "0x4000e04",
+      "island_words": [
+        "0x35000040",
+        "0x1701999d",
+        "0x170199a4"
+      ],
+      "condition": "reg:w0",
+      "flags_at": "0x6744c",
+      "targets": [
+        "0x6747c",
+        "0x6749c"
+      ]
+    },
+    {
+      "address": "0x67530",
+      "original": [
+        "0xd61f0120"
+      ],
+      "replacement": [
+        "0x14fe6638"
+      ],
+      "island": "0x4000e10",
+      "island_words": [
+        "0x54000040",
+        "0x170199e3",
+        "0x170199c7"
+      ],
+      "condition": "eq",
+      "flags_at": "0x674f4",
+      "targets": [
+        "0x675a0",
+        "0x67534"
+      ]
+    },
+    {
+      "address": "0x67680",
+      "original": [
+        "0xd61f0120"
+      ],
+      "replacement": [
+        "0x14fe65e7"
+      ],
+      "island": "0x4000e1c",
+      "island_words": [
+        "0x54000040",
+        "0x17019a34",
+        "0x17019a18"
+      ],
+      "condition": "eq",
+      "flags_at": "0x67644",
+      "targets": [
+        "0x676f0",
+        "0x67684"
+      ]
+    },
+    {
+      "address": "0x677d4",
+      "original": [
+        "0xd61f0120"
+      ],
+      "replacement": [
+        "0x14fe6595"
+      ],
+      "island": "0x4000e28",
+      "island_words": [
+        "0x54000040",
+        "0x17019a85",
+        "0x17019a6a"
+      ],
+      "condition": "eq",
+      "flags_at": "0x6778c",
+      "targets": [
+        "0x67840",
+        "0x677d8"
+      ]
+    },
+    {
+      "address": "0x6787c",
+      "original": [
+        "0xd61f0100"
+      ],
+      "replacement": [
+        "0x14fe656e"
+      ],
+      "island": "0x4000e34",
+      "island_words": [
+        "0x35000040",
+        "0x17019a92",
+        "0x17019a99"
+      ],
+      "condition": "reg:w0",
+      "flags_at": "0x67850",
+      "targets": [
+        "0x67880",
+        "0x678a0"
+      ]
+    },
+    {
+      "address": "0x67934",
+      "original": [
+        "0xd61f0120"
+      ],
+      "replacement": [
+        "0x14fe6543"
+      ],
+      "island": "0x4000e40",
+      "island_words": [
+        "0x54000040",
+        "0x17019ad7",
+        "0x17019abc"
+      ],
+      "condition": "eq",
+      "flags_at": "0x678ec",
+      "targets": [
+        "0x679a0",
+        "0x67938"
+      ]
+    },
+    {
+      "address": "0x679e4",
+      "original": [
+        "0xd61f0100"
+      ],
+      "replacement": [
+        "0x14fe651a"
+      ],
+      "island": "0x4000e4c",
+      "island_words": [
+        "0x35000040",
+        "0x17019ae6",
+        "0x17019aeb"
+      ],
+      "condition": "reg:w0",
+      "flags_at": "0x679b8",
+      "targets": [
+        "0x679e8",
+        "0x67a00"
+      ]
+    }
+  ],
+  "manual_branch_tables": [],
+  "added_properties": [],
+  "omitted_supervisor_calls": [
+    {
+      "address": "0x66d74",
+      "instruction": "d40fd261",
+      "assembly": "svc\t#0x7e93"
+    },
+    {
+      "address": "0x66dac",
+      "instruction": "d4149c21",
+      "assembly": "svc\t#0xa4e1"
+    },
+    {
+      "address": "0x675f4",
+      "instruction": "d41c68e1",
+      "assembly": "svc\t#0xe347"
+    },
+    {
+      "address": "0x67744",
+      "instruction": "d404b1a1",
+      "assembly": "svc\t#0x258d"
+    },
+    {
+      "address": "0x67a1c",
+      "instruction": "d40a08a1",
+      "assembly": "svc\t#0x5045"
+    },
+    {
+      "address": "0x6e498",
+      "instruction": "d404e461",
+      "assembly": "svc\t#0x2723"
+    },
+    {
+      "address": "0x6e4d0",
+      "instruction": "d4147e81",
+      "assembly": "svc\t#0xa3f4"
+    },
+    {
+      "address": "0x6e530",
+      "instruction": "d4130b21",
+      "assembly": "svc\t#0x9859"
+    }
+  ],
+  "installers": [
+    "YTLInstallMediaPolicyHooks"
+  ],
+  "limitations": [
+    "Private protobuf count and stream-time getters establish 64-bit integer zero; count uses NSUInteger and stream time uses int64_t. Zero-only implementations cannot distinguish private signedness.",
+    "CoWatchability uses a 32-bit enum slot and value 2; its private generated enum name is not recovered.",
+    "Opaque context, auxiliary UI, message renderers, ad payload and coordinator objects retain object-pointer ABI; their concrete host model classes are unspecified.",
+    "Anti-debug supervisor calls and one-time constant-decoding guards are intentionally omitted; the feature results and original-call behavior preceding them are preserved.",
+    "Runtime fixture uses synthetic host methods, real Foundation collections and Objective-C runtime; packaged image is never executed.",
+    "The parent-owned ytpBool local preference policy is preserved as the integration policy."
+  ]
+}

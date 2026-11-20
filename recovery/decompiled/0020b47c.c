@@ -1,0 +1,168 @@
+/* Decompiled from supplied 5.2.2 arm package. VA 0x20b47c. stopAds */
+
+/* Function Stack Size: 0x10 bytes */
+
+ID YTPDB::stopAds(ID param_1,SEL param_2)
+
+{
+  ID IVar1;
+  undefined **ppuStack_2b0;
+  undefined **ppuStack_2a8;
+  undefined **ppuStack_2a0;
+  undefined **ppuStack_298;
+  undefined **ppuStack_290;
+  undefined **ppuStack_288;
+  undefined **ppuStack_280;
+  undefined **ppuStack_278;
+  undefined **ppuStack_270;
+  undefined **ppuStack_268;
+  undefined **ppuStack_260;
+  undefined **ppuStack_258;
+  undefined **ppuStack_250;
+  undefined **ppuStack_248;
+  undefined **ppuStack_240;
+  undefined **ppuStack_238;
+  undefined **ppuStack_230;
+  undefined **ppuStack_228;
+  undefined **ppuStack_220;
+  undefined **ppuStack_218;
+  undefined **ppuStack_210;
+  undefined **ppuStack_208;
+  undefined **ppuStack_200;
+  undefined **ppuStack_1f8;
+  undefined **ppuStack_1f0;
+  undefined **ppuStack_1e8;
+  undefined **ppuStack_1e0;
+  undefined **ppuStack_1d8;
+  undefined **ppuStack_1d0;
+  undefined **ppuStack_1c8;
+  undefined **ppuStack_1c0;
+  undefined **ppuStack_1b8;
+  undefined **ppuStack_1b0;
+  undefined **ppuStack_1a8;
+  undefined **ppuStack_1a0;
+  undefined **ppuStack_198;
+  undefined **ppuStack_190;
+  undefined **ppuStack_188;
+  undefined **ppuStack_180;
+  undefined **ppuStack_178;
+  undefined **ppuStack_170;
+  undefined **ppuStack_168;
+  undefined **ppuStack_160;
+  undefined **ppuStack_158;
+  undefined **ppuStack_150;
+  undefined **ppuStack_148;
+  undefined **ppuStack_140;
+  undefined **ppuStack_138;
+  undefined **ppuStack_130;
+  undefined **ppuStack_128;
+  undefined **ppuStack_120;
+  undefined **ppuStack_118;
+  undefined **ppuStack_110;
+  undefined **ppuStack_108;
+  undefined **ppuStack_100;
+  undefined **ppuStack_f8;
+  undefined **ppuStack_f0;
+  undefined **ppuStack_e8;
+  undefined **ppuStack_e0;
+  undefined **ppuStack_d8;
+  undefined **ppuStack_d0;
+  undefined **ppuStack_c8;
+  undefined **ppuStack_c0;
+  undefined **ppuStack_b8;
+  undefined **ppuStack_b0;
+  undefined **ppuStack_a8;
+  undefined **ppuStack_a0;
+  undefined **ppuStack_98;
+  undefined **ppuStack_90;
+  undefined **local_80;
+  uint local_74;
+  undefined **local_70;
+  long local_68;
+  
+  local_68 = *(long *)PTR____stack_chk_guard_01060708;
+  local_70 = &PTR_LAB_011cb0e0;
+  local_74 = (uint)(DAT_012280c0 == 0);
+  local_80 = &PTR_LAB_011caf70;
+  DAT_012280c0 = 1;
+  ppuStack_2b0 = &PTR____CFConstantStringClassReference_011cadd0;
+  ppuStack_2a8 = &PTR____CFConstantStringClassReference_011cae50;
+  ppuStack_2a0 = &PTR____CFConstantStringClassReference_011cae10;
+  ppuStack_298 = &PTR____CFConstantStringClassReference_011cac90;
+  ppuStack_290 = &PTR____CFConstantStringClassReference_011caed0;
+  ppuStack_288 = &PTR____CFConstantStringClassReference_011cabd0;
+  ppuStack_280 = &PTR____CFConstantStringClassReference_011ca6d0;
+  ppuStack_278 = &PTR____CFConstantStringClassReference_011ca9d0;
+  ppuStack_270 = &PTR____CFConstantStringClassReference_011caad0;
+  ppuStack_268 = &PTR____CFConstantStringClassReference_011ca510;
+  ppuStack_260 = &PTR____CFConstantStringClassReference_011cacd0;
+  ppuStack_258 = &PTR____CFConstantStringClassReference_011caa50;
+  ppuStack_250 = &PTR____CFConstantStringClassReference_011ca410;
+  ppuStack_248 = &PTR____CFConstantStringClassReference_011caa90;
+  ppuStack_240 = &PTR____CFConstantStringClassReference_011ca950;
+  ppuStack_238 = &PTR____CFConstantStringClassReference_011cad10;
+  ppuStack_230 = &PTR____CFConstantStringClassReference_011ca990;
+  ppuStack_228 = &PTR____CFConstantStringClassReference_011ca910;
+  ppuStack_220 = &PTR____CFConstantStringClassReference_011ca590;
+  ppuStack_218 = &PTR____CFConstantStringClassReference_011cac10;
+  ppuStack_210 = &PTR____CFConstantStringClassReference_011caa10;
+  ppuStack_208 = &PTR____CFConstantStringClassReference_011ca250;
+  ppuStack_200 = &PTR____CFConstantStringClassReference_011ca850;
+  ppuStack_1f8 = &PTR____CFConstantStringClassReference_011ca750;
+  ppuStack_1f0 = &PTR____CFConstantStringClassReference_011ca810;
+  ppuStack_1e8 = &PTR____CFConstantStringClassReference_011cad90;
+  ppuStack_1e0 = &PTR____CFConstantStringClassReference_011ca790;
+  ppuStack_1d8 = &PTR____CFConstantStringClassReference_011ca690;
+  ppuStack_1d0 = &PTR____CFConstantStringClassReference_011ca5d0;
+  ppuStack_1c8 = &PTR____CFConstantStringClassReference_011ca550;
+  ppuStack_1c0 = &PTR____CFConstantStringClassReference_011cab50;
+  ppuStack_1b8 = &PTR____CFConstantStringClassReference_011cae90;
+  ppuStack_1b0 = &PTR____CFConstantStringClassReference_011ca490;
+  ppuStack_1a8 = &PTR____CFConstantStringClassReference_011ca390;
+  ppuStack_1a0 = &PTR____CFConstantStringClassReference_011ca350;
+  ppuStack_198 = &PTR____CFConstantStringClassReference_011caf50;
+  ppuStack_190 = &PTR____CFConstantStringClassReference_011ca710;
+  ppuStack_188 = &PTR____CFConstantStringClassReference_011cad50;
+  ppuStack_180 = &PTR____CFConstantStringClassReference_011ca310;
+  ppuStack_178 = &PTR____CFConstantStringClassReference_011ca650;
+  ppuStack_170 = &PTR____CFConstantStringClassReference_011ca290;
+  ppuStack_168 = &PTR____CFConstantStringClassReference_011ca210;
+  ppuStack_160 = &PTR____CFConstantStringClassReference_011ca450;
+  ppuStack_158 = &PTR____CFConstantStringClassReference_011ca890;
+  ppuStack_150 = &PTR____CFConstantStringClassReference_011ca190;
+  ppuStack_148 = &PTR____CFConstantStringClassReference_011ca610;
+  ppuStack_140 = &PTR____CFConstantStringClassReference_011caf10;
+  ppuStack_138 = &PTR____CFConstantStringClassReference_011ca150;
+  ppuStack_130 = &PTR____CFConstantStringClassReference_011cab10;
+  ppuStack_128 = &PTR____CFConstantStringClassReference_011ca2d0;
+  ppuStack_120 = &PTR____CFConstantStringClassReference_011ca110;
+  ppuStack_118 = &PTR____CFConstantStringClassReference_011ca8d0;
+  ppuStack_110 = &PTR____CFConstantStringClassReference_011ca0d0;
+  ppuStack_108 = &PTR____CFConstantStringClassReference_011ca090;
+  ppuStack_100 = &PTR____CFConstantStringClassReference_011ca050;
+  ppuStack_f8 = &PTR____CFConstantStringClassReference_011ca010;
+  ppuStack_f0 = &PTR____CFConstantStringClassReference_011cac50;
+  ppuStack_e8 = &PTR____CFConstantStringClassReference_011ca7d0;
+  ppuStack_e0 = &PTR____CFConstantStringClassReference_011ca1d0;
+  ppuStack_d8 = &PTR____CFConstantStringClassReference_011c9fd0;
+  ppuStack_d0 = &PTR____CFConstantStringClassReference_011c9f50;
+  ppuStack_c8 = &PTR____CFConstantStringClassReference_011c9f10;
+  ppuStack_c0 = &PTR____CFConstantStringClassReference_011c9ed0;
+  ppuStack_b8 = &PTR____CFConstantStringClassReference_011cab90;
+  ppuStack_b0 = &PTR____CFConstantStringClassReference_011c9e90;
+  ppuStack_a8 = &PTR____CFConstantStringClassReference_011ca4d0;
+  ppuStack_a0 = &PTR____CFConstantStringClassReference_011ca3d0;
+  ppuStack_98 = &PTR____CFConstantStringClassReference_011c9e50;
+  ppuStack_90 = &PTR____CFConstantStringClassReference_011c9f90;
+  _objc_msgSend(PTR__OBJC_CLASS___NSArray_0114ec18,PTR_s_arrayWithObjects_count__0114b600,
+                &ppuStack_2b0,0x45);
+  _objc_retainAutoreleasedReturnValue();
+  if (*(long *)PTR____stack_chk_guard_01060708 == local_68) {
+    IVar1 = _objc_autoreleaseReturnValue();
+    return IVar1;
+  }
+                    /* WARNING: Subroutine does not return */
+  ___stack_chk_fail();
+}
+
+

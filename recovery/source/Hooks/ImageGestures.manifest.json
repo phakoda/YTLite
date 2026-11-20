@@ -1,0 +1,41 @@
+{
+  "binary_sha256": "bdcc4d4ccaa5835d35bc97ccbdfc1c3dff514cb7161848265dcc0585f364c0ca",
+  "registrations": [
+    {
+      "class_name": "YTPlayerView",
+      "kind": "-",
+      "selector": "didPinch:",
+      "implementation": "0x000b367c",
+      "operation": "replace",
+      "original_pointer": "0x01226740",
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0xb3ef0",
+      "instruction_sha256": "130ea1a8df772cd59caa4972580dbae9a7ca057789a7e871d6c1e8cd2d146533"
+    },
+    {
+      "class_name": "YTImageZoomNode",
+      "kind": "-",
+      "selector": "gestureRecognizer:shouldRecognizeSimultaneouslyWithGestureRecognizer:",
+      "implementation": "0x000b5780",
+      "operation": "replace",
+      "original_pointer": "0x01226788",
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0xb6228",
+      "instruction_sha256": "1164d61aa03b5ccf3199932f81810ab4609ec9cba947d0a73442b435cdbb5a8f"
+    }
+  ],
+  "helpers": [
+    {
+      "address": "0xccdbc",
+      "instruction_end": "0xcce50",
+      "instruction_sha256": "367996fc313bd46c84eb66eb42c424c7d4f93a838202a8ee02a90a276e53c709"
+    },
+    {
+      "address": "0xcce50",
+      "instruction_end": "0xccee4",
+      "instruction_sha256": "3e58f6185f8fa586ed95a9cdad5fadd758df847a178ab1487322ffce823cf396"
+    }
+  ]
+}

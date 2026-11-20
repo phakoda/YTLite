@@ -1,0 +1,2097 @@
+{
+  "InitWorkaround": {
+    "instance_size": 16,
+    "ivars": [
+      {
+        "name": "_completion",
+        "encoding": "@?",
+        "offset": 8,
+        "size": 8,
+        "metadata_address": "0x1140050"
+      }
+    ]
+  },
+  "WelcomeVC": {
+    "instance_size": 24,
+    "ivars": [
+      {
+        "name": "_tableView",
+        "encoding": "@\"UITableView\"",
+        "offset": 8,
+        "size": 8,
+        "metadata_address": "0x1141200"
+      },
+      {
+        "name": "_settingsData",
+        "encoding": "@\"NSArray\"",
+        "offset": 16,
+        "size": 8,
+        "metadata_address": "0x1141220"
+      }
+    ]
+  },
+  "DownloadMenuHelper": {
+    "instance_size": 8,
+    "ivars": []
+  },
+  "YTPTableViewCell": {
+    "instance_size": 8,
+    "ivars": []
+  },
+  "DVNPickerView": {
+    "instance_size": 8,
+    "ivars": []
+  },
+  "DVNTableViewController": {
+    "instance_size": 56,
+    "ivars": [
+      {
+        "name": "_searchResults",
+        "encoding": "@\"NSArray\"",
+        "offset": 8,
+        "size": 8,
+        "metadata_address": "0x1141c78"
+      },
+      {
+        "name": "_searchBar",
+        "encoding": "@\"UISearchBar\"",
+        "offset": 16,
+        "size": 8,
+        "metadata_address": "0x1141c98"
+      },
+      {
+        "name": "_isSearching",
+        "encoding": "B",
+        "offset": 24,
+        "size": 1,
+        "metadata_address": "0x1141cb8"
+      },
+      {
+        "name": "_model",
+        "encoding": "@\"DVNTableModel\"",
+        "offset": 32,
+        "size": 8,
+        "metadata_address": "0x1141cd8"
+      },
+      {
+        "name": "_defaults",
+        "encoding": "@\"NSUserDefaults\"",
+        "offset": 40,
+        "size": 8,
+        "metadata_address": "0x1141cf8"
+      },
+      {
+        "name": "_pendingScrollCell",
+        "encoding": "@\"DVNCell\"",
+        "offset": 48,
+        "size": 8,
+        "metadata_address": "0x1141d18"
+      }
+    ]
+  },
+  "TabbarVC": {
+    "instance_size": 64,
+    "ivars": [
+      {
+        "name": "_isSettings",
+        "encoding": "B",
+        "offset": 8,
+        "size": 1,
+        "metadata_address": "0x1141e48"
+      },
+      {
+        "name": "_sections",
+        "encoding": "@\"NSArray\"",
+        "offset": 16,
+        "size": 8,
+        "metadata_address": "0x1141e68"
+      },
+      {
+        "name": "_tabs",
+        "encoding": "@\"NSArray\"",
+        "offset": 24,
+        "size": 8,
+        "metadata_address": "0x1141e88"
+      },
+      {
+        "name": "_startup",
+        "encoding": "@\"NSArray\"",
+        "offset": 32,
+        "size": 8,
+        "metadata_address": "0x1141ea8"
+      },
+      {
+        "name": "_tabbar",
+        "encoding": "@\"NSArray\"",
+        "offset": 40,
+        "size": 8,
+        "metadata_address": "0x1141ec8"
+      },
+      {
+        "name": "_activeTabs",
+        "encoding": "@\"NSMutableArray\"",
+        "offset": 48,
+        "size": 8,
+        "metadata_address": "0x1141ee8"
+      },
+      {
+        "name": "_inactiveTabs",
+        "encoding": "@\"NSMutableArray\"",
+        "offset": 56,
+        "size": 8,
+        "metadata_address": "0x1141f08"
+      }
+    ]
+  },
+  "YTPSettingsBuilder": {
+    "instance_size": 16,
+    "ivars": [
+      {
+        "name": "_presenter",
+        "encoding": "@\"UIViewController\"",
+        "offset": 8,
+        "size": 8,
+        "metadata_address": "0x1141fc0"
+      }
+    ]
+  },
+  "DVNTableModel": {
+    "instance_size": 96,
+    "ivars": [
+      {
+        "name": "_showsThanksHeart",
+        "encoding": "B",
+        "offset": 8,
+        "size": 1,
+        "metadata_address": "0x1142090"
+      },
+      {
+        "name": "_supportsSearching",
+        "encoding": "B",
+        "offset": 9,
+        "size": 1,
+        "metadata_address": "0x11420b0"
+      },
+      {
+        "name": "_title",
+        "encoding": "@\"NSString\"",
+        "offset": 16,
+        "size": 8,
+        "metadata_address": "0x11420d0"
+      },
+      {
+        "name": "_header",
+        "encoding": "@\"NSString\"",
+        "offset": 24,
+        "size": 8,
+        "metadata_address": "0x11420f0"
+      },
+      {
+        "name": "_footer",
+        "encoding": "@\"NSString\"",
+        "offset": 32,
+        "size": 8,
+        "metadata_address": "0x1142110"
+      },
+      {
+        "name": "_headerFont",
+        "encoding": "@\"UIFont\"",
+        "offset": 40,
+        "size": 8,
+        "metadata_address": "0x1142130"
+      },
+      {
+        "name": "_footerFont",
+        "encoding": "@\"UIFont\"",
+        "offset": 48,
+        "size": 8,
+        "metadata_address": "0x1142150"
+      },
+      {
+        "name": "_headerAlignment",
+        "encoding": "q",
+        "offset": 56,
+        "size": 8,
+        "metadata_address": "0x1142170"
+      },
+      {
+        "name": "_footerAlignment",
+        "encoding": "q",
+        "offset": 64,
+        "size": 8,
+        "metadata_address": "0x1142190"
+      },
+      {
+        "name": "_sections",
+        "encoding": "@\"NSArray\"",
+        "offset": 72,
+        "size": 8,
+        "metadata_address": "0x11421b0"
+      },
+      {
+        "name": "_viewController",
+        "encoding": "@\"UIViewController\"",
+        "offset": 80,
+        "size": 8,
+        "metadata_address": "0x11421d0"
+      },
+      {
+        "name": "_selfViewController",
+        "encoding": "@\"UIViewController\"",
+        "offset": 88,
+        "size": 8,
+        "metadata_address": "0x11421f0"
+      }
+    ]
+  },
+  "DVNSection": {
+    "instance_size": 56,
+    "ivars": [
+      {
+        "name": "_header",
+        "encoding": "@\"NSString\"",
+        "offset": 8,
+        "size": 8,
+        "metadata_address": "0x1142370"
+      },
+      {
+        "name": "_footer",
+        "encoding": "@\"NSString\"",
+        "offset": 16,
+        "size": 8,
+        "metadata_address": "0x1142390"
+      },
+      {
+        "name": "_identifier",
+        "encoding": "@\"NSString\"",
+        "offset": 24,
+        "size": 8,
+        "metadata_address": "0x11423b0"
+      },
+      {
+        "name": "_headerIcon",
+        "encoding": "@\"UIImage\"",
+        "offset": 32,
+        "size": 8,
+        "metadata_address": "0x11423d0"
+      },
+      {
+        "name": "_cells",
+        "encoding": "@\"NSArray\"",
+        "offset": 40,
+        "size": 8,
+        "metadata_address": "0x11423f0"
+      },
+      {
+        "name": "_cellsProvider",
+        "encoding": "@?",
+        "offset": 48,
+        "size": 8,
+        "metadata_address": "0x1142410"
+      }
+    ]
+  },
+  "DVNCell": {
+    "instance_size": 248,
+    "ivars": [
+      {
+        "name": "_reloadsCell",
+        "encoding": "B",
+        "offset": 8,
+        "size": 1,
+        "metadata_address": "0x1142530"
+      },
+      {
+        "name": "_reloadsTable",
+        "encoding": "B",
+        "offset": 9,
+        "size": 1,
+        "metadata_address": "0x1142550"
+      },
+      {
+        "name": "_shouldHideDetail",
+        "encoding": "B",
+        "offset": 10,
+        "size": 1,
+        "metadata_address": "0x1142570"
+      },
+      {
+        "name": "_identifier",
+        "encoding": "@\"NSString\"",
+        "offset": 16,
+        "size": 8,
+        "metadata_address": "0x1142590"
+      },
+      {
+        "name": "_reuseIdentifier",
+        "encoding": "@\"NSString\"",
+        "offset": 24,
+        "size": 8,
+        "metadata_address": "0x11425b0"
+      },
+      {
+        "name": "_title",
+        "encoding": "@\"NSString\"",
+        "offset": 32,
+        "size": 8,
+        "metadata_address": "0x11425d0"
+      },
+      {
+        "name": "_subtitle",
+        "encoding": "@\"NSString\"",
+        "offset": 40,
+        "size": 8,
+        "metadata_address": "0x11425f0"
+      },
+      {
+        "name": "_detailText",
+        "encoding": "@\"NSString\"",
+        "offset": 48,
+        "size": 8,
+        "metadata_address": "0x1142610"
+      },
+      {
+        "name": "_key",
+        "encoding": "@\"NSString\"",
+        "offset": 56,
+        "size": 8,
+        "metadata_address": "0x1142630"
+      },
+      {
+        "name": "_placeholder",
+        "encoding": "@\"NSString\"",
+        "offset": 64,
+        "size": 8,
+        "metadata_address": "0x1142650"
+      },
+      {
+        "name": "_titleIndexes",
+        "encoding": "@\"NSArray\"",
+        "offset": 72,
+        "size": 8,
+        "metadata_address": "0x1142670"
+      },
+      {
+        "name": "_imageIndexes",
+        "encoding": "@\"NSArray\"",
+        "offset": 80,
+        "size": 8,
+        "metadata_address": "0x1142690"
+      },
+      {
+        "name": "_dividerValue",
+        "encoding": "d",
+        "offset": 88,
+        "size": 8,
+        "metadata_address": "0x11426b0"
+      },
+      {
+        "name": "_minimumValue",
+        "encoding": "d",
+        "offset": 96,
+        "size": 8,
+        "metadata_address": "0x11426d0"
+      },
+      {
+        "name": "_maximumValue",
+        "encoding": "d",
+        "offset": 104,
+        "size": 8,
+        "metadata_address": "0x11426f0"
+      },
+      {
+        "name": "_sliderFormat",
+        "encoding": "q",
+        "offset": 112,
+        "size": 8,
+        "metadata_address": "0x1142710"
+      },
+      {
+        "name": "_renderingMode",
+        "encoding": "q",
+        "offset": 120,
+        "size": 8,
+        "metadata_address": "0x1142730"
+      },
+      {
+        "name": "_icon",
+        "encoding": "@\"UIImage\"",
+        "offset": 128,
+        "size": 8,
+        "metadata_address": "0x1142750"
+      },
+      {
+        "name": "_image",
+        "encoding": "@\"UIImage\"",
+        "offset": 136,
+        "size": 8,
+        "metadata_address": "0x1142770"
+      },
+      {
+        "name": "_accessoryIcon",
+        "encoding": "@\"UIImage\"",
+        "offset": 144,
+        "size": 8,
+        "metadata_address": "0x1142790"
+      },
+      {
+        "name": "_type",
+        "encoding": "q",
+        "offset": 152,
+        "size": 8,
+        "metadata_address": "0x11427b0"
+      },
+      {
+        "name": "_tintColor",
+        "encoding": "@\"UIColor\"",
+        "offset": 160,
+        "size": 8,
+        "metadata_address": "0x11427d0"
+      },
+      {
+        "name": "_sourceView",
+        "encoding": "@\"UIView\"",
+        "offset": 168,
+        "size": 8,
+        "metadata_address": "0x11427f0"
+      },
+      {
+        "name": "_controllerModel",
+        "encoding": "@\"DVNTableModel\"",
+        "offset": 176,
+        "size": 8,
+        "metadata_address": "0x1142810"
+      },
+      {
+        "name": "_customData",
+        "encoding": "@\"NSDictionary\"",
+        "offset": 184,
+        "size": 8,
+        "metadata_address": "0x1142830"
+      },
+      {
+        "name": "_handler",
+        "encoding": "@?",
+        "offset": 192,
+        "size": 8,
+        "metadata_address": "0x1142850"
+      },
+      {
+        "name": "_selfHandler",
+        "encoding": "@?",
+        "offset": 200,
+        "size": 8,
+        "metadata_address": "0x1142870"
+      },
+      {
+        "name": "_handlerWithCompletion",
+        "encoding": "@?",
+        "offset": 208,
+        "size": 8,
+        "metadata_address": "0x1142890"
+      },
+      {
+        "name": "_subtitleProvider",
+        "encoding": "@?",
+        "offset": 216,
+        "size": 8,
+        "metadata_address": "0x11428b0"
+      },
+      {
+        "name": "_titleIndexesProvider",
+        "encoding": "@?",
+        "offset": 224,
+        "size": 8,
+        "metadata_address": "0x11428d0"
+      },
+      {
+        "name": "_validationHandler",
+        "encoding": "@?",
+        "offset": 232,
+        "size": 8,
+        "metadata_address": "0x11428f0"
+      },
+      {
+        "name": "_errorText",
+        "encoding": "@\"NSString\"",
+        "offset": 240,
+        "size": 8,
+        "metadata_address": "0x1142910"
+      }
+    ]
+  },
+  "DVNSupportersVC": {
+    "instance_size": 24,
+    "ivars": [
+      {
+        "name": "_webView",
+        "encoding": "@\"WKWebView\"",
+        "offset": 8,
+        "size": 8,
+        "metadata_address": "0x11430a0"
+      },
+      {
+        "name": "_activityIndicator",
+        "encoding": "@\"UIActivityIndicatorView\"",
+        "offset": 16,
+        "size": 8,
+        "metadata_address": "0x11430c0"
+      }
+    ]
+  },
+  "SBSegment": {
+    "instance_size": 80,
+    "ivars": [
+      {
+        "name": "_locked",
+        "encoding": "B",
+        "offset": 8,
+        "size": 1,
+        "metadata_address": "0x11431c0"
+      },
+      {
+        "name": "_uuid",
+        "encoding": "@\"NSString\"",
+        "offset": 16,
+        "size": 8,
+        "metadata_address": "0x11431e0"
+      },
+      {
+        "name": "_category",
+        "encoding": "@\"NSString\"",
+        "offset": 24,
+        "size": 8,
+        "metadata_address": "0x1143200"
+      },
+      {
+        "name": "_actionType",
+        "encoding": "@\"NSString\"",
+        "offset": 32,
+        "size": 8,
+        "metadata_address": "0x1143220"
+      },
+      {
+        "name": "_segmentDescription",
+        "encoding": "@\"NSString\"",
+        "offset": 40,
+        "size": 8,
+        "metadata_address": "0x1143240"
+      },
+      {
+        "name": "_start",
+        "encoding": "d",
+        "offset": 48,
+        "size": 8,
+        "metadata_address": "0x1143260"
+      },
+      {
+        "name": "_end",
+        "encoding": "d",
+        "offset": 56,
+        "size": 8,
+        "metadata_address": "0x1143280"
+      },
+      {
+        "name": "_videoDuration",
+        "encoding": "d",
+        "offset": 64,
+        "size": 8,
+        "metadata_address": "0x11432a0"
+      },
+      {
+        "name": "_votes",
+        "encoding": "q",
+        "offset": 72,
+        "size": 8,
+        "metadata_address": "0x11432c0"
+      }
+    ]
+  },
+  "SBPlaybackController": {
+    "instance_size": 32,
+    "ivars": [
+      {
+        "name": "_player",
+        "encoding": "@\"YTPlayerViewController\"",
+        "offset": 8,
+        "size": 8,
+        "metadata_address": "0x1143410"
+      },
+      {
+        "name": "_videoID",
+        "encoding": "@\"NSString\"",
+        "offset": 16,
+        "size": 8,
+        "metadata_address": "0x1143430"
+      },
+      {
+        "name": "_skippedUUIDs",
+        "encoding": "@\"NSMutableSet\"",
+        "offset": 24,
+        "size": 8,
+        "metadata_address": "0x1143450"
+      }
+    ]
+  },
+  "SBManager": {
+    "instance_size": 24,
+    "ivars": [
+      {
+        "name": "_categories",
+        "encoding": "@\"NSString\"",
+        "offset": 8,
+        "size": 8,
+        "metadata_address": "0x1143508"
+      },
+      {
+        "name": "_segments",
+        "encoding": "@\"NSMutableDictionary\"",
+        "offset": 16,
+        "size": 8,
+        "metadata_address": "0x1143528"
+      }
+    ]
+  },
+  "SBPlayerDecorator": {
+    "instance_size": 8,
+    "ivars": []
+  },
+  "SBPlayerDecorationData": {
+    "instance_size": 40,
+    "ivars": [
+      {
+        "name": "_segments",
+        "encoding": "@\"NSArray\"",
+        "offset": 8,
+        "size": 8,
+        "metadata_address": "0x1143688"
+      },
+      {
+        "name": "_playerBarWidth",
+        "encoding": "d",
+        "offset": 16,
+        "size": 8,
+        "metadata_address": "0x11436a8"
+      },
+      {
+        "name": "_mediaDuration",
+        "encoding": "d",
+        "offset": 24,
+        "size": 8,
+        "metadata_address": "0x11436c8"
+      },
+      {
+        "name": "_barView",
+        "encoding": "@\"UIView\"",
+        "offset": 32,
+        "size": 8,
+        "metadata_address": "0x11436e8"
+      }
+    ]
+  },
+  "DVNMediaPicker": {
+    "instance_size": 16,
+    "ivars": [
+      {
+        "name": "_viewController",
+        "encoding": "@\"UIViewController\"",
+        "offset": 8,
+        "size": 8,
+        "metadata_address": "0x1143bb8"
+      }
+    ]
+  },
+  "YTPMedia": {
+    "instance_size": 9,
+    "ivars": [
+      {
+        "name": "_cairo",
+        "encoding": "B",
+        "offset": 8,
+        "size": 1,
+        "metadata_address": "0x1143cd0"
+      }
+    ]
+  },
+  "DVNHorizontalPanDelegate": {
+    "instance_size": 8,
+    "ivars": []
+  },
+  "ToastView": {
+    "instance_size": 160,
+    "ivars": [
+      {
+        "name": "_commandQueue",
+        "encoding": "@\"NSMutableArray\"",
+        "offset": 8,
+        "size": 8,
+        "metadata_address": "0x1144268"
+      },
+      {
+        "name": "_isiPad",
+        "encoding": "B",
+        "offset": 16,
+        "size": 1,
+        "metadata_address": "0x1144288"
+      },
+      {
+        "name": "_isAnimating",
+        "encoding": "B",
+        "offset": 17,
+        "size": 1,
+        "metadata_address": "0x11442a8"
+      },
+      {
+        "name": "_ignoresFullscreenOpacity",
+        "encoding": "B",
+        "offset": 18,
+        "size": 1,
+        "metadata_address": "0x11442c8"
+      },
+      {
+        "name": "_ignoresPanGesture",
+        "encoding": "B",
+        "offset": 19,
+        "size": 1,
+        "metadata_address": "0x11442e8"
+      },
+      {
+        "name": "_ytSourceView",
+        "encoding": "@\"UIWindow\"",
+        "offset": 24,
+        "size": 8,
+        "metadata_address": "0x1144308"
+      },
+      {
+        "name": "_sourceView",
+        "encoding": "@\"UIView\"",
+        "offset": 32,
+        "size": 8,
+        "metadata_address": "0x1144328"
+      },
+      {
+        "name": "_keyboardHeight",
+        "encoding": "d",
+        "offset": 40,
+        "size": 8,
+        "metadata_address": "0x1144348"
+      },
+      {
+        "name": "_goodHeight",
+        "encoding": "d",
+        "offset": 48,
+        "size": 8,
+        "metadata_address": "0x1144368"
+      },
+      {
+        "name": "_toastLabel",
+        "encoding": "@\"UILabel\"",
+        "offset": 56,
+        "size": 8,
+        "metadata_address": "0x1144388"
+      },
+      {
+        "name": "_toastProgress",
+        "encoding": "@\"UIProgressView\"",
+        "offset": 64,
+        "size": 8,
+        "metadata_address": "0x11443a8"
+      },
+      {
+        "name": "_toastIcon",
+        "encoding": "@\"UIImageView\"",
+        "offset": 72,
+        "size": 8,
+        "metadata_address": "0x11443c8"
+      },
+      {
+        "name": "_actionsStack",
+        "encoding": "@\"UIStackView\"",
+        "offset": 80,
+        "size": 8,
+        "metadata_address": "0x11443e8"
+      },
+      {
+        "name": "_toastButton",
+        "encoding": "@\"UIButton\"",
+        "offset": 88,
+        "size": 8,
+        "metadata_address": "0x1144408"
+      },
+      {
+        "name": "_activityIndicator",
+        "encoding": "@\"UIActivityIndicatorView\"",
+        "offset": 96,
+        "size": 8,
+        "metadata_address": "0x1144428"
+      },
+      {
+        "name": "_progressTimer",
+        "encoding": "@\"NSTimer\"",
+        "offset": 104,
+        "size": 8,
+        "metadata_address": "0x1144448"
+      },
+      {
+        "name": "_topConstraint",
+        "encoding": "@\"NSLayoutConstraint\"",
+        "offset": 112,
+        "size": 8,
+        "metadata_address": "0x1144468"
+      },
+      {
+        "name": "_bottomConstraint",
+        "encoding": "@\"NSLayoutConstraint\"",
+        "offset": 120,
+        "size": 8,
+        "metadata_address": "0x1144488"
+      },
+      {
+        "name": "_centerXConstraint",
+        "encoding": "@\"NSLayoutConstraint\"",
+        "offset": 128,
+        "size": 8,
+        "metadata_address": "0x11444a8"
+      },
+      {
+        "name": "_widthConstraint",
+        "encoding": "@\"NSLayoutConstraint\"",
+        "offset": 136,
+        "size": 8,
+        "metadata_address": "0x11444c8"
+      },
+      {
+        "name": "_heightConstraint",
+        "encoding": "@\"NSLayoutConstraint\"",
+        "offset": 144,
+        "size": 8,
+        "metadata_address": "0x11444e8"
+      },
+      {
+        "name": "_completion",
+        "encoding": "@?",
+        "offset": 152,
+        "size": 8,
+        "metadata_address": "0x1144508"
+      }
+    ]
+  },
+  "ToastWindow": {
+    "instance_size": 8,
+    "ivars": []
+  },
+  "ToastManager": {
+    "instance_size": 32,
+    "ivars": [
+      {
+        "name": "_isPinnedTop",
+        "encoding": "B",
+        "offset": 8,
+        "size": 1,
+        "metadata_address": "0x1144668"
+      },
+      {
+        "name": "_isFullscreen",
+        "encoding": "B",
+        "offset": 9,
+        "size": 1,
+        "metadata_address": "0x1144688"
+      },
+      {
+        "name": "_toasts",
+        "encoding": "@\"NSMutableArray\"",
+        "offset": 16,
+        "size": 8,
+        "metadata_address": "0x11446a8"
+      },
+      {
+        "name": "_offsetController",
+        "encoding": "@\"YTToastOffsetController\"",
+        "offset": 24,
+        "size": 8,
+        "metadata_address": "0x11446c8"
+      }
+    ]
+  },
+  "YTPAPIHelper": {
+    "instance_size": 8,
+    "ivars": []
+  },
+  "Downloader": {
+    "instance_size": 96,
+    "ivars": [
+      {
+        "name": "_session",
+        "encoding": "@\"NSURLSession\"",
+        "offset": 8,
+        "size": 8,
+        "metadata_address": "0x1144f08"
+      },
+      {
+        "name": "_downloadTask",
+        "encoding": "@\"NSURLSessionDownloadTask\"",
+        "offset": 16,
+        "size": 8,
+        "metadata_address": "0x1144f28"
+      },
+      {
+        "name": "_fileName",
+        "encoding": "@\"NSString\"",
+        "offset": 24,
+        "size": 8,
+        "metadata_address": "0x1144f48"
+      },
+      {
+        "name": "_chunkSize",
+        "encoding": "Q",
+        "offset": 32,
+        "size": 8,
+        "metadata_address": "0x1144f68"
+      },
+      {
+        "name": "_totalChunks",
+        "encoding": "Q",
+        "offset": 40,
+        "size": 8,
+        "metadata_address": "0x1144f88"
+      },
+      {
+        "name": "_downloadedChunks",
+        "encoding": "Q",
+        "offset": 48,
+        "size": 8,
+        "metadata_address": "0x1144fa8"
+      },
+      {
+        "name": "_fileHandle",
+        "encoding": "@\"NSFileHandle\"",
+        "offset": 56,
+        "size": 8,
+        "metadata_address": "0x1144fc8"
+      },
+      {
+        "name": "_fileURL",
+        "encoding": "@\"NSURL\"",
+        "offset": 64,
+        "size": 8,
+        "metadata_address": "0x1144fe8"
+      },
+      {
+        "name": "_totalDownloadedBytes",
+        "encoding": "q",
+        "offset": 72,
+        "size": 8,
+        "metadata_address": "0x1145008"
+      },
+      {
+        "name": "_totalExpectedBytes",
+        "encoding": "q",
+        "offset": 80,
+        "size": 8,
+        "metadata_address": "0x1145028"
+      },
+      {
+        "name": "_delegate",
+        "encoding": "@\"<DownloaderDelegate>\"",
+        "offset": 88,
+        "size": 8,
+        "metadata_address": "0x1145048"
+      }
+    ]
+  },
+  "AudioManager": {
+    "instance_size": 16,
+    "ivars": [
+      {
+        "name": "_audioPlayer",
+        "encoding": "@\"AVAudioPlayer\"",
+        "offset": 8,
+        "size": 8,
+        "metadata_address": "0x1145540"
+      }
+    ]
+  },
+  "YTPDownloader": {
+    "instance_size": 104,
+    "ivars": [
+      {
+        "name": "_session",
+        "encoding": "@\"NSURLSession\"",
+        "offset": 8,
+        "size": 8,
+        "metadata_address": "0x1145bc0"
+      },
+      {
+        "name": "_dataTask",
+        "encoding": "@\"NSURLSessionDataTask\"",
+        "offset": 16,
+        "size": 8,
+        "metadata_address": "0x1145be0"
+      },
+      {
+        "name": "_fileHandle",
+        "encoding": "@\"NSFileHandle\"",
+        "offset": 24,
+        "size": 8,
+        "metadata_address": "0x1145c00"
+      },
+      {
+        "name": "_fileName",
+        "encoding": "@\"NSString\"",
+        "offset": 32,
+        "size": 8,
+        "metadata_address": "0x1145c20"
+      },
+      {
+        "name": "_videoID",
+        "encoding": "@\"NSString\"",
+        "offset": 40,
+        "size": 8,
+        "metadata_address": "0x1145c40"
+      },
+      {
+        "name": "_totalFileSize",
+        "encoding": "q",
+        "offset": 48,
+        "size": 8,
+        "metadata_address": "0x1145c60"
+      },
+      {
+        "name": "_downloadedSize",
+        "encoding": "q",
+        "offset": 56,
+        "size": 8,
+        "metadata_address": "0x1145c80"
+      },
+      {
+        "name": "_chunkMap",
+        "encoding": "@\"NSMutableDictionary\"",
+        "offset": 64,
+        "size": 8,
+        "metadata_address": "0x1145ca0"
+      },
+      {
+        "name": "_chunkSize",
+        "encoding": "Q",
+        "offset": 72,
+        "size": 8,
+        "metadata_address": "0x1145cc0"
+      },
+      {
+        "name": "_filePath",
+        "encoding": "@\"NSString\"",
+        "offset": 80,
+        "size": 8,
+        "metadata_address": "0x1145ce0"
+      },
+      {
+        "name": "_chunkMapPath",
+        "encoding": "@\"NSString\"",
+        "offset": 88,
+        "size": 8,
+        "metadata_address": "0x1145d00"
+      },
+      {
+        "name": "_delegate",
+        "encoding": "@\"<DownloaderDelegate>\"",
+        "offset": 96,
+        "size": 8,
+        "metadata_address": "0x1145d20"
+      }
+    ]
+  },
+  "SbWhitelistVC": {
+    "instance_size": 32,
+    "ivars": [
+      {
+        "name": "_sortButton",
+        "encoding": "@\"UIButton\"",
+        "offset": 8,
+        "size": 8,
+        "metadata_address": "0x1145e30"
+      },
+      {
+        "name": "_sections",
+        "encoding": "@\"NSArray\"",
+        "offset": 16,
+        "size": 8,
+        "metadata_address": "0x1145e50"
+      },
+      {
+        "name": "_channels",
+        "encoding": "@\"NSMutableArray\"",
+        "offset": 24,
+        "size": 8,
+        "metadata_address": "0x1145e70"
+      }
+    ]
+  },
+  "YTPTranslator": {
+    "instance_size": 8,
+    "ivars": []
+  },
+  "TranslatorVC": {
+    "instance_size": 80,
+    "ivars": [
+      {
+        "name": "_tableView",
+        "encoding": "@\"UITableView\"",
+        "offset": 8,
+        "size": 8,
+        "metadata_address": "0x1145fb8"
+      },
+      {
+        "name": "_translateButton",
+        "encoding": "@\"UIButton\"",
+        "offset": 16,
+        "size": 8,
+        "metadata_address": "0x1145fd8"
+      },
+      {
+        "name": "_textView",
+        "encoding": "@\"UITextView\"",
+        "offset": 24,
+        "size": 8,
+        "metadata_address": "0x1145ff8"
+      },
+      {
+        "name": "_sourceText",
+        "encoding": "@\"NSString\"",
+        "offset": 32,
+        "size": 8,
+        "metadata_address": "0x1146018"
+      },
+      {
+        "name": "_langIndex",
+        "encoding": "q",
+        "offset": 40,
+        "size": 8,
+        "metadata_address": "0x1146038"
+      },
+      {
+        "name": "_sections",
+        "encoding": "@\"NSArray\"",
+        "offset": 48,
+        "size": 8,
+        "metadata_address": "0x1146058"
+      },
+      {
+        "name": "_type",
+        "encoding": "@\"NSArray\"",
+        "offset": 56,
+        "size": 8,
+        "metadata_address": "0x1146078"
+      },
+      {
+        "name": "_translation",
+        "encoding": "@\"NSArray\"",
+        "offset": 64,
+        "size": 8,
+        "metadata_address": "0x1146098"
+      },
+      {
+        "name": "_translate",
+        "encoding": "@\"NSArray\"",
+        "offset": 72,
+        "size": 8,
+        "metadata_address": "0x11460b8"
+      }
+    ]
+  },
+  "YTLUserDefaults": {
+    "instance_size": 40,
+    "ivars": [
+      {
+        "name": "_prefsPickerCompletion",
+        "encoding": "@?",
+        "offset": 32,
+        "size": 8,
+        "metadata_address": "0x11464f8"
+      }
+    ]
+  },
+  "DVNSheetPresenter": {
+    "instance_size": 8,
+    "ivars": []
+  },
+  "PseudoDetentController": {
+    "instance_size": 32,
+    "ivars": [
+      {
+        "name": "_heightCalculator",
+        "encoding": "@?",
+        "offset": 8,
+        "size": 8,
+        "metadata_address": "0x1146698"
+      },
+      {
+        "name": "_customHeight",
+        "encoding": "d",
+        "offset": 16,
+        "size": 8,
+        "metadata_address": "0x11466b8"
+      },
+      {
+        "name": "_dimmingView",
+        "encoding": "@\"UIView\"",
+        "offset": 24,
+        "size": 8,
+        "metadata_address": "0x11466d8"
+      }
+    ]
+  },
+  "PseudoDetentTransitioningDelegate": {
+    "instance_size": 24,
+    "ivars": [
+      {
+        "name": "_heightCalculator",
+        "encoding": "@?",
+        "offset": 8,
+        "size": 8,
+        "metadata_address": "0x1146b78"
+      },
+      {
+        "name": "_customHeight",
+        "encoding": "d",
+        "offset": 16,
+        "size": 8,
+        "metadata_address": "0x1146b98"
+      }
+    ]
+  },
+  "DVNLongPressDelegate": {
+    "instance_size": 24,
+    "ivars": [
+      {
+        "name": "_view",
+        "encoding": "@\"UIView\"",
+        "offset": 8,
+        "size": 8,
+        "metadata_address": "0x11470a8"
+      },
+      {
+        "name": "_mode",
+        "encoding": "q",
+        "offset": 16,
+        "size": 8,
+        "metadata_address": "0x11470c8"
+      }
+    ]
+  },
+  "YTPPlayerHelper": {
+    "instance_size": 8,
+    "ivars": []
+  },
+  "FFMpegHelper": {
+    "instance_size": 41,
+    "ivars": [
+      {
+        "name": "_ffmpegQueue",
+        "encoding": "@\"NSObject<OS_dispatch_queue>\"",
+        "offset": 8,
+        "size": 8,
+        "metadata_address": "0x11475f0"
+      },
+      {
+        "name": "_statistics",
+        "encoding": "@\"Statistics\"",
+        "offset": 16,
+        "size": 8,
+        "metadata_address": "0x1147610"
+      },
+      {
+        "name": "_toastView",
+        "encoding": "@\"ToastView\"",
+        "offset": 24,
+        "size": 8,
+        "metadata_address": "0x1147630"
+      },
+      {
+        "name": "_duration",
+        "encoding": "q",
+        "offset": 32,
+        "size": 8,
+        "metadata_address": "0x1147650"
+      },
+      {
+        "name": "_isProcessing",
+        "encoding": "B",
+        "offset": 40,
+        "size": 1,
+        "metadata_address": "0x1147670"
+      }
+    ]
+  },
+  "SRTParser": {
+    "instance_size": 65,
+    "ivars": [
+      {
+        "name": "_srtLines",
+        "encoding": "@\"NSMutableArray\"",
+        "offset": 8,
+        "size": 8,
+        "metadata_address": "0x1147d00"
+      },
+      {
+        "name": "_currentText",
+        "encoding": "@\"NSMutableString\"",
+        "offset": 16,
+        "size": 8,
+        "metadata_address": "0x1147d20"
+      },
+      {
+        "name": "_videoID",
+        "encoding": "@\"NSString\"",
+        "offset": 24,
+        "size": 8,
+        "metadata_address": "0x1147d40"
+      },
+      {
+        "name": "_index",
+        "encoding": "q",
+        "offset": 32,
+        "size": 8,
+        "metadata_address": "0x1147d60"
+      },
+      {
+        "name": "_start",
+        "encoding": "d",
+        "offset": 40,
+        "size": 8,
+        "metadata_address": "0x1147d80"
+      },
+      {
+        "name": "_end",
+        "encoding": "d",
+        "offset": 48,
+        "size": 8,
+        "metadata_address": "0x1147da0"
+      },
+      {
+        "name": "_duration",
+        "encoding": "d",
+        "offset": 56,
+        "size": 8,
+        "metadata_address": "0x1147dc0"
+      },
+      {
+        "name": "_isTranscript",
+        "encoding": "B",
+        "offset": 64,
+        "size": 1,
+        "metadata_address": "0x1147de0"
+      }
+    ]
+  },
+  "YTPDB": {
+    "instance_size": 8,
+    "ivars": []
+  },
+  "YTPSleepTimer": {
+    "instance_size": 64,
+    "ivars": [
+      {
+        "name": "_timer",
+        "encoding": "@\"NSObject<OS_dispatch_source>\"",
+        "offset": 8,
+        "size": 8,
+        "metadata_address": "0x1147fc8"
+      },
+      {
+        "name": "_timerQueue",
+        "encoding": "@\"NSObject<OS_dispatch_queue>\"",
+        "offset": 16,
+        "size": 8,
+        "metadata_address": "0x1147fe8"
+      },
+      {
+        "name": "_icon",
+        "encoding": "@\"UIImage\"",
+        "offset": 24,
+        "size": 8,
+        "metadata_address": "0x1148008"
+      },
+      {
+        "name": "_mode",
+        "encoding": "Q",
+        "offset": 32,
+        "size": 8,
+        "metadata_address": "0x1148028"
+      },
+      {
+        "name": "_timerStyle",
+        "encoding": "Q",
+        "offset": 40,
+        "size": 8,
+        "metadata_address": "0x1148048"
+      },
+      {
+        "name": "_didStartFade",
+        "encoding": "B",
+        "offset": 48,
+        "size": 1,
+        "metadata_address": "0x1148068"
+      },
+      {
+        "name": "_endTimestamp",
+        "encoding": "d",
+        "offset": 56,
+        "size": 8,
+        "metadata_address": "0x1148088"
+      }
+    ]
+  },
+  "RPCMedia": {
+    "instance_size": 64,
+    "ivars": [
+      {
+        "name": "_isPaused",
+        "encoding": "B",
+        "offset": 8,
+        "size": 1,
+        "metadata_address": "0x1148140"
+      },
+      {
+        "name": "_videoID",
+        "encoding": "@\"NSString\"",
+        "offset": 16,
+        "size": 8,
+        "metadata_address": "0x1148160"
+      },
+      {
+        "name": "_title",
+        "encoding": "@\"NSString\"",
+        "offset": 24,
+        "size": 8,
+        "metadata_address": "0x1148180"
+      },
+      {
+        "name": "_author",
+        "encoding": "@\"NSString\"",
+        "offset": 32,
+        "size": 8,
+        "metadata_address": "0x11481a0"
+      },
+      {
+        "name": "_totalTime",
+        "encoding": "d",
+        "offset": 40,
+        "size": 8,
+        "metadata_address": "0x11481c0"
+      },
+      {
+        "name": "_currentTime",
+        "encoding": "d",
+        "offset": 48,
+        "size": 8,
+        "metadata_address": "0x11481e0"
+      },
+      {
+        "name": "_thumbnailURL",
+        "encoding": "@\"NSString\"",
+        "offset": 56,
+        "size": 8,
+        "metadata_address": "0x1148200"
+      }
+    ]
+  },
+  "YTPDiscordRPC": {
+    "instance_size": 40,
+    "ivars": [
+      {
+        "name": "_currentVideoID",
+        "encoding": "@\"NSString\"",
+        "offset": 8,
+        "size": 8,
+        "metadata_address": "0x1148348"
+      },
+      {
+        "name": "_lastSendDate",
+        "encoding": "@\"NSDate\"",
+        "offset": 16,
+        "size": 8,
+        "metadata_address": "0x1148368"
+      },
+      {
+        "name": "_media",
+        "encoding": "@\"RPCMedia\"",
+        "offset": 24,
+        "size": 8,
+        "metadata_address": "0x1148388"
+      },
+      {
+        "name": "_serverURL",
+        "encoding": "@\"NSString\"",
+        "offset": 32,
+        "size": 8,
+        "metadata_address": "0x11483a8"
+      }
+    ]
+  },
+  "DVNImageViewController": {
+    "instance_size": 32,
+    "ivars": [
+      {
+        "name": "_scrollView",
+        "encoding": "@\"UIScrollView\"",
+        "offset": 8,
+        "size": 8,
+        "metadata_address": "0x1148958"
+      },
+      {
+        "name": "_imageView",
+        "encoding": "@\"UIImageView\"",
+        "offset": 16,
+        "size": 8,
+        "metadata_address": "0x1148978"
+      },
+      {
+        "name": "_fullImage",
+        "encoding": "@\"UIImage\"",
+        "offset": 24,
+        "size": 8,
+        "metadata_address": "0x1148998"
+      }
+    ]
+  },
+  "BlurButton": {
+    "instance_size": 16,
+    "ivars": [
+      {
+        "name": "_buttonImageView",
+        "encoding": "@\"UIImageView\"",
+        "offset": 8,
+        "size": 8,
+        "metadata_address": "0x1148aa8"
+      }
+    ]
+  },
+  "YTPSpeedMaster": {
+    "instance_size": 96,
+    "ivars": [
+      {
+        "name": "_speedArray",
+        "encoding": "@\"NSArray\"",
+        "offset": 8,
+        "size": 8,
+        "metadata_address": "0x1148b78"
+      },
+      {
+        "name": "_speedIndex",
+        "encoding": "q",
+        "offset": 16,
+        "size": 8,
+        "metadata_address": "0x1148b98"
+      },
+      {
+        "name": "_minRate",
+        "encoding": "d",
+        "offset": 24,
+        "size": 8,
+        "metadata_address": "0x1148bb8"
+      },
+      {
+        "name": "_maxRate",
+        "encoding": "d",
+        "offset": 32,
+        "size": 8,
+        "metadata_address": "0x1148bd8"
+      },
+      {
+        "name": "_rateStep",
+        "encoding": "d",
+        "offset": 40,
+        "size": 8,
+        "metadata_address": "0x1148bf8"
+      },
+      {
+        "name": "_rateBeforeSpeedmaster",
+        "encoding": "d",
+        "offset": 48,
+        "size": 8,
+        "metadata_address": "0x1148c18"
+      },
+      {
+        "name": "_startLocation",
+        "encoding": "{CGPoint=\"x\"d\"y\"d}",
+        "offset": 56,
+        "size": 16,
+        "metadata_address": "0x1148c38"
+      },
+      {
+        "name": "_gestureBaseRate",
+        "encoding": "d",
+        "offset": 72,
+        "size": 8,
+        "metadata_address": "0x1148c58"
+      },
+      {
+        "name": "_gestureBaseIndex",
+        "encoding": "q",
+        "offset": 80,
+        "size": 8,
+        "metadata_address": "0x1148c78"
+      },
+      {
+        "name": "_controller",
+        "encoding": "@\"YTMainAppVideoPlayerOverlayViewController\"",
+        "offset": 88,
+        "size": 8,
+        "metadata_address": "0x1148c98"
+      }
+    ]
+  },
+  "Dvbug": {
+    "instance_size": 8,
+    "ivars": []
+  },
+  "YTLHelper": {
+    "instance_size": 104,
+    "ivars": [
+      {
+        "name": "_illegalChars",
+        "encoding": "@\"NSCharacterSet\"",
+        "offset": 8,
+        "size": 8,
+        "metadata_address": "0x1149150"
+      },
+      {
+        "name": "_downloader",
+        "encoding": "@\"YTPDownloader\"",
+        "offset": 16,
+        "size": 8,
+        "metadata_address": "0x1149170"
+      },
+      {
+        "name": "_toastView",
+        "encoding": "@\"ToastView\"",
+        "offset": 24,
+        "size": 8,
+        "metadata_address": "0x1149190"
+      },
+      {
+        "name": "_title",
+        "encoding": "@\"NSString\"",
+        "offset": 32,
+        "size": 8,
+        "metadata_address": "0x11491b0"
+      },
+      {
+        "name": "_videoID",
+        "encoding": "@\"NSString\"",
+        "offset": 40,
+        "size": 8,
+        "metadata_address": "0x11491d0"
+      },
+      {
+        "name": "_format",
+        "encoding": "@\"NSString\"",
+        "offset": 48,
+        "size": 8,
+        "metadata_address": "0x11491f0"
+      },
+      {
+        "name": "_duration",
+        "encoding": "Q",
+        "offset": 56,
+        "size": 8,
+        "metadata_address": "0x1149210"
+      },
+      {
+        "name": "_isVideoDownloaded",
+        "encoding": "B",
+        "offset": 64,
+        "size": 1,
+        "metadata_address": "0x1149230"
+      },
+      {
+        "name": "_isAudioOnly",
+        "encoding": "B",
+        "offset": 65,
+        "size": 1,
+        "metadata_address": "0x1149250"
+      },
+      {
+        "name": "_videoUrl",
+        "encoding": "@\"NSURL\"",
+        "offset": 72,
+        "size": 8,
+        "metadata_address": "0x1149270"
+      },
+      {
+        "name": "_audioUrl",
+        "encoding": "@\"NSURL\"",
+        "offset": 80,
+        "size": 8,
+        "metadata_address": "0x1149290"
+      },
+      {
+        "name": "_captionsUrl",
+        "encoding": "@\"NSURL\"",
+        "offset": 88,
+        "size": 8,
+        "metadata_address": "0x11492b0"
+      },
+      {
+        "name": "_audioSize",
+        "encoding": "Q",
+        "offset": 96,
+        "size": 8,
+        "metadata_address": "0x11492d0"
+      }
+    ]
+  },
+  "YTPSpeedPopupController": {
+    "instance_size": 32,
+    "ivars": [
+      {
+        "name": "_dismissVelocity",
+        "encoding": "d",
+        "offset": 8,
+        "size": 8,
+        "metadata_address": "0x1149818"
+      },
+      {
+        "name": "_speedView",
+        "encoding": "@\"YTPSpeedControlView\"",
+        "offset": 16,
+        "size": 8,
+        "metadata_address": "0x1149838"
+      },
+      {
+        "name": "_bottomConstraint",
+        "encoding": "@\"NSLayoutConstraint\"",
+        "offset": 24,
+        "size": 8,
+        "metadata_address": "0x1149858"
+      }
+    ]
+  },
+  "YTPSpeedControlView": {
+    "instance_size": 36,
+    "ivars": [
+      {
+        "name": "_slider",
+        "encoding": "@\"UISlider\"",
+        "offset": 8,
+        "size": 8,
+        "metadata_address": "0x1149978"
+      },
+      {
+        "name": "_valueLabel",
+        "encoding": "@\"UILabel\"",
+        "offset": 16,
+        "size": 8,
+        "metadata_address": "0x1149998"
+      },
+      {
+        "name": "_presets",
+        "encoding": "@\"NSArray\"",
+        "offset": 24,
+        "size": 8,
+        "metadata_address": "0x11499b8"
+      },
+      {
+        "name": "_step",
+        "encoding": "f",
+        "offset": 32,
+        "size": 4,
+        "metadata_address": "0x11499d8"
+      }
+    ]
+  },
+  "PlayerToast": {
+    "instance_size": 96,
+    "ivars": [
+      {
+        "name": "_isCompact",
+        "encoding": "B",
+        "offset": 8,
+        "size": 1,
+        "metadata_address": "0x1149a90"
+      },
+      {
+        "name": "_style",
+        "encoding": "q",
+        "offset": 16,
+        "size": 8,
+        "metadata_address": "0x1149ab0"
+      },
+      {
+        "name": "_activeConstraints",
+        "encoding": "@\"NSMutableArray\"",
+        "offset": 24,
+        "size": 8,
+        "metadata_address": "0x1149ad0"
+      },
+      {
+        "name": "_containerView",
+        "encoding": "@\"UIView\"",
+        "offset": 32,
+        "size": 8,
+        "metadata_address": "0x1149af0"
+      },
+      {
+        "name": "_toastView",
+        "encoding": "@\"UIVisualEffectView\"",
+        "offset": 40,
+        "size": 8,
+        "metadata_address": "0x1149b10"
+      },
+      {
+        "name": "_toastImage",
+        "encoding": "@\"UIImageView\"",
+        "offset": 48,
+        "size": 8,
+        "metadata_address": "0x1149b30"
+      },
+      {
+        "name": "_toastLabel",
+        "encoding": "@\"UILabel\"",
+        "offset": 56,
+        "size": 8,
+        "metadata_address": "0x1149b50"
+      },
+      {
+        "name": "_toastSubLabel",
+        "encoding": "@\"UILabel\"",
+        "offset": 64,
+        "size": 8,
+        "metadata_address": "0x1149b70"
+      },
+      {
+        "name": "_toastProgress",
+        "encoding": "@\"UIView\"",
+        "offset": 72,
+        "size": 8,
+        "metadata_address": "0x1149b90"
+      },
+      {
+        "name": "_progressLayer",
+        "encoding": "@\"CAShapeLayer\"",
+        "offset": 80,
+        "size": 8,
+        "metadata_address": "0x1149bb0"
+      },
+      {
+        "name": "_volumeHUD",
+        "encoding": "@\"CustomHUD\"",
+        "offset": 88,
+        "size": 8,
+        "metadata_address": "0x1149bd0"
+      }
+    ]
+  },
+  "CustomHUD": {
+    "instance_size": 16,
+    "ivars": [
+      {
+        "name": "_controller",
+        "encoding": "@\"MPVolumeController\"",
+        "offset": 8,
+        "size": 8,
+        "metadata_address": "0x114a068"
+      }
+    ]
+  },
+  "ArchDetect": {
+    "instance_size": 8,
+    "ivars": []
+  },
+  "AtomicLong": {
+    "instance_size": 24,
+    "ivars": [
+      {
+        "name": "lock",
+        "encoding": "@\"NSRecursiveLock\"",
+        "offset": 8,
+        "size": 8,
+        "metadata_address": "0x114a258"
+      },
+      {
+        "name": "value",
+        "encoding": "q",
+        "offset": 16,
+        "size": 8,
+        "metadata_address": "0x114a278"
+      }
+    ]
+  },
+  "FFmpegExecution": {
+    "instance_size": 32,
+    "ivars": [
+      {
+        "name": "startTime",
+        "encoding": "@\"NSDate\"",
+        "offset": 8,
+        "size": 8,
+        "metadata_address": "0x114a330"
+      },
+      {
+        "name": "executionId",
+        "encoding": "q",
+        "offset": 16,
+        "size": 8,
+        "metadata_address": "0x114a350"
+      },
+      {
+        "name": "command",
+        "encoding": "@\"NSString\"",
+        "offset": 24,
+        "size": 8,
+        "metadata_address": "0x114a370"
+      }
+    ]
+  },
+  "MobileFFmpeg": {
+    "instance_size": 8,
+    "ivars": []
+  },
+  "CallbackData": {
+    "instance_size": 88,
+    "ivars": [
+      {
+        "name": "type",
+        "encoding": "i",
+        "offset": 8,
+        "size": 4,
+        "metadata_address": "0x114a4b8"
+      },
+      {
+        "name": "executionId",
+        "encoding": "q",
+        "offset": 16,
+        "size": 8,
+        "metadata_address": "0x114a4d8"
+      },
+      {
+        "name": "logLevel",
+        "encoding": "i",
+        "offset": 24,
+        "size": 4,
+        "metadata_address": "0x114a4f8"
+      },
+      {
+        "name": "logData",
+        "encoding": "@\"NSString\"",
+        "offset": 32,
+        "size": 8,
+        "metadata_address": "0x114a518"
+      },
+      {
+        "name": "statisticsFrameNumber",
+        "encoding": "i",
+        "offset": 40,
+        "size": 4,
+        "metadata_address": "0x114a538"
+      },
+      {
+        "name": "statisticsFps",
+        "encoding": "f",
+        "offset": 44,
+        "size": 4,
+        "metadata_address": "0x114a558"
+      },
+      {
+        "name": "statisticsQuality",
+        "encoding": "f",
+        "offset": 48,
+        "size": 4,
+        "metadata_address": "0x114a578"
+      },
+      {
+        "name": "statisticsSize",
+        "encoding": "q",
+        "offset": 56,
+        "size": 8,
+        "metadata_address": "0x114a598"
+      },
+      {
+        "name": "statisticsTime",
+        "encoding": "i",
+        "offset": 64,
+        "size": 4,
+        "metadata_address": "0x114a5b8"
+      },
+      {
+        "name": "statisticsBitrate",
+        "encoding": "d",
+        "offset": 72,
+        "size": 8,
+        "metadata_address": "0x114a5d8"
+      },
+      {
+        "name": "statisticsSpeed",
+        "encoding": "d",
+        "offset": 80,
+        "size": 8,
+        "metadata_address": "0x114a5f8"
+      }
+    ]
+  },
+  "MobileFFmpegConfig": {
+    "instance_size": 8,
+    "ivars": []
+  },
+  "Statistics": {
+    "instance_size": 64,
+    "ivars": [
+      {
+        "name": "executionId",
+        "encoding": "q",
+        "offset": 8,
+        "size": 8,
+        "metadata_address": "0x114a740"
+      },
+      {
+        "name": "videoFrameNumber",
+        "encoding": "i",
+        "offset": 16,
+        "size": 4,
+        "metadata_address": "0x114a760"
+      },
+      {
+        "name": "videoFps",
+        "encoding": "f",
+        "offset": 20,
+        "size": 4,
+        "metadata_address": "0x114a780"
+      },
+      {
+        "name": "videoQuality",
+        "encoding": "f",
+        "offset": 24,
+        "size": 4,
+        "metadata_address": "0x114a7a0"
+      },
+      {
+        "name": "size",
+        "encoding": "q",
+        "offset": 32,
+        "size": 8,
+        "metadata_address": "0x114a7c0"
+      },
+      {
+        "name": "time",
+        "encoding": "i",
+        "offset": 40,
+        "size": 4,
+        "metadata_address": "0x114a7e0"
+      },
+      {
+        "name": "bitrate",
+        "encoding": "d",
+        "offset": 48,
+        "size": 8,
+        "metadata_address": "0x114a800"
+      },
+      {
+        "name": "speed",
+        "encoding": "d",
+        "offset": 56,
+        "size": 8,
+        "metadata_address": "0x114a820"
+      }
+    ]
+  }
+}

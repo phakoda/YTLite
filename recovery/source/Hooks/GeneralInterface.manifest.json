@@ -1,0 +1,2151 @@
+{
+  "binary_sha256": "bdcc4d4ccaa5835d35bc97ccbdfc1c3dff514cb7161848265dcc0585f364c0ca",
+  "classes": [
+    "YTToastOffsetController",
+    "YTWatchViewController",
+    "UIDevice",
+    "UIViewController",
+    "YTMultiSizeViewController",
+    "YTSettingsSectionItemManager",
+    "YTRightNavigationButtons",
+    "YTSearchViewController",
+    "ELMTouchCommandPropertiesHandler",
+    "YTUserDefaults",
+    "ASCollectionView",
+    "YTGuideServiceCoordinator",
+    "YTAppGuideServiceCoordinator",
+    "YTGuideServiceCoordinatorImpl",
+    "UIKeyboardImpl",
+    "UIApplication"
+  ],
+  "registrations": [
+    {
+      "class_name": "YTToastOffsetController",
+      "kind": "-",
+      "selector": "update",
+      "implementation": "0x0004e934",
+      "operation": "replace",
+      "original_pointer": "0x01225f48",
+      "registration": "0004cf00",
+      "complete": true,
+      "instruction_end": "0x4e9e4",
+      "instruction_sha256": "6e75efce3009d410f4beffa5255a1251a568dc3b271979b465e082c558787028",
+      "group": "YTLGeneralInterfaceEarly",
+      "llvm_return": "void",
+      "llvm_arguments": [
+        "ptr",
+        "ptr"
+      ],
+      "abi_evidence": "Original x0/x1 self/selector; object arguments x2 onward. Non-object widths and result conventions described in provenance."
+    },
+    {
+      "class_name": "YTToastOffsetController",
+      "kind": "-",
+      "selector": "setWasPinnedTop:",
+      "implementation": "0x0004e9e4",
+      "operation": "replace",
+      "original_pointer": "0x01225f50",
+      "registration": "0004cf00",
+      "complete": true,
+      "instruction_end": "0x4ea5c",
+      "instruction_sha256": "10f2fd4f051c511b1fd00264a66fa256f955f313c4fa031d683e2fe9ba140152",
+      "group": "YTLGeneralInterfaceEarly",
+      "llvm_return": "void",
+      "llvm_arguments": [
+        "ptr",
+        "ptr",
+        "i1"
+      ],
+      "abi_evidence": "Original x0/x1 self/selector; object arguments x2 onward. Non-object widths and result conventions described in provenance."
+    },
+    {
+      "class_name": "YTWatchViewController",
+      "kind": "-",
+      "selector": "setFullscreen:",
+      "implementation": "0x0004ea5c",
+      "operation": "replace",
+      "original_pointer": "0x01225f58",
+      "registration": "0004cf00",
+      "complete": true,
+      "instruction_end": "0x4ead4",
+      "instruction_sha256": "4485cbe34748fde3155c58edaa8c0a7fdeaa5fdfb8afa905e2c5117f1a2bb7ab",
+      "group": "YTLGeneralInterfaceEarly",
+      "llvm_return": "void",
+      "llvm_arguments": [
+        "ptr",
+        "ptr",
+        "i1"
+      ],
+      "abi_evidence": "Original x0/x1 self/selector; object arguments x2 onward. Non-object widths and result conventions described in provenance."
+    },
+    {
+      "class_name": "UIDevice",
+      "kind": "-",
+      "selector": "setOrientation:animated:",
+      "implementation": "0x0004ead4",
+      "operation": "replace",
+      "original_pointer": "0x01225f60",
+      "registration": "0004cf00",
+      "complete": true,
+      "instruction_end": "0x4eb2c",
+      "instruction_sha256": "2c39e2dcec8bb882e1801d4a757cfcff34bee7ac224036d3cd5c3b0234260b39",
+      "group": "YTLGeneralInterfaceEarly",
+      "llvm_return": "void",
+      "llvm_arguments": [
+        "ptr",
+        "ptr",
+        "i64",
+        "i1"
+      ],
+      "abi_evidence": "Original x0/x1 self/selector; object arguments x2 onward. Non-object widths and result conventions described in provenance."
+    },
+    {
+      "class_name": "UIViewController",
+      "kind": "-",
+      "selector": "presentViewController:animated:completion:",
+      "implementation": "0x0004eb2c",
+      "operation": "replace",
+      "original_pointer": "0x01225f68",
+      "registration": "0004cf00",
+      "complete": true,
+      "instruction_end": "0x4ee9c",
+      "instruction_sha256": "edc4380a3db27537e3f68976fa3cc21074a9e206600e2504a593a88a28d8595d",
+      "group": "YTLGeneralInterfaceEarly",
+      "llvm_return": "void",
+      "llvm_arguments": [
+        "ptr",
+        "ptr",
+        "ptr",
+        "i1",
+        "ptr"
+      ],
+      "abi_evidence": "Original x0/x1 self/selector; object arguments x2 onward. Non-object widths and result conventions described in provenance."
+    },
+    {
+      "class_name": "UIViewController",
+      "kind": "-",
+      "selector": "viewDidLoad",
+      "implementation": "0x0004ee9c",
+      "operation": "replace",
+      "original_pointer": "0x01225f70",
+      "registration": "0004cf00",
+      "complete": true,
+      "instruction_end": "0x4fc10",
+      "instruction_sha256": "c92e673873436d40674641df40f347c2d6f2bb5c641888e48d879c84836139ab",
+      "group": "YTLGeneralInterfaceEarly",
+      "llvm_return": "void",
+      "llvm_arguments": [
+        "ptr",
+        "ptr"
+      ],
+      "abi_evidence": "Original x0/x1 self/selector; object arguments x2 onward. Non-object widths and result conventions described in provenance."
+    },
+    {
+      "class_name": "UIViewController",
+      "kind": "-",
+      "selector": "viewDidDisappear:",
+      "implementation": "0x0004fc10",
+      "operation": "replace",
+      "original_pointer": "0x01225f78",
+      "registration": "0004cf00",
+      "complete": true,
+      "instruction_end": "0x506c4",
+      "instruction_sha256": "f87d6754a1c0fd78a7db18349a1ac7d187cfa93519b7b633f6daae0efa05be84",
+      "group": "YTLGeneralInterfaceEarly",
+      "llvm_return": "void",
+      "llvm_arguments": [
+        "ptr",
+        "ptr",
+        "i1"
+      ],
+      "abi_evidence": "Original x0/x1 self/selector; object arguments x2 onward. Non-object widths and result conventions described in provenance."
+    },
+    {
+      "class_name": "YTMultiSizeViewController",
+      "kind": "-",
+      "selector": "helper",
+      "implementation": "0x00048284",
+      "operation": "add",
+      "original_pointer": null,
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x48290",
+      "instruction_sha256": "63e47a2132f625d7382886c0f40c61a12b0324cea8d89f84dcaa60f7d7a2b813",
+      "group": "YTLGeneralInterface",
+      "llvm_return": "ptr",
+      "llvm_arguments": [
+        "ptr",
+        "ptr"
+      ],
+      "abi_evidence": "Original x0/x1 self/selector; object arguments x2 onward. Non-object widths and result conventions described in provenance."
+    },
+    {
+      "class_name": "YTMultiSizeViewController",
+      "kind": "-",
+      "selector": "setHelper:",
+      "implementation": "0x00048290",
+      "operation": "add",
+      "original_pointer": null,
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x482c8",
+      "instruction_sha256": "a190a7147990662cb7100b65e5a0903046ee01d3215c5f80153396f5733554bd",
+      "group": "YTLGeneralInterface",
+      "llvm_return": "void",
+      "llvm_arguments": [
+        "ptr",
+        "ptr",
+        "ptr"
+      ],
+      "abi_evidence": "Original x0/x1 self/selector; object arguments x2 onward. Non-object widths and result conventions described in provenance."
+    },
+    {
+      "class_name": "YTSettingsSectionItemManager",
+      "kind": "-",
+      "selector": "updatePremiumEarlyAccessSectionWithEntry:",
+      "implementation": "0x0006e654",
+      "operation": "replace",
+      "original_pointer": "0x012261a8",
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x6e658",
+      "instruction_sha256": "110f46b5b35c069160560c6ad6786f647dd44e8760a52a46fc22dbbcd7630b91",
+      "group": "YTLGeneralInterface",
+      "llvm_return": "void",
+      "llvm_arguments": [
+        "ptr",
+        "ptr",
+        "ptr"
+      ],
+      "abi_evidence": "Original x0/x1 self/selector; object arguments x2 onward. Non-object widths and result conventions described in provenance."
+    },
+    {
+      "class_name": "YTRightNavigationButtons",
+      "kind": "-",
+      "selector": "layoutSubviews",
+      "implementation": "0x0006ee24",
+      "operation": "replace",
+      "original_pointer": "0x012261e8",
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x6fbb0",
+      "instruction_sha256": "89abb18ad8c0281109be098bad01ab1b4e39db80245131a9e81d286ccdc6e33f",
+      "group": "YTLGeneralInterface",
+      "llvm_return": "void",
+      "llvm_arguments": [
+        "ptr",
+        "ptr"
+      ],
+      "abi_evidence": "Original x0/x1 self/selector; object arguments x2 onward. Non-object widths and result conventions described in provenance."
+    },
+    {
+      "class_name": "YTSearchViewController",
+      "kind": "-",
+      "selector": "viewDidLoad",
+      "implementation": "0x0006fbb0",
+      "operation": "replace",
+      "original_pointer": "0x012261f0",
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x6ff6c",
+      "instruction_sha256": "2a654ea3eb99b7e85484482ba17cdb3fc7e09c52aa00891189992c485023d5f3",
+      "group": "YTLGeneralInterface",
+      "llvm_return": "void",
+      "llvm_arguments": [
+        "ptr",
+        "ptr"
+      ],
+      "abi_evidence": "Original x0/x1 self/selector; object arguments x2 onward. Non-object widths and result conventions described in provenance."
+    },
+    {
+      "class_name": "YTSearchViewController",
+      "kind": "-",
+      "selector": "setSuggestions:",
+      "implementation": "0x0006ff6c",
+      "operation": "replace",
+      "original_pointer": "0x012261f8",
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x70184",
+      "instruction_sha256": "5a9280b3fff1de823f5a85b9aff937e5e873006cc864729e8231b426dcf58fe3",
+      "group": "YTLGeneralInterface",
+      "llvm_return": "void",
+      "llvm_arguments": [
+        "ptr",
+        "ptr",
+        "ptr"
+      ],
+      "abi_evidence": "Original x0/x1 self/selector; object arguments x2 onward. Non-object widths and result conventions described in provenance."
+    },
+    {
+      "class_name": "ELMTouchCommandPropertiesHandler",
+      "kind": "-",
+      "selector": "handleTap",
+      "implementation": "0x00079304",
+      "operation": "replace",
+      "original_pointer": "0x01226260",
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x7cca4",
+      "instruction_sha256": "f868a1f2fae6465a75a8376a375f59743272b7629d17b0a942d03d62bdfd13dd",
+      "group": "YTLGeneralInterface",
+      "llvm_return": "void",
+      "llvm_arguments": [
+        "ptr",
+        "ptr"
+      ],
+      "abi_evidence": "Original x0/x1 self/selector; object arguments x2 onward. Non-object widths and result conventions described in provenance."
+    },
+    {
+      "class_name": "YTWatchViewController",
+      "kind": "-",
+      "selector": "allowedFullScreenOrientations",
+      "implementation": "0x0008fc60",
+      "operation": "replace",
+      "original_pointer": "0x01226500",
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x8fe74",
+      "instruction_sha256": "e6e9802f310aac94ba5af3acb2395998f0d3b06d92b5ba3e954c4ef554c719df",
+      "group": "YTLGeneralInterface",
+      "llvm_return": "i64",
+      "llvm_arguments": [
+        "ptr",
+        "ptr"
+      ],
+      "abi_evidence": "Original x0/x1 self/selector; object arguments x2 onward. Non-object widths and result conventions described in provenance."
+    },
+    {
+      "class_name": "YTUserDefaults",
+      "kind": "-",
+      "selector": "areHintsDisabled",
+      "implementation": "0x000984b8",
+      "operation": "replace",
+      "original_pointer": "0x012265a8",
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x985b0",
+      "instruction_sha256": "5210afc27e276294d1967f31383cb524947c620ad888c3892fd4d5a6288d79b8",
+      "group": "YTLGeneralInterface",
+      "llvm_return": "i1",
+      "llvm_arguments": [
+        "ptr",
+        "ptr"
+      ],
+      "abi_evidence": "Original x0/x1 self/selector; object arguments x2 onward. Non-object widths and result conventions described in provenance."
+    },
+    {
+      "class_name": "YTUserDefaults",
+      "kind": "-",
+      "selector": "setHintsDisabled:",
+      "implementation": "0x000985b0",
+      "operation": "replace",
+      "original_pointer": "0x012265b0",
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x98710",
+      "instruction_sha256": "99f820f33556ee2f3c3c0b041d421c7922fde7b36f96f590fbf17fc25636d735",
+      "group": "YTLGeneralInterface",
+      "llvm_return": "void",
+      "llvm_arguments": [
+        "ptr",
+        "ptr",
+        "i1"
+      ],
+      "abi_evidence": "Original x0/x1 self/selector; object arguments x2 onward. Non-object widths and result conventions described in provenance."
+    },
+    {
+      "class_name": "ASCollectionView",
+      "kind": "-",
+      "selector": "sizeForElement:",
+      "implementation": "0x000b6228",
+      "operation": "replace",
+      "original_pointer": "0x01226790",
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0xb8a9c",
+      "instruction_sha256": "1be984dd9b152b834b2067e87caa5fe6ddd0f594bce4673301a4009f1a402a5f",
+      "group": "YTLGeneralInterface",
+      "llvm_return": "%struct.CGSize",
+      "llvm_arguments": [
+        "ptr",
+        "ptr",
+        "ptr"
+      ],
+      "abi_evidence": "Original x0/x1 self/selector; object arguments x2 onward. Non-object widths and result conventions described in provenance."
+    },
+    {
+      "class_name": "YTGuideServiceCoordinator",
+      "kind": "-",
+      "selector": "handleResponse:withCompletion:",
+      "implementation": "0x000b9a58",
+      "operation": "replace",
+      "original_pointer": "0x012267b0",
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0xb9ac4",
+      "instruction_sha256": "85a22622d8b74b6ac5c97632c7a5d888048dd1998d9979e7aaaf48903608b676",
+      "group": "YTLGeneralInterface",
+      "llvm_return": "void",
+      "llvm_arguments": [
+        "ptr",
+        "ptr",
+        "ptr",
+        "ptr"
+      ],
+      "abi_evidence": "Original x0/x1 self/selector; object arguments x2 onward. Non-object widths and result conventions described in provenance."
+    },
+    {
+      "class_name": "YTGuideServiceCoordinator",
+      "kind": "-",
+      "selector": "handleResponse:error:completion:",
+      "implementation": "0x000b9ac4",
+      "operation": "replace",
+      "original_pointer": "0x012267b8",
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0xb9b6c",
+      "instruction_sha256": "d80b140ac358a2a5895b901aa0d1a39d525cf41f42673ab755283f1a93786e4e",
+      "group": "YTLGeneralInterface",
+      "llvm_return": "void",
+      "llvm_arguments": [
+        "ptr",
+        "ptr",
+        "ptr",
+        "ptr",
+        "ptr"
+      ],
+      "abi_evidence": "Original x0/x1 self/selector; object arguments x2 onward. Non-object widths and result conventions described in provenance."
+    },
+    {
+      "class_name": "YTAppGuideServiceCoordinator",
+      "kind": "-",
+      "selector": "handleResponse:error:completion:",
+      "implementation": "0x000b9b6c",
+      "operation": "replace",
+      "original_pointer": "0x012267c0",
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0xb9c14",
+      "instruction_sha256": "9ab09988b03704a62a461ea375ae1dc49e670bd16a2b43b2b3c89ef25a969b93",
+      "group": "YTLGeneralInterface",
+      "llvm_return": "void",
+      "llvm_arguments": [
+        "ptr",
+        "ptr",
+        "ptr",
+        "ptr",
+        "ptr"
+      ],
+      "abi_evidence": "Original x0/x1 self/selector; object arguments x2 onward. Non-object widths and result conventions described in provenance."
+    },
+    {
+      "class_name": "YTGuideServiceCoordinatorImpl",
+      "kind": "-",
+      "selector": "handleResponse:error:completion:",
+      "implementation": "0x000b9c14",
+      "operation": "replace",
+      "original_pointer": "0x012267c8",
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0xb9cbc",
+      "instruction_sha256": "adc2d5cda2999e7f21d981a9d9ac207895f5433d9f5e7098c3160c63fd384392",
+      "group": "YTLGeneralInterface",
+      "llvm_return": "void",
+      "llvm_arguments": [
+        "ptr",
+        "ptr",
+        "ptr",
+        "ptr",
+        "ptr"
+      ],
+      "abi_evidence": "Original x0/x1 self/selector; object arguments x2 onward. Non-object widths and result conventions described in provenance."
+    },
+    {
+      "class_name": "YTGuideServiceCoordinatorImpl",
+      "kind": "-",
+      "selector": "handleLegacyResponse:error:completion:",
+      "implementation": "0x000b9cbc",
+      "operation": "replace",
+      "original_pointer": "0x012267d0",
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0xb9d64",
+      "instruction_sha256": "89a49e77fff1a7180b01ddd5bdc05a8e32e0df164b10b6e5fbc5db550e8d1576",
+      "group": "YTLGeneralInterface",
+      "llvm_return": "void",
+      "llvm_arguments": [
+        "ptr",
+        "ptr",
+        "ptr",
+        "ptr",
+        "ptr"
+      ],
+      "abi_evidence": "Original x0/x1 self/selector; object arguments x2 onward. Non-object widths and result conventions described in provenance."
+    },
+    {
+      "class_name": "UIDevice",
+      "kind": "-",
+      "selector": "userInterfaceIdiom",
+      "implementation": "0x000bad20",
+      "operation": "replace",
+      "original_pointer": "0x01226808",
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0xbaee4",
+      "instruction_sha256": "ea808c9e126e2a8934930acedd00b2d97d5df264f8ab0ff006df07fb4c82266f",
+      "group": "YTLGeneralInterface",
+      "llvm_return": "i64",
+      "llvm_arguments": [
+        "ptr",
+        "ptr"
+      ],
+      "abi_evidence": "Original x0/x1 self/selector; object arguments x2 onward. Non-object widths and result conventions described in provenance."
+    },
+    {
+      "class_name": "UIKeyboardImpl",
+      "kind": "-",
+      "selector": "floatingForced",
+      "implementation": "0x000baee4",
+      "operation": "replace",
+      "original_pointer": "0x01226810",
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0xbb0e0",
+      "instruction_sha256": "d7b02622177d20b62d4f7ae45e4c965459f0878453b90529c41fdc1b47e6d28e",
+      "group": "YTLGeneralInterface",
+      "llvm_return": "i1",
+      "llvm_arguments": [
+        "ptr",
+        "ptr"
+      ],
+      "abi_evidence": "Original x0/x1 self/selector; object arguments x2 onward. Non-object widths and result conventions described in provenance."
+    },
+    {
+      "class_name": "UIApplication",
+      "kind": "-",
+      "selector": "openURL:options:completionHandler:",
+      "implementation": "0x000bb0e0",
+      "operation": "replace",
+      "original_pointer": "0x01226818",
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0xbb9ec",
+      "instruction_sha256": "ee76cf24c71d751433c79ae1062ba74fdd8f1c87c9de699496245dd6dcb0fdd4",
+      "group": "YTLGeneralInterface",
+      "llvm_return": "void",
+      "llvm_arguments": [
+        "ptr",
+        "ptr",
+        "ptr",
+        "ptr",
+        "ptr"
+      ],
+      "abi_evidence": "Original x0/x1 self/selector; object arguments x2 onward. Non-object widths and result conventions described in provenance."
+    }
+  ],
+  "callbacks": [
+    {
+      "implementation": "0xbcc04",
+      "instruction_end": "0xbcc68",
+      "instruction_sha256": "00ea146675b35d52b240c3394da12bfc1398c9844c4a8f363e86888a32882423",
+      "role": "orientation delayed toast update"
+    },
+    {
+      "implementation": "0xc9ad4",
+      "instruction_end": "0xc9b24",
+      "instruction_sha256": "cf4ce84c81d9080c2a61fef7a95234f33b9d7b58051eec22dfb9fcc5bb7911ef",
+      "role": "speed dismissal completion"
+    },
+    {
+      "implementation": "0xc9b24",
+      "instruction_end": "0xc9b60",
+      "instruction_sha256": "155d57ae5d35aeb8d8802e3e15fcf79e4fb874845bc895e0ca046efa705d7a6a",
+      "role": "quality dismissal completion"
+    },
+    {
+      "implementation": "0xcf174",
+      "instruction_end": "0xcf320",
+      "instruction_sha256": "700e4986e34cf18cdfe9bdd8e4d5500241980bfa7656ae317f93770f90c685cc",
+      "role": "custom pivot lookup predicate"
+    },
+    {
+      "implementation": "0xcf320",
+      "instruction_end": "0xcf4fc",
+      "instruction_sha256": "2fe8cb3a6ceaa5cdaa180fc6dce6bafbf9c034c1aa75f5ffacab050f279013fa",
+      "role": "built-in pivot lookup predicate"
+    }
+  ],
+  "helpers": [
+    {
+      "implementation": "0xcd138",
+      "instruction_end": "0xcf174",
+      "instruction_sha256": "ef63e3d02e8e72cf336ce83ff5dd7b1359548f33b2e79a71065f0294dfa69d03",
+      "name": "GeneralMutateGuide"
+    }
+  ],
+  "property_registrar": {
+    "implementation": "0x62124",
+    "instruction_end": "0x62180",
+    "instruction_sha256": "1e45ca32ba19c0720433feab2c95869e45114726c44f14c861501f56dd58ab79",
+    "name": "helper",
+    "attributes": "T@\"YTLHelper\",&,N"
+  },
+  "cfstrings": {
+    "0x1156000": "_playerViewController",
+    "0x1192000": "downloadManager",
+    "0x11980a0": "playerNoThanks",
+    "0x11bc1a0": "ytlButtonIndex",
+    "0x11a0240": "noLinkTracking",
+    "0x11662c0": "downloadManager",
+    "0x11642d0": "ytlButtonIndex",
+    "0x1164310": "downloadManager",
+    "0x1166380": "downloadManager",
+    "0x11a03c0": "floatingKeyboard",
+    "0x11bc420": "downloadManager",
+    "0x115e430": "YTInterstitialElementsViewController",
+    "0x1166440": "downloadManager",
+    "0x1166500": "downloadManager",
+    "0x11665c0": "downloadManager",
+    "0x11525d0": "_controller",
+    "0x1152610": "id.elements.components.overflow_menu_item_",
+    "0x11715e0": "q",
+    "0x115e620": "YTInterstitialElementsViewController",
+    "0x1152650": "_accessibilityIdentifier",
+    "0x115e660": "comment-item-section",
+    "0x118e680": "VLWL",
+    "0x1166680": "downloadManager",
+    "0x115e6a0": "GOODHeightDidChangeNotification",
+    "0x11926a0": "noNotifsButton",
+    "0x115e6e0": "height",
+    "0x115e720": "YTMainAppEngagementPanelViewController",
+    "0x1171620": "noLinkTracking",
+    "0x115e760": "YTEngagementPanelViewControllerImpl",
+    "0x119a760": "playerNoReport",
+    "0x118e780": "FEuploads",
+    "0x118e7c0": "UCEgdi0XIXXZ-qJOFPf4JSKw",
+    "0x118e840": "UCOpNcN46UbXVtpKMrmU4Abg",
+    "0x11c8890": "Hype",
+    "0x115e8f0": "comment-item-section",
+    "0x118e900": "UC4R8DWoMoI7CAwX8_LjQHig",
+    "0x1192920": "noVoiceSearchButton",
+    "0x115e930": "GOODHeightDidChangeNotification",
+    "0x118e940": "UC-9-kyTW8ZkZNDHQJ6FgpwQ",
+    "0x1192960": "noSearchButton",
+    "0x115e970": "height",
+    "0x118e980": "FEpost_home",
+    "0x11929a0": "noCast",
+    "0x115e9b0": "YTMainAppEngagementPanelViewController",
+    "0x115e9f0": "YTEngagementPanelViewControllerImpl",
+    "0x118ea40": "FEhype_leaderboard",
+    "0x1166ac0": "downloadManager",
+    "0x118eb40": "FEnotifications_inbox",
+    "0x118eb80": "FEhistory",
+    "0x1166ba0": "downloadManager",
+    "0x1198c20": "portraitFullscreen",
+    "0x1170cd0": "id.video.add_to.button",
+    "0x11c6d00": "Report",
+    "0x118ed40": "activeTabs",
+    "0x1170d50": "playerNoShare",
+    "0x11aedc0": "FEhistory",
+    "0x1170e10": "playerNoRemix",
+    "0x1164e20": "ytlButtonIndex",
+    "0x1166e40": "downloadManager",
+    "0x1170e50": "id.video.share.button",
+    "0x116ae70": "noHints",
+    "0x1174e90": "FEnotifications_inbox",
+    "0x118eea0": "activeTabs",
+    "0x119ffc0": "noSearchHistory",
+    "0x116aec0": "noHints",
+    "0x1174ed0": "UCEgdi0XIXXZ-qJOFPf4JSKw",
+    "0x1170ed0": "id.ui.add_to.offline.button",
+    "0x1164ee0": "downloadManager",
+    "0x1174f10": "browseId",
+    "0x1170f10": "id.video.remix.button",
+    "0x1174f50": "UCOpNcN46UbXVtpKMrmU4Abg",
+    "0x1170f50": "playerNoSave",
+    "0x11aef60": "VLWL",
+    "0x1174f90": "FEhistory",
+    "0x1170f90": "playerNoDownload",
+    "0x1164fb0": "noCast",
+    "0x1174fd0": "UC-9-kyTW8ZkZNDHQJ6FgpwQ",
+    "0x1170fd0": "id.video.scrollable_action_bar",
+    "0x1175010": "FEhype_leaderboard",
+    "0x1175050": "VLWL",
+    "0x1175090": "iconType",
+    "0x11750d0": "FEpost_home",
+    "0x11990e0": "classicQuality",
+    "0x11970e0": "noHints",
+    "0x1175110": "UC4R8DWoMoI7CAwX8_LjQHig",
+    "0x1167120": "downloadManager",
+    "0x11af120": "FEpost_home",
+    "0x1175150": "FEexplore",
+    "0x11b1170": "FEuploads",
+    "0x1175190": "activeTabs",
+    "0x119d1a0": "shortsToRegular",
+    "0x118f1c0": "activeTabs",
+    "0x11751f0": "browseId",
+    "0x11b51f0": "browseId",
+    "0x1175250": "FEuploads",
+    "0x1171290": "_delegate",
+    "0x11672c0": "downloadManager",
+    "0x1167320": "downloadManager",
+    "0x1163340": "noCast",
+    "0x11c5390": "Clip",
+    "0x1163390": "noCast",
+    "0x11a53b0": "FEnotifications_inbox",
+    "0x118f3c0": "FEuploads",
+    "0x11633e0": "noCast",
+    "0x1163430": "noCast",
+    "0x1171450": "idiomIndex",
+    "0x1163480": "noHints",
+    "0x119f480": "idiomIndex",
+    "0x11714d0": "floatingKeyboard",
+    "0x11674d0": "downloadManager",
+    "0x11634d0": "noHints",
+    "0x1199520": "playerNoShare",
+    "0x1169530": "portraitFullscreen",
+    "0x11af540": "UC-9-kyTW8ZkZNDHQJ6FgpwQ",
+    "0x1171560": "/redirect",
+    "0x11715a0": "youtube.com",
+    "0x1163610": "search.voice.access",
+    "0x1163650": "noSearchButton",
+    "0x1163690": "noCast",
+    "0x11636d0": "noVoiceSearchButton",
+    "0x1163710": "id.mdx.playbackroute.button",
+    "0x11af320": "FEhype_leaderboard",
+    "0x1163750": "noNotifsButton",
+    "0x11af780": "UC4R8DWoMoI7CAwX8_LjQHig",
+    "0x11717c0": "youtube.com",
+    "0x11bb7e0": "idiomIndex",
+    "0x11b3800": "GOODHeightDidChangeNotification",
+    "0x1163810": "_isVoiceSearchAllowed",
+    "0x118f820": "FEuploads",
+    "0x1163850": "noVoiceSearchButton",
+    "0x118f860": "activeTabs",
+    "0x11b3880": "GOODHeightDidChangeNotification",
+    "0x11638b0": "noSearchHistory",
+    "0x11b38d0": "height",
+    "0x11bb8e0": "FEuploads",
+    "0x11658f0": "_controller",
+    "0x1163910": "noSearchHistory",
+    "0x11bb9a0": "FEexplore",
+    "0x11af9c0": "UCOpNcN46UbXVtpKMrmU4Abg",
+    "0x11bd9c0": "_controller",
+    "0x118f9d0": "activeTabs",
+    "0x11659f0": "eml.video_card",
+    "0x11c3a40": "Thanks",
+    "0x1165a70": "shortsToRegular",
+    "0x11bbae0": "activeTabs",
+    "0x1165af0": "id.ui.add_to.offline.button",
+    "0x1197b20": "playerNoHype",
+    "0x1191b40": "ytlButtonIndex",
+    "0x11bbb60": "noLinkTracking",
+    "0x1165bb0": "_accessibilityIdentifier",
+    "0x1165bf0": "short",
+    "0x11afc00": "UCEgdi0XIXXZ-qJOFPf4JSKw",
+    "0x1165c70": "eml.cvr",
+    "0x1197d20": "playerNoSave",
+    "0x1171de0": "youtube.com",
+    "0x11afe40": "FEnotifications_inbox",
+    "0x1197e60": "playerNoDownload",
+    "0x1199ee0": "playerNoStopAds",
+    "0x1173f40": "FEpost_home",
+    "0x1197f60": "playerNoRemix",
+    "0x1197fa0": "playerNoClip"
+  },
+  "cstrings": {
+    "0x116528d": "\\d+p",
+    "0x1165300": "youtube_outline_experimental/arrow_down_24pt",
+    "0x11653f0": "id.elements.list_item",
+    "0x1165440": "yt_outline_play_arrow_half_circle_24pt",
+    "0x1165490": "_watchViewController",
+    "0x1165540": "_metadataPanelStateProvider",
+    "0x11655f7": "primary_image",
+    "0x11656f0": "youtube_outline_experimental/play_circle_half_dashed_24pt",
+    "0x11707d8": "StopAds",
+    "0x1170867": "shouldRemove",
+    "0x117087a": "array",
+    "0xb9b08d": "",
+    "0x116123e": "T",
+    "0x1161738": "@\"YTLHelper\"",
+    "0x116185a": "&",
+    "0x11616a1": "N",
+    "0x1161851": "helper"
+  },
+  "branch_tables": [
+    {
+      "branch": "0x7b870",
+      "table": "0x117c340",
+      "key": "0x117c350",
+      "xor": "0xc8da0c78",
+      "spill": "0x7b848",
+      "load": "0x7b850",
+      "base": "x29",
+      "offset": -148,
+      "targets": [
+        "0x7bbb8",
+        "0x7b874"
+      ],
+      "instruction_span": {
+        "implementation": "0x7b848",
+        "instruction_end": "0x7b874",
+        "instruction_sha256": "e77ef97476cb8fd03f5f6fa6bef4b8212b4b6c7fcf4e2077bec36ba87672e89b"
+      }
+    },
+    {
+      "branch": "0x7b964",
+      "table": "0x117c378",
+      "key": "0x117c388",
+      "xor": "0x71bb67e5",
+      "spill": "0x7b93c",
+      "load": "0x7b944",
+      "base": "x29",
+      "offset": -188,
+      "targets": [
+        "0x7b968",
+        "0x7bba0"
+      ],
+      "instruction_span": {
+        "implementation": "0x7b93c",
+        "instruction_end": "0x7b968",
+        "instruction_sha256": "c574bee5a352970be395fcdefc4dcd6342865c7a8434f207e0ea1bfbdc407283"
+      }
+    },
+    {
+      "branch": "0x7bb30",
+      "table": "0x117c3f8",
+      "key": "0x117c408",
+      "xor": "0x27ecc3d5",
+      "spill": "0x7bb08",
+      "load": "0x7bb10",
+      "base": "x19",
+      "offset": 884,
+      "targets": [
+        "0x7bba0",
+        "0x7bb34"
+      ],
+      "instruction_span": {
+        "implementation": "0x7bb08",
+        "instruction_end": "0x7bb34",
+        "instruction_sha256": "bffe5f79ba6097d2d344f8895cc0566c1c2e98767bce261774ab3ca453212913"
+      }
+    },
+    {
+      "branch": "0x7bb64",
+      "table": "0x117c410",
+      "key": "0x117c420",
+      "xor": "0xc4336a46",
+      "spill": "0x7bb3c",
+      "load": "0x7bb44",
+      "base": "x19",
+      "offset": 868,
+      "targets": [
+        "0x7c260",
+        "0x7bb68"
+      ],
+      "instruction_span": {
+        "implementation": "0x7bb3c",
+        "instruction_end": "0x7bb68",
+        "instruction_sha256": "cf3a948e555cfb0acfd4f6d3973352ce6c932590f55b18e640ea767e4986733e"
+      }
+    },
+    {
+      "branch": "0x7bbf8",
+      "table": "0x117c438",
+      "key": "0x117c448",
+      "xor": "0x17a37720",
+      "spill": "0x7bbd0",
+      "load": "0x7bbd8",
+      "base": "x19",
+      "offset": 836,
+      "targets": [
+        "0x7bd50",
+        "0x7bbfc"
+      ],
+      "instruction_span": {
+        "implementation": "0x7bbd0",
+        "instruction_end": "0x7bbfc",
+        "instruction_sha256": "c5df93997779e60cd51fd49c620d2991928ddee25e73aa0984dcd1d08a4b7376"
+      }
+    },
+    {
+      "branch": "0x7bc30",
+      "table": "0x117c450",
+      "key": "0x117c460",
+      "xor": "0xfaffefe8",
+      "spill": "0x7bc08",
+      "load": "0x7bc10",
+      "base": "x19",
+      "offset": 820,
+      "targets": [
+        "0x7bd50",
+        "0x7bc34"
+      ],
+      "instruction_span": {
+        "implementation": "0x7bc08",
+        "instruction_end": "0x7bc34",
+        "instruction_sha256": "9895f5ede4116551df1172ac68745f06f700e3c164e1ff42dc832741114dac12"
+      }
+    },
+    {
+      "branch": "0x7bc70",
+      "table": "0x117c468",
+      "key": "0x117c478",
+      "xor": "0x94bbf46a",
+      "spill": "0x7bc48",
+      "load": "0x7bc50",
+      "base": "x19",
+      "offset": 804,
+      "targets": [
+        "0x7bc74",
+        "0x7bd50"
+      ],
+      "instruction_span": {
+        "implementation": "0x7bc48",
+        "instruction_end": "0x7bc74",
+        "instruction_sha256": "17ec8cd6101fecd7837fe654261acc5a5a683cedec451ae47282302be7df6430"
+      }
+    },
+    {
+      "branch": "0x7bd94",
+      "table": "0x117c488",
+      "key": "0x117c498",
+      "xor": "0x7174b893",
+      "spill": "0x7bd68",
+      "load": "0x7bd70",
+      "base": "x19",
+      "offset": 780,
+      "targets": [
+        "0x7c284",
+        "0x7bd98"
+      ],
+      "instruction_span": {
+        "implementation": "0x7bd68",
+        "instruction_end": "0x7bd98",
+        "instruction_sha256": "5348554a2167a7690ed3fb6f70f3fea0197a6ab2b1b5b37f357f933a3217f216"
+      }
+    },
+    {
+      "branch": "0x7bdcc",
+      "table": "0x117c4a0",
+      "key": "0x117c4b0",
+      "xor": "0x927cb5c2",
+      "spill": "0x7bda4",
+      "load": "0x7bdac",
+      "base": "x19",
+      "offset": 764,
+      "targets": [
+        "0x7c284",
+        "0x7bdd0"
+      ],
+      "instruction_span": {
+        "implementation": "0x7bda4",
+        "instruction_end": "0x7bdd0",
+        "instruction_sha256": "464f4660d66f8348412d8fe02d11c388ce2ba9b9d84a186197a4d79a77b363b5"
+      }
+    },
+    {
+      "branch": "0x7be0c",
+      "table": "0x117c4b8",
+      "key": "0x117c4c8",
+      "xor": "0x39c88163",
+      "spill": "0x7bde4",
+      "load": "0x7bdec",
+      "base": "x19",
+      "offset": 748,
+      "targets": [
+        "0x7be10",
+        "0x7c284"
+      ],
+      "instruction_span": {
+        "implementation": "0x7bde4",
+        "instruction_end": "0x7be10",
+        "instruction_sha256": "a68028bdb002659002ece45130f39cc3d0b54a51ce43fe20cc24ddccbb2ac838"
+      }
+    },
+    {
+      "branch": "0x7be80",
+      "table": "0x117c4d0",
+      "key": "0x117c4e0",
+      "xor": "0xb39db72",
+      "spill": "0x7be58",
+      "load": "0x7be60",
+      "base": "x19",
+      "offset": 732,
+      "targets": [
+        "0x7be84",
+        "0x7c274"
+      ],
+      "instruction_span": {
+        "implementation": "0x7be58",
+        "instruction_end": "0x7be84",
+        "instruction_sha256": "f284d16cc452e25f7e8ce3007f16b3349f7ff228f85190f7d56aa537ca5beb4a"
+      }
+    },
+    {
+      "branch": "0x7bef0",
+      "table": "0x117c4f8",
+      "key": "0x117c508",
+      "xor": "0xfef9ec78",
+      "spill": "0x7bed4",
+      "load": "0x7bedc",
+      "base": "x19",
+      "offset": 700,
+      "targets": [
+        "0x7c138",
+        "0x7bef4"
+      ],
+      "instruction_span": {
+        "implementation": "0x7bed4",
+        "instruction_end": "0x7bef4",
+        "instruction_sha256": "76cf23b06755b942de13bca9a2374037dedf14f6bd803085cc3a470ba2d45111"
+      }
+    },
+    {
+      "branch": "0x7bf34",
+      "table": "0x117c518",
+      "key": "0x117c528",
+      "xor": "0x87e9c54a",
+      "spill": "0x7bf0c",
+      "load": "0x7bf14",
+      "base": "x19",
+      "offset": 676,
+      "targets": [
+        "0x7bfb0",
+        "0x7bf38"
+      ],
+      "instruction_span": {
+        "implementation": "0x7bf0c",
+        "instruction_end": "0x7bf38",
+        "instruction_sha256": "2debe05119326128bf0f79f2e78a261f5622aa870e3373c5dcd1d43fa6dfdead"
+      }
+    },
+    {
+      "branch": "0x7bf9c",
+      "table": "0x117c5a8",
+      "key": "0x117c5b8",
+      "xor": "0x54009376",
+      "spill": "0x7bf70",
+      "load": "0x7bf78",
+      "base": "x19",
+      "offset": 572,
+      "targets": [
+        "0x7bfa0",
+        "0x7c274"
+      ],
+      "instruction_span": {
+        "implementation": "0x7bf70",
+        "instruction_end": "0x7bfa0",
+        "instruction_sha256": "248e7bd6853e86e2a4e6c0b31ec4a98fabee91807c7125bd3e4d897a893a6fcb"
+      }
+    },
+    {
+      "branch": "0x7bff0",
+      "table": "0x117c538",
+      "key": "0x117c548",
+      "xor": "0x57629867",
+      "spill": "0x7bfc8",
+      "load": "0x7bfd0",
+      "base": "x19",
+      "offset": 652,
+      "targets": [
+        "0x7bff4",
+        "0x7c02c"
+      ],
+      "instruction_span": {
+        "implementation": "0x7bfc8",
+        "instruction_end": "0x7bff4",
+        "instruction_sha256": "59e8adc75b4ac2207390fe7147b5d3cd5bffd5a3d4074cfbc75ee80ccb9321bd"
+      }
+    },
+    {
+      "branch": "0x7c028",
+      "table": "0x117c590",
+      "key": "0x117c5a0",
+      "xor": "0x95597d94",
+      "spill": "0x7c008",
+      "load": "0x7c004",
+      "base": "x19",
+      "offset": 588,
+      "targets": [
+        "0x7c108",
+        "0x7bf54"
+      ],
+      "instruction_span": {
+        "implementation": "0x7c004",
+        "instruction_end": "0x7c02c",
+        "instruction_sha256": "3bfcdcaf2aa6e599db27b5c5d0b6ae0bb580e5c859b3491781000f62659928fb"
+      }
+    },
+    {
+      "branch": "0x7c0b0",
+      "table": "0x117c550",
+      "key": "0x117c560",
+      "xor": "0x2719c3c4",
+      "spill": "0x7c088",
+      "load": "0x7c090",
+      "base": "x19",
+      "offset": 636,
+      "targets": [
+        "0x7c0b4",
+        "0x7c184"
+      ],
+      "instruction_span": {
+        "implementation": "0x7c088",
+        "instruction_end": "0x7c0b4",
+        "instruction_sha256": "b51fd67dab652d2ffee0e5ecd240726aec519fb4ea45274866a914cb5d3a41bc"
+      }
+    },
+    {
+      "branch": "0x7c104",
+      "table": "0x117c590",
+      "key": "0x117c5a0",
+      "xor": "0x95597d94",
+      "spill": "0x7c0d0",
+      "load": "0x7c0cc",
+      "base": "x19",
+      "offset": 588,
+      "targets": [
+        "0x7c108",
+        "0x7bf54"
+      ],
+      "instruction_span": {
+        "implementation": "0x7c0cc",
+        "instruction_end": "0x7c108",
+        "instruction_sha256": "bf8fd23b4b9560e852b5160a4c42fafb5cf9ef75c3dac26c0abf9bc3fcc0f100"
+      }
+    },
+    {
+      "branch": "0x7c134",
+      "table": "0x117c4f8",
+      "key": "0x117c508",
+      "xor": "0xfef9ec78",
+      "spill": "0x7c118",
+      "load": "0x7c120",
+      "base": "x19",
+      "offset": 700,
+      "targets": [
+        "0x7c138",
+        "0x7bef4"
+      ],
+      "instruction_span": {
+        "implementation": "0x7c118",
+        "instruction_end": "0x7c138",
+        "instruction_sha256": "76cf23b06755b942de13bca9a2374037dedf14f6bd803085cc3a470ba2d45111"
+      }
+    },
+    {
+      "branch": "0x7c180",
+      "table": "0x117c518",
+      "key": "0x117c528",
+      "xor": "0x87e9c54a",
+      "spill": "0x7c158",
+      "load": "0x7c160",
+      "base": "x19",
+      "offset": 676,
+      "targets": [
+        "0x7bfb0",
+        "0x7bf38"
+      ],
+      "instruction_span": {
+        "implementation": "0x7c158",
+        "instruction_end": "0x7c184",
+        "instruction_sha256": "4e705ba246fb021038aa5728c79ac8eb576103775e429fdee3dfceb8b7b92d64"
+      }
+    },
+    {
+      "branch": "0x7c1f4",
+      "table": "0x117c570",
+      "key": "0x117c580",
+      "xor": "0xfe1dfa44",
+      "spill": "0x7c1cc",
+      "load": "0x7c1d4",
+      "base": "x19",
+      "offset": 612,
+      "targets": [
+        "0x7c1f8",
+        "0x7c268"
+      ],
+      "instruction_span": {
+        "implementation": "0x7c1cc",
+        "instruction_end": "0x7c1f8",
+        "instruction_sha256": "4766d98798cda3108834af1e8786cdf0d705c99241bef67fc58abfd92fed9a4d"
+      }
+    },
+    {
+      "branch": "0x7c2f8",
+      "table": "0x117c5d0",
+      "key": "0x117c5e0",
+      "xor": "0x8e43ca17",
+      "spill": "0x7c2d0",
+      "load": "0x7c2d8",
+      "base": "x19",
+      "offset": 540,
+      "targets": [
+        "0x7c2fc",
+        "0x7c6b8"
+      ],
+      "instruction_span": {
+        "implementation": "0x7c2d0",
+        "instruction_end": "0x7c2fc",
+        "instruction_sha256": "e0927b7f59d3694644fde7da824923ca2faa2e9c5aae6b4874ecc6b38233da6d"
+      }
+    },
+    {
+      "branch": "0x7c36c",
+      "table": "0x117c5f8",
+      "key": "0x117c608",
+      "xor": "0x4e9c9213",
+      "spill": "0x7c350",
+      "load": "0x7c358",
+      "base": "x19",
+      "offset": 508,
+      "targets": [
+        "0x7c4b0",
+        "0x7c370"
+      ],
+      "instruction_span": {
+        "implementation": "0x7c350",
+        "instruction_end": "0x7c370",
+        "instruction_sha256": "dd10e1d536cab7d66b4a0d9895888adc702e03dd70bee54871e0b9aa11d31cdd"
+      }
+    },
+    {
+      "branch": "0x7c3ac",
+      "table": "0x117c618",
+      "key": "0x117c628",
+      "xor": "0xa4b02bff",
+      "spill": "0x7c384",
+      "load": "0x7c38c",
+      "base": "x19",
+      "offset": 484,
+      "targets": [
+        "0x7c4f8",
+        "0x7c3b0"
+      ],
+      "instruction_span": {
+        "implementation": "0x7c384",
+        "instruction_end": "0x7c3b0",
+        "instruction_sha256": "5ceb5615eb8e82f2678eb9e92c985ca7a01696a0a09bf43ca4560b77d7d4701c"
+      }
+    },
+    {
+      "branch": "0x7c41c",
+      "table": "0x117c668",
+      "key": "0x117c678",
+      "xor": "0xb012f8aa",
+      "spill": "0x7c3ec",
+      "load": "0x7c3f4",
+      "base": "x19",
+      "offset": 428,
+      "targets": [
+        "0x7c420",
+        "0x7c6b8"
+      ],
+      "instruction_span": {
+        "implementation": "0x7c3ec",
+        "instruction_end": "0x7c420",
+        "instruction_sha256": "84c051ef2e1c9737a6fff1ba10c2a73f556327cb848d4b9254176ad10b7dc5cf"
+      }
+    },
+    {
+      "branch": "0x7c468",
+      "table": "0x117c650",
+      "key": "0x117c660",
+      "xor": "0xafb28778",
+      "spill": "0x7c440",
+      "load": "0x7c448",
+      "base": "x19",
+      "offset": 444,
+      "targets": [
+        "0x7c46c",
+        "0x7c3c8"
+      ],
+      "instruction_span": {
+        "implementation": "0x7c440",
+        "instruction_end": "0x7c46c",
+        "instruction_sha256": "f2d691e78be2c2db8fd8882eff7cc5d601da7cf8b58041f87cb8a87e34c1a2d2"
+      }
+    },
+    {
+      "branch": "0x7c4ac",
+      "table": "0x117c5f8",
+      "key": "0x117c608",
+      "xor": "0x4e9c9213",
+      "spill": "0x7c484",
+      "load": "0x7c48c",
+      "base": "x19",
+      "offset": 508,
+      "targets": [
+        "0x7c4b0",
+        "0x7c370"
+      ],
+      "instruction_span": {
+        "implementation": "0x7c484",
+        "instruction_end": "0x7c4b0",
+        "instruction_sha256": "2d0d13d036650fd1d58276d2e87bb1305ccc8bbdaca9324c3bbdb4a431b2fcbe"
+      }
+    },
+    {
+      "branch": "0x7c4f4",
+      "table": "0x117c618",
+      "key": "0x117c628",
+      "xor": "0xa4b02bff",
+      "spill": "0x7c4cc",
+      "load": "0x7c4d4",
+      "base": "x19",
+      "offset": 484,
+      "targets": [
+        "0x7c4f8",
+        "0x7c3b0"
+      ],
+      "instruction_span": {
+        "implementation": "0x7c4cc",
+        "instruction_end": "0x7c4f8",
+        "instruction_sha256": "5ceb5615eb8e82f2678eb9e92c985ca7a01696a0a09bf43ca4560b77d7d4701c"
+      }
+    },
+    {
+      "branch": "0x7c52c",
+      "table": "0x117c638",
+      "key": "0x117c648",
+      "xor": "0xa1a9a5e3",
+      "spill": "0x7c510",
+      "load": "0x7c518",
+      "base": "x19",
+      "offset": 460,
+      "targets": [
+        "0x7c438",
+        "0x7c530"
+      ],
+      "instruction_span": {
+        "implementation": "0x7c510",
+        "instruction_end": "0x7c530",
+        "instruction_sha256": "bc0dc945d7df48a07d28cbc4da74771cf8b40843f402f2523b601760afd99017"
+      }
+    },
+    {
+      "branch": "0x7c620",
+      "table": "0x117c688",
+      "key": "0x117c698",
+      "xor": "0xf1ee5dc5",
+      "spill": "0x7c5f8",
+      "load": "0x7c600",
+      "base": "x19",
+      "offset": 404,
+      "targets": [
+        "0x7c740",
+        "0x7c624"
+      ],
+      "instruction_span": {
+        "implementation": "0x7c5f8",
+        "instruction_end": "0x7c624",
+        "instruction_sha256": "dd320511f7e5621e391f6ade4faa5235186c2502a7c5d8032f0faa564b6577ee"
+      }
+    },
+    {
+      "branch": "0x7c6b0",
+      "table": "0x117c6a0",
+      "key": "0x117c6b0",
+      "xor": "0x353c657b",
+      "spill": "0x7c688",
+      "load": "0x7c690",
+      "base": "x19",
+      "offset": 388,
+      "targets": [
+        "0x7c6b4",
+        "0x7c6cc"
+      ],
+      "instruction_span": {
+        "implementation": "0x7c688",
+        "instruction_end": "0x7c6b4",
+        "instruction_sha256": "c199c73acfbe12967fc55019fe32446b3061fc6803512f77692d11e0d59b6f90"
+      }
+    },
+    {
+      "branch": "0x7c72c",
+      "table": "0x117c6c0",
+      "key": "0x117c6d0",
+      "xor": "0x27346fee",
+      "spill": "0x7c704",
+      "load": "0x7c70c",
+      "base": "x19",
+      "offset": 364,
+      "targets": [
+        "0x7c730",
+        "0x7c940"
+      ],
+      "instruction_span": {
+        "implementation": "0x7c704",
+        "instruction_end": "0x7c730",
+        "instruction_sha256": "acee60c4f775ec6b8379c864c5503d9a882d5064a3515e371ab7b04c6c2603ad"
+      }
+    },
+    {
+      "branch": "0x7c7b0",
+      "table": "0x117c6e8",
+      "key": "0x117c6f8",
+      "xor": "0x682ce351",
+      "spill": "0x7c784",
+      "load": "0x7c78c",
+      "base": "x19",
+      "offset": 332,
+      "targets": [
+        "0x7c7b4",
+        "0x7c7c0"
+      ],
+      "instruction_span": {
+        "implementation": "0x7c784",
+        "instruction_end": "0x7c7b4",
+        "instruction_sha256": "239b8e7f1b9d9ff8402d8db0c9cf9236c3064c1f322c3cdcb3987a5b693ba625"
+      }
+    },
+    {
+      "branch": "0x7c890",
+      "table": "0x117c700",
+      "key": "0x117c710",
+      "xor": "0x30939154",
+      "spill": "0x7c868",
+      "load": "0x7c870",
+      "base": "x19",
+      "offset": 316,
+      "targets": [
+        "0x7c894",
+        "0x7c8cc"
+      ],
+      "instruction_span": {
+        "implementation": "0x7c868",
+        "instruction_end": "0x7c894",
+        "instruction_sha256": "bfbf0c35b2d1951d06f3fa36c2204f65b9e8e42709b1e93f8707a10f3755cbff"
+      }
+    },
+    {
+      "branch": "0x7c8c8",
+      "table": "0x117c718",
+      "key": "0x117c728",
+      "xor": "0x32593f78",
+      "spill": "0x7c8a0",
+      "load": "0x7c8a8",
+      "base": "x19",
+      "offset": 300,
+      "targets": [
+        "0x7c8cc",
+        "0x7c9d8"
+      ],
+      "instruction_span": {
+        "implementation": "0x7c8a0",
+        "instruction_end": "0x7c8cc",
+        "instruction_sha256": "9224e95d2881ada27eb823f4c5c46f4b4436dffc0c833273a058411c819ceda3"
+      }
+    },
+    {
+      "branch": "0x7ca2c",
+      "table": "0x117c730",
+      "key": "0x117c740",
+      "xor": "0x8dc742cd",
+      "spill": "0x7ca04",
+      "load": "0x7ca0c",
+      "base": "x19",
+      "offset": 284,
+      "targets": [
+        "0x7ca30",
+        "0x7ca34"
+      ],
+      "instruction_span": {
+        "implementation": "0x7ca04",
+        "instruction_end": "0x7ca30",
+        "instruction_sha256": "20ef6baba5ec6859412af938ea4d490761d332e4b0d76cbf9398748e6221e991"
+      }
+    },
+    {
+      "branch": "0x7ca90",
+      "table": "0x117c750",
+      "key": "0x117c760",
+      "xor": "0x1b02d20d",
+      "spill": "0x7ca68",
+      "load": "0x7ca70",
+      "base": "x19",
+      "offset": 260,
+      "targets": [
+        "0x7c7b4",
+        "0x7ca94"
+      ],
+      "instruction_span": {
+        "implementation": "0x7ca68",
+        "instruction_end": "0x7ca94",
+        "instruction_sha256": "5d7fe472b6aa6e78f9fda57a6f743da73bd2ba60c16567aebe24bf2aa47a6fa2"
+      }
+    },
+    {
+      "branch": "0x7cae8",
+      "table": "0x117c768",
+      "key": "0x117c778",
+      "xor": "0xf3df6fb5",
+      "spill": "0x7cac0",
+      "load": "0x7cac8",
+      "base": "x19",
+      "offset": 244,
+      "targets": [
+        "0x7caec",
+        "0x7caf0"
+      ],
+      "instruction_span": {
+        "implementation": "0x7cac0",
+        "instruction_end": "0x7caec",
+        "instruction_sha256": "875c7f228b7e377599f0a412c5f1dd7cf2a2ad5ab7394bc1de55afaca92fe279"
+      }
+    },
+    {
+      "branch": "0x7cb50",
+      "table": "0x117c788",
+      "key": "0x117c798",
+      "xor": "0x10e23ae2",
+      "spill": "0x7cb28",
+      "load": "0x7cb30",
+      "base": "x19",
+      "offset": 220,
+      "targets": [
+        "0x7c7b4",
+        "0x7cb54"
+      ],
+      "instruction_span": {
+        "implementation": "0x7cb28",
+        "instruction_end": "0x7cb54",
+        "instruction_sha256": "023359b1cef7721a814d0656ceae577b896ab4f7ce1bb163b01e90001de69d81"
+      }
+    },
+    {
+      "branch": "0x7cbc0",
+      "table": "0x117c7a0",
+      "key": "0x117c7b0",
+      "xor": "0xe6791b83",
+      "spill": "0x7cb98",
+      "load": "0x7cba0",
+      "base": "x19",
+      "offset": 204,
+      "targets": [
+        "0x7cbd8",
+        "0x7cbc4"
+      ],
+      "instruction_span": {
+        "implementation": "0x7cb98",
+        "instruction_end": "0x7cbc4",
+        "instruction_sha256": "8f799c5cd0cc2bc39f978c49470231b82fff46f382dce626eb4aa12fe6021be2"
+      }
+    },
+    {
+      "branch": "0x7cc1c",
+      "table": "0x117c7c0",
+      "key": "0x117c7d0",
+      "xor": "0x52b8d2dc",
+      "spill": "0x7cbf4",
+      "load": "0x7cbfc",
+      "base": "x19",
+      "offset": 180,
+      "targets": [
+        "0x7cc20",
+        "0x7cc34"
+      ],
+      "instruction_span": {
+        "implementation": "0x7cbf4",
+        "instruction_end": "0x7cc20",
+        "instruction_sha256": "a5aaa1800071d1918ca0a913033ffd1bc4205e453d15c2401360879f3538feef"
+      }
+    },
+    {
+      "branch": "0xb7e70",
+      "table": "0x1181cc0",
+      "key": "0x1181cd0",
+      "xor": "0xd207a92b",
+      "spill": "0xb7e34",
+      "load": "0xb7e3c",
+      "base": "x19",
+      "offset": 812,
+      "targets": [
+        "0xb8890",
+        "0xb7e74"
+      ],
+      "instruction_span": {
+        "implementation": "0xb7e34",
+        "instruction_end": "0xb7e74",
+        "instruction_sha256": "c7e04f917db70d1780b9bfa72470d7c8432fe1e341a962aab71e763f22ce9ee2"
+      }
+    },
+    {
+      "branch": "0x6f934",
+      "table": "0x117b7d8",
+      "key": "0x117b7e8",
+      "xor": "0xbd9c7354",
+      "spill": "0x6f8f8",
+      "load": "0x6f900",
+      "base": "x29",
+      "offset": -252,
+      "targets": [
+        "0x6f94c",
+        "0x6f938"
+      ],
+      "instruction_span": {
+        "implementation": "0x6f8f8",
+        "instruction_end": "0x6f938",
+        "instruction_sha256": "2d1669b7e6fdc13db0eac5b65c2e04fbfcd717e7bd20eb0d8f8a63c6b75ff862"
+      }
+    },
+    {
+      "table": "0x117a338",
+      "key": "0x117a348",
+      "xor": "0x935011e2",
+      "targets": [
+        "0x4f9e4",
+        "0x4fa2c"
+      ]
+    },
+    {
+      "table": "0x117a350",
+      "key": "0x117a360",
+      "xor": "0xfdc7fac1",
+      "targets": [
+        "0x4fb78",
+        "0x4fa2c"
+      ]
+    },
+    {
+      "table": "0x117a3d0",
+      "key": "0x117a3e0",
+      "xor": "0x250708f9",
+      "targets": [
+        "0x504fc",
+        "0x50544"
+      ]
+    },
+    {
+      "table": "0x117a3e8",
+      "key": "0x117a3f8",
+      "xor": "0xdc6d09b8",
+      "targets": [
+        "0x50690",
+        "0x50544"
+      ]
+    },
+    {
+      "table": "0x117b7c0",
+      "key": "0x117b7d0",
+      "xor": "0x852c1cde",
+      "targets": [
+        "0x6f94c",
+        "0x6f834"
+      ]
+    },
+    {
+      "table": "0x117c360",
+      "key": "0x117c370",
+      "xor": "0x94b6e600",
+      "targets": [
+        "0x7bba0",
+        "0x7b90c"
+      ]
+    },
+    {
+      "table": "0x117c390",
+      "key": "0x117c3a0",
+      "xor": "0x3f9696cb",
+      "targets": [
+        "0x7b9d0",
+        "0x7bba0"
+      ]
+    },
+    {
+      "table": "0x117c3a8",
+      "key": "0x117c3b8",
+      "xor": "0xe5e38252",
+      "targets": [
+        "0x7ba2c",
+        "0x7ba4c"
+      ]
+    },
+    {
+      "table": "0x1181bc0",
+      "key": "0x1181bd0",
+      "xor": "0x8ad02fca",
+      "targets": [
+        "0xb796c",
+        "0xb89ac"
+      ]
+    },
+    {
+      "table": "0x1181be8",
+      "key": "0x1181bf8",
+      "xor": "0x45903917",
+      "targets": [
+        "0xb891c",
+        "0xb79f4"
+      ]
+    },
+    {
+      "table": "0x1181c08",
+      "key": "0x1181c18",
+      "xor": "0x1c13f8b2",
+      "targets": [
+        "0xb7bac",
+        "0xb7df8"
+      ]
+    },
+    {
+      "table": "0x1181c30",
+      "key": "0x1181c40",
+      "xor": "0x21b9fd56",
+      "targets": [
+        "0xb7d98",
+        "0xb7c24"
+      ]
+    },
+    {
+      "table": "0x1181c88",
+      "key": "0x1181c98",
+      "xor": "0x1ea24df2",
+      "targets": [
+        "0xb7d5c",
+        "0xb7da4"
+      ]
+    },
+    {
+      "table": "0x1181c50",
+      "key": "0x1181c60",
+      "xor": "0xb5fcea5e",
+      "targets": [
+        "0xb7c7c",
+        "0xb7cbc"
+      ]
+    },
+    {
+      "table": "0x1181cd8",
+      "key": "0x1181ce8",
+      "xor": "0x1f83f50c",
+      "targets": [
+        "0xb7ee0",
+        "0xb8888"
+      ]
+    },
+    {
+      "table": "0x1181d00",
+      "key": "0x1181d10",
+      "xor": "0xfa80502a",
+      "targets": [
+        "0xb8264",
+        "0xb7f78"
+      ]
+    },
+    {
+      "table": "0x1181d20",
+      "key": "0x1181d30",
+      "xor": "0x3c73686b",
+      "targets": [
+        "0xb82b8",
+        "0xb7fc4"
+      ]
+    },
+    {
+      "table": "0x1181e10",
+      "key": "0x1181e20",
+      "xor": "0x663bb9e9",
+      "targets": [
+        "0xb832c",
+        "0xb882c"
+      ]
+    },
+    {
+      "table": "0x1181e28",
+      "key": "0x1181e38",
+      "xor": "0xc7eb9067",
+      "targets": [
+        "0xb887c",
+        "0xb8888"
+      ]
+    },
+    {
+      "table": "0x1181d58",
+      "key": "0x1181d68",
+      "xor": "0x508f6e84",
+      "targets": [
+        "0xb87b4",
+        "0xb87c4"
+      ]
+    },
+    {
+      "table": "0x1181d80",
+      "key": "0x1181d90",
+      "xor": "0xb12dd1e2",
+      "targets": [
+        "0xb8204",
+        "0xb8058"
+      ]
+    },
+    {
+      "table": "0x1181da0",
+      "key": "0x1181db0",
+      "xor": "0xfea1b6a6",
+      "targets": [
+        "0xb817c",
+        "0xb80f4"
+      ]
+    },
+    {
+      "table": "0x1181db8",
+      "key": "0x1181dc8",
+      "xor": "0x5404493d",
+      "targets": [
+        "0xb817c",
+        "0xb89f8"
+      ]
+    },
+    {
+      "table": "0x1181dd8",
+      "key": "0x1181de8",
+      "xor": "0x2da126af",
+      "targets": [
+        "0xb81c0",
+        "0xb8210"
+      ]
+    },
+    {
+      "table": "0x1181df0",
+      "key": "0x1181e00",
+      "xor": "0x897d3d",
+      "targets": [
+        "0xb825c",
+        "0xb87c4"
+      ]
+    },
+    {
+      "table": "0x1181e48",
+      "key": "0x1181e58",
+      "xor": "0x6273d6de",
+      "targets": [
+        "0xb88d8",
+        "0xb8928"
+      ]
+    },
+    {
+      "table": "0x1181e60",
+      "key": "0x1181e70",
+      "xor": "0x1a71bd8a",
+      "targets": [
+        "0xb898c",
+        "0xb89ac"
+      ]
+    },
+    {
+      "table": "0x1181ca0",
+      "key": "0x1181cb0",
+      "xor": "0x97ea31a6",
+      "targets": [
+        "0xb7c20",
+        "0xb7df8"
+      ]
+    },
+    {
+      "table": "0x1182268",
+      "key": "0x1182278",
+      "xor": "0x6e2676d2",
+      "targets": [
+        "0xbaea0",
+        "0xbaec4"
+      ]
+    },
+    {
+      "table": "0x1182308",
+      "key": "0x1182318",
+      "xor": "0xd030ce40",
+      "targets": [
+        "0xbb55c",
+        "0xbb568"
+      ]
+    },
+    {
+      "table": "0x1182368",
+      "key": "0x1182378",
+      "xor": "0xf0a9f9c0",
+      "targets": [
+        "0xbb8f8",
+        "0xbb6fc"
+      ]
+    },
+    {
+      "table": "0x11823e0",
+      "key": "0x11823f0",
+      "xor": "0xb7fb3b0",
+      "targets": [
+        "0xbb8c8",
+        "0xbb904"
+      ]
+    },
+    {
+      "table": "0x1182388",
+      "key": "0x1182398",
+      "xor": "0x26c29b78",
+      "targets": [
+        "0xbb754",
+        "0xbb794"
+      ]
+    },
+    {
+      "table": "0x11823c0",
+      "key": "0x11823d0",
+      "xor": "0xf37f2813",
+      "targets": [
+        "0xbb950",
+        "0xbb874"
+      ]
+    },
+    {
+      "table": "0x1183ab8",
+      "key": "0x1183ac8",
+      "xor": "0x42b992aa",
+      "targets": [
+        "0xce1f0",
+        "0xcf114"
+      ]
+    },
+    {
+      "table": "0x1183ae0",
+      "key": "0x1183af0",
+      "xor": "0x70f40b60",
+      "targets": [
+        "0xcf0b0",
+        "0xce2dc"
+      ]
+    },
+    {
+      "table": "0x1183b30",
+      "key": "0x1183b40",
+      "xor": "0xcebe3428",
+      "targets": [
+        "0xce93c",
+        "0xceaf4"
+      ]
+    },
+    {
+      "table": "0x1183b70",
+      "key": "0x1183b80",
+      "xor": "0x87c32b3e",
+      "targets": [
+        "0xcea04",
+        "0xcea08"
+      ]
+    },
+    {
+      "table": "0x1183b90",
+      "key": "0x1183ba0",
+      "xor": "0xb4e5c4b3",
+      "targets": [
+        "0xcea8c",
+        "0xcea9c"
+      ]
+    },
+    {
+      "table": "0x1183bb0",
+      "key": "0x1183bc0",
+      "xor": "0x6ab3ca72",
+      "targets": [
+        "0xceaf4",
+        "0xceaf0"
+      ]
+    },
+    {
+      "table": "0x1183b50",
+      "key": "0x1183b60",
+      "xor": "0x7c3d293c",
+      "targets": [
+        "0xceb4c",
+        "0xceff4"
+      ]
+    },
+    {
+      "table": "0x1183c48",
+      "key": "0x1183c58",
+      "xor": "0xc014d098",
+      "targets": [
+        "0xced58",
+        "0xcef94"
+      ]
+    },
+    {
+      "table": "0x1183c60",
+      "key": "0x1183c70",
+      "xor": "0xc7921b98",
+      "targets": [
+        "0xcedc8",
+        "0xcef58"
+      ]
+    },
+    {
+      "table": "0x1183c00",
+      "key": "0x1183c10",
+      "xor": "0xd3fee6bc",
+      "targets": [
+        "0xcecd4",
+        "0xcede0"
+      ]
+    },
+    {
+      "table": "0x1183c20",
+      "key": "0x1183c30",
+      "xor": "0x9694f765",
+      "targets": [
+        "0xcef40",
+        "0xcef70"
+      ]
+    },
+    {
+      "table": "0x1183c90",
+      "key": "0x1183ca0",
+      "xor": "0x301f334a",
+      "targets": [
+        "0xceff4",
+        "0xceff0"
+      ]
+    },
+    {
+      "table": "0x1183cb0",
+      "key": "0x1183cc0",
+      "xor": "0xf3e14285",
+      "targets": [
+        "0xcf070",
+        "0xcf0c4"
+      ]
+    },
+    {
+      "table": "0x1183cc8",
+      "key": "0x1183cd8",
+      "xor": "0xfde3461b",
+      "targets": [
+        "0xcf10c",
+        "0xcf114"
+      ]
+    }
+  ],
+  "block_signatures": [
+    {
+      "descriptor": "0x10613e0",
+      "size": 32,
+      "signature_offset": 16,
+      "signature_address": "0xb9b004",
+      "signature": "v8@?0"
+    },
+    {
+      "descriptor": "0x1061420",
+      "size": 40,
+      "signature_offset": 32,
+      "signature_address": "0xb9b004",
+      "signature": "v8@?0"
+    },
+    {
+      "descriptor": "0x10620b0",
+      "size": 40,
+      "signature_offset": 16,
+      "signature_address": "0xb9b2db",
+      "signature": "B32@?0@\"YTIPivotBarSupportedRenderers\"8Q16^B24"
+    }
+  ],
+  "instruction_words": {
+    "0x48284": "0100009021100a91a51d0214",
+    "0x48290": "fd7bbfa9fd0300910100009021100a9123008052a71d0294e10380d2400380d2",
+    "0xb89d8": "0840601e2940601e",
+    "0xb8a6c": "0041601e2141601e",
+    "0x4ead4": "fd7bbfa9fd030091a88e00f008b147f900013fd6000080d201609452213ca272ff080294818000d021b043f9828000f0428028910209029403008052e0038052500380d2010080d2020080d201110ed4fd7bc1a8c0035fd6"
+  },
+  "limitations": [
+    "Host semantic object types erased in packaged native ABI remain protocol/id boundaries; no YouTube runtime is executed.",
+    "Canonical feature-policy calls retain local preference policy; historical account policy is an integration audit owned by parent.",
+    "Packaged anti-debug SVC side effects and constant-decryption/opaque-dispatch machinery are omitted. Functional branch decisions and callbacks are preserved.",
+    "Helper associated-object identity uses a private unique address instead of packaged getter IMP; retention and property metadata match.",
+    "No constructors: parent supplies original registration order and cross-module hook chaining."
+  ],
+  "omitted_supervisor_calls": [
+    {
+      "address": "0x4e9d0",
+      "word": "0xd410a121",
+      "immediate": "0x8509"
+    },
+    {
+      "address": "0x4ea4c",
+      "word": "0xd4175221",
+      "immediate": "0xba91"
+    },
+    {
+      "address": "0x4eac4",
+      "word": "0xd41351e1",
+      "immediate": "0x9a8f"
+    },
+    {
+      "address": "0x4eb20",
+      "word": "0xd40e1101",
+      "immediate": "0x7088"
+    },
+    {
+      "address": "0x482bc",
+      "word": "0xd4169781",
+      "immediate": "0xb4bc"
+    },
+    {
+      "address": "0x6fb70",
+      "word": "0xd4042cc1",
+      "immediate": "0x2166"
+    },
+    {
+      "address": "0x6ff58",
+      "word": "0xd41a7901",
+      "immediate": "0xd3c8"
+    },
+    {
+      "address": "0x7016c",
+      "word": "0xd41f11c1",
+      "immediate": "0xf88e"
+    },
+    {
+      "address": "0x7c904",
+      "word": "0xd405c4e1",
+      "immediate": "0x2e27"
+    },
+    {
+      "address": "0x986f8",
+      "word": "0xd4088a81",
+      "immediate": "0x4454"
+    },
+    {
+      "address": "0xb9b54",
+      "word": "0xd400caa1",
+      "immediate": "0x655"
+    },
+    {
+      "address": "0xb9bfc",
+      "word": "0xd4196741",
+      "immediate": "0xcb3a"
+    },
+    {
+      "address": "0xb9ca4",
+      "word": "0xd41265c1",
+      "immediate": "0x932e"
+    },
+    {
+      "address": "0xb9d4c",
+      "word": "0xd40e4e01",
+      "immediate": "0x7270"
+    },
+    {
+      "address": "0xbcc58",
+      "word": "0xd40cad41",
+      "immediate": "0x656a"
+    },
+    {
+      "address": "0xc9b54",
+      "word": "0xd4171e81",
+      "immediate": "0xb8f4"
+    },
+    {
+      "address": "0xcf130",
+      "word": "0xd40dc961",
+      "immediate": "0x6e4b"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+/* Decompiled from supplied 5.2.2 arm package. VA 0x27acf8. _avutil_configuration */
+
+char * _avutil_configuration(void)
+
+{
+  return 
+  "--sysroot=/Applications/Xcode-v7.3.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk --prefix=/Users/taner/Projects/mobile-ffmpeg/prebuilt/ios-arm64/ffmpeg --enable-version3 --arch=aarch64 --cpu=armv8 --target-os=darwin --ar=/Applications/Xcode-v7.3.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar --cc=clang --cxx=clang++ --as=\'/Users/taner/Projects/mobile-ffmpeg/.tmp/gas-preprocessor.pl -arch aarch64 -- clang -arch arm64 -target aarch64-ios-darwin -march=armv8-a+crc+crypto -mcpu=generic -DMOBILE_FFMPEG_ARM64 -Wno-unused-function -Wno-deprecated-declarations -fstrict-aliasing -fembed-bitcode -DIOS -DMOBILE_FFMPEG_LTS -DMOBILE_FFMPEG_BUILD_DATE=20200725 -isysroot /Applications/Xcode-v7.3.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk -Oz -miphoneos-version-min=9.3 -I/Applications/Xcode-v7.3.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include\' --ranlib=/Applications/Xcode-v7.3.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib --strip=/Applications/Xcode-v7.3.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip --enable-neon --enable-cross-compile --enable-pic --enable-asm --enable-inline-asm --enable-optimizations --enable-swscale --enable-static --disable-shared --enable-small --disable-v4l2-m2m --disable-outdev=v4l2 --disable-outdev=fbdev --disable-outdev=audiotoolbox --disable-indev=v4l2 --disable-indev=fbdev --disable-openssl --disable-xmm-clobber-test --disable-debug --disable-neon-clobber-test --disable-programs --disable-postproc --disable-doc --disable-htmlpages --disable-manpages --disable-podpages --disable-txtpages --disable-sndio --disable-schannel --disable-securetransport --disable-xlib --disable-cuda --disable-cuvid --disable-nvenc --disable-vaapi --disable-vdpau --disable-appkit --disable-alsa --disable-cuda --disable-cuvid --disable-nvenc --disable-vaapi --disable-vdpau --enable-libmp3lame --enable-libvorbis --enabl..." /* TRUNCATED STRING LITERAL */
+  ;
+}
+
+

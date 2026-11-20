@@ -1,0 +1,99 @@
+{
+  "binary_sha256": "59b0ddc0c8ca14863d20b0005c0c48e062e81a0df6611e213a3a66fa2b796023",
+  "spans": [
+    {
+      "start": "0x22b770",
+      "end": "0x22bbb4",
+      "sha256": "6d64b93a3c02371778154f6d963845955eb839463e3313d08dc9083da5dceccf"
+    },
+    {
+      "start": "0x23065c",
+      "end": "0x2308ac",
+      "sha256": "202c93262203a56b29d5c1c3988bd8197b53e1574590577721c63f808e858280"
+    },
+    {
+      "start": "0x230d8c",
+      "end": "0x230f88",
+      "sha256": "38277a3e82b8dc8d29ade6a54cf6a8031a80b17f58583642d0ee4c39e87a43a1"
+    },
+    {
+      "start": "0x231974",
+      "end": "0x231a04",
+      "sha256": "367376d8ec2cae119239692278f7bc92891e9150db67f52ce652e3bd51deba36"
+    },
+    {
+      "start": "0x233a98",
+      "end": "0x233b18",
+      "sha256": "ddc6aaed2909427724bf2b0094953d28106a3648809f58cfa4055e8faaac5ee6"
+    },
+    {
+      "start": "0x233ca4",
+      "end": "0x233d64",
+      "sha256": "1d31ee4182033d1063c0b9280a93e9ff6768a2c415e44c57e81d61ddd10b7ee6"
+    }
+  ],
+  "branches": [
+    {
+      "table": "0x11d1898",
+      "key": "0x11d18a8",
+      "xor": "0xb9da2f37",
+      "targets": [
+        "0x230730",
+        "0x23080c"
+      ]
+    },
+    {
+      "table": "0x11d1880",
+      "key": "0x11d1890",
+      "xor": "0xd9e7731a",
+      "targets": [
+        "0x2306f8",
+        "0x2307b8"
+      ]
+    }
+  ],
+  "strings": [
+    {
+      "address": "0x11d0330",
+      "value": "DownloadingAudio"
+    },
+    {
+      "address": "0x11d0370",
+      "value": "DownloadingVideo"
+    },
+    {
+      "address": "0x11d02f0",
+      "value": "%@: %.0f%%"
+    },
+    {
+      "address": "0x11d0f20",
+      "value": "Copied"
+    }
+  ],
+  "selectors": [
+    {
+      "reference": "0x114e2f0",
+      "name": "updateText:progress:"
+    },
+    {
+      "reference": "0x114c5a0",
+      "name": "imageWithData:"
+    },
+    {
+      "reference": "0x114b8a0",
+      "name": "generalPasteboard"
+    },
+    {
+      "reference": "0x114b8f8",
+      "name": "setImage:"
+    },
+    {
+      "reference": "0x114c5b8",
+      "name": "showMessageWithText:isSuccess:"
+    }
+  ],
+  "methods": {
+    "downloadProgress:": "0x22b770",
+    "downloadImageFromURL:download:": "0x2302b0"
+  }
+}

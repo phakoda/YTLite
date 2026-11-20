@@ -1,0 +1,74 @@
+{
+  "binary_sha256": "59b0ddc0c8ca14863d20b0005c0c48e062e81a0df6611e213a3a66fa2b796023",
+  "spans": [
+    {
+      "start": "0x22f94c",
+      "end": "0x22fa24",
+      "sha256": "a595321593084b2537142d67f55e958c4937eda0c182e3b08bafaf2a89a65b4e"
+    },
+    {
+      "start": "0x22fa24",
+      "end": "0x22fdf8",
+      "sha256": "9c2da49bee4a32603eedde6158dcd01f9bc345d9fd3ec38b7d1ab00f4cad2ccd"
+    },
+    {
+      "start": "0x22fdf8",
+      "end": "0x2302b0",
+      "sha256": "6f0c66c307a5bcbeb47b63f6cbbe92ec8e6d410cc9a88012bc1e753e6275d602"
+    },
+    {
+      "start": "0x2333b0",
+      "end": "0x233970",
+      "sha256": "3fcbe2343636cd14246160e0c4b76e715ec83490ce25c21107c82756dcf0d8a1"
+    }
+  ],
+  "branches": [
+    {
+      "table": "0x11d17b0",
+      "key": "0x11d17c0",
+      "xor": "0x7a5646f7",
+      "targets": [
+        "0x22fc38",
+        "0x22fc54"
+      ]
+    },
+    {
+      "table": "0x11d17f8",
+      "key": "0x11d1808",
+      "xor": "0x753ffd26",
+      "targets": [
+        "0x230004",
+        "0x230040"
+      ]
+    }
+  ],
+  "strings": [
+    {
+      "address": "0x11d0ce0",
+      "value": "YTQTMButton"
+    },
+    {
+      "address": "0x11d0d40",
+      "value": "YTQTMButton"
+    }
+  ],
+  "selectors": [
+    {
+      "reference": "0x114ae88",
+      "name": "class"
+    },
+    {
+      "reference": "0x114c910",
+      "name": "touchFeedbackView"
+    },
+    {
+      "reference": "0x114b850",
+      "name": "imageWithRenderingMode:"
+    }
+  ],
+  "methods": {
+    "createYTQTMButton:accessibilityLabel:buttonLabel:icon:selector:": "0x22f94c",
+    "createYTQTMButton:accessibilityLabel:buttonLabel:icon:size:selector:": "0x22fa24",
+    "createOverlayButton:accessibilityLabel:buttonLabel:icon:selector:": "0x22fdf8"
+  }
+}

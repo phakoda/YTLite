@@ -1,0 +1,270 @@
+{
+  "scope": "Helpers",
+  "status": "functional implementation, exact supplied class ABI; device integration unverified",
+  "original_image": ".recovery-work/arm/YTLite.dylib",
+  "original_sha256": "bdcc4d4ccaa5835d35bc97ccbdfc1c3dff514cb7161848265dcc0585f364c0ca",
+  "original_executed": false,
+  "sdk": "26.2",
+  "deployment_target": "iOS 14.0",
+  "architectures": [
+    "arm64",
+    "arm64e"
+  ],
+  "compiler_flags": [
+    "-fobjc-arc",
+    "-fblocks",
+    "-Wall",
+    "-Wextra",
+    "-Werror"
+  ],
+  "classes": [
+    {
+      "name": "YTLHelper",
+      "source": "recovery/source/Helpers/YTLHelper.m",
+      "source_sha256": "79a7db5e981719ed3de6e17306e665efe0f909b01c747f283b9b175b9ce87556",
+      "header": "recovery/source/Helpers/YTLHelper.h",
+      "header_sha256": "97620ce61885d4301c087082137de23e9f72c7342c8e2aa61240cf19d39877af",
+      "method_count": 22,
+      "property_count": 4,
+      "ivar_count": 13,
+      "compiled_metadata": {
+        "methods": {
+          "+YTImageNamed:": "@24@0:8@16",
+          "+YTLImageNamed:": "@24@0:8@16",
+          "+isConnectedToWiFi": "B16@0:8",
+          "+createYTQTMButton:accessibilityLabel:buttonLabel:icon:selector:": "@56@0:8@16@24@32@40:48",
+          "+createYTQTMButton:accessibilityLabel:buttonLabel:icon:size:selector:": "@72@0:8@16@24@32@40{CGSize=dd}48:64",
+          "+createOverlayButton:accessibilityLabel:buttonLabel:icon:selector:": "@56@0:8@16@24@32@40:48",
+          "+downloadImageFromURL:download:": "v28@0:8@16B24",
+          "+genImageFromLayer:backgroundColor:completionHandler:": "v40@0:8@16@24@?32",
+          "+resizeImage:toSize:": "@32@0:8@16d24",
+          "-init": "@16@0:8",
+          "-downloadVideoWithUrl:audioUrl:fileName:format:videoID:videoSize:audioSize:duration:captions:": "v88@0:8@16@24@32@40@48Q56Q64Q72@80",
+          "-downloadAudioWithUrl:fileName:videoID:audioSize:duration:": "v56@0:8@16@24@32Q40Q48",
+          "-downloadProgress:": "v20@0:8f16",
+          "-downloadDidFinish:fileName:": "v32@0:8@16@24",
+          "-downloadDidFailureWithError:": "v24@0:8@16",
+          "-saveMedia:": "v24@0:8@16",
+          "-shareMedia:": "v24@0:8@16",
+          "-cleanup": "v16@0:8",
+          "-askForAction:": "v24@0:8@16",
+          "-resizeImage:toSize:": "@32@0:8@16d24",
+          "-imageNamed:": "@24@0:8@16",
+          "-.cxx_destruct": "v16@0:8"
+        },
+        "properties": {
+          "hash": "TQ,R",
+          "superclass": "T#,R",
+          "description": "T@\"NSString\",R,C",
+          "debugDescription": "T@\"NSString\",?,R,C"
+        },
+        "ivars": {
+          "_illegalChars": {
+            "encoding": "@\"NSCharacterSet\"",
+            "offset": 8,
+            "size": 8
+          },
+          "_downloader": {
+            "encoding": "@\"YTPDownloader\"",
+            "offset": 16,
+            "size": 8
+          },
+          "_toastView": {
+            "encoding": "@\"ToastView\"",
+            "offset": 24,
+            "size": 8
+          },
+          "_title": {
+            "encoding": "@\"NSString\"",
+            "offset": 32,
+            "size": 8
+          },
+          "_videoID": {
+            "encoding": "@\"NSString\"",
+            "offset": 40,
+            "size": 8
+          },
+          "_format": {
+            "encoding": "@\"NSString\"",
+            "offset": 48,
+            "size": 8
+          },
+          "_duration": {
+            "encoding": "Q",
+            "offset": 56,
+            "size": 8
+          },
+          "_isVideoDownloaded": {
+            "encoding": "B",
+            "offset": 64,
+            "size": 1
+          },
+          "_isAudioOnly": {
+            "encoding": "B",
+            "offset": 65,
+            "size": 1
+          },
+          "_videoUrl": {
+            "encoding": "@\"NSURL\"",
+            "offset": 72,
+            "size": 8
+          },
+          "_audioUrl": {
+            "encoding": "@\"NSURL\"",
+            "offset": 80,
+            "size": 8
+          },
+          "_captionsUrl": {
+            "encoding": "@\"NSURL\"",
+            "offset": 88,
+            "size": 8
+          },
+          "_audioSize": {
+            "encoding": "Q",
+            "offset": 96,
+            "size": 8
+          }
+        },
+        "instance_size": 104
+      },
+      "original_method_addresses": {
+        "-init": "0x22b24c",
+        "-downloadVideoWithUrl:audioUrl:fileName:format:videoID:videoSize:audioSize:duration:captions:": "0x22b424",
+        "-downloadAudioWithUrl:fileName:videoID:audioSize:duration:": "0x22b9a4",
+        "-downloadProgress:": "0x22bf60",
+        "-downloadDidFinish:fileName:": "0x22c3a4",
+        "-downloadDidFailureWithError:": "0x22dcbc",
+        "-saveMedia:": "0x22df30",
+        "-shareMedia:": "0x22e4ac",
+        "-cleanup": "0x22e998",
+        "-askForAction:": "0x22eb5c",
+        "-resizeImage:toSize:": "0x22f724",
+        "-imageNamed:": "0x22f9bc",
+        "-.cxx_destruct": "0x231d78",
+        "+YTImageNamed:": "0x22fc70",
+        "+YTLImageNamed:": "0x22fe70",
+        "+isConnectedToWiFi": "0x230064",
+        "+createYTQTMButton:accessibilityLabel:buttonLabel:icon:selector:": "0x2300f8",
+        "+createYTQTMButton:accessibilityLabel:buttonLabel:icon:size:selector:": "0x2301d0",
+        "+createOverlayButton:accessibilityLabel:buttonLabel:icon:selector:": "0x230598",
+        "+downloadImageFromURL:download:": "0x230a44",
+        "+genImageFromLayer:backgroundColor:completionHandler:": "0x231990",
+        "+resizeImage:toSize:": "0x231b28"
+      },
+      "objects": {
+        "arm64": {
+          "path": ".recovery-work/presentation-helpers/arm64/YTLHelper.o",
+          "sha256": "bf44ef50557cb95bad9031fd0eac78dd83e4f742c1fbfb4f4678291843822443"
+        },
+        "arm64e": {
+          "path": ".recovery-work/presentation-helpers/arm64e/YTLHelper.o",
+          "sha256": "c1d8247c04ae7299420204db115df2f326c46d683a3dcdfe5c43d64a7ab402fc"
+        }
+      },
+      "host_source_coverage": {
+        "branches": {
+          "count": 82,
+          "covered": 72,
+          "notcovered": 10,
+          "percent": 87.8048780487805
+        },
+        "functions": {
+          "count": 42,
+          "covered": 42,
+          "percent": 100
+        },
+        "instantiations": {
+          "count": 42,
+          "covered": 42,
+          "percent": 100
+        },
+        "lines": {
+          "count": 431,
+          "covered": 425,
+          "percent": 98.60788863109049
+        },
+        "mcdc": {
+          "count": 0,
+          "covered": 0,
+          "notcovered": 0,
+          "percent": 0
+        },
+        "regions": {
+          "count": 243,
+          "covered": 236,
+          "notcovered": 7,
+          "percent": 97.11934156378601
+        }
+      }
+    }
+  ],
+  "method_count": 22,
+  "files": {
+    "recovery/source/Helpers/HelpersHost.h": "57d120140b8c89e3d88a522c6760913caaf6397dcf3977d343b1ec9719e76293",
+    "recovery/source/Helpers/HelpersTransforms.h": "b4e2813f4b6666822e24875893a52c139743696cab2c5e08294f3c5ffb200358",
+    "recovery/source/Helpers/NavigationHelpers.manifest.json": "59fdf7824f0771a00c99913e1e38cfd129816a647eac50293ddcc8d123a97fca",
+    "recovery/source/Helpers/PROVENANCE.md": "b213d326e65bb00997429ee9a2c99a32d9d5ca2c052d9764223d4037301b795d",
+    "recovery/source/Helpers/YTLHelper.assets.provenance.md": "6f7d1dafead204acaea65021a15bcb6108bf66adfc4e55e03c1796589788aca6",
+    "recovery/source/Helpers/YTLHelper.buttons.provenance.md": "5b9af99b2f7c910e0815304726216368a62999060afd1b799ef75ba47395e2cc",
+    "recovery/source/Helpers/YTLHelper.conversion.provenance.md": "06d38247a52f707f437b1650fd0afe580433f3c64d978155aaa5c86635b45932",
+    "recovery/source/Helpers/YTLHelper.finish.provenance.md": "af964542ee419c0cf840cd539cce7325ddd56ee88c4c076be4e5b996bcb027cc",
+    "recovery/source/Helpers/YTLHelper.h": "97620ce61885d4301c087082137de23e9f72c7342c8e2aa61240cf19d39877af",
+    "recovery/source/Helpers/YTLHelper.image.provenance.md": "f2631c379058c8da74d844751f47a4ff6c6aaf166688497dfc89aa23457b6ebd",
+    "recovery/source/Helpers/YTLHelper.imageflow.provenance.md": "faed604d59e11f72ef57db4dc32603c310f43934bab343d46d2b905a924e1882",
+    "recovery/source/Helpers/YTLHelper.init.provenance.md": "1f7e3f2f8986fc2cce352f67676ded22163d1b6804a33bdbe6098fc451887124",
+    "recovery/source/Helpers/YTLHelper.m": "79a7db5e981719ed3de6e17306e665efe0f909b01c747f283b9b175b9ce87556",
+    "recovery/source/Helpers/YTLHelper.media.provenance.md": "ac3dc4219cf45fb72823e6d33933432501892bfd6c69313fb3c578b091674689",
+    "recovery/source/Helpers/YTLHelper.mediaflow.provenance.md": "b13778e73efbfe77e303a6f16b9c265e2b8e14f57d6d5ed95cb43338fd6185dc",
+    "recovery/source/Helpers/YTLHelper.ordering.provenance.md": "6d9d193aa7c4ba446032d0dd96931b5e2e64df0ead02a51711d3a82ebbd4724d",
+    "recovery/source/Helpers/YTLHelper.paths.provenance.md": "cc77c11af7e646ba3b7342e3b76783ee94059b88ab04bfd315be7221c0c9d742",
+    "recovery/source/Helpers/YTLHelper.progress.provenance.md": "e717c6a83be9516e430ad5fe15b3beacd0d2676a9962e43fa2263e6e6aff8e57",
+    "recovery/source/Helpers/YTLHelper.rendering.provenance.md": "b557099333ad85e41ca86861cec1b23e9359d37e8979180302105636b6663af4",
+    "recovery/source/Helpers/YTLHelper.start.provenance.md": "9211944866a77df22cecf45a051fe41d61c81eee27baaab15d5423328cd7730a",
+    "recovery/source/Helpers/YTLHelper.state.provenance.md": "32da255f842e84ec9e31be25e8e8b8b6139b7bf6305f6572ab9368c7d9a078af",
+    "recovery/source/Helpers/YTLHelper.terminal.provenance.md": "5edbfa8b1706c8202a519e5e1dc95d61d50080c4247546e0000a2908ffd1e7a2",
+    "recovery/source/Helpers/YTPPlayerHelper.h": "489922d434956ddb5aa339f806698428300464cd0e071172a0de3853ffa542aa",
+    "recovery/source/Helpers/YTPPlayerHelper.m": "e9adb661604f63df41423b111d96d263a7e60318bb02e9a9554fae596d70e134",
+    "recovery/source/Helpers/YTPPlayerHelper.provenance.md": "b6e2c19434177bc9afb4fbe6eff12089dc3521b455e5daa17ba8d9de3880a890"
+  },
+  "unimplemented_declared_methods": [],
+  "missing_or_unverified": [
+    "No device UIKit rendering/layout/gesture/rotation validation; native tests use boundary doubles.",
+    "No live Photos permission/import, network transport, FFmpeg/media conversion, or user audio/brightness execution.",
+    "Original SVC/obfuscator scaffolding is not reproduced; complete functional class surfaces are retained.",
+    "Real private YouTube/MediaPlayer classes and on-device resource rendering remain outside these module fixtures; the separate integration report covers linking and packaged resources."
+  ],
+  "remaining_reconstruction_differences": [
+    "Helper path/URL validation remains a separately documented reconstruction difference; media presentation and rendering are covered by the per-class provenance files."
+  ],
+  "test_report_sha256": {
+    ".recovery-work/presentation-helpers/source-verification.json": "93f7d7e11f2cea97706cc7a41ccdb07366c771b0a840f7bc0c70af67e348fdf6",
+    ".recovery-work/presentation-helpers/runtime-verification.json": "d75926ef9a1aec973bee8023a218e8c55824d7b23049eaa8274f5aec04fd806b"
+  },
+  "host_runtime_assertions": 4762,
+  "host_runtime_suites": {
+    "Toast_queue_timer_window": 73,
+    "PlayerToast_state": 132,
+    "Toast_geometry_layout_observers": 757,
+    "BlurButton_CustomHUD": 26,
+    "ToastWindow_subclass_initialize_aliases": 12,
+    "Sheets_transition_ownership": 45,
+    "ImageViewer_zoom_menu_ownership": 127,
+    "YTLHelper_callbacks_media_fixtures": 3581
+  },
+  "sanitizer": "UndefinedBehaviorSanitizer",
+  "runtime_doubles_not_production": true,
+  "framework_link_dependencies": [
+    "Foundation",
+    "UIKit",
+    "QuartzCore",
+    "Photos",
+    "SystemConfiguration"
+  ],
+  "external_production_sources": [
+    "Downloads/YTPDownloader",
+    "Downloads/FFMpegHelper",
+    "Runtime/YTLBootstrapCrypto.h",
+    "restored NSBundle category"
+  ],
+  "shared_build_files_changed": false
+}

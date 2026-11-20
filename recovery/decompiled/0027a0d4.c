@@ -1,0 +1,141 @@
+/* Decompiled from supplied 5.2.2 arm package. VA 0x27a0d4. FUN_0027a0d4 */
+
+void FUN_0027a0d4(int *param_1,long param_2,int param_3)
+
+{
+  int *piVar1;
+  int *piVar2;
+  int *piVar3;
+  int *piVar4;
+  int *piVar5;
+  int iVar6;
+  int iVar7;
+  int iVar8;
+  int iVar9;
+  uint uVar10;
+  uint uVar11;
+  uint uVar12;
+  int iVar13;
+  int iVar14;
+  int iVar15;
+  int iVar16;
+  int iVar17;
+  int iVar18;
+  int *piVar19;
+  int *piVar20;
+  long lVar21;
+  int *piVar22;
+  long lVar23;
+  
+  uVar10 = param_3 << 1;
+  uVar11 = param_3 << 2;
+  uVar12 = param_3 * 6;
+  piVar22 = param_1 + (long)(int)uVar11 * 2;
+  piVar3 = param_1 + (long)(int)uVar12 * 2;
+  piVar4 = param_1 + (long)(int)uVar10 * 2;
+  iVar6 = *param_1;
+  iVar8 = param_1[1];
+  iVar7 = *piVar4;
+  iVar9 = piVar4[1];
+  iVar13 = *piVar3 - *piVar22;
+  iVar15 = *piVar3 + *piVar22;
+  iVar14 = piVar22[1] - piVar3[1];
+  iVar16 = piVar3[1] + piVar22[1];
+  lVar23 = param_2 + (long)(int)uVar10 * 4;
+  *piVar22 = iVar6 - iVar15;
+  iVar18 = 1 - param_3;
+  *param_1 = iVar6 + iVar15;
+  piVar19 = (int *)(param_2 + 0xc);
+  piVar5 = param_1 + (long)(int)(param_3 << 2 | 1) * 2;
+  piVar1 = param_1 + (long)(int)(param_3 << 1 | 1) * 2;
+  piVar3[1] = iVar9 - iVar13;
+  piVar20 = (int *)(lVar23 + -0xc);
+  piVar2 = param_1 + (long)(int)(uVar12 | 1) * 2;
+  piVar4[1] = iVar9 + iVar13;
+  *piVar3 = iVar7 - iVar14;
+  *piVar4 = iVar7 + iVar14;
+  piVar22[1] = iVar8 - iVar16;
+  param_1[1] = iVar8 + iVar16;
+  lVar21 = (long)*(int *)(param_2 + 4);
+  lVar23 = (long)*(int *)(lVar23 + -4);
+  iVar6 = param_1[2];
+  iVar8 = param_1[3];
+  iVar7 = *piVar1;
+  iVar9 = piVar1[1];
+  iVar15 = (int)((ulong)((*piVar2 * lVar21 + 0x40000000) - piVar2[1] * lVar23) >> 0x1f);
+  iVar16 = (int)((ulong)(*piVar5 * lVar21 + 0x40000000 + lVar23 * piVar5[1]) >> 0x1f);
+  iVar13 = iVar15 - iVar16;
+  iVar15 = iVar15 + iVar16;
+  iVar16 = (int)(piVar2[1] * lVar21 + *piVar2 * lVar23 + 0x40000000U >> 0x1f);
+  iVar17 = (int)((piVar5[1] * lVar21 - lVar23 * *piVar5) + 0x40000000U >> 0x1f);
+  iVar14 = iVar17 - iVar16;
+  iVar16 = iVar16 + iVar17;
+  *piVar5 = iVar6 - iVar15;
+  param_1[2] = iVar15 + iVar6;
+  piVar2[1] = iVar9 - iVar13;
+  piVar1[1] = iVar13 + iVar9;
+  *piVar2 = iVar7 - iVar14;
+  *piVar1 = iVar14 + iVar7;
+  piVar5[1] = iVar8 - iVar16;
+  param_1[3] = iVar16 + iVar8;
+  piVar22 = param_1 + 7;
+  do {
+    lVar23 = (long)piVar19[-1];
+    piVar3 = (int *)((long)piVar22 +
+                    (-(ulong)(uVar11 >> 0x1f) & 0xfffffff800000000 | (ulong)uVar11 << 3));
+    lVar21 = (long)piVar20[1];
+    piVar4 = (int *)((long)piVar22 +
+                    (-(ulong)(uVar12 >> 0x1f) & 0xfffffff800000000 | (ulong)uVar12 << 3));
+    iVar6 = piVar22[-3];
+    iVar8 = piVar22[-2];
+    piVar5 = (int *)((long)piVar22 +
+                    (-(ulong)(uVar10 >> 0x1f) & 0xfffffff800000000 | (ulong)uVar10 << 3));
+    iVar18 = iVar18 + 1;
+    iVar7 = piVar5[-3];
+    iVar9 = piVar5[-2];
+    iVar16 = (int)((ulong)(piVar3[-3] * lVar23 + 0x40000000 + lVar21 * piVar3[-2]) >> 0x1f);
+    iVar15 = (int)((ulong)((piVar4[-3] * lVar23 + 0x40000000) - piVar4[-2] * lVar21) >> 0x1f);
+    iVar13 = iVar15 - iVar16;
+    iVar15 = iVar15 + iVar16;
+    iVar17 = (int)((piVar3[-2] * lVar23 - lVar21 * piVar3[-3]) + 0x40000000U >> 0x1f);
+    iVar16 = (int)(piVar4[-2] * lVar23 + piVar4[-3] * lVar21 + 0x40000000U >> 0x1f);
+    iVar14 = iVar17 - iVar16;
+    iVar16 = iVar16 + iVar17;
+    piVar3[-3] = iVar6 - iVar15;
+    piVar22[-3] = iVar15 + iVar6;
+    piVar4[-2] = iVar9 - iVar13;
+    piVar5[-2] = iVar13 + iVar9;
+    piVar4[-3] = iVar7 - iVar14;
+    piVar5[-3] = iVar14 + iVar7;
+    piVar3[-2] = iVar8 - iVar16;
+    piVar22[-2] = iVar16 + iVar8;
+    lVar23 = (long)*piVar19;
+    lVar21 = (long)*piVar20;
+    iVar8 = piVar22[-1];
+    iVar6 = *piVar22;
+    iVar9 = piVar5[-1];
+    iVar7 = *piVar5;
+    piVar20 = piVar20 + -2;
+    piVar19 = piVar19 + 2;
+    iVar16 = (int)((ulong)(piVar3[-1] * lVar23 + 0x40000000 + lVar21 * *piVar3) >> 0x1f);
+    iVar15 = (int)((ulong)((piVar4[-1] * lVar23 + 0x40000000) - *piVar4 * lVar21) >> 0x1f);
+    iVar13 = iVar15 - iVar16;
+    iVar15 = iVar15 + iVar16;
+    iVar17 = (int)((*piVar3 * lVar23 - lVar21 * piVar3[-1]) + 0x40000000U >> 0x1f);
+    iVar16 = (int)(*piVar4 * lVar23 + piVar4[-1] * lVar21 + 0x40000000U >> 0x1f);
+    iVar14 = iVar17 - iVar16;
+    iVar16 = iVar16 + iVar17;
+    piVar3[-1] = iVar8 - iVar15;
+    piVar22[-1] = iVar15 + iVar8;
+    *piVar4 = iVar7 - iVar13;
+    *piVar5 = iVar13 + iVar7;
+    piVar4[-1] = iVar9 - iVar14;
+    piVar5[-1] = iVar14 + iVar9;
+    *piVar3 = iVar6 - iVar16;
+    *piVar22 = iVar16 + iVar6;
+    piVar22 = piVar22 + 4;
+  } while (iVar18 != 0);
+  return;
+}
+
+

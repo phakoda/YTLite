@@ -1,0 +1,27 @@
+# Build products; the pinned restore/build script can regenerate these.
+.tmp/
+prebuilt/
+build.log
+*.o
+*.lo
+*.la
+*.a
+*.d
+*.dSYM/
+.deps/
+.libs/
+autom4te.cache/
+config.log
+config.status
+config.cache
+config.h
+config.asm
+config_components.h
+stamp-h1
+conftest*
+Makefile
+src/soxr/build/
+src/ffmpeg/ffbuild/config.mak
+src/ffmpeg/ffbuild/config.log
+src/ffmpeg/libavutil/avconfig.h
+src/ffmpeg/libavutil/ffversion.h

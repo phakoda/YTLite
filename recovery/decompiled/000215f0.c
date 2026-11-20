@@ -1,0 +1,16 @@
+/* Decompiled from supplied 5.2.2 arm package. VA 0x215f0. FUN_000215f0 */
+
+undefined1  [16] FUN_000215f0(undefined8 param_1)
+
+{
+  undefined1 auVar1 [16];
+  
+  (*DAT_01225c50)();
+  _objc_msgSend(PTR_SBPlayerDecorator_0114eb60,PTR_s_drawSegmentsDecorationView__0114b398,param_1);
+  CallSupervisor(0xed7f);
+  auVar1._8_8_ = 0x1f;
+  auVar1._0_8_ = 0x1a;
+  return auVar1;
+}
+
+

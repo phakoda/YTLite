@@ -1,0 +1,125 @@
+{
+  "binary_sha256": "bdcc4d4ccaa5835d35bc97ccbdfc1c3dff514cb7161848265dcc0585f364c0ca",
+  "scope": [
+    "saveMedia: Photos boundary and main-queue completion",
+    "shareMedia: caller thread, popover getter order, array nil behavior and completion",
+    "askForAction: caller thread, nil capture and delegate window root"
+  ],
+  "original_executed": false,
+  "spans": [
+    {
+      "name": "saveMedia",
+      "start": "0x22df30",
+      "end": "0x22e17c",
+      "sha256": "2c6eeb214380fb05c0a1f33a6aaec32e77c9d06a2c688b496e7c9e5102f91ebd"
+    },
+    {
+      "name": "Photos changes",
+      "start": "0x22e17c",
+      "end": "0x22e1f0",
+      "sha256": "97d1471174f36a3bec7b914ddea2f705fb8bd8d4f1f87f8979478eb5cb9631eb"
+    },
+    {
+      "name": "Photos completion",
+      "start": "0x22e1f0",
+      "end": "0x22e278",
+      "sha256": "91d73f40dfc5beb955050ee77c51115a3146408217d98afbff59e7e8eb14ddb3"
+    },
+    {
+      "name": "Photos main callback",
+      "start": "0x22e278",
+      "end": "0x22e4ac",
+      "sha256": "f20c5e1af66fdcd7ae75b9035b607a54cfc389a3082ad4279a5abb0ee3c40e24"
+    },
+    {
+      "name": "shareMedia",
+      "start": "0x22e4ac",
+      "end": "0x22e960",
+      "sha256": "7f013ceabf596be03dd420be2facf1ec86a75005ace50907327aebc879ae19ad"
+    },
+    {
+      "name": "activity completion",
+      "start": "0x22e960",
+      "end": "0x22e998",
+      "sha256": "b14b1af3c9663ba46f1968b9ee3ae80ea81683cde6a4c355e381752518a9b5fc"
+    },
+    {
+      "name": "askForAction",
+      "start": "0x22eb5c",
+      "end": "0x22f6ac",
+      "sha256": "237c0623188e2998719cacd5e98f991933b42e4f92d68a6c472e75b31bef9491"
+    },
+    {
+      "name": "save action",
+      "start": "0x22f6ac",
+      "end": "0x22f6e8",
+      "sha256": "ee0725d5f9b02f7e9e056496cb7eaae6a444901762d645aeb61610ac06110b6d"
+    },
+    {
+      "name": "share action",
+      "start": "0x22f6e8",
+      "end": "0x22f724",
+      "sha256": "3e1e34f9c4e77f300d5767b94def64351e9084134ae57ee0f48253ce6d93fc47"
+    }
+  ],
+  "branches": [
+    {
+      "name": "m4a branch",
+      "table": "0x11d1660",
+      "key_address": "0x11d1670",
+      "xor": "0x8768464",
+      "targets": [
+        "0x22e090",
+        "0x22e144"
+      ]
+    },
+    {
+      "name": "nil popover branch",
+      "table": "0x11d16f0",
+      "key_address": "0x11d1700",
+      "xor": "0x89f2f9d5",
+      "targets": [
+        "0x22e7a0",
+        "0x22e8d4"
+      ]
+    }
+  ],
+  "selectors": [
+    {
+      "reference": "0x114ce50",
+      "name": "popoverPresentationController"
+    },
+    {
+      "reference": "0x114b090",
+      "name": "view"
+    },
+    {
+      "reference": "0x114b8b8",
+      "name": "setSourceView:"
+    },
+    {
+      "reference": "0x114b768",
+      "name": "mainScreen"
+    },
+    {
+      "reference": "0x114b568",
+      "name": "bounds"
+    },
+    {
+      "reference": "0x114ce60",
+      "name": "setSourceRect:"
+    },
+    {
+      "reference": "0x114de90",
+      "name": "cleanup"
+    },
+    {
+      "reference": "0x114b530",
+      "name": "delegate"
+    },
+    {
+      "reference": "0x114b3b0",
+      "name": "window"
+    }
+  ]
+}

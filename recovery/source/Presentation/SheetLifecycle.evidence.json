@@ -1,0 +1,518 @@
+{
+  "binary_sha256": "bdcc4d4ccaa5835d35bc97ccbdfc1c3dff514cb7161848265dcc0585f364c0ca",
+  "classes": [
+    {
+      "name": "DVNSheetPresenter",
+      "address": "0x114ff80",
+      "superclass": "NSObject",
+      "methods": [
+        {
+          "kind": "+",
+          "selector": "presentCustomHeightViewController:fromViewController:",
+          "encoding": "v32@0:8@16@24",
+          "address": "0x1efae4"
+        },
+        {
+          "kind": "+",
+          "selector": "presentHalfScreenViewController:fromViewController:",
+          "encoding": "v32@0:8@16@24",
+          "address": "0x1effd4"
+        },
+        {
+          "kind": "+",
+          "selector": "presentViewController:fromViewController:withHeight:",
+          "encoding": "v40@0:8@16@24d32",
+          "address": "0x1f0364"
+        }
+      ],
+      "properties": []
+    },
+    {
+      "name": "PseudoDetentController",
+      "address": "0x114ffa8",
+      "superclass": "UIPresentationController",
+      "methods": [
+        {
+          "kind": "-",
+          "selector": "initWithPresentedViewController:presentingViewController:",
+          "encoding": "@32@0:8@16@24",
+          "address": "0x1f0df0"
+        },
+        {
+          "kind": "-",
+          "selector": "dismissController",
+          "encoding": "v16@0:8",
+          "address": "0x1f0fec"
+        },
+        {
+          "kind": "-",
+          "selector": "frameOfPresentedViewInContainerView",
+          "encoding": "{CGRect={CGPoint=dd}{CGSize=dd}}16@0:8",
+          "address": "0x1f1050"
+        },
+        {
+          "kind": "-",
+          "selector": "containerViewWillLayoutSubviews",
+          "encoding": "v16@0:8",
+          "address": "0x1f118c"
+        },
+        {
+          "kind": "-",
+          "selector": "presentationTransitionWillBegin",
+          "encoding": "v16@0:8",
+          "address": "0x1f1254"
+        },
+        {
+          "kind": "-",
+          "selector": "dismissalTransitionWillBegin",
+          "encoding": "v16@0:8",
+          "address": "0x1f15b8"
+        },
+        {
+          "kind": "-",
+          "selector": "heightCalculator",
+          "encoding": "@?16@0:8",
+          "address": "0x1f1740"
+        },
+        {
+          "kind": "-",
+          "selector": "setHeightCalculator:",
+          "encoding": "v24@0:8@?16",
+          "address": "0x1f1750"
+        },
+        {
+          "kind": "-",
+          "selector": "customHeight",
+          "encoding": "d16@0:8",
+          "address": "0x1f1784"
+        },
+        {
+          "kind": "-",
+          "selector": "setCustomHeight:",
+          "encoding": "v24@0:8d16",
+          "address": "0x1f1794"
+        },
+        {
+          "kind": "-",
+          "selector": "dimmingView",
+          "encoding": "@16@0:8",
+          "address": "0x1f17a4"
+        },
+        {
+          "kind": "-",
+          "selector": "setDimmingView:",
+          "encoding": "v24@0:8@16",
+          "address": "0x1f17b4"
+        },
+        {
+          "kind": "-",
+          "selector": ".cxx_destruct",
+          "encoding": "v16@0:8",
+          "address": "0x1f17f0"
+        }
+      ],
+      "properties": [
+        {
+          "name": "heightCalculator",
+          "attributes": "T@?,C,N,V_heightCalculator"
+        },
+        {
+          "name": "customHeight",
+          "attributes": "Td,N,V_customHeight"
+        },
+        {
+          "name": "dimmingView",
+          "attributes": "T@\"UIView\",&,N,V_dimmingView"
+        }
+      ]
+    },
+    {
+      "name": "PseudoDetentTransitioningDelegate",
+      "address": "0x1150020",
+      "superclass": "NSObject",
+      "methods": [
+        {
+          "kind": "-",
+          "selector": "presentationControllerForPresentedViewController:presentingViewController:sourceViewController:",
+          "encoding": "@40@0:8@16@24@32",
+          "address": "0x1f1f7c"
+        },
+        {
+          "kind": "-",
+          "selector": "heightCalculator",
+          "encoding": "@?16@0:8",
+          "address": "0x1f204c"
+        },
+        {
+          "kind": "-",
+          "selector": "setHeightCalculator:",
+          "encoding": "v24@0:8@?16",
+          "address": "0x1f2054"
+        },
+        {
+          "kind": "-",
+          "selector": "customHeight",
+          "encoding": "d16@0:8",
+          "address": "0x1f2084"
+        },
+        {
+          "kind": "-",
+          "selector": "setCustomHeight:",
+          "encoding": "v24@0:8d16",
+          "address": "0x1f208c"
+        },
+        {
+          "kind": "-",
+          "selector": ".cxx_destruct",
+          "encoding": "v16@0:8",
+          "address": "0x1f20ac"
+        }
+      ],
+      "properties": [
+        {
+          "name": "heightCalculator",
+          "attributes": "T@?,C,N,V_heightCalculator"
+        },
+        {
+          "name": "customHeight",
+          "attributes": "Td,N,V_customHeight"
+        },
+        {
+          "name": "hash",
+          "attributes": "TQ,R"
+        },
+        {
+          "name": "superclass",
+          "attributes": "T#,R"
+        },
+        {
+          "name": "description",
+          "attributes": "T@\"NSString\",R,C"
+        },
+        {
+          "name": "debugDescription",
+          "attributes": "T@\"NSString\",?,R,C"
+        }
+      ]
+    }
+  ],
+  "ranges": [
+    {
+      "name": "DVNSheetPresenter +presentCustomHeightViewController:fromViewController:",
+      "start": "0x1efae4",
+      "end": "0x1eff74",
+      "sha256": "9c6fb7d8b9e423c858557e5fdaf235d62393aeb0627b8e3d75455f3227bc3160"
+    },
+    {
+      "name": "DVNSheetPresenter +presentHalfScreenViewController:fromViewController:",
+      "start": "0x1effd4",
+      "end": "0x1f0350",
+      "sha256": "0b8ecaed4ff1f8dad526a860af696f8413129b2263c872343fef8c806bdf11fe"
+    },
+    {
+      "name": "DVNSheetPresenter +presentViewController:fromViewController:withHeight:",
+      "start": "0x1f0364",
+      "end": "0x1f06d0",
+      "sha256": "529a7c6ebd45ff223104a0478bf456612b1a401bb250339c23dbcf2e4eb05d52"
+    },
+    {
+      "name": "PseudoDetentController -initWithPresentedViewController:presentingViewController:",
+      "start": "0x1f0df0",
+      "end": "0x1f0fec",
+      "sha256": "95027c51b175250a8ea894e7b5e7f352a24e38b3700279e746fd88711ee3d3d7"
+    },
+    {
+      "name": "PseudoDetentController -dismissController",
+      "start": "0x1f0fec",
+      "end": "0x1f1050",
+      "sha256": "8097df1382f62fc55b66d0db4ef6d1c00a3ac210a76a6860c8d7f7a7f1ca689d"
+    },
+    {
+      "name": "PseudoDetentController -frameOfPresentedViewInContainerView",
+      "start": "0x1f1050",
+      "end": "0x1f118c",
+      "sha256": "fcde229b53acb533f058366f1b8d766113fba3d0ba4cb2bc8be325da6b102e61"
+    },
+    {
+      "name": "PseudoDetentController -containerViewWillLayoutSubviews",
+      "start": "0x1f118c",
+      "end": "0x1f1254",
+      "sha256": "df6cc30d71e6c1a922b080a6c7c38629a6810a7aef38179ab6651d81c8737034"
+    },
+    {
+      "name": "PseudoDetentController -presentationTransitionWillBegin",
+      "start": "0x1f1254",
+      "end": "0x1f1554",
+      "sha256": "565a3438bd74c801a79a5add54ce61e8f00a2f1f9fc5e01416e38cc010734a9b"
+    },
+    {
+      "name": "PseudoDetentController -dismissalTransitionWillBegin",
+      "start": "0x1f15b8",
+      "end": "0x1f1698",
+      "sha256": "d4e486a4914ea61e3b3c1473baf942ec0c1605035f7e906aae3ae833c7c1587a"
+    },
+    {
+      "name": "PseudoDetentController -heightCalculator",
+      "start": "0x1f1740",
+      "end": "0x1f1750",
+      "sha256": "2271b1cce29778497d5ae026de0f6e9c5e46eecc13b8c3f0b7e51d954f9afca3"
+    },
+    {
+      "name": "PseudoDetentController -setHeightCalculator:",
+      "start": "0x1f1750",
+      "end": "0x1f1784",
+      "sha256": "7e91d72922c4f479979a1006620950b9bdecdee9ccc6ad0ad82c4c0e820f3d0c"
+    },
+    {
+      "name": "PseudoDetentController -customHeight",
+      "start": "0x1f1784",
+      "end": "0x1f1794",
+      "sha256": "e9db1b221b73ab5d5ed47fa715724409ab720d5b1cde738c62eac11578fa9898"
+    },
+    {
+      "name": "PseudoDetentController -setCustomHeight:",
+      "start": "0x1f1794",
+      "end": "0x1f17a4",
+      "sha256": "3a5e8bf3f5cce3210eb2614105672411ed6f0bbe90fe09b4c5d55792b9a55351"
+    },
+    {
+      "name": "PseudoDetentController -dimmingView",
+      "start": "0x1f17a4",
+      "end": "0x1f17b4",
+      "sha256": "6eb6c54b53775ca7ad7feca10316d30b9b64865281b499d4935c2be4f91debc4"
+    },
+    {
+      "name": "PseudoDetentController -setDimmingView:",
+      "start": "0x1f17b4",
+      "end": "0x1f17f0",
+      "sha256": "6cc8964a40ede5be260b943d14e6753172a25a1ba3205847cd1414b827b2b8f3"
+    },
+    {
+      "name": "PseudoDetentController -.cxx_destruct",
+      "start": "0x1f17f0",
+      "end": "0x1f184c",
+      "sha256": "f6ec9d1624e15b8dded2d27b3978028e364862a6220d83d9a59e6bd199c3a1f0"
+    },
+    {
+      "name": "PseudoDetentTransitioningDelegate -presentationControllerForPresentedViewController:presentingViewController:sourceViewController:",
+      "start": "0x1f1f7c",
+      "end": "0x1f204c",
+      "sha256": "640fcf15d47b1e0ad9f63ce4070d78e08c8de8aa3473ac801937b25d3eb11965"
+    },
+    {
+      "name": "PseudoDetentTransitioningDelegate -heightCalculator",
+      "start": "0x1f204c",
+      "end": "0x1f2054",
+      "sha256": "19647f57f48e23c8730ecfc85bdce80bf67ce4eae56e82f97661432fa2018025"
+    },
+    {
+      "name": "PseudoDetentTransitioningDelegate -setHeightCalculator:",
+      "start": "0x1f2054",
+      "end": "0x1f2084",
+      "sha256": "e5fe34d5bff6f3c0341b3b3749d75c334f96aef73365cc31f7ec459dec8f3cf7"
+    },
+    {
+      "name": "PseudoDetentTransitioningDelegate -customHeight",
+      "start": "0x1f2084",
+      "end": "0x1f208c",
+      "sha256": "746df51fc535a22786339edc5eca06ad9f3415878d9b4bd2727a1eb89186a6f9"
+    },
+    {
+      "name": "PseudoDetentTransitioningDelegate -setCustomHeight:",
+      "start": "0x1f208c",
+      "end": "0x1f20ac",
+      "sha256": "f399b94cd8b97a3aee62621ef4f8da60d0e8580fcb2cf95847613b79ee8fcbc3"
+    },
+    {
+      "name": "PseudoDetentTransitioningDelegate -.cxx_destruct",
+      "start": "0x1f20ac",
+      "end": "0x1f20e0",
+      "sha256": "618fb7570305914daae9b32ccea31370220af69514c37f2b881c911b0185eac0"
+    },
+    {
+      "name": "calculateDetentHeight",
+      "start": "0x1ef820",
+      "end": "0x1efae4",
+      "sha256": "81a793774a7a7c95bb7481e5873d72914d85bb1bc69f52c6078ec070939f1bf1"
+    },
+    {
+      "name": "custom height block",
+      "start": "0x1eff74",
+      "end": "0x1effd4",
+      "sha256": "908c87c9866b7e17c51ad230931ef09994b9bd006d75f94fb226cc7d6049c4fd"
+    },
+    {
+      "name": "half height global block",
+      "start": "0x1f0350",
+      "end": "0x1f0364",
+      "sha256": "672b3d5f5703d188ab26001c71715c2068fee71716f6ac216d7b57e2a44895d4"
+    },
+    {
+      "name": "explicit height block",
+      "start": "0x1f06d0",
+      "end": "0x1f0730",
+      "sha256": "5ffe663f19968d01ea191c9ae370aa69b6ba179714066dd0a5f9c999e4bd13b4"
+    },
+    {
+      "name": "presentation animation",
+      "start": "0x1f1554",
+      "end": "0x1f15b8",
+      "sha256": "00af5b438620adf1a8ba5076db046288fa36d071831feb18b5cbec09a05bde42"
+    },
+    {
+      "name": "dismissal animation",
+      "start": "0x1f1698",
+      "end": "0x1f16e0",
+      "sha256": "07efefad7018d4c24e80c2c48aecaf14e97780e99e20a9566a06739301265ed3"
+    },
+    {
+      "name": "dismissal completion",
+      "start": "0x1f16e0",
+      "end": "0x1f1740",
+      "sha256": "7a137b0364c3685c9f8a9858852ac02d068873b373021a6c10ce9764e0db46a3"
+    },
+    {
+      "name": "strong object block copy",
+      "start": "0x150e8",
+      "end": "0x15118",
+      "sha256": "953271d7d15f71a638a69f6514c05634f4873d108ae7d7e0faf2ef11474aa83c"
+    },
+    {
+      "name": "strong object block dispose",
+      "start": "0x15118",
+      "end": "0x15148",
+      "sha256": "0b1c81b7669062645c9fd95d235ff4dc994dba1b446e8d4a99fb17a593d3a945"
+    }
+  ],
+  "instruction_words": {
+    "0x1f14f8": "f31700f9",
+    "0x1f1610": "f32302a9",
+    "0x1f1634": "f32700f9",
+    "0x1f1560": "001040f9",
+    "0x1f16a4": "001040f9",
+    "0x1f16ec": "001040f9",
+    "0x150f0": "201040f9",
+    "0x150f4": "850a2e94",
+    "0x15120": "001040f9",
+    "0x15124": "760a2e94",
+    "0x1f1510": "44020094",
+    "0x1f1660": "1a020094",
+    "0x1f1710": "0f020094",
+    "0x1f10bc": "78020094",
+    "0x1f10d4": "7a020094",
+    "0x1f1130": "6b020094",
+    "0x1f114c": "00013fd6",
+    "0x1f1fec": "51000094",
+    "0x1f1ffc": "55000094",
+    "0x1f200c": "59000094",
+    "0x1f202c": "59000094",
+    "0x1efd30": "40008052",
+    "0x1efd34": "e1018052",
+    "0x1efd38": "02008052",
+    "0x1efd3c": "03008052",
+    "0x1efd40": "d0020094",
+    "0x1eff14": "fa9e2694",
+    "0x1f0300": "ff9d2694",
+    "0x1f067c": "209d2694",
+    "0x1f0354": "2208621e",
+    "0x1f0358": "0020611e",
+    "0x1f035c": "20cc621e"
+  },
+  "branch_tables": [
+    {
+      "table": "0x11bd610",
+      "key": "0x11bd620",
+      "xor": "0x932f8af4",
+      "condition": "super init returned nil",
+      "targets_false_true": [
+        "0x1f0e74",
+        "0x1f0fd0"
+      ]
+    },
+    {
+      "table": "0x11bd630",
+      "key": "0x11bd640",
+      "xor": "0x7820fee0",
+      "condition": "calculator getter returned nil",
+      "targets_false_true": [
+        "0x1f1128",
+        "0x1f1160"
+      ]
+    },
+    {
+      "table": "0x11bd4f8",
+      "key": "0x11bd508",
+      "xor": "0x10ceb49e",
+      "condition": "custom availability returned zero",
+      "targets_false_true": [
+        "0x1efd78",
+        "0x1efe50"
+      ]
+    },
+    {
+      "table": "0x11bd560",
+      "key": "0x11bd570",
+      "xor": "0x8e3d86c3",
+      "condition": "half availability returned zero",
+      "targets_false_true": [
+        "0x1f013c",
+        "0x1f0268"
+      ]
+    },
+    {
+      "table": "0x11bd5a8",
+      "key": "0x11bd5b8",
+      "xor": "0x4bdbf878",
+      "condition": "explicit availability returned zero",
+      "targets_false_true": [
+        "0x1f04e0",
+        "0x1f05b8"
+      ]
+    },
+    {
+      "table": "0x11bd520",
+      "key": "0x11bd530",
+      "xor": "0x21da9789",
+      "condition": "custom block width greater than height",
+      "targets_false_true": [
+        "0x1effc0",
+        "0x1effc8"
+      ]
+    },
+    {
+      "table": "0x11bd5d0",
+      "key": "0x11bd5e0",
+      "xor": "0xf420bdc",
+      "condition": "explicit block width greater than height",
+      "targets_false_true": [
+        "0x1f071c",
+        "0x1f0724"
+      ]
+    }
+  ],
+  "raw_data": {
+    "0xc4c228": "000000c200000000000000c000000000",
+    "0x1062f00": "00000000000000002800000000000000e8500100000010001851010000001000bab4b900000020000001000000000000",
+    "0x1062ea0": "00000000000000002800000000000000a7b4b90000001000fd6df30000003000",
+    "0x1062ec0": "00000000000000002000000000000000a7b4b900000020000000000000000000",
+    "0x1062ee0": "cb00000000002080000000500000000050031f0000001000c02e060100003000"
+  },
+  "cstrings": {
+    "0xb9b4a7": "d24@?0{CGSize=dd}8",
+    "0xb9b4ba": "v16@?0@\"<UIViewControllerTransitionCoordinatorContext>\"8"
+  },
+  "cfstrings": {
+    "0x11bd290": "dvntm",
+    "0x11bd2d0": "_sections",
+    "0x11bd320": "dvntm",
+    "0x11bd370": "dvntm"
+  },
+  "import_terminals": {
+    "0xb97208": "__availability_version_check"
+  },
+  "limitations": [
+    "Original dylib never executed. UIKit/Foundation platform version behavior is a boundary; host fixture substitutes only the @available expression.",
+    "Original SVC/obfuscation scaffolding is not reproduced.",
+    "No authentication/permission/path-validation logic modified."
+  ]
+}

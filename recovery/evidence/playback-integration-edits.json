@@ -1,0 +1,412 @@
+[
+  {
+    "kind": "superseded player helpers and backup hook block",
+    "start_line": 433,
+    "removed_sha256": "b8ad68e1510b444da5e81cd4e073ca5144db36628f6d6c8024ea487e2f95dcaf"
+  },
+  {
+    "kind": "superseded hook block",
+    "class": "YTInlinePlayerBarContainerView",
+    "removed_sha256": "3f5441ca2e8843a47a20b831aa8ea8149e8fc1377089631be31318f91bf9dd55"
+  },
+  {
+    "kind": "superseded hook block",
+    "class": "YTInlinePlayerBarContainerView",
+    "removed_sha256": "b4c514fd8caa5c05f7abbcdd371b31487f2c04b23f610c0326150e0dc7fff53d"
+  },
+  {
+    "kind": "superseded hook block",
+    "class": "YTInlinePlayerBarContainerView",
+    "removed_sha256": "87492eb73d35e2896775dd140243eec8eaef281bd6c0e79c6d87680b365ad9b5"
+  },
+  {
+    "kind": "superseded hook block",
+    "class": "YTReelPlayerViewController",
+    "removed_sha256": "efe1ab36352fecfa0d9c64015af0d3e477179514f214c00ae86fb1aff75e310d"
+  },
+  {
+    "kind": "superseded hook block",
+    "class": "YTReelPlayerViewControllerSub",
+    "removed_sha256": "e63830305485c2082b4647df0b15a1ca94d016a60331bc9943a5cb02e743cb0a"
+  },
+  {
+    "kind": "superseded hook block",
+    "class": "YTShortsPlayerViewController",
+    "removed_sha256": "0e01672c51b342375bc4998490e1d3e6aed3c8e182c42644b67f66d13b2c1ccf"
+  },
+  {
+    "kind": "superseded full backup Settings.x menu",
+    "removed_sha256": "b47b6fd13ed7a2b9e8385585d67937ea01846a8197e4df8f6a963bc3ffa798bb"
+  },
+  {
+    "kind": "superseded controls hook block",
+    "class": "YTMainAppControlsOverlayView",
+    "removed_sha256": "03e82cb018efda00c57b41d516e6b029a3fb069007a57f8c2364fa0badaec3bd"
+  },
+  {
+    "modules": [
+      "ShortsInterface",
+      "FeedNodes"
+    ],
+    "removed_backup_hooks": [
+      {
+        "class": "YTShortsStartupCoordinator",
+        "sha256": "501717571ceeedf514f17931aa0a621039dccab9c772aaa716ab0e1c6ea500a3"
+      },
+      {
+        "class": "YTReelWatchPlaybackOverlayView",
+        "sha256": "14747860a724b402ce8960bc0e3174bcdcd46e766c352e85cdb13b4a53f0a32a"
+      },
+      {
+        "class": "YTReelHeaderView",
+        "sha256": "cfe1ad148bb3ece0e5e56e20555648bbe0ea3e1cc74388377c0608c60487d9f2"
+      },
+      {
+        "class": "YTReelWatchHeaderView",
+        "sha256": "1ebcdee7384dbb20a24fc2325579a9b282757aca5185963407e5c1859e73f569"
+      },
+      {
+        "class": "YTReelContentView",
+        "sha256": "65a3a651314d964f6f2dab84a55c7c98e849dfaa8cbdb5683bb5d3c5ccca4627"
+      },
+      {
+        "class": "ELMContainerNode",
+        "sha256": "fae40539c8d5df8576bfe327904fb8d120b8823c601db598b0b9931e020057bd"
+      },
+      {
+        "class": "ASDisplayNode",
+        "sha256": "44047c7775299f78a607ff5c25ff2fe29be8d01558a6034d9b4ed09767b16f1a"
+      },
+      {
+        "class": "YTReelWatchRootViewController",
+        "sha256": "11f9163293eb6777097ade1e2086ef54dbe60c5834773a3bed394e58558971c2"
+      }
+    ]
+  },
+  {
+    "modules": [
+      "PlayerOverlay"
+    ],
+    "removed_backup_hooks": [
+      {
+        "class": "YTMainAppVideoPlayerOverlayView",
+        "sha256": "5ef08c601e0fa495fb3019344b22ace23cae0b1483861c724315c8e100c1a346"
+      },
+      {
+        "class": "YTMainAppVideoPlayerOverlayViewController",
+        "sha256": "ccf9a68061179e11be7870ffe1f550d39f0eacb73bc6267b1850d8f0a132dd27"
+      },
+      {
+        "class": "YTInlineMutedPlaybackPlayerOverlayViewController",
+        "sha256": "9eb2ac8b00afa7167f91989548837ab425c7ef25bb09332409a2617e56dc052d"
+      },
+      {
+        "class": "YTMainAppVideoPlayerOverlayView",
+        "sha256": "572af6a186d35795daebddd39ae9154360baa6842fef94920e5626598965ae3c"
+      },
+      {
+        "class": "YTMainAppVideoPlayerOverlayViewController",
+        "sha256": "1f6489be0976c2e1d27c7fc53b7c26cea2f153dc894b313827a1f4526c09943e"
+      },
+      {
+        "class": "YTMainAppVideoPlayerOverlayView",
+        "sha256": "ddb24697ccf4492cdfdc66813c40fc5c9d8e386b119f67616e9734649e5b7979"
+      }
+    ]
+  },
+  {
+    "modules": [
+      "ThemeStyles",
+      "NavigationChrome",
+      "ImageGestures"
+    ],
+    "removed_backup_hooks": [
+      {
+        "class": "YTHeaderView",
+        "sha256": "7d237b3a8c72e0ee3e248324e474a4fb8eb09296fde4cf4bb94e5844f2d254a1"
+      },
+      {
+        "class": "UIImageView",
+        "sha256": "07feaafa1e063378ca65286dea376a90655eaa1360dee604a399446b7a7af4bf"
+      },
+      {
+        "class": "YTMySubsFilterHeaderView",
+        "sha256": "ea6ef31530a7e12e4a0c5b1481a3016352bcd8c231c37d2ab609af44dde8c607"
+      },
+      {
+        "class": "YTHeaderContentComboView",
+        "sha256": "a7697b0188d1c91ef3d97e3df04d25c0b4418ec29855ee902bd8ff5f36ed3e94"
+      },
+      {
+        "class": "YTChipCloudCell",
+        "sha256": "ca9c8fa100597a9d4de0b7d9969deadabc46185be7c02358aa2b31e93f0f26e0"
+      },
+      {
+        "class": "YTWatchMiniBarViewController",
+        "sha256": "8a9faf111f8c6936c5ae402751ada61ffcd8ce7343ef58dcdab143a3be5dfb5b"
+      },
+      {
+        "class": "YTPlaylistMiniBarView",
+        "sha256": "a879b437368c994335d760bedcf4ceef4cb2469828ef842b374f254f077f2823"
+      },
+      {
+        "class": "YTPlayerView",
+        "sha256": "0d173b87fd395bddaccd4ecb3f8255b07d7c83ba4784760550865068dbe22530"
+      },
+      {
+        "class": "YTImageZoomNode",
+        "sha256": "7b8eb73cf7ef23fea2af70e2acf94a62edd3b9e9407d4fc6a57b003be2594ece"
+      },
+      {
+        "class": "_ASDisplayView",
+        "sha256": "513d5756135d9d447e59f34bae794ce611bc7f7c84a1a68aa32603e03d9a0486"
+      },
+      {
+        "class": "YTPivotBarView",
+        "sha256": "30071f12c097061a403837c7c1b49e6e19ca684f9a8bb6a12eeb5c446388f83f"
+      },
+      {
+        "class": "YTPivotBarItemView",
+        "sha256": "542aef520b0c6a6f298bd4a0f8bc44646cd8dc3d210dca51f230316b52b180d6"
+      },
+      {
+        "class": "YTPivotBarViewController",
+        "sha256": "b6298316c7c5ba63d1ae183e03e765efb2931501cc38cc272d43a4815c044a79"
+      },
+      {
+        "class": "YTAppViewController",
+        "sha256": "63ad4db7bafa0362fcec26197acd5ddef0b0e0944971eea48b9d73d82ef4b3a7"
+      },
+      {
+        "class": "NSParagraphStyle",
+        "sha256": "292bcd71b2bc249e5f5550d27a8c51421f092c1ab6abf7e2c76c797f0980e3cc"
+      },
+      {
+        "helper": "genImageFromLayer",
+        "sha256": "f8f92968f3d2b8aac9ad3d263bdc9f58aef08238c4c3de0533891aab948f5a8a"
+      }
+    ]
+  },
+  {
+    "removed_helper": "downloadImageFromURL",
+    "replacement": "recovery/source/Helpers/YTLHelper.m",
+    "sha256": "99538cbbe8c931ce036318182a33b596b6b004f058fc65ea1c5f758c7b2646b5"
+  },
+  {
+    "modules": [
+      "FeedFiltering",
+      "CompatibilityVersion"
+    ],
+    "removed_backup_hooks": [
+      {
+        "class": "YTIElementRenderer",
+        "sha256": "ae039957841a922572f49d1de67ef9eecd83557813e89137a36dd99242b5728a"
+      },
+      {
+        "class": "YTCommerceEventGroupHandler",
+        "sha256": "11c5b7bdca13beb2d4f61c711564bd957019d02a833d31829a5b8d4f067b3b68"
+      },
+      {
+        "class": "YTInterstitialPromoEventGroupHandler",
+        "sha256": "867b60a87787a5235c2e6d3b2e6aab960b5ff429b3f919a435075f070d9f3e73"
+      },
+      {
+        "class": "YTPromosheetEventGroupHandler",
+        "sha256": "92b950925de227652540e77a08458834f5b7e6ff7c629f2c1d38898c8407e257"
+      },
+      {
+        "class": "YTPromoThrottleController",
+        "sha256": "f82a2f7f90314a5ea32bef9a357471daa8f2539300775d4a783302f294cb6fd0"
+      },
+      {
+        "class": "YTIShowFullscreenInterstitialCommand",
+        "sha256": "f5e5cc806c86362a194f4edcc8caa92b00f1f322ee8e96b8bab6be7e121fbb63"
+      },
+      {
+        "class": "YTSurveyController",
+        "sha256": "f343269c1f0387a7059fc0224783c3e860b8954eed670ff79ed71c3147d38b72"
+      },
+      {
+        "class": "YTPersonalizedSuggestionsCacheProvider",
+        "sha256": "f09ec56daffbafda19885f8d3031d85d10290b7624d18dec8aaecc5d87d315bd"
+      },
+      {
+        "class": "YTVersionUtils",
+        "sha256": "07a97f28c5252ad5a19f7e0298e44e145c8eada6fa949738694a2c4efd1342e8"
+      },
+      {
+        "class": "YTSettingsCell",
+        "sha256": "4d6ffd0440efeee53a9f4677d136780be30e53339ab00f2884fb4f5143764e2e"
+      }
+    ]
+  },
+  {
+    "modules": [
+      "MediaPolicy",
+      "MediaServices",
+      "PlaybackOptions",
+      "NativeShare"
+    ],
+    "removed_backup_hooks": [
+      {
+        "class": "YTIPlayabilityStatus",
+        "sha256": "9912f05d27af5c53d12d55dffcf2c2a32e5abb87387a1df9412eeb57338b36fe"
+      },
+      {
+        "class": "MLVideo",
+        "sha256": "7c942552a6cac9290bd48b59575ad8c75fad950657df501b667773297b0c8f0f"
+      },
+      {
+        "class": "YTIBackgroundOfflineSettingCategoryEntryRenderer",
+        "sha256": "cfb2169ac9111a2829e4288049fbf9d31125aa58731684ac7feecda60aa9c8f9"
+      },
+      {
+        "class": "YTGlobalConfig",
+        "sha256": "432372fab5068255c1279828a8b8cc105b70029e9158a3c34a2f6f508a58c02a"
+      },
+      {
+        "class": "YTIPlayerResponse",
+        "sha256": "55756d43d4a6377b40b4d5bd3db85a7ca859121819e801a8027f150971ff33b3"
+      },
+      {
+        "class": "YTIClientMdxGlobalConfig",
+        "sha256": "b7e6d98420226722d5002240e97e2edb6ee2b83a2ee912c5acb2d4d0338f441b"
+      },
+      {
+        "class": "YTAdShieldUtils",
+        "sha256": "5fb1bba55c844e29976281fc78cc7c0f8a6909e51d51366ce9192205166b3f91"
+      },
+      {
+        "class": "YTDataUtils",
+        "sha256": "8f4a9357b5e3f2406a579e7ac21f91f0a8771360673208c12b8b22d197fff769"
+      },
+      {
+        "class": "YTAdsInnerTubeContextDecorator",
+        "sha256": "8c1c9f58c05be5e4b60c4a99faa1fa17538e41dc8878a6c6676c64730f999917"
+      },
+      {
+        "class": "YTAccountScopedAdsInnerTubeContextDecorator",
+        "sha256": "14c169614fdc53ecbb79e475f7a4ee1232afc7e8d1c93aa20ee5ca504f589a84"
+      },
+      {
+        "class": "YTLocalPlaybackController",
+        "sha256": "63449fb2030bf70b9cac1f54ed69b21882508b2f2ecb223de0bd03f3b59f69c6"
+      },
+      {
+        "class": "MDXSession",
+        "sha256": "b539ca5c5524ebd1ebe2dd169f0fdb8ca9a52fb354970cc6300cb6389bd066eb"
+      },
+      {
+        "class": "MDXPlaybackRouteButtonController",
+        "sha256": "47b42878c97c188b6c82afd05d695ff82372e133d910fad8824b2720663620ef"
+      },
+      {
+        "class": "YTSettings",
+        "sha256": "f7ac6afca4bee0474787152d5591b6b53086c827a56b872594597ea9576b8cc9"
+      },
+      {
+        "class": "YTWatchNextResultsViewController",
+        "sha256": "3b4f13d875bf3ebcbab2c49595cdecc5384c3121ceb48abca98ef3d8cba7b84e"
+      },
+      {
+        "class": "YTHUDMessageView",
+        "sha256": "2731f5962bfc55a56d516a40f34de3394699636509aedc9948870f0b584c2212"
+      },
+      {
+        "class": "YTCreatorEndscreenView",
+        "sha256": "a3c18cd9c2b35d7dc0d27a7f48b1c95a7811cc9817a459e380bc03959086838b"
+      },
+      {
+        "class": "YTFullscreenActionsView",
+        "sha256": "00dbb2cc392f27310b6a0c973a8d747571bda0db5fdc866a080fd5d435760fd6"
+      },
+      {
+        "class": "YTFullscreenEngagementOverlayController",
+        "sha256": "747333ab86ace4b381340f26e4d6920a282aa63a1867d5a2e6688fb58b9db08f"
+      },
+      {
+        "class": "YTAnnotationsViewController",
+        "sha256": "f3cbaa9715d4d9ad3b86cc58a03cc9a737179dac5cdfa681ff4c0b26b60f811b"
+      },
+      {
+        "class": "YTPlaybackConfig",
+        "sha256": "85267bc5011634ac73484babc5982999399b13c5415ffe46a988d973cea39137"
+      },
+      {
+        "class": "YTPlayabilityResolutionUserActionUIController",
+        "sha256": "2926d76cdd6463021ba78e910e1120ad22b30da4a1db2ac8742b7ae69f23ad32"
+      },
+      {
+        "class": "YTSegmentableInlinePlayerBarView",
+        "sha256": "de6f39d2ef4d94d73419a5bcc7f4ae8574725d8980039acdc65badf5b5d3ea5b"
+      },
+      {
+        "class": "YTSegmentableInlinePlayerBarView",
+        "sha256": "6e27336ad4eeac7cd38b657075b3c80e9310d3f6c5d872beef257d8d6d246154"
+      },
+      {
+        "class": "YTSettings",
+        "sha256": "6afb3e5110da5fc0cc2a3b157f17f442ed3b41b19b7c93277c0c4e0c53956949"
+      },
+      {
+        "class": "YTWatchFlowController",
+        "sha256": "13958de1997a885f3df555dc7ea3253c0af2c2c64aeb9b4a68f56e5c6b5372df"
+      },
+      {
+        "class": "YTMenuItemVisibilityHandler",
+        "sha256": "2f590d582f016f820cc9a2c74550fba228f1bedb17c1a14e1cd7ca15210862d8"
+      },
+      {
+        "class": "YTDefaultSheetController",
+        "sha256": "b443710f101b52df0d07a958eaef592f0c0917c3bf373445404f7b871ce2b0ba"
+      },
+      {
+        "class": "YTSpeedmasterController",
+        "sha256": "79eeb819aae5ab7941a7f8aa9b3c8a526b6c4c5b8f5e57eadfa66b6183fd3b24"
+      },
+      {
+        "helper": "rateBeforeSpeedmaster/manageSpeedmasterYTLite",
+        "sha256": "c679746f44d47b9678cd561bd4a5802fc73b8c80a7cb6a653dc19ba1d217ee0b"
+      },
+      {
+        "file": "YTNativeShare.x",
+        "sha256": "90595b48d7e8b5dd69598adf916b9bb4672f61c6a6f1096f1e9988b4b6ea83cb"
+      }
+    ]
+  },
+  {
+    "modules": [
+      "GeneralInterface"
+    ],
+    "removed_backup_hooks": [
+      {
+        "class": "YTSettingsSectionItemManager",
+        "sha256": "1f3cdf98567a52bb1439a7574d2f569f7ef25300de8c42d9e7b88b04c55089eb"
+      },
+      {
+        "class": "YTRightNavigationButtons",
+        "sha256": "40431eba85f79563a0e9096d4327e386c32cd0b7746a85d53d17adeeac85116c"
+      },
+      {
+        "class": "YTSearchViewController",
+        "sha256": "9b00f8555b0d5e6a0fc5e84a87ede7fa9595da4ef142ce5cd0558f39c4e016c8"
+      },
+      {
+        "class": "YTWatchViewController",
+        "sha256": "13c593da0045822bc57d92bb1ab67313636dc88af06d287f69bea5fc0e3e868c"
+      },
+      {
+        "class": "YTUserDefaults",
+        "sha256": "b038e446c5e90fd11f2e17519030baad99c069c359fc50fb84df812e8aadae19"
+      },
+      {
+        "class": "ASCollectionView",
+        "sha256": "ab4f7ba0ee963f1f8a9e56d23bae8fe688a330d5750d8cf8db1982739b585b85"
+      },
+      {
+        "helper": "findCell",
+        "sha256": "0e01ae0270c29cbb896715c3ea864c8aa7b78c1d4349b13ba3ef0cabf88aa7bb"
+      }
+    ]
+  }
+]

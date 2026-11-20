@@ -1,0 +1,4302 @@
+{
+  "binary_sha256": "bdcc4d4ccaa5835d35bc97ccbdfc1c3dff514cb7161848265dcc0585f364c0ca",
+  "text_sha256": "73fabfb984369100e7785d3dc5e726140d0f973f0cc31d66632d12d91ad717c2",
+  "scope": "All aligned direct B/BL transfers in original __text through exact recognized wrappers to three Objective-C registration APIs.",
+  "limits": "This is static call-site coverage, not proof of execution, argument correctness or arbitrary indirect registration targets. Module evidence separately resolves callback arguments and behavior.",
+  "historical_records": 441,
+  "registration_call_sites": 466,
+  "counts": [
+    {
+      "registration": "0x8540",
+      "operation": "add",
+      "count": 1
+    },
+    {
+      "registration": "0x8540",
+      "operation": "replace",
+      "count": 10
+    },
+    {
+      "registration": "0xc554",
+      "operation": "replace",
+      "count": 7
+    },
+    {
+      "registration": "0x11bec",
+      "operation": "add",
+      "count": 1
+    },
+    {
+      "registration": "0x11bec",
+      "operation": "replace",
+      "count": 6
+    },
+    {
+      "registration": "0x14e60",
+      "operation": "replace",
+      "count": 1
+    },
+    {
+      "registration": "0x151a0",
+      "operation": "replace",
+      "count": 23
+    },
+    {
+      "registration": "0x18c88",
+      "operation": "replace",
+      "count": 1
+    },
+    {
+      "registration": "0x18e2c",
+      "operation": "replace",
+      "count": 1
+    },
+    {
+      "registration": "0x19b24",
+      "operation": "replace",
+      "count": 24
+    },
+    {
+      "registration": "0x1efd4",
+      "operation": "add",
+      "count": 4
+    },
+    {
+      "registration": "0x1efd4",
+      "operation": "replace",
+      "count": 13
+    },
+    {
+      "registration": "0x4cf00",
+      "operation": "add",
+      "count": 1
+    },
+    {
+      "registration": "0x4cf00",
+      "operation": "replace",
+      "count": 24
+    },
+    {
+      "registration": "0x53fac",
+      "operation": "add",
+      "count": 82
+    },
+    {
+      "registration": "0x53fac",
+      "operation": "replace",
+      "count": 262
+    },
+    {
+      "registration": "0xf0c4c",
+      "operation": "replace",
+      "count": 2
+    },
+    {
+      "registration": "0x1b6d44",
+      "operation": "manual-replace",
+      "count": 1
+    },
+    {
+      "registration": "0x1c8fb4",
+      "operation": "add",
+      "count": 2
+    }
+  ],
+  "calls": [
+    {
+      "call_site": "0x8a90",
+      "instruction": "94000b98",
+      "transfer": "BL",
+      "wrapper": "0xb8f0",
+      "registration": "0x8540",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x8ab0",
+      "instruction": "94000b98",
+      "transfer": "BL",
+      "wrapper": "0xb910",
+      "registration": "0x8540",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x8ad0",
+      "instruction": "94000b98",
+      "transfer": "BL",
+      "wrapper": "0xb930",
+      "registration": "0x8540",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x8af0",
+      "instruction": "94000b98",
+      "transfer": "BL",
+      "wrapper": "0xb950",
+      "registration": "0x8540",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x8b10",
+      "instruction": "94000b98",
+      "transfer": "BL",
+      "wrapper": "0xb970",
+      "registration": "0x8540",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x8b30",
+      "instruction": "94000b98",
+      "transfer": "BL",
+      "wrapper": "0xb990",
+      "registration": "0x8540",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x8b5c",
+      "instruction": "94000b9d",
+      "transfer": "BL",
+      "wrapper": "0xb9d0",
+      "registration": "0x8540",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x8b7c",
+      "instruction": "94000b9d",
+      "transfer": "BL",
+      "wrapper": "0xb9f0",
+      "registration": "0x8540",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x8b9c",
+      "instruction": "94000b9d",
+      "transfer": "BL",
+      "wrapper": "0xba10",
+      "registration": "0x8540",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x8bbc",
+      "instruction": "94000b9d",
+      "transfer": "BL",
+      "wrapper": "0xba30",
+      "registration": "0x8540",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x8bf0",
+      "instruction": "94000ba0",
+      "transfer": "BL",
+      "wrapper": "0xba70",
+      "registration": "0x8540",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0xd12c",
+      "instruction": "94001050",
+      "transfer": "BL",
+      "wrapper": "0x1126c",
+      "registration": "0xc554",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0xd158",
+      "instruction": "9400105d",
+      "transfer": "BL",
+      "wrapper": "0x112cc",
+      "registration": "0xc554",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0xd180",
+      "instruction": "94001063",
+      "transfer": "BL",
+      "wrapper": "0x1130c",
+      "registration": "0xc554",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0xd1a8",
+      "instruction": "94001069",
+      "transfer": "BL",
+      "wrapper": "0x1134c",
+      "registration": "0xc554",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0xd1d4",
+      "instruction": "94001076",
+      "transfer": "BL",
+      "wrapper": "0x113ac",
+      "registration": "0xc554",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0xd1fc",
+      "instruction": "9400107c",
+      "transfer": "BL",
+      "wrapper": "0x113ec",
+      "registration": "0xc554",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0xd224",
+      "instruction": "94001082",
+      "transfer": "BL",
+      "wrapper": "0x1142c",
+      "registration": "0xc554",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x12554",
+      "instruction": "94000683",
+      "transfer": "BL",
+      "wrapper": "0x13f60",
+      "registration": "0x11bec",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x1257c",
+      "instruction": "94000689",
+      "transfer": "BL",
+      "wrapper": "0x13fa0",
+      "registration": "0x11bec",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x125a8",
+      "instruction": "94000696",
+      "transfer": "BL",
+      "wrapper": "0x14000",
+      "registration": "0x11bec",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x125d0",
+      "instruction": "9400069c",
+      "transfer": "BL",
+      "wrapper": "0x14040",
+      "registration": "0x11bec",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x125fc",
+      "instruction": "940006a1",
+      "transfer": "BL",
+      "wrapper": "0x14080",
+      "registration": "0x11bec",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x1261c",
+      "instruction": "940006a2",
+      "transfer": "BL",
+      "wrapper": "0x140a4",
+      "registration": "0x11bec",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x12654",
+      "instruction": "140006a4",
+      "transfer": "B",
+      "wrapper": "0x140e4",
+      "registration": "0x11bec",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x14f9c",
+      "instruction": "94001e0d",
+      "transfer": "BL",
+      "wrapper": "0x1c7d0",
+      "registration": "0x14e60",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x16d48",
+      "instruction": "9400171e",
+      "transfer": "BL",
+      "wrapper": "0x1c9c0",
+      "registration": "0x151a0",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x16d68",
+      "instruction": "9400171e",
+      "transfer": "BL",
+      "wrapper": "0x1c9e0",
+      "registration": "0x151a0",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x16d94",
+      "instruction": "9400172b",
+      "transfer": "BL",
+      "wrapper": "0x1ca40",
+      "registration": "0x151a0",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x16dc0",
+      "instruction": "94001738",
+      "transfer": "BL",
+      "wrapper": "0x1caa0",
+      "registration": "0x151a0",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x16de8",
+      "instruction": "94001746",
+      "transfer": "BL",
+      "wrapper": "0x1cb00",
+      "registration": "0x151a0",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x16e10",
+      "instruction": "9400174c",
+      "transfer": "BL",
+      "wrapper": "0x1cb40",
+      "registration": "0x151a0",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x16e3c",
+      "instruction": "94001759",
+      "transfer": "BL",
+      "wrapper": "0x1cba0",
+      "registration": "0x151a0",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x16e68",
+      "instruction": "94001766",
+      "transfer": "BL",
+      "wrapper": "0x1cc00",
+      "registration": "0x151a0",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x16e90",
+      "instruction": "9400176c",
+      "transfer": "BL",
+      "wrapper": "0x1cc40",
+      "registration": "0x151a0",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x16ebc",
+      "instruction": "94001771",
+      "transfer": "BL",
+      "wrapper": "0x1cc80",
+      "registration": "0x151a0",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x16edc",
+      "instruction": "94001771",
+      "transfer": "BL",
+      "wrapper": "0x1cca0",
+      "registration": "0x151a0",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x16f10",
+      "instruction": "9400177c",
+      "transfer": "BL",
+      "wrapper": "0x1cd00",
+      "registration": "0x151a0",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x16f34",
+      "instruction": "9400177b",
+      "transfer": "BL",
+      "wrapper": "0x1cd20",
+      "registration": "0x151a0",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x16f60",
+      "instruction": "94001788",
+      "transfer": "BL",
+      "wrapper": "0x1cd80",
+      "registration": "0x151a0",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x16f7c",
+      "instruction": "94001789",
+      "transfer": "BL",
+      "wrapper": "0x1cda0",
+      "registration": "0x151a0",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x16fa4",
+      "instruction": "94001797",
+      "transfer": "BL",
+      "wrapper": "0x1ce00",
+      "registration": "0x151a0",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x16fd0",
+      "instruction": "940017a4",
+      "transfer": "BL",
+      "wrapper": "0x1ce60",
+      "registration": "0x151a0",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x16ff8",
+      "instruction": "940017aa",
+      "transfer": "BL",
+      "wrapper": "0x1cea0",
+      "registration": "0x151a0",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x17024",
+      "instruction": "940017af",
+      "transfer": "BL",
+      "wrapper": "0x1cee0",
+      "registration": "0x151a0",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x1704c",
+      "instruction": "940017b5",
+      "transfer": "BL",
+      "wrapper": "0x1cf20",
+      "registration": "0x151a0",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x17074",
+      "instruction": "940017bb",
+      "transfer": "BL",
+      "wrapper": "0x1cf60",
+      "registration": "0x151a0",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x17098",
+      "instruction": "940017ba",
+      "transfer": "BL",
+      "wrapper": "0x1cf80",
+      "registration": "0x151a0",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x170bc",
+      "instruction": "940017c1",
+      "transfer": "BL",
+      "wrapper": "0x1cfc0",
+      "registration": "0x151a0",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x18e08",
+      "instruction": "9400115e",
+      "transfer": "BL",
+      "wrapper": "0x1d380",
+      "registration": "0x18c88",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x18fac",
+      "instruction": "14001105",
+      "transfer": "B",
+      "wrapper": "0x1d3c0",
+      "registration": "0x18e2c",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x1a998",
+      "instruction": "94000b54",
+      "transfer": "BL",
+      "wrapper": "0x1d6e8",
+      "registration": "0x19b24",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x1a9b8",
+      "instruction": "94000b54",
+      "transfer": "BL",
+      "wrapper": "0x1d708",
+      "registration": "0x19b24",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x1a9e4",
+      "instruction": "94000b59",
+      "transfer": "BL",
+      "wrapper": "0x1d748",
+      "registration": "0x19b24",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x1aa04",
+      "instruction": "94000b59",
+      "transfer": "BL",
+      "wrapper": "0x1d768",
+      "registration": "0x19b24",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x1aa24",
+      "instruction": "94000b59",
+      "transfer": "BL",
+      "wrapper": "0x1d788",
+      "registration": "0x19b24",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x1aa4c",
+      "instruction": "94000b5f",
+      "transfer": "BL",
+      "wrapper": "0x1d7c8",
+      "registration": "0x19b24",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x1aa78",
+      "instruction": "94000b64",
+      "transfer": "BL",
+      "wrapper": "0x1d808",
+      "registration": "0x19b24",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x1aa98",
+      "instruction": "94000b64",
+      "transfer": "BL",
+      "wrapper": "0x1d828",
+      "registration": "0x19b24",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x1aac4",
+      "instruction": "94000b69",
+      "transfer": "BL",
+      "wrapper": "0x1d868",
+      "registration": "0x19b24",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x1aae4",
+      "instruction": "94000b69",
+      "transfer": "BL",
+      "wrapper": "0x1d888",
+      "registration": "0x19b24",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x1ab10",
+      "instruction": "94000b6e",
+      "transfer": "BL",
+      "wrapper": "0x1d8c8",
+      "registration": "0x19b24",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x1ab30",
+      "instruction": "94000b6e",
+      "transfer": "BL",
+      "wrapper": "0x1d8e8",
+      "registration": "0x19b24",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x1ab50",
+      "instruction": "94000b6e",
+      "transfer": "BL",
+      "wrapper": "0x1d908",
+      "registration": "0x19b24",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x1ab70",
+      "instruction": "94000b6e",
+      "transfer": "BL",
+      "wrapper": "0x1d928",
+      "registration": "0x19b24",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x1ab9c",
+      "instruction": "94000b73",
+      "transfer": "BL",
+      "wrapper": "0x1d968",
+      "registration": "0x19b24",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x1abbc",
+      "instruction": "94000b73",
+      "transfer": "BL",
+      "wrapper": "0x1d988",
+      "registration": "0x19b24",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x1abdc",
+      "instruction": "94000b73",
+      "transfer": "BL",
+      "wrapper": "0x1d9a8",
+      "registration": "0x19b24",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x1abfc",
+      "instruction": "94000b73",
+      "transfer": "BL",
+      "wrapper": "0x1d9c8",
+      "registration": "0x19b24",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x1ac24",
+      "instruction": "94000b79",
+      "transfer": "BL",
+      "wrapper": "0x1da08",
+      "registration": "0x19b24",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x1ac4c",
+      "instruction": "94000b7f",
+      "transfer": "BL",
+      "wrapper": "0x1da48",
+      "registration": "0x19b24",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x1ac78",
+      "instruction": "94000b84",
+      "transfer": "BL",
+      "wrapper": "0x1da88",
+      "registration": "0x19b24",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x1ac98",
+      "instruction": "94000b84",
+      "transfer": "BL",
+      "wrapper": "0x1daa8",
+      "registration": "0x19b24",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x1acb8",
+      "instruction": "94000b84",
+      "transfer": "BL",
+      "wrapper": "0x1dac8",
+      "registration": "0x19b24",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x1acd8",
+      "instruction": "94000b84",
+      "transfer": "BL",
+      "wrapper": "0x1dae8",
+      "registration": "0x19b24",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x20084",
+      "instruction": "94000a10",
+      "transfer": "BL",
+      "wrapper": "0x228c4",
+      "registration": "0x1efd4",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x200bc",
+      "instruction": "94000a16",
+      "transfer": "BL",
+      "wrapper": "0x22914",
+      "registration": "0x1efd4",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x200e0",
+      "instruction": "94000a16",
+      "transfer": "BL",
+      "wrapper": "0x22938",
+      "registration": "0x1efd4",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x20100",
+      "instruction": "94000a16",
+      "transfer": "BL",
+      "wrapper": "0x22958",
+      "registration": "0x1efd4",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x20120",
+      "instruction": "94000a16",
+      "transfer": "BL",
+      "wrapper": "0x22978",
+      "registration": "0x1efd4",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x201a4",
+      "instruction": "94000a19",
+      "transfer": "BL",
+      "wrapper": "0x22a08",
+      "registration": "0x1efd4",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x201d4",
+      "instruction": "94000a21",
+      "transfer": "BL",
+      "wrapper": "0x22a58",
+      "registration": "0x1efd4",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x201f8",
+      "instruction": "94000a21",
+      "transfer": "BL",
+      "wrapper": "0x22a7c",
+      "registration": "0x1efd4",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x20224",
+      "instruction": "94000a26",
+      "transfer": "BL",
+      "wrapper": "0x22abc",
+      "registration": "0x1efd4",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x20248",
+      "instruction": "94000a25",
+      "transfer": "BL",
+      "wrapper": "0x22adc",
+      "registration": "0x1efd4",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x2026c",
+      "instruction": "94000a24",
+      "transfer": "BL",
+      "wrapper": "0x22afc",
+      "registration": "0x1efd4",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x20298",
+      "instruction": "94000a29",
+      "transfer": "BL",
+      "wrapper": "0x22b3c",
+      "registration": "0x1efd4",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x202b4",
+      "instruction": "94000a2a",
+      "transfer": "BL",
+      "wrapper": "0x22b5c",
+      "registration": "0x1efd4",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x202d0",
+      "instruction": "94000a2b",
+      "transfer": "BL",
+      "wrapper": "0x22b7c",
+      "registration": "0x1efd4",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x202f8",
+      "instruction": "94000a31",
+      "transfer": "BL",
+      "wrapper": "0x22bbc",
+      "registration": "0x1efd4",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x20324",
+      "instruction": "94000a36",
+      "transfer": "BL",
+      "wrapper": "0x22bfc",
+      "registration": "0x1efd4",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x20344",
+      "instruction": "94000a36",
+      "transfer": "BL",
+      "wrapper": "0x22c1c",
+      "registration": "0x1efd4",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x4e2b8",
+      "instruction": "94020925",
+      "transfer": "BL",
+      "wrapper": "0xd074c",
+      "registration": "0x4cf00",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x4e2e0",
+      "instruction": "9402092b",
+      "transfer": "BL",
+      "wrapper": "0xd078c",
+      "registration": "0x4cf00",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x4e30c",
+      "instruction": "94020930",
+      "transfer": "BL",
+      "wrapper": "0xd07cc",
+      "registration": "0x4cf00",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x4e32c",
+      "instruction": "94020930",
+      "transfer": "BL",
+      "wrapper": "0xd07ec",
+      "registration": "0x4cf00",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x4e354",
+      "instruction": "94020936",
+      "transfer": "BL",
+      "wrapper": "0xd082c",
+      "registration": "0x4cf00",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x4e37c",
+      "instruction": "9402093c",
+      "transfer": "BL",
+      "wrapper": "0xd086c",
+      "registration": "0x4cf00",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x4e3a8",
+      "instruction": "94020941",
+      "transfer": "BL",
+      "wrapper": "0xd08ac",
+      "registration": "0x4cf00",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x4e3cc",
+      "instruction": "94020940",
+      "transfer": "BL",
+      "wrapper": "0xd08cc",
+      "registration": "0x4cf00",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x4e3ec",
+      "instruction": "94020940",
+      "transfer": "BL",
+      "wrapper": "0xd08ec",
+      "registration": "0x4cf00",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x4e418",
+      "instruction": "94020945",
+      "transfer": "BL",
+      "wrapper": "0xd092c",
+      "registration": "0x4cf00",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x4e438",
+      "instruction": "94020945",
+      "transfer": "BL",
+      "wrapper": "0xd094c",
+      "registration": "0x4cf00",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x4e460",
+      "instruction": "9402094b",
+      "transfer": "BL",
+      "wrapper": "0xd098c",
+      "registration": "0x4cf00",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x4e488",
+      "instruction": "94020951",
+      "transfer": "BL",
+      "wrapper": "0xd09cc",
+      "registration": "0x4cf00",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x4e4b4",
+      "instruction": "94020956",
+      "transfer": "BL",
+      "wrapper": "0xd0a0c",
+      "registration": "0x4cf00",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x4e4d4",
+      "instruction": "94020956",
+      "transfer": "BL",
+      "wrapper": "0xd0a2c",
+      "registration": "0x4cf00",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x4e4fc",
+      "instruction": "9402095c",
+      "transfer": "BL",
+      "wrapper": "0xd0a6c",
+      "registration": "0x4cf00",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x4e528",
+      "instruction": "94020961",
+      "transfer": "BL",
+      "wrapper": "0xd0aac",
+      "registration": "0x4cf00",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x4e548",
+      "instruction": "94020961",
+      "transfer": "BL",
+      "wrapper": "0xd0acc",
+      "registration": "0x4cf00",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x4e570",
+      "instruction": "94020967",
+      "transfer": "BL",
+      "wrapper": "0xd0b0c",
+      "registration": "0x4cf00",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x4e59c",
+      "instruction": "9402096c",
+      "transfer": "BL",
+      "wrapper": "0xd0b4c",
+      "registration": "0x4cf00",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x4e5d8",
+      "instruction": "94020965",
+      "transfer": "BL",
+      "wrapper": "0xd0b6c",
+      "registration": "0x4cf00",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x4e600",
+      "instruction": "9402096c",
+      "transfer": "BL",
+      "wrapper": "0xd0bb0",
+      "registration": "0x4cf00",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x4e628",
+      "instruction": "94020972",
+      "transfer": "BL",
+      "wrapper": "0xd0bf0",
+      "registration": "0x4cf00",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x4e648",
+      "instruction": "94020972",
+      "transfer": "BL",
+      "wrapper": "0xd0c10",
+      "registration": "0x4cf00",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x4e670",
+      "instruction": "94020978",
+      "transfer": "BL",
+      "wrapper": "0xd0c50",
+      "registration": "0x4cf00",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x62120",
+      "instruction": "9401c0af",
+      "transfer": "BL",
+      "wrapper": "0xd23dc",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x621c4",
+      "instruction": "9401c0aa",
+      "transfer": "BL",
+      "wrapper": "0xd246c",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x621f8",
+      "instruction": "9401c0b1",
+      "transfer": "BL",
+      "wrapper": "0xd24bc",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x62224",
+      "instruction": "9401c0b7",
+      "transfer": "BL",
+      "wrapper": "0xd2500",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x6224c",
+      "instruction": "9401c0bd",
+      "transfer": "BL",
+      "wrapper": "0xd2540",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x62274",
+      "instruction": "9401c0c3",
+      "transfer": "BL",
+      "wrapper": "0xd2580",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x6229c",
+      "instruction": "9401c0c9",
+      "transfer": "BL",
+      "wrapper": "0xd25c0",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x622c8",
+      "instruction": "9401c0ce",
+      "transfer": "BL",
+      "wrapper": "0xd2600",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x622e8",
+      "instruction": "9401c0ce",
+      "transfer": "BL",
+      "wrapper": "0xd2620",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x62308",
+      "instruction": "9401c0ce",
+      "transfer": "BL",
+      "wrapper": "0xd2640",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x62328",
+      "instruction": "9401c0ce",
+      "transfer": "BL",
+      "wrapper": "0xd2660",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x62348",
+      "instruction": "9401c0ce",
+      "transfer": "BL",
+      "wrapper": "0xd2680",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x62368",
+      "instruction": "9401c0ce",
+      "transfer": "BL",
+      "wrapper": "0xd26a0",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x62390",
+      "instruction": "9401c0d4",
+      "transfer": "BL",
+      "wrapper": "0xd26e0",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x623c4",
+      "instruction": "9401c0df",
+      "transfer": "BL",
+      "wrapper": "0xd2740",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x623e8",
+      "instruction": "9401c0de",
+      "transfer": "BL",
+      "wrapper": "0xd2760",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x62414",
+      "instruction": "9401c0eb",
+      "transfer": "BL",
+      "wrapper": "0xd27c0",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x62430",
+      "instruction": "9401c0ec",
+      "transfer": "BL",
+      "wrapper": "0xd27e0",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x6245c",
+      "instruction": "9401c0f1",
+      "transfer": "BL",
+      "wrapper": "0xd2820",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x62480",
+      "instruction": "9401c0f8",
+      "transfer": "BL",
+      "wrapper": "0xd2860",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x624a8",
+      "instruction": "9401c0fe",
+      "transfer": "BL",
+      "wrapper": "0xd28a0",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x624d0",
+      "instruction": "9401c104",
+      "transfer": "BL",
+      "wrapper": "0xd28e0",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x624f8",
+      "instruction": "9401c10a",
+      "transfer": "BL",
+      "wrapper": "0xd2920",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x62520",
+      "instruction": "9401c110",
+      "transfer": "BL",
+      "wrapper": "0xd2960",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x62554",
+      "instruction": "9401c113",
+      "transfer": "BL",
+      "wrapper": "0xd29a0",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x62574",
+      "instruction": "9401c113",
+      "transfer": "BL",
+      "wrapper": "0xd29c0",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x625a4",
+      "instruction": "9401c10f",
+      "transfer": "BL",
+      "wrapper": "0xd29e0",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x625cc",
+      "instruction": "9401c10e",
+      "transfer": "BL",
+      "wrapper": "0xd2a04",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x625f4",
+      "instruction": "9401c10d",
+      "transfer": "BL",
+      "wrapper": "0xd2a28",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x6261c",
+      "instruction": "9401c114",
+      "transfer": "BL",
+      "wrapper": "0xd2a6c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x62644",
+      "instruction": "9401c11a",
+      "transfer": "BL",
+      "wrapper": "0xd2aac",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x62670",
+      "instruction": "9401c11f",
+      "transfer": "BL",
+      "wrapper": "0xd2aec",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x62690",
+      "instruction": "9401c11f",
+      "transfer": "BL",
+      "wrapper": "0xd2b0c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x626b0",
+      "instruction": "9401c11f",
+      "transfer": "BL",
+      "wrapper": "0xd2b2c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x626d0",
+      "instruction": "9401c11f",
+      "transfer": "BL",
+      "wrapper": "0xd2b4c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x626f0",
+      "instruction": "9401c11f",
+      "transfer": "BL",
+      "wrapper": "0xd2b6c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x62710",
+      "instruction": "9401c11f",
+      "transfer": "BL",
+      "wrapper": "0xd2b8c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x62730",
+      "instruction": "9401c11f",
+      "transfer": "BL",
+      "wrapper": "0xd2bac",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x62750",
+      "instruction": "9401c11f",
+      "transfer": "BL",
+      "wrapper": "0xd2bcc",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x6277c",
+      "instruction": "9401c124",
+      "transfer": "BL",
+      "wrapper": "0xd2c0c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x6279c",
+      "instruction": "9401c124",
+      "transfer": "BL",
+      "wrapper": "0xd2c2c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x627bc",
+      "instruction": "9401c124",
+      "transfer": "BL",
+      "wrapper": "0xd2c4c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x627dc",
+      "instruction": "9401c124",
+      "transfer": "BL",
+      "wrapper": "0xd2c6c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x627fc",
+      "instruction": "9401c124",
+      "transfer": "BL",
+      "wrapper": "0xd2c8c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x62828",
+      "instruction": "9401c129",
+      "transfer": "BL",
+      "wrapper": "0xd2ccc",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x62848",
+      "instruction": "9401c129",
+      "transfer": "BL",
+      "wrapper": "0xd2cec",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x62874",
+      "instruction": "9401c12e",
+      "transfer": "BL",
+      "wrapper": "0xd2d2c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x62894",
+      "instruction": "9401c12e",
+      "transfer": "BL",
+      "wrapper": "0xd2d4c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x628c0",
+      "instruction": "9401c133",
+      "transfer": "BL",
+      "wrapper": "0xd2d8c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x628e0",
+      "instruction": "9401c133",
+      "transfer": "BL",
+      "wrapper": "0xd2dac",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x6290c",
+      "instruction": "9401c138",
+      "transfer": "BL",
+      "wrapper": "0xd2dec",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x6292c",
+      "instruction": "9401c138",
+      "transfer": "BL",
+      "wrapper": "0xd2e0c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x62958",
+      "instruction": "9401c13d",
+      "transfer": "BL",
+      "wrapper": "0xd2e4c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x6297c",
+      "instruction": "9401c144",
+      "transfer": "BL",
+      "wrapper": "0xd2e8c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x629a0",
+      "instruction": "9401c14b",
+      "transfer": "BL",
+      "wrapper": "0xd2ecc",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x629cc",
+      "instruction": "9401c150",
+      "transfer": "BL",
+      "wrapper": "0xd2f0c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x629ec",
+      "instruction": "9401c150",
+      "transfer": "BL",
+      "wrapper": "0xd2f2c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x62a0c",
+      "instruction": "9401c150",
+      "transfer": "BL",
+      "wrapper": "0xd2f4c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x62a34",
+      "instruction": "9401c156",
+      "transfer": "BL",
+      "wrapper": "0xd2f8c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x62a5c",
+      "instruction": "9401c15c",
+      "transfer": "BL",
+      "wrapper": "0xd2fcc",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x62a84",
+      "instruction": "9401c162",
+      "transfer": "BL",
+      "wrapper": "0xd300c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x62ab0",
+      "instruction": "9401c167",
+      "transfer": "BL",
+      "wrapper": "0xd304c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x62ad0",
+      "instruction": "9401c167",
+      "transfer": "BL",
+      "wrapper": "0xd306c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x62af0",
+      "instruction": "9401c167",
+      "transfer": "BL",
+      "wrapper": "0xd308c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x62b1c",
+      "instruction": "9401c16c",
+      "transfer": "BL",
+      "wrapper": "0xd30cc",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x62b44",
+      "instruction": "9401c16a",
+      "transfer": "BL",
+      "wrapper": "0xd30ec",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x62b6c",
+      "instruction": "9401c168",
+      "transfer": "BL",
+      "wrapper": "0xd310c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x62b98",
+      "instruction": "9401c16d",
+      "transfer": "BL",
+      "wrapper": "0xd314c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x62bc8",
+      "instruction": "9401c171",
+      "transfer": "BL",
+      "wrapper": "0xd318c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x62be8",
+      "instruction": "9401c171",
+      "transfer": "BL",
+      "wrapper": "0xd31ac",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x62c10",
+      "instruction": "9401c177",
+      "transfer": "BL",
+      "wrapper": "0xd31ec",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x62c38",
+      "instruction": "9401c17d",
+      "transfer": "BL",
+      "wrapper": "0xd322c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x62c64",
+      "instruction": "9401c182",
+      "transfer": "BL",
+      "wrapper": "0xd326c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x62c84",
+      "instruction": "9401c182",
+      "transfer": "BL",
+      "wrapper": "0xd328c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x62d1c",
+      "instruction": "9401c180",
+      "transfer": "BL",
+      "wrapper": "0xd331c",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x62d54",
+      "instruction": "9401c186",
+      "transfer": "BL",
+      "wrapper": "0xd336c",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x62dd0",
+      "instruction": "9401c184",
+      "transfer": "BL",
+      "wrapper": "0xd33e0",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x62e00",
+      "instruction": "9401c18c",
+      "transfer": "BL",
+      "wrapper": "0xd3430",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x62e80",
+      "instruction": "9401c189",
+      "transfer": "BL",
+      "wrapper": "0xd34a4",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x62eb0",
+      "instruction": "9401c191",
+      "transfer": "BL",
+      "wrapper": "0xd34f4",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x62f34",
+      "instruction": "9401c18d",
+      "transfer": "BL",
+      "wrapper": "0xd3568",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x62f64",
+      "instruction": "9401c195",
+      "transfer": "BL",
+      "wrapper": "0xd35b8",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x62fdc",
+      "instruction": "9401c194",
+      "transfer": "BL",
+      "wrapper": "0xd362c",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x63014",
+      "instruction": "9401c19a",
+      "transfer": "BL",
+      "wrapper": "0xd367c",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x630ac",
+      "instruction": "9401c191",
+      "transfer": "BL",
+      "wrapper": "0xd36f0",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x630e4",
+      "instruction": "9401c197",
+      "transfer": "BL",
+      "wrapper": "0xd3740",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x63168",
+      "instruction": "9401c193",
+      "transfer": "BL",
+      "wrapper": "0xd37b4",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x63198",
+      "instruction": "9401c19b",
+      "transfer": "BL",
+      "wrapper": "0xd3804",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x6322c",
+      "instruction": "9401c193",
+      "transfer": "BL",
+      "wrapper": "0xd3878",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x63260",
+      "instruction": "9401c19a",
+      "transfer": "BL",
+      "wrapper": "0xd38c8",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x632d0",
+      "instruction": "9401c19b",
+      "transfer": "BL",
+      "wrapper": "0xd393c",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x63308",
+      "instruction": "9401c1a1",
+      "transfer": "BL",
+      "wrapper": "0xd398c",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x6337c",
+      "instruction": "9401c1a1",
+      "transfer": "BL",
+      "wrapper": "0xd3a00",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x633ac",
+      "instruction": "9401c1a9",
+      "transfer": "BL",
+      "wrapper": "0xd3a50",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x63420",
+      "instruction": "9401c1a9",
+      "transfer": "BL",
+      "wrapper": "0xd3ac4",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x63454",
+      "instruction": "9401c1b0",
+      "transfer": "BL",
+      "wrapper": "0xd3b14",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x634e4",
+      "instruction": "9401c1a9",
+      "transfer": "BL",
+      "wrapper": "0xd3b88",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x63518",
+      "instruction": "9401c1b0",
+      "transfer": "BL",
+      "wrapper": "0xd3bd8",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x63590",
+      "instruction": "9401c1af",
+      "transfer": "BL",
+      "wrapper": "0xd3c4c",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x635c8",
+      "instruction": "9401c1b5",
+      "transfer": "BL",
+      "wrapper": "0xd3c9c",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x63654",
+      "instruction": "9401c1af",
+      "transfer": "BL",
+      "wrapper": "0xd3d10",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x63684",
+      "instruction": "9401c1b7",
+      "transfer": "BL",
+      "wrapper": "0xd3d60",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x63700",
+      "instruction": "9401c1b5",
+      "transfer": "BL",
+      "wrapper": "0xd3dd4",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x63730",
+      "instruction": "9401c1bd",
+      "transfer": "BL",
+      "wrapper": "0xd3e24",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x63754",
+      "instruction": "9401c1bd",
+      "transfer": "BL",
+      "wrapper": "0xd3e48",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x63774",
+      "instruction": "9401c1bd",
+      "transfer": "BL",
+      "wrapper": "0xd3e68",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x637a0",
+      "instruction": "9401c1ba",
+      "transfer": "BL",
+      "wrapper": "0xd3e88",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x637cc",
+      "instruction": "9401c1b8",
+      "transfer": "BL",
+      "wrapper": "0xd3eac",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x637f8",
+      "instruction": "9401c1b6",
+      "transfer": "BL",
+      "wrapper": "0xd3ed0",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x63824",
+      "instruction": "9401c1b4",
+      "transfer": "BL",
+      "wrapper": "0xd3ef4",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x63850",
+      "instruction": "9401c1b2",
+      "transfer": "BL",
+      "wrapper": "0xd3f18",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x63884",
+      "instruction": "9401c1ae",
+      "transfer": "BL",
+      "wrapper": "0xd3f3c",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x638b0",
+      "instruction": "9401c1ac",
+      "transfer": "BL",
+      "wrapper": "0xd3f60",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x638dc",
+      "instruction": "9401c1aa",
+      "transfer": "BL",
+      "wrapper": "0xd3f84",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x63908",
+      "instruction": "9401c1a8",
+      "transfer": "BL",
+      "wrapper": "0xd3fa8",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x63930",
+      "instruction": "9401c1a7",
+      "transfer": "BL",
+      "wrapper": "0xd3fcc",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x63950",
+      "instruction": "9401c1a8",
+      "transfer": "BL",
+      "wrapper": "0xd3ff0",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x63970",
+      "instruction": "9401c1a8",
+      "transfer": "BL",
+      "wrapper": "0xd4010",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x63990",
+      "instruction": "9401c1a8",
+      "transfer": "BL",
+      "wrapper": "0xd4030",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x639b0",
+      "instruction": "9401c1a8",
+      "transfer": "BL",
+      "wrapper": "0xd4050",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x639d8",
+      "instruction": "9401c1ae",
+      "transfer": "BL",
+      "wrapper": "0xd4090",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x63a00",
+      "instruction": "9401c1b4",
+      "transfer": "BL",
+      "wrapper": "0xd40d0",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x63a28",
+      "instruction": "9401c1ba",
+      "transfer": "BL",
+      "wrapper": "0xd4110",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x63a58",
+      "instruction": "9401c1c6",
+      "transfer": "BL",
+      "wrapper": "0xd4170",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x63a78",
+      "instruction": "9401c1c6",
+      "transfer": "BL",
+      "wrapper": "0xd4190",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x63a98",
+      "instruction": "9401c1c6",
+      "transfer": "BL",
+      "wrapper": "0xd41b0",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x63ab8",
+      "instruction": "9401c1c6",
+      "transfer": "BL",
+      "wrapper": "0xd41d0",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x63ad8",
+      "instruction": "9401c1c6",
+      "transfer": "BL",
+      "wrapper": "0xd41f0",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x63b04",
+      "instruction": "9401c1c3",
+      "transfer": "BL",
+      "wrapper": "0xd4210",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x63b2c",
+      "instruction": "9401c1ca",
+      "transfer": "BL",
+      "wrapper": "0xd4254",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x63b50",
+      "instruction": "9401c1d1",
+      "transfer": "BL",
+      "wrapper": "0xd4294",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x63b78",
+      "instruction": "9401c1d7",
+      "transfer": "BL",
+      "wrapper": "0xd42d4",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x63ba0",
+      "instruction": "9401c1dd",
+      "transfer": "BL",
+      "wrapper": "0xd4314",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x63bc4",
+      "instruction": "9401c1e4",
+      "transfer": "BL",
+      "wrapper": "0xd4354",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x63be8",
+      "instruction": "9401c1eb",
+      "transfer": "BL",
+      "wrapper": "0xd4394",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x63c0c",
+      "instruction": "9401c1f2",
+      "transfer": "BL",
+      "wrapper": "0xd43d4",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x63c38",
+      "instruction": "9401c1f7",
+      "transfer": "BL",
+      "wrapper": "0xd4414",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x63c5c",
+      "instruction": "9401c1f6",
+      "transfer": "BL",
+      "wrapper": "0xd4434",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x63c7c",
+      "instruction": "9401c1f6",
+      "transfer": "BL",
+      "wrapper": "0xd4454",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x63c9c",
+      "instruction": "9401c1f6",
+      "transfer": "BL",
+      "wrapper": "0xd4474",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x63cbc",
+      "instruction": "9401c1f6",
+      "transfer": "BL",
+      "wrapper": "0xd4494",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x63ce4",
+      "instruction": "9401c1fc",
+      "transfer": "BL",
+      "wrapper": "0xd44d4",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x63d0c",
+      "instruction": "9401c1fa",
+      "transfer": "BL",
+      "wrapper": "0xd44f4",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x63d28",
+      "instruction": "9401c1fb",
+      "transfer": "BL",
+      "wrapper": "0xd4514",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x63d60",
+      "instruction": "9401c1f5",
+      "transfer": "BL",
+      "wrapper": "0xd4534",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x63d9c",
+      "instruction": "9401c1ef",
+      "transfer": "BL",
+      "wrapper": "0xd4558",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x63dd0",
+      "instruction": "9401c1eb",
+      "transfer": "BL",
+      "wrapper": "0xd457c",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x63e64",
+      "instruction": "9401c1eb",
+      "transfer": "BL",
+      "wrapper": "0xd4610",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x63e9c",
+      "instruction": "9401c1f1",
+      "transfer": "BL",
+      "wrapper": "0xd4660",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x63f14",
+      "instruction": "9401c1f0",
+      "transfer": "BL",
+      "wrapper": "0xd46d4",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x63f48",
+      "instruction": "9401c1f7",
+      "transfer": "BL",
+      "wrapper": "0xd4724",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x63f6c",
+      "instruction": "9401c1f7",
+      "transfer": "BL",
+      "wrapper": "0xd4748",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x63f98",
+      "instruction": "9401c1f4",
+      "transfer": "BL",
+      "wrapper": "0xd4768",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x63fc0",
+      "instruction": "9401c1fb",
+      "transfer": "BL",
+      "wrapper": "0xd47ac",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x63fec",
+      "instruction": "9401c200",
+      "transfer": "BL",
+      "wrapper": "0xd47ec",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x6401c",
+      "instruction": "9401c1fc",
+      "transfer": "BL",
+      "wrapper": "0xd480c",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x64044",
+      "instruction": "9401c203",
+      "transfer": "BL",
+      "wrapper": "0xd4850",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x64064",
+      "instruction": "9401c203",
+      "transfer": "BL",
+      "wrapper": "0xd4870",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x64084",
+      "instruction": "9401c203",
+      "transfer": "BL",
+      "wrapper": "0xd4890",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x640b4",
+      "instruction": "9401c1ff",
+      "transfer": "BL",
+      "wrapper": "0xd48b0",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x640dc",
+      "instruction": "9401c206",
+      "transfer": "BL",
+      "wrapper": "0xd48f4",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x64104",
+      "instruction": "9401c204",
+      "transfer": "BL",
+      "wrapper": "0xd4914",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x6412c",
+      "instruction": "9401c20b",
+      "transfer": "BL",
+      "wrapper": "0xd4958",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x64154",
+      "instruction": "9401c211",
+      "transfer": "BL",
+      "wrapper": "0xd4998",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x64180",
+      "instruction": "9401c216",
+      "transfer": "BL",
+      "wrapper": "0xd49d8",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x641a0",
+      "instruction": "9401c216",
+      "transfer": "BL",
+      "wrapper": "0xd49f8",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x641c0",
+      "instruction": "9401c216",
+      "transfer": "BL",
+      "wrapper": "0xd4a18",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x641e0",
+      "instruction": "9401c216",
+      "transfer": "BL",
+      "wrapper": "0xd4a38",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x64200",
+      "instruction": "9401c216",
+      "transfer": "BL",
+      "wrapper": "0xd4a58",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x64220",
+      "instruction": "9401c216",
+      "transfer": "BL",
+      "wrapper": "0xd4a78",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x64240",
+      "instruction": "9401c216",
+      "transfer": "BL",
+      "wrapper": "0xd4a98",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x64260",
+      "instruction": "9401c216",
+      "transfer": "BL",
+      "wrapper": "0xd4ab8",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x64280",
+      "instruction": "9401c216",
+      "transfer": "BL",
+      "wrapper": "0xd4ad8",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x642a0",
+      "instruction": "9401c216",
+      "transfer": "BL",
+      "wrapper": "0xd4af8",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x642c0",
+      "instruction": "9401c216",
+      "transfer": "BL",
+      "wrapper": "0xd4b18",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x642e0",
+      "instruction": "9401c216",
+      "transfer": "BL",
+      "wrapper": "0xd4b38",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x64300",
+      "instruction": "9401c216",
+      "transfer": "BL",
+      "wrapper": "0xd4b58",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x64320",
+      "instruction": "9401c216",
+      "transfer": "BL",
+      "wrapper": "0xd4b78",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x64340",
+      "instruction": "9401c216",
+      "transfer": "BL",
+      "wrapper": "0xd4b98",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x64360",
+      "instruction": "9401c216",
+      "transfer": "BL",
+      "wrapper": "0xd4bb8",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x64380",
+      "instruction": "9401c216",
+      "transfer": "BL",
+      "wrapper": "0xd4bd8",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x643a0",
+      "instruction": "9401c216",
+      "transfer": "BL",
+      "wrapper": "0xd4bf8",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x643c0",
+      "instruction": "9401c216",
+      "transfer": "BL",
+      "wrapper": "0xd4c18",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x643e0",
+      "instruction": "9401c216",
+      "transfer": "BL",
+      "wrapper": "0xd4c38",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x64400",
+      "instruction": "9401c216",
+      "transfer": "BL",
+      "wrapper": "0xd4c58",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x64420",
+      "instruction": "9401c216",
+      "transfer": "BL",
+      "wrapper": "0xd4c78",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x64440",
+      "instruction": "9401c216",
+      "transfer": "BL",
+      "wrapper": "0xd4c98",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x64460",
+      "instruction": "9401c216",
+      "transfer": "BL",
+      "wrapper": "0xd4cb8",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x64488",
+      "instruction": "9401c21c",
+      "transfer": "BL",
+      "wrapper": "0xd4cf8",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x644b0",
+      "instruction": "9401c222",
+      "transfer": "BL",
+      "wrapper": "0xd4d38",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x644dc",
+      "instruction": "9401c227",
+      "transfer": "BL",
+      "wrapper": "0xd4d78",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x644fc",
+      "instruction": "9401c227",
+      "transfer": "BL",
+      "wrapper": "0xd4d98",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x6451c",
+      "instruction": "9401c227",
+      "transfer": "BL",
+      "wrapper": "0xd4db8",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x6453c",
+      "instruction": "9401c227",
+      "transfer": "BL",
+      "wrapper": "0xd4dd8",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x6455c",
+      "instruction": "9401c227",
+      "transfer": "BL",
+      "wrapper": "0xd4df8",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x64588",
+      "instruction": "9401c224",
+      "transfer": "BL",
+      "wrapper": "0xd4e18",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x645b0",
+      "instruction": "9401c22b",
+      "transfer": "BL",
+      "wrapper": "0xd4e5c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x645dc",
+      "instruction": "9401c230",
+      "transfer": "BL",
+      "wrapper": "0xd4e9c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x645fc",
+      "instruction": "9401c230",
+      "transfer": "BL",
+      "wrapper": "0xd4ebc",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x6461c",
+      "instruction": "9401c230",
+      "transfer": "BL",
+      "wrapper": "0xd4edc",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x6463c",
+      "instruction": "9401c230",
+      "transfer": "BL",
+      "wrapper": "0xd4efc",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x6465c",
+      "instruction": "9401c230",
+      "transfer": "BL",
+      "wrapper": "0xd4f1c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x6467c",
+      "instruction": "9401c230",
+      "transfer": "BL",
+      "wrapper": "0xd4f3c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x6469c",
+      "instruction": "9401c230",
+      "transfer": "BL",
+      "wrapper": "0xd4f5c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x646bc",
+      "instruction": "9401c230",
+      "transfer": "BL",
+      "wrapper": "0xd4f7c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x646dc",
+      "instruction": "9401c230",
+      "transfer": "BL",
+      "wrapper": "0xd4f9c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x646f8",
+      "instruction": "9401c231",
+      "transfer": "BL",
+      "wrapper": "0xd4fbc",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x64724",
+      "instruction": "9401c22e",
+      "transfer": "BL",
+      "wrapper": "0xd4fdc",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x6474c",
+      "instruction": "9401c22d",
+      "transfer": "BL",
+      "wrapper": "0xd5000",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x64778",
+      "instruction": "9401c22b",
+      "transfer": "BL",
+      "wrapper": "0xd5024",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x647a4",
+      "instruction": "9401c229",
+      "transfer": "BL",
+      "wrapper": "0xd5048",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x647d0",
+      "instruction": "9401c22f",
+      "transfer": "BL",
+      "wrapper": "0xd508c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x647f0",
+      "instruction": "9401c22f",
+      "transfer": "BL",
+      "wrapper": "0xd50ac",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x6480c",
+      "instruction": "9401c230",
+      "transfer": "BL",
+      "wrapper": "0xd50cc",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x64834",
+      "instruction": "9401c236",
+      "transfer": "BL",
+      "wrapper": "0xd510c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x648c4",
+      "instruction": "9401c236",
+      "transfer": "BL",
+      "wrapper": "0xd519c",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x648fc",
+      "instruction": "9401c23c",
+      "transfer": "BL",
+      "wrapper": "0xd51ec",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x64920",
+      "instruction": "9401c23c",
+      "transfer": "BL",
+      "wrapper": "0xd5210",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x64944",
+      "instruction": "9401c23b",
+      "transfer": "BL",
+      "wrapper": "0xd5230",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x64964",
+      "instruction": "9401c23b",
+      "transfer": "BL",
+      "wrapper": "0xd5250",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x64984",
+      "instruction": "9401c23b",
+      "transfer": "BL",
+      "wrapper": "0xd5270",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x649a4",
+      "instruction": "9401c23b",
+      "transfer": "BL",
+      "wrapper": "0xd5290",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x649cc",
+      "instruction": "9401c241",
+      "transfer": "BL",
+      "wrapper": "0xd52d0",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x649f8",
+      "instruction": "9401c246",
+      "transfer": "BL",
+      "wrapper": "0xd5310",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x64a1c",
+      "instruction": "9401c24d",
+      "transfer": "BL",
+      "wrapper": "0xd5350",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x64a44",
+      "instruction": "9401c253",
+      "transfer": "BL",
+      "wrapper": "0xd5390",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x64a6c",
+      "instruction": "9401c259",
+      "transfer": "BL",
+      "wrapper": "0xd53d0",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x64a94",
+      "instruction": "9401c25f",
+      "transfer": "BL",
+      "wrapper": "0xd5410",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x64ac0",
+      "instruction": "9401c264",
+      "transfer": "BL",
+      "wrapper": "0xd5450",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x64aec",
+      "instruction": "9401c262",
+      "transfer": "BL",
+      "wrapper": "0xd5474",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x64b7c",
+      "instruction": "9401c263",
+      "transfer": "BL",
+      "wrapper": "0xd5508",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x64bac",
+      "instruction": "9401c26b",
+      "transfer": "BL",
+      "wrapper": "0xd5558",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x64bd0",
+      "instruction": "9401c26b",
+      "transfer": "BL",
+      "wrapper": "0xd557c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x64bf8",
+      "instruction": "9401c271",
+      "transfer": "BL",
+      "wrapper": "0xd55bc",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x64c20",
+      "instruction": "9401c277",
+      "transfer": "BL",
+      "wrapper": "0xd55fc",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x64c4c",
+      "instruction": "9401c27c",
+      "transfer": "BL",
+      "wrapper": "0xd563c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x64c70",
+      "instruction": "9401c283",
+      "transfer": "BL",
+      "wrapper": "0xd567c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x64ca0",
+      "instruction": "9401c287",
+      "transfer": "BL",
+      "wrapper": "0xd56bc",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x64cc4",
+      "instruction": "9401c286",
+      "transfer": "BL",
+      "wrapper": "0xd56dc",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x64ce8",
+      "instruction": "9401c285",
+      "transfer": "BL",
+      "wrapper": "0xd56fc",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x64d10",
+      "instruction": "9401c28b",
+      "transfer": "BL",
+      "wrapper": "0xd573c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x64d2c",
+      "instruction": "9401c28c",
+      "transfer": "BL",
+      "wrapper": "0xd575c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x64d48",
+      "instruction": "9401c28d",
+      "transfer": "BL",
+      "wrapper": "0xd577c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x64d70",
+      "instruction": "9401c293",
+      "transfer": "BL",
+      "wrapper": "0xd57bc",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x64d9c",
+      "instruction": "9401c298",
+      "transfer": "BL",
+      "wrapper": "0xd57fc",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x64db8",
+      "instruction": "9401c299",
+      "transfer": "BL",
+      "wrapper": "0xd581c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x64de0",
+      "instruction": "9401c29f",
+      "transfer": "BL",
+      "wrapper": "0xd585c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x64e08",
+      "instruction": "9401c2a5",
+      "transfer": "BL",
+      "wrapper": "0xd589c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x64e34",
+      "instruction": "9401c2aa",
+      "transfer": "BL",
+      "wrapper": "0xd58dc",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x64e54",
+      "instruction": "9401c2aa",
+      "transfer": "BL",
+      "wrapper": "0xd58fc",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x64e80",
+      "instruction": "9401c2af",
+      "transfer": "BL",
+      "wrapper": "0xd593c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x64ea0",
+      "instruction": "9401c2af",
+      "transfer": "BL",
+      "wrapper": "0xd595c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x64ed0",
+      "instruction": "9401c2bb",
+      "transfer": "BL",
+      "wrapper": "0xd59bc",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x64ef4",
+      "instruction": "9401c2c2",
+      "transfer": "BL",
+      "wrapper": "0xd59fc",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x64f1c",
+      "instruction": "9401c2c8",
+      "transfer": "BL",
+      "wrapper": "0xd5a3c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x64f3c",
+      "instruction": "9401c2c8",
+      "transfer": "BL",
+      "wrapper": "0xd5a5c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x64fd0",
+      "instruction": "9401c2c7",
+      "transfer": "BL",
+      "wrapper": "0xd5aec",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x65000",
+      "instruction": "9401c2cf",
+      "transfer": "BL",
+      "wrapper": "0xd5b3c",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x65078",
+      "instruction": "9401c2ce",
+      "transfer": "BL",
+      "wrapper": "0xd5bb0",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x650a8",
+      "instruction": "9401c2d6",
+      "transfer": "BL",
+      "wrapper": "0xd5c00",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x650cc",
+      "instruction": "9401c2d6",
+      "transfer": "BL",
+      "wrapper": "0xd5c24",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x650f8",
+      "instruction": "9401c2db",
+      "transfer": "BL",
+      "wrapper": "0xd5c64",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x65118",
+      "instruction": "9401c2db",
+      "transfer": "BL",
+      "wrapper": "0xd5c84",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x65140",
+      "instruction": "9401c2e1",
+      "transfer": "BL",
+      "wrapper": "0xd5cc4",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x6516c",
+      "instruction": "9401c2e6",
+      "transfer": "BL",
+      "wrapper": "0xd5d04",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x6518c",
+      "instruction": "9401c2e6",
+      "transfer": "BL",
+      "wrapper": "0xd5d24",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x651ac",
+      "instruction": "9401c2e6",
+      "transfer": "BL",
+      "wrapper": "0xd5d44",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x651e0",
+      "instruction": "9401c2e1",
+      "transfer": "BL",
+      "wrapper": "0xd5d64",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x65204",
+      "instruction": "9401c2e1",
+      "transfer": "BL",
+      "wrapper": "0xd5d88",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x65228",
+      "instruction": "9401c2e0",
+      "transfer": "BL",
+      "wrapper": "0xd5da8",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x6524c",
+      "instruction": "9401c2df",
+      "transfer": "BL",
+      "wrapper": "0xd5dc8",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x65274",
+      "instruction": "9401c2e5",
+      "transfer": "BL",
+      "wrapper": "0xd5e08",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x6529c",
+      "instruction": "9401c2eb",
+      "transfer": "BL",
+      "wrapper": "0xd5e48",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x652c8",
+      "instruction": "9401c2f0",
+      "transfer": "BL",
+      "wrapper": "0xd5e88",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x652f0",
+      "instruction": "9401c2ee",
+      "transfer": "BL",
+      "wrapper": "0xd5ea8",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x65318",
+      "instruction": "9401c2ed",
+      "transfer": "BL",
+      "wrapper": "0xd5ecc",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x65340",
+      "instruction": "9401c2ec",
+      "transfer": "BL",
+      "wrapper": "0xd5ef0",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x65368",
+      "instruction": "9401c2eb",
+      "transfer": "BL",
+      "wrapper": "0xd5f14",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x6538c",
+      "instruction": "9401c2eb",
+      "transfer": "BL",
+      "wrapper": "0xd5f38",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x653b4",
+      "instruction": "9401c2ea",
+      "transfer": "BL",
+      "wrapper": "0xd5f5c",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x653d4",
+      "instruction": "9401c2eb",
+      "transfer": "BL",
+      "wrapper": "0xd5f80",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x653f4",
+      "instruction": "9401c2eb",
+      "transfer": "BL",
+      "wrapper": "0xd5fa0",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x65418",
+      "instruction": "9401c2f2",
+      "transfer": "BL",
+      "wrapper": "0xd5fe0",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x65440",
+      "instruction": "9401c2f8",
+      "transfer": "BL",
+      "wrapper": "0xd6020",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x65468",
+      "instruction": "9401c2fe",
+      "transfer": "BL",
+      "wrapper": "0xd6060",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x65490",
+      "instruction": "9401c304",
+      "transfer": "BL",
+      "wrapper": "0xd60a0",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x654b8",
+      "instruction": "9401c30a",
+      "transfer": "BL",
+      "wrapper": "0xd60e0",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x654dc",
+      "instruction": "9401c311",
+      "transfer": "BL",
+      "wrapper": "0xd6120",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x65500",
+      "instruction": "9401c318",
+      "transfer": "BL",
+      "wrapper": "0xd6160",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x65528",
+      "instruction": "9401c31e",
+      "transfer": "BL",
+      "wrapper": "0xd61a0",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x65550",
+      "instruction": "9401c324",
+      "transfer": "BL",
+      "wrapper": "0xd61e0",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x65578",
+      "instruction": "9401c32a",
+      "transfer": "BL",
+      "wrapper": "0xd6220",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x65594",
+      "instruction": "9401c32b",
+      "transfer": "BL",
+      "wrapper": "0xd6240",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x655b0",
+      "instruction": "9401c32c",
+      "transfer": "BL",
+      "wrapper": "0xd6260",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x655d8",
+      "instruction": "9401c332",
+      "transfer": "BL",
+      "wrapper": "0xd62a0",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x655f4",
+      "instruction": "9401c333",
+      "transfer": "BL",
+      "wrapper": "0xd62c0",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x6561c",
+      "instruction": "9401c339",
+      "transfer": "BL",
+      "wrapper": "0xd6300",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x65648",
+      "instruction": "9401c33e",
+      "transfer": "BL",
+      "wrapper": "0xd6340",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x65668",
+      "instruction": "9401c33e",
+      "transfer": "BL",
+      "wrapper": "0xd6360",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x65688",
+      "instruction": "9401c33e",
+      "transfer": "BL",
+      "wrapper": "0xd6380",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x656a8",
+      "instruction": "9401c33e",
+      "transfer": "BL",
+      "wrapper": "0xd63a0",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x656d0",
+      "instruction": "9401c344",
+      "transfer": "BL",
+      "wrapper": "0xd63e0",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x656fc",
+      "instruction": "9401c349",
+      "transfer": "BL",
+      "wrapper": "0xd6420",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x6571c",
+      "instruction": "9401c349",
+      "transfer": "BL",
+      "wrapper": "0xd6440",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x65748",
+      "instruction": "9401c34e",
+      "transfer": "BL",
+      "wrapper": "0xd6480",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x65768",
+      "instruction": "9401c34e",
+      "transfer": "BL",
+      "wrapper": "0xd64a0",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x65788",
+      "instruction": "9401c34e",
+      "transfer": "BL",
+      "wrapper": "0xd64c0",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x657a8",
+      "instruction": "9401c34e",
+      "transfer": "BL",
+      "wrapper": "0xd64e0",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x657c8",
+      "instruction": "9401c34e",
+      "transfer": "BL",
+      "wrapper": "0xd6500",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x657e8",
+      "instruction": "9401c34e",
+      "transfer": "BL",
+      "wrapper": "0xd6520",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x65808",
+      "instruction": "9401c34e",
+      "transfer": "BL",
+      "wrapper": "0xd6540",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x65834",
+      "instruction": "9401c353",
+      "transfer": "BL",
+      "wrapper": "0xd6580",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x65860",
+      "instruction": "9401c350",
+      "transfer": "BL",
+      "wrapper": "0xd65a0",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x65888",
+      "instruction": "9401c357",
+      "transfer": "BL",
+      "wrapper": "0xd65e4",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x658b4",
+      "instruction": "9401c35c",
+      "transfer": "BL",
+      "wrapper": "0xd6624",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x658e0",
+      "instruction": "9401c359",
+      "transfer": "BL",
+      "wrapper": "0xd6644",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x65904",
+      "instruction": "9401c361",
+      "transfer": "BL",
+      "wrapper": "0xd6688",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x65930",
+      "instruction": "9401c35e",
+      "transfer": "BL",
+      "wrapper": "0xd66a8",
+      "registration": "0x53fac",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x6595c",
+      "instruction": "9401c364",
+      "transfer": "BL",
+      "wrapper": "0xd66ec",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x6597c",
+      "instruction": "9401c364",
+      "transfer": "BL",
+      "wrapper": "0xd670c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x6599c",
+      "instruction": "9401c364",
+      "transfer": "BL",
+      "wrapper": "0xd672c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x659bc",
+      "instruction": "9401c364",
+      "transfer": "BL",
+      "wrapper": "0xd674c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x659dc",
+      "instruction": "9401c364",
+      "transfer": "BL",
+      "wrapper": "0xd676c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x659fc",
+      "instruction": "9401c364",
+      "transfer": "BL",
+      "wrapper": "0xd678c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x65a24",
+      "instruction": "9401c36a",
+      "transfer": "BL",
+      "wrapper": "0xd67cc",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x65a4c",
+      "instruction": "9401c370",
+      "transfer": "BL",
+      "wrapper": "0xd680c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x65a78",
+      "instruction": "9401c375",
+      "transfer": "BL",
+      "wrapper": "0xd684c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x65a98",
+      "instruction": "9401c375",
+      "transfer": "BL",
+      "wrapper": "0xd686c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x65ab4",
+      "instruction": "9401c376",
+      "transfer": "BL",
+      "wrapper": "0xd688c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x65ae0",
+      "instruction": "9401c37b",
+      "transfer": "BL",
+      "wrapper": "0xd68cc",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x65b04",
+      "instruction": "9401c37a",
+      "transfer": "BL",
+      "wrapper": "0xd68ec",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x65b28",
+      "instruction": "9401c381",
+      "transfer": "BL",
+      "wrapper": "0xd692c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x65b50",
+      "instruction": "9401c387",
+      "transfer": "BL",
+      "wrapper": "0xd696c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x65b70",
+      "instruction": "9401c387",
+      "transfer": "BL",
+      "wrapper": "0xd698c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x65b98",
+      "instruction": "9401c38d",
+      "transfer": "BL",
+      "wrapper": "0xd69cc",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x65bc0",
+      "instruction": "9401c393",
+      "transfer": "BL",
+      "wrapper": "0xd6a0c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x65be8",
+      "instruction": "9401c399",
+      "transfer": "BL",
+      "wrapper": "0xd6a4c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x65c10",
+      "instruction": "9401c39f",
+      "transfer": "BL",
+      "wrapper": "0xd6a8c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x65c40",
+      "instruction": "9401c3ab",
+      "transfer": "BL",
+      "wrapper": "0xd6aec",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x65c60",
+      "instruction": "9401c3ab",
+      "transfer": "BL",
+      "wrapper": "0xd6b0c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x65c88",
+      "instruction": "9401c3b1",
+      "transfer": "BL",
+      "wrapper": "0xd6b4c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x65cb0",
+      "instruction": "9401c3b7",
+      "transfer": "BL",
+      "wrapper": "0xd6b8c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x65cd8",
+      "instruction": "9401c3bd",
+      "transfer": "BL",
+      "wrapper": "0xd6bcc",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x65d00",
+      "instruction": "9401c3c3",
+      "transfer": "BL",
+      "wrapper": "0xd6c0c",
+      "registration": "0x53fac",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0xf1098",
+      "instruction": "94000e11",
+      "transfer": "BL",
+      "wrapper": "0xf48dc",
+      "registration": "0xf0c4c",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0xf10c0",
+      "instruction": "94000e17",
+      "transfer": "BL",
+      "wrapper": "0xf491c",
+      "registration": "0xf0c4c",
+      "api": "_MSHookMessageEx",
+      "operation": "replace"
+    },
+    {
+      "call_site": "0x1b6fd4",
+      "instruction": "94000967",
+      "transfer": "BL",
+      "wrapper": "0x1b9570",
+      "registration": "0x1b6d44",
+      "api": "_method_setImplementation",
+      "operation": "manual-replace"
+    },
+    {
+      "call_site": "0x1c938c",
+      "instruction": "940001a3",
+      "transfer": "BL",
+      "wrapper": "0x1c9a18",
+      "registration": "0x1c8fb4",
+      "api": "_class_addMethod",
+      "operation": "add"
+    },
+    {
+      "call_site": "0x1c9420",
+      "instruction": "940001ba",
+      "transfer": "BL",
+      "wrapper": "0x1c9b08",
+      "registration": "0x1c8fb4",
+      "api": "_class_addMethod",
+      "operation": "add"
+    }
+  ],
+  "original_binary_executed": false
+}

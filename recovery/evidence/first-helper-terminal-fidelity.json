@@ -1,0 +1,93 @@
+{
+  "binary_sha256": "59b0ddc0c8ca14863d20b0005c0c48e062e81a0df6611e213a3a66fa2b796023",
+  "spans": [
+    {
+      "start": "0x22d4cc",
+      "end": "0x22d744",
+      "sha256": "2c9e53764b37da17596f0677fc8de3ac46edaf66e64b12579ab6c3b5260b3625"
+    },
+    {
+      "start": "0x22e1a4",
+      "end": "0x22e364",
+      "sha256": "aecdb6b67594de21790573a7d4a61af913873f08e48dd7921f48d28510b8e28d"
+    },
+    {
+      "start": "0x232468",
+      "end": "0x2324f4",
+      "sha256": "c657d5b13a61b6c95832cb9b619f43d29a6089f2887d55efa2a38f940acb2250"
+    },
+    {
+      "start": "0x23295c",
+      "end": "0x232a30",
+      "sha256": "6d8594d152579eb2e985e8545d837bec4de3823c50ec5a37fb11e8924f74f52b"
+    }
+  ],
+  "branches": [
+    {
+      "table": "0x11d1608",
+      "key": "0x11d1618",
+      "xor": "0xb8ac3795",
+      "targets": [
+        "0x22d67c",
+        "0x22d710"
+      ]
+    },
+    {
+      "table": "0x11d1620",
+      "key": "0x11d1630",
+      "xor": "0x8e1f56e0",
+      "targets": [
+        "0x22d6c0",
+        "0x22d710"
+      ]
+    }
+  ],
+  "strings": [
+    {
+      "address": "0x11d0790",
+      "value": "YTPlus --- %@"
+    },
+    {
+      "address": "0x11d08e0",
+      "value": "%@"
+    }
+  ],
+  "selectors": [
+    {
+      "reference": "0x114e598",
+      "name": "code"
+    },
+    {
+      "reference": "0x114c618",
+      "name": "localizedDescription"
+    },
+    {
+      "reference": "0x114c5b8",
+      "name": "showMessageWithText:isSuccess:"
+    },
+    {
+      "reference": "0x114b378",
+      "name": "stringWithFormat:"
+    },
+    {
+      "reference": "0x114b6e8",
+      "name": "stringByAppendingPathComponent:"
+    },
+    {
+      "reference": "0x114c430",
+      "name": "fileURLWithPath:"
+    },
+    {
+      "reference": "0x114b240",
+      "name": "defaultManager"
+    },
+    {
+      "reference": "0x114dc60",
+      "name": "removeItemAtURL:error:"
+    }
+  ],
+  "methods": {
+    "downloadDidFailureWithError:": "0x22d4cc",
+    "cleanup": "0x22e1a4"
+  }
+}

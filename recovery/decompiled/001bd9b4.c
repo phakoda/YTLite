@@ -1,0 +1,264 @@
+/* Decompiled from supplied 5.2.2 arm package. VA 0x1bd9b4. handleTap */
+
+/* Function Stack Size: 0x10 bytes */
+
+void ToastView::handleTap(ID param_1,SEL param_2)
+
+{
+  undefined8 *puVar1;
+  undefined *puVar2;
+  undefined *puVar3;
+  undefined *puVar4;
+  undefined8 *puVar5;
+  undefined8 *puVar6;
+  bool bVar7;
+  undefined8 uVar8;
+  undefined8 uVar9;
+  ulong uVar10;
+  long lVar11;
+  ulong uVar12;
+  ID IVar13;
+  undefined8 uVar14;
+  undefined8 uVar15;
+  undefined **ppuVar16;
+  undefined1 *puVar17;
+  undefined8 uVar18;
+  undefined8 uVar19;
+  double in_d1;
+  undefined8 uVar20;
+  double in_d3;
+  undefined8 uVar21;
+  undefined8 auStack_2c0 [16];
+  undefined8 auStack_240 [16];
+  undefined *puStack_1c0;
+  undefined8 uStack_1b8;
+  code *pcStack_1b0;
+  undefined *puStack_1a8;
+  undefined8 uStack_1a0;
+  ID IStack_198;
+  ID IStack_190;
+  undefined8 uStack_188;
+  undefined *puStack_170;
+  undefined *puStack_168;
+  undefined *puStack_160;
+  undefined *puStack_158;
+  undefined8 uStack_150;
+  undefined *puStack_148;
+  undefined8 uStack_140;
+  ID IStack_138;
+  undefined8 *puStack_130;
+  undefined8 *puStack_128;
+  undefined8 uStack_120;
+  undefined **local_118;
+  undefined **local_110;
+  uint uStack_104;
+  undefined **local_100;
+  uint uStack_f4;
+  undefined **local_f0;
+  undefined **local_e8;
+  uint uStack_dc;
+  undefined **local_d8;
+  int iStack_cc;
+  undefined **local_c8;
+  uint uStack_bc;
+  undefined **local_b8;
+  undefined **local_b0;
+  uint local_a4;
+  undefined **local_a0;
+  
+  local_a0 = &PTR_LAB_011b4168;
+  local_a4 = (uint)(DAT_01227afc == 0);
+  local_b8 = &PTR_LAB_011b4188;
+  local_c8 = &PTR_LAB_011b41a0;
+  local_d8 = &PTR__objc_msgSend_011b41b8;
+  local_f0 = &PTR_LAB_011b41d8;
+  local_100 = &PTR_LAB_011b41f0;
+  local_b0 = &PTR_LAB_011b39f0;
+  local_e8 = &PTR_LAB_011b39f0;
+  local_110 = &PTR_LAB_011b39f0;
+  local_118 = &PTR_LAB_011b39f0;
+  DAT_01227afc = 1;
+  _objc_msgSend(PTR_ToastManager_0114ecd0,PTR_s_sharedManager_0114c320);
+  uVar8 = _objc_retainAutoreleasedReturnValue();
+  _objc_msgSend(uVar8,PTR_s_toasts_0114dda8);
+  uVar9 = _objc_retainAutoreleasedReturnValue();
+  puVar3 = PTR_s_count_0114b840;
+  uVar10 = _objc_msgSend(uVar9,PTR_s_count_0114b840);
+  uStack_bc = (uint)(uVar10 < 2);
+  puVar17 = local_b8[uStack_bc] + (int)-(uRam00000000011b4198 ^ 0x6fd4affb);
+  if (uVar10 >= 2) {
+    puStack_130 = auStack_240;
+    puStack_128 = auStack_2c0;
+    _objc_retain(uVar9);
+    _objc_sync_enter();
+    iStack_cc = FUN_001c5cf4(uVar9,PTR_s_containsObject__0114c848,param_1);
+    if (iStack_cc != 0) {
+      _objc_msgSend(uVar9,PTR_s_removeObject__0114cad0,param_1);
+      _objc_msgSend(uVar9,PTR_s_insertObject_atIndex__0114b028,param_1,0);
+    }
+    uStack_120 = uVar8;
+    _objc_sync_exit(uVar9);
+    _objc_release(uVar9);
+    lVar11 = _objc_msgSend(uVar9,puVar3);
+    puVar4 = PTR_s_updateLayout_0114ddb0;
+    puVar2 = PTR_s_objectAtIndexedSubscript__0114aeb0;
+    uStack_dc = (uint)(lVar11 == 0);
+    if (lVar11 != 0) {
+      uVar10 = 0;
+      ppuVar16 = &PTR_s_addObjectsFromArray__0114d000;
+      do {
+        _objc_msgSend(ppuVar16,uVar9,puVar2,uVar10);
+        uVar8 = _objc_retainAutoreleasedReturnValue();
+        _objc_msgSend(uVar8,puVar4);
+        _objc_release(uVar8);
+        uVar10 = uVar10 + 1;
+        uVar12 = _objc_msgSend(uVar9,puVar3);
+        uStack_104 = (uint)(uVar10 < uVar12);
+        ppuVar16 = (undefined **)(local_100[uStack_104] + (int)-(uRam00000000011b4200 ^ 0x2d891bf3))
+        ;
+      } while (uVar10 < uVar12);
+    }
+    _objc_msgSend(uVar9,PTR_s_lastObject_0114b250);
+    uVar8 = _objc_retainAutoreleasedReturnValue();
+    _objc_msgSend(uVar9,PTR_s_firstObject_0114b748);
+    IVar13 = _objc_retainAutoreleasedReturnValue();
+    lVar11 = _objc_msgSend(uVar9,puVar3);
+    bVar7 = IVar13 != 0 && IVar13 == param_1;
+    uStack_f4 = (uint)bVar7;
+    if (bVar7) {
+      uVar21 = *(undefined8 *)(&UNK_00c4c3e0 + (ulong)(lVar11 == 2) * 8);
+      puStack_148 = PTR_s_layer_0114ae60;
+      _objc_msgSend(param_1);
+      uVar14 = _objc_retainAutoreleasedReturnValue();
+      IStack_138 = IVar13;
+      uVar19 = _objc_msgSend(uVar14,PTR_s_position_0114ddb8);
+      _objc_release(uVar14);
+      _objc_msgSend(param_1,PTR_s_bounds_0114b568);
+      puStack_158 = PTR_s_animationWithKeyPath__0114d2f0;
+      uStack_140 = uVar8;
+      _objc_msgSend(PTR__OBJC_CLASS___CABasicAnimation_0114ee20,PTR_s_animationWithKeyPath__0114d2f0
+                    ,&PTR____CFConstantStringClassReference_011b36e0);
+      uVar8 = _objc_retainAutoreleasedReturnValue();
+      puVar3 = PTR_s_numberWithDouble__0114c310;
+      _objc_msgSend(in_d1,PTR__OBJC_CLASS___NSNumber_0114eb00,PTR_s_numberWithDouble__0114c310);
+      uVar14 = _objc_retainAutoreleasedReturnValue();
+      puStack_160 = PTR_s_setFromValue__0114d2f8;
+      _objc_msgSend(uVar8,PTR_s_setFromValue__0114d2f8,uVar14);
+      _objc_release(uVar14);
+      _objc_msgSend(in_d1 - in_d3,PTR__OBJC_CLASS___NSNumber_0114eb00,puVar3);
+      uVar14 = _objc_retainAutoreleasedReturnValue();
+      puStack_168 = PTR_s_setToValue__0114d300;
+      _objc_msgSend(uVar8,PTR_s_setToValue__0114d300,uVar14);
+      _objc_release(uVar14);
+      puStack_170 = PTR_s_setDuration__0114d318;
+      uStack_150 = uVar8;
+      _objc_msgSend(0x3fd0000000000000,uVar8);
+      puVar2 = PTR_s_functionWithName__0114dd78;
+      uVar18 = *(undefined8 *)PTR__kCAMediaTimingFunctionEaseInEaseOut_01060bc8;
+      _objc_msgSend(PTR__OBJC_CLASS___CAMediaTimingFunction_0114ef68,
+                    PTR_s_functionWithName__0114dd78,uVar18);
+      uVar14 = _objc_retainAutoreleasedReturnValue();
+      puVar4 = PTR_s_setTimingFunction__0114dd80;
+      _objc_msgSend(uVar8,PTR_s_setTimingFunction__0114dd80,uVar14);
+      _objc_release(uVar14);
+      _objc_msgSend(PTR__OBJC_CLASS___CABasicAnimation_0114ee20,puStack_158,
+                    &PTR____CFConstantStringClassReference_011b3660);
+      uVar15 = _objc_retainAutoreleasedReturnValue();
+      _objc_msgSend(0x3ff0000000000000,PTR__OBJC_CLASS___NSNumber_0114eb00,puVar3);
+      uVar8 = _objc_retainAutoreleasedReturnValue();
+      _objc_msgSend(uVar15,puStack_160,uVar8);
+      _objc_release(uVar8);
+      _objc_msgSend(uVar21,PTR__OBJC_CLASS___NSNumber_0114eb00,puVar3);
+      uVar14 = _objc_retainAutoreleasedReturnValue();
+      _objc_msgSend(uVar15,puStack_168,uVar14);
+      uVar8 = uStack_140;
+      _objc_release(uVar14);
+      _objc_msgSend(0x3fd0000000000000,uVar15,puStack_170);
+      _objc_msgSend(PTR__OBJC_CLASS___CAMediaTimingFunction_0114ef68,puVar2,uVar18);
+      uVar14 = _objc_retainAutoreleasedReturnValue();
+      _objc_msgSend(uVar15,puVar4,uVar14);
+      _objc_release(uVar14);
+      _objc_msgSend(PTR__OBJC_CLASS___CATransaction_0114ed20,PTR_s_begin_0114c468);
+      puVar3 = PTR__OBJC_CLASS___CATransaction_0114ed20;
+      puStack_1c0 = PTR___NSConcreteStackBlock_01060660;
+      uStack_1b8 = DAT_00c4c228;
+      pcStack_1b0 = FUN_001be4a4;
+      puStack_1a8 = &DAT_01062a40;
+      _objc_retain(uVar8);
+      uStack_1a0 = uVar8;
+      IStack_198 = param_1;
+      uStack_188 = uVar19;
+      _objc_retain(param_1);
+      IStack_190 = param_1;
+      _objc_msgSend(puVar3,PTR_s_setCompletionBlock__0114c498,&puStack_1c0);
+      puVar2 = puStack_148;
+      _objc_msgSend(param_1,puStack_148);
+      uVar18 = _objc_retainAutoreleasedReturnValue();
+      uVar14 = uStack_150;
+      puVar3 = PTR_s_addAnimation_forKey__0114d320;
+      _objc_msgSend(uVar18,PTR_s_addAnimation_forKey__0114d320,uStack_150,
+                    &PTR____CFConstantStringClassReference_011b3620);
+      _objc_release(uVar18);
+      _objc_msgSend(param_1,puVar2);
+      uVar18 = _objc_retainAutoreleasedReturnValue();
+      _objc_msgSend(uVar18,puVar3,uVar15,&PTR____CFConstantStringClassReference_011b36a0);
+      _objc_release(uVar18);
+      _objc_msgSend(param_1,puVar2);
+      uVar18 = _objc_retainAutoreleasedReturnValue();
+      _objc_msgSend(uVar19,in_d1 - in_d3,uVar18,PTR_s_setPosition__0114ddc0);
+      _objc_release(uVar18);
+      puVar5 = puStack_130;
+      _CATransform3DMakeScale(puStack_130,uVar21,uVar21,0x3ff0000000000000);
+      _objc_msgSend(param_1,puVar2);
+      uVar18 = _objc_retainAutoreleasedReturnValue();
+      puVar6 = puStack_128;
+      uVar19 = puVar5[8];
+      uVar20 = puVar5[0xb];
+      uVar21 = puVar5[10];
+      puVar1 = puStack_128 + 8;
+      puStack_128[9] = puVar5[9];
+      *puVar1 = uVar19;
+      puVar6[0xb] = uVar20;
+      puVar6[10] = uVar21;
+      uVar19 = puVar5[0xc];
+      uVar20 = puVar5[0xf];
+      uVar21 = puVar5[0xe];
+      puVar6[0xd] = puVar5[0xd];
+      puVar6[0xc] = uVar19;
+      puVar6[0xf] = uVar20;
+      puVar6[0xe] = uVar21;
+      uVar19 = *puVar5;
+      uVar20 = puVar5[3];
+      uVar21 = puVar5[2];
+      puVar6[1] = puVar5[1];
+      *puVar6 = uVar19;
+      puVar6[3] = uVar20;
+      puVar6[2] = uVar21;
+      uVar19 = puVar5[4];
+      uVar20 = puVar5[7];
+      uVar21 = puVar5[6];
+      puVar6[5] = puVar5[5];
+      puVar6[4] = uVar19;
+      puVar6[7] = uVar20;
+      puVar6[6] = uVar21;
+      _objc_msgSend(uVar18,PTR_s_setTransform__0114b910);
+      IVar13 = IStack_138;
+      _objc_release(uVar18);
+      _objc_msgSend(PTR__OBJC_CLASS___CATransaction_0114ed20,PTR_s_commit_0114c478);
+      _objc_release(IStack_190);
+      _objc_release(uStack_1a0);
+      _objc_release(uVar15);
+      _objc_release(uVar14);
+    }
+    _objc_release(IVar13);
+    _objc_release(uVar8);
+    puVar17 = &stack0xffffffffffffffe0;
+    uVar8 = uStack_120;
+  }
+  _objc_release(puVar17,uVar9);
+  _objc_release(uVar8);
+  CallSupervisor(0xb64f);
+  return;
+}
+
+

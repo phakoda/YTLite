@@ -1,0 +1,37 @@
+#pragma once
+#import <Foundation/Foundation.h>
+FOUNDATION_EXPORT void YTLInstallSponsorPlaybackHooks(void);
+FOUNDATION_EXPORT void YTLInstallPlayerBarsSponsorHooks(void);
+FOUNDATION_EXPORT void YTLInstallDiscordLifecycleHooks(void);
+FOUNDATION_EXPORT void YTLInstallPlayerControlsHooks(void);
+FOUNDATION_EXPORT void YTLInstallPlayerBarsAppearanceHooks(void);
+FOUNDATION_EXPORT void YTLInstallPlayerLifecycleHooks(void);
+FOUNDATION_EXPORT void YTLInstallShortsPlaybackHooks(void);
+FOUNDATION_EXPORT BOOL isOverlayShown;
+FOUNDATION_EXPORT void YTLInstallShortsInterfaceHooks(void);
+FOUNDATION_EXPORT void YTLInstallFeedNodesHooks(void);
+FOUNDATION_EXPORT void YTLInstallPlayerOverlayHooks(void);
+FOUNDATION_EXPORT BOOL isTabSelected;
+FOUNDATION_EXPORT void YTLInstallThemeStylesHooks(void);
+FOUNDATION_EXPORT void YTLInstallNavigationChromeEarlyHooks(void);
+FOUNDATION_EXPORT void YTLInstallNavigationChromeHooks(void);
+FOUNDATION_EXPORT void YTLInstallNavigationChromeRendererHook(void);
+FOUNDATION_EXPORT void YTLInstallImageGesturesHooks(void);
+FOUNDATION_EXPORT void YTLInstallCompatibilityVersionHooks(void);
+FOUNDATION_EXPORT void YTLInstallSettingsBridgeHooks(void);
+FOUNDATION_EXPORT void YTLInstallFeedFilteringHooks(void);
+FOUNDATION_EXPORT void YTLInstallNativeShareHooks(void);
+FOUNDATION_EXPORT void YTLInstallMediaPolicyHooks(void);
+FOUNDATION_EXPORT void YTLInstallMediaServicesHooks(void);
+FOUNDATION_EXPORT void YTLInstallPlaybackOptionsHooks(void);
+FOUNDATION_EXPORT void YTLInstallConfigurationEarlyHooks(void);
+FOUNDATION_EXPORT void YTLInstallConfigurationHooks(void);
+FOUNDATION_EXPORT void YTLInstallRemoteControlsEarlyHooks(void);
+FOUNDATION_EXPORT void YTLInstallRemoteControlsMainHooks(void);
+FOUNDATION_EXPORT void YTLInstallGeneralInterfaceEarlyHooks(void);
+FOUNDATION_EXPORT void YTLInstallGeneralInterfaceHooks(void);
+FOUNDATION_EXPORT void YTLInstallStartupLifecycleEarlyHooks(void);
+FOUNDATION_EXPORT void YTLInstallStartupLifecycleMainHooks(void);
+FOUNDATION_EXPORT void YTLScheduleWelcome(void);
+FOUNDATION_EXPORT void YTLFinalizePrimaryStartup(void);
+FOUNDATION_EXPORT void YTLInstallSideloadMetadataCompatibilityHooks(void);

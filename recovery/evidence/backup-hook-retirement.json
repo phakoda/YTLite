@@ -1,0 +1,89 @@
+{
+  "source": "YTLite.x",
+  "previous_sha256": "720b89fd8db6afe1d877619da93ba2c5df65e75a17019e65754d298822584041",
+  "previous_copy": ".recovery-work/integration-backups/YTLite-before-retirement-720b89fd8db6afe1d877619da93ba2c5df65e75a17019e65754d298822584041.x",
+  "removed_signatures": [
+    [
+      "YTAsyncCollectionView",
+      "-",
+      "cellForItemAtIndexPath:"
+    ],
+    [
+      "YTAsyncCollectionView",
+      "-",
+      "removeCellsAtIndexPath:"
+    ],
+    [
+      "YTEngagementPanelView",
+      "-",
+      "didTapCopyInfoButton:"
+    ],
+    [
+      "YTEngagementPanelView",
+      "-",
+      "layoutSubviews"
+    ],
+    [
+      "YTImageSelectionStrategyImageURLs",
+      "-",
+      "initWithSelectedImageURL:updatedImageURL:"
+    ],
+    [
+      "YTPivotBarIndicatorView",
+      "-",
+      "setBorderColor:"
+    ],
+    [
+      "YTPivotBarIndicatorView",
+      "-",
+      "setFillColor:"
+    ],
+    [
+      "YTQTMButton",
+      "-",
+      "titleLabel"
+    ],
+    [
+      "YTReelPausedStateCarouselView",
+      "-",
+      "setPausedStateCarouselVisible:animated:"
+    ],
+    [
+      "YTReelPlayerButton",
+      "-",
+      "titleLabel"
+    ],
+    [
+      "YTReelTransparentStackView",
+      "-",
+      "layoutSubviews"
+    ],
+    [
+      "YTSectionListViewController",
+      "-",
+      "loadWithModel:"
+    ],
+    [
+      "YTVarispeedSwitchController",
+      "-",
+      "setDelegate:"
+    ],
+    [
+      "YTVideoQualitySwitchControllerFactory",
+      "-",
+      "videoQualitySwitchControllerWithParentResponder:"
+    ]
+  ],
+  "registration_evidence": "recovery/evidence/registration-call-audit.json",
+  "reason": "These remaining backup signatures have no counterparts in the mapped original registrations. The direct-call audit accounts for all 466 original B/BL registration sites. Source hook modules own recovered behavior.",
+  "removed_constructor": "Old advancedModeReminder and shortsOnlyMode preference cleanup have no counterpart in recovered original startup. StartupLifecycle restores the evidenced welcome/defaults behavior.",
+  "sideloading": {
+    "previous_sha256": "578b5b3bd27b113f62a3c851c2bdad559124a7865b2cfb421f16f86c642136df",
+    "previous_copy": ".recovery-work/integration-backups/Sideloading-before-retirement-578b5b3bd27b113f62a3c851c2bdad559124a7865b2cfb421f16f86c642136df.x",
+    "replacement_modules": [
+      "SideloadIdentity",
+      "SideloadCompatibility"
+    ],
+    "reason": "Replace legacy receipt predicate and backup hook bodies with the original identity predicate and verified local callback subset. App-origin assertions are evidence-only exclusions."
+  }
+}

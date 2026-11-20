@@ -1,12 +1,15 @@
 #import <Foundation/Foundation.h>
-#import <roothide.h>
+@class UIImage, UIColor;
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface NSBundle (YTLite)
 
-// Returns YTLite default bundle. Supports rootless if defined in compilation parameters
+// Packaged bundle lookup, including the recovered libroot path resolver.
 @property (class, nonatomic, readonly) NSBundle *ytl_defaultBundle;
+- (nullable UIImage *)imageWithName:(NSString *)name;
+- (nullable UIImage *)originalImageWithName:(NSString *)name;
+- (nullable UIImage *)imageWithName:(NSString *)name tintColor:(UIColor *)color;
 
 @end
 

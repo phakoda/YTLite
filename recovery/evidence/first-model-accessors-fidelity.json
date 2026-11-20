@@ -1,0 +1,3657 @@
+{
+  "class_name": "DVNCell",
+  "binary_sha256": "59b0ddc0c8ca14863d20b0005c0c48e062e81a0df6611e213a3a66fa2b796023",
+  "spans": [
+    {
+      "start": "0x1902ec",
+      "end": "0x1902f4",
+      "sha256": "dfb556a413c8bda5332942d0202e8d5f1e52f45158aec3676294cf11ad5909cb"
+    },
+    {
+      "start": "0x1902f4",
+      "end": "0x190328",
+      "sha256": "600ac18a0f1f5d5cb8afd5f96f5b8a996c1e82d3ab6ce252480e0e6fa62df7de"
+    },
+    {
+      "start": "0x190328",
+      "end": "0x190330",
+      "sha256": "bd237e5d99f6462770946dd64c9d5273577f92aeb78154ba485fef49e0d73851"
+    },
+    {
+      "start": "0x190330",
+      "end": "0x190338",
+      "sha256": "f289023bfc90be5c90aa1a98a40c5b356af639e69af0399f5914b2202364955c"
+    },
+    {
+      "start": "0x190338",
+      "end": "0x19036c",
+      "sha256": "ee71f9cc1f8e9fff8ed6fd196509aa54f8fd1a89b62da8051a0bc9189a4d1ac3"
+    },
+    {
+      "start": "0x19036c",
+      "end": "0x190374",
+      "sha256": "c0b9896d6c3d8aacf384c0d0cf5d897e84f621efe31cc89c980be348eb9c6614"
+    },
+    {
+      "start": "0x190374",
+      "end": "0x1903a8",
+      "sha256": "fe05ffbdb2dd09c70845b1b203f6e18e7efd51e6e37a8adb805d6dda66a0d48d"
+    },
+    {
+      "start": "0x1903a8",
+      "end": "0x1903b0",
+      "sha256": "6b819324b4a3bc2d390c83c7fe02ea41a1f57ae5d4f2a9b0c9256341a5b8d37f"
+    },
+    {
+      "start": "0x1903b0",
+      "end": "0x1903e4",
+      "sha256": "1a72d22a006cbf85f8b7d1d7a6de4e3272277013cec717fb7ed23d8c1c55fd2f"
+    },
+    {
+      "start": "0x1903e4",
+      "end": "0x1903ec",
+      "sha256": "095bb56e13b6dfde16ade0b592279392884c282a7c7810cb58472b839de552de"
+    },
+    {
+      "start": "0x1903ec",
+      "end": "0x190420",
+      "sha256": "d3455d99aafcc0762dfa9bcb5a08ca3fb8a9c181ac538621d2eb45665bd8d3ce"
+    },
+    {
+      "start": "0x190420",
+      "end": "0x190428",
+      "sha256": "ac1915dbf8ae56825a9e0c79c21190a655d4b32b9c10f299546aad7c9ecadc66"
+    },
+    {
+      "start": "0x190428",
+      "end": "0x190434",
+      "sha256": "f14be78ae2756fc1e1388d52f915e68c745e285561d44b2e5717a8f7d1cba983"
+    },
+    {
+      "start": "0x190434",
+      "end": "0x19043c",
+      "sha256": "62c64bd585db7a91917843362bb75aa8dd20b002bce4874891b0b3ec8fd242b9"
+    },
+    {
+      "start": "0x19043c",
+      "end": "0x190470",
+      "sha256": "10fed20a3727f68931cc3f62e03fd24633deda59d906b0a87775b08b691592fb"
+    },
+    {
+      "start": "0x190470",
+      "end": "0x190478",
+      "sha256": "989bb1a041c93e09fa2954014eaba1a46b19128664c6bbb210694e0989f09532"
+    },
+    {
+      "start": "0x190478",
+      "end": "0x1904ac",
+      "sha256": "0e7948cc68e80a914830c6201d61923626420e9a7e2b0eb2ff04e9b0a15d1f93"
+    },
+    {
+      "start": "0x1904ac",
+      "end": "0x1904b4",
+      "sha256": "a853b42df254ffc934e0a7affed48916474129c310d48b4d45c702fbc8043a11"
+    },
+    {
+      "start": "0x1904b4",
+      "end": "0x1904bc",
+      "sha256": "1030c4762930db8c33a8b5a41a6a45a843a1dccaea5216d35a4577eaab80d250"
+    },
+    {
+      "start": "0x1904bc",
+      "end": "0x1904c4",
+      "sha256": "9490e9f1baf8dd2e7d21144f880147d9fab217e7851d3abf67122933be9ee3bf"
+    },
+    {
+      "start": "0x1904c4",
+      "end": "0x1904e4",
+      "sha256": "23cdf72d995239071629d6e885dda977752ea1a9fa514457d606abf038903162"
+    },
+    {
+      "start": "0x1904e4",
+      "end": "0x1904ec",
+      "sha256": "154f7a9d7f34c6122ccefdaa84f73da4c33b9cc99a17987ce75fca0c604db48b"
+    },
+    {
+      "start": "0x1904ec",
+      "end": "0x19050c",
+      "sha256": "6e0594d96592c1750ff9afb8b7ee5878bea9c680082d34af22f8fb5a5b136a5f"
+    },
+    {
+      "start": "0x19050c",
+      "end": "0x190514",
+      "sha256": "36cc23bb70bc1c1b59cc307e6204dbafdeee922c2168929d194e21890ad85195"
+    },
+    {
+      "start": "0x190514",
+      "end": "0x190534",
+      "sha256": "f5c0714f098d0c194915a100fc5fb8516fa3f3790c15983cda00683bb8e6bf73"
+    },
+    {
+      "start": "0x190534",
+      "end": "0x19053c",
+      "sha256": "04d63990d737e9b1c54f43eb89304f2b27873d85e0b71a0f00dd4109dbb6e578"
+    },
+    {
+      "start": "0x19053c",
+      "end": "0x19055c",
+      "sha256": "7167a66d521a371424fc4f1b3d99f67a58f00fc4df69c519745fb48324b56dfd"
+    },
+    {
+      "start": "0x19055c",
+      "end": "0x190564",
+      "sha256": "072f928a7f1ee2ecfa82df827bf7a553567eb019a7ad060c3d2621a05b30b1b7"
+    },
+    {
+      "start": "0x190564",
+      "end": "0x190584",
+      "sha256": "7f51d64e1177cef01ba64df63d6283a6fa6eddbc194d6464dcb915586ae1783c"
+    },
+    {
+      "start": "0x190584",
+      "end": "0x19058c",
+      "sha256": "0d049bbd8baf2fa4412ad7db4e86b940f447d9585f6db68116e97c7c9e49605e"
+    },
+    {
+      "start": "0x19058c",
+      "end": "0x1905ac",
+      "sha256": "d3c98511b4d1322ffddb9f365d69f01fd7aebf827f869a47e04c976c3658a1a3"
+    },
+    {
+      "start": "0x1905ac",
+      "end": "0x1905b4",
+      "sha256": "9f68aa97a5258a1e1fbe41f1226846f8b2e5cde4fa5f5b786f7a74d470a04298"
+    },
+    {
+      "start": "0x1905b4",
+      "end": "0x1905d4",
+      "sha256": "200433f76f87d9606a71230d373f6b823cd64141e5ca90ea01f805e41bdebe21"
+    },
+    {
+      "start": "0x1905d4",
+      "end": "0x1905dc",
+      "sha256": "509d712a0d747485a74d3684f00fd4941c9c210d3f084bf792b1b75c5e6c3652"
+    },
+    {
+      "start": "0x1905dc",
+      "end": "0x190610",
+      "sha256": "e47ab1f2064c3b7d436baef3adacc01333ca8d0f40d50a92d2aec279f937cd8b"
+    },
+    {
+      "start": "0x190610",
+      "end": "0x190618",
+      "sha256": "e22509159eb9c3b897155eb8b2b6f0173dadac1f476c0f92d8d8f930abbe4347"
+    },
+    {
+      "start": "0x190618",
+      "end": "0x19064c",
+      "sha256": "f2520f427462572457ad46e9ddae8bf562ac5e979843ce316136122ebe988ba3"
+    },
+    {
+      "start": "0x19064c",
+      "end": "0x190654",
+      "sha256": "2c5f27fe901329ddd9be5f1b7961d0a984f813a76cac0c1f81ae43071f5b08b1"
+    },
+    {
+      "start": "0x190654",
+      "end": "0x190688",
+      "sha256": "a103683adf5aa26a8c12d8387a6122e950d28f8144953505cb61c21fbba65e26"
+    },
+    {
+      "start": "0x190688",
+      "end": "0x190690",
+      "sha256": "8719895e0a1a7a364f8198ecb5c52c335ea6cc04400a216f8ff55a9e8348baca"
+    },
+    {
+      "start": "0x190690",
+      "end": "0x1906b0",
+      "sha256": "0f91d1e2e9263a03164db9bd8a74f01314b8a3b109e84317f7af9bc43a048a79"
+    },
+    {
+      "start": "0x1906b0",
+      "end": "0x1906b8",
+      "sha256": "8acf48fdbb8521073af2f36bb9112b7f2ef477cfaa15922bb3dc5322094b6251"
+    },
+    {
+      "start": "0x1906b8",
+      "end": "0x1906ec",
+      "sha256": "1da7f9bbf39d3af073ab343c8bd3c37c7e5665315bf600561013795d4eda7cb2"
+    },
+    {
+      "start": "0x1906ec",
+      "end": "0x190704",
+      "sha256": "b5c4f70fb89086d11e5940e4bd0fd04f7303ee2175b9b1f3b13f0fc97c3ba986"
+    },
+    {
+      "start": "0x190704",
+      "end": "0x190738",
+      "sha256": "2dd36f50b5657d9050aad4bdc839e5f94054f1b7d9421d83c1f148aeebe2c5fa"
+    },
+    {
+      "start": "0x190738",
+      "end": "0x190740",
+      "sha256": "a28213a16d3021900ec3b7340d6d01776144729f69c6b144002f7adc208d868f"
+    },
+    {
+      "start": "0x190740",
+      "end": "0x190774",
+      "sha256": "0e6da4b2ecf7fad05abbb2984395c38f5a091f8ae18d3d5648bc9a7442d5033e"
+    },
+    {
+      "start": "0x190774",
+      "end": "0x19077c",
+      "sha256": "a43ceab51832eca6b0dc21456b440332d15af5d27db4a8b93d478dce8f933b93"
+    },
+    {
+      "start": "0x19077c",
+      "end": "0x1907b0",
+      "sha256": "efad8b508f86d3e909806bada915bfac034069a928fc31f0fe4d154dfafa61f0"
+    },
+    {
+      "start": "0x1907b0",
+      "end": "0x1907b8",
+      "sha256": "6f31fb6211de5c405fdb64cb9ec9eea954ea2d52a5a34649d5943f6df7a59480"
+    },
+    {
+      "start": "0x1907b8",
+      "end": "0x1907e8",
+      "sha256": "ed36f8a605d4d25a0828dee677edf507654c399b44ce4aa686d8221e91624f86"
+    },
+    {
+      "start": "0x1907e8",
+      "end": "0x1907f0",
+      "sha256": "23c8cd26d5ae71e2b941a005fab14d9165cc525ac58267621bb0e69e4a263bb3"
+    },
+    {
+      "start": "0x1907f0",
+      "end": "0x1907f8",
+      "sha256": "b027abfbf2bb68c9e37c0ce40922fa9fa1a4f6393c6fae829d0d5591d4e6be7b"
+    },
+    {
+      "start": "0x1907f8",
+      "end": "0x190800",
+      "sha256": "ba4c2ccef6b9b64afc1064a567fd2323a67d13fa4034430dd8b448e052ddbdf2"
+    },
+    {
+      "start": "0x190800",
+      "end": "0x190830",
+      "sha256": "24605769b148c52d232686c9369b533df08eb18358fc3c41256624f092e9a7e8"
+    },
+    {
+      "start": "0x190830",
+      "end": "0x190838",
+      "sha256": "e49d723757a27dfbd7d070c170b9b4dd52389a089158ee08e5b69641210ae3f3"
+    },
+    {
+      "start": "0x190838",
+      "end": "0x190868",
+      "sha256": "ef1094e347e5045c37385b17918ab887fd02095e0113eb701307e915852bdced"
+    },
+    {
+      "start": "0x190868",
+      "end": "0x190870",
+      "sha256": "552dde2909931c89f0b0010f88689b68ca46efff233eafb800f88fea882dfa24"
+    },
+    {
+      "start": "0x190870",
+      "end": "0x1908a0",
+      "sha256": "85e3c76fef3811377307b8d497b69afbf6699fc8be971a2b26b6a3c9208073f6"
+    },
+    {
+      "start": "0x1908a0",
+      "end": "0x1908a8",
+      "sha256": "91126818b91e6c658aba941cdc52be48c76903dd7308b0d57361e2fbf8a6e140"
+    },
+    {
+      "start": "0x1908a8",
+      "end": "0x1908b0",
+      "sha256": "6c2d184d8bfbcbd8df93bf4ba9e348360db133404ede6941cf54055053cbd3de"
+    },
+    {
+      "start": "0x1908b0",
+      "end": "0x1908b8",
+      "sha256": "c722475f27d1559e22a1016eaa0b9e7955020853a913fb1f32807bd840e68b6b"
+    },
+    {
+      "start": "0x1908b8",
+      "end": "0x1908ec",
+      "sha256": "638245bd9a0ccbfeef5caf850985907cedbe918e9d3dd97e741405b376391fef"
+    },
+    {
+      "start": "0x1917d0",
+      "end": "0x1917e0",
+      "sha256": "76c4a8fa4d13650e13b0cd650a248e645adbfbd3cfbc59f4d28ee89d6beb3c99"
+    },
+    {
+      "start": "0x1917e0",
+      "end": "0x1917f0",
+      "sha256": "8c338ecb6fe14eed2a41042604473c098d139db02017c9409e083349d56e510a"
+    },
+    {
+      "start": "0x1917f0",
+      "end": "0x191800",
+      "sha256": "f192065ba590d6fd5b0813c2b024b0ff9a11481918da8c890af4c7301fa444d6"
+    },
+    {
+      "start": "0x191800",
+      "end": "0x191810",
+      "sha256": "8c338ecb6fe14eed2a41042604473c098d139db02017c9409e083349d56e510a"
+    },
+    {
+      "start": "0x191810",
+      "end": "0x191820",
+      "sha256": "cc720ced563a4abb2da9fdc0b4ceeae6c4eb8240898dc586bcd9696774df81d1"
+    },
+    {
+      "start": "0x191820",
+      "end": "0x191830",
+      "sha256": "8c338ecb6fe14eed2a41042604473c098d139db02017c9409e083349d56e510a"
+    },
+    {
+      "start": "0x191830",
+      "end": "0x191840",
+      "sha256": "1abc8bc9f964da168c215299588b0340bd936992c3d31397597878581fb4ccb5"
+    },
+    {
+      "start": "0x191840",
+      "end": "0x191850",
+      "sha256": "8c338ecb6fe14eed2a41042604473c098d139db02017c9409e083349d56e510a"
+    },
+    {
+      "start": "0x191850",
+      "end": "0x191860",
+      "sha256": "ad9c9c8c0e2b0146b0afb62b14c1f4aa1f3505770e9177c622908e96bfeb132b"
+    },
+    {
+      "start": "0x191860",
+      "end": "0x191870",
+      "sha256": "8c338ecb6fe14eed2a41042604473c098d139db02017c9409e083349d56e510a"
+    },
+    {
+      "start": "0x191870",
+      "end": "0x191880",
+      "sha256": "f25a4ce7ef5ba4bf32e396f3c96bb4433778a74c368c9ad4142f70a061022a66"
+    },
+    {
+      "start": "0x191880",
+      "end": "0x191890",
+      "sha256": "8c338ecb6fe14eed2a41042604473c098d139db02017c9409e083349d56e510a"
+    }
+  ],
+  "method_contracts": [
+    {
+      "kind": "-",
+      "selector": "identifier",
+      "encoding": "@16@0:8",
+      "address": "0x1902ec"
+    },
+    {
+      "kind": "-",
+      "selector": "setIdentifier:",
+      "encoding": "v24@0:8@16",
+      "address": "0x1902f4"
+    },
+    {
+      "kind": "-",
+      "selector": "reuseIdentifier",
+      "encoding": "@16@0:8",
+      "address": "0x190328"
+    },
+    {
+      "kind": "-",
+      "selector": "title",
+      "encoding": "@16@0:8",
+      "address": "0x190330"
+    },
+    {
+      "kind": "-",
+      "selector": "setTitle:",
+      "encoding": "v24@0:8@16",
+      "address": "0x190338"
+    },
+    {
+      "kind": "-",
+      "selector": "subtitle",
+      "encoding": "@16@0:8",
+      "address": "0x19036c"
+    },
+    {
+      "kind": "-",
+      "selector": "setSubtitle:",
+      "encoding": "v24@0:8@16",
+      "address": "0x190374"
+    },
+    {
+      "kind": "-",
+      "selector": "detailText",
+      "encoding": "@16@0:8",
+      "address": "0x1903a8"
+    },
+    {
+      "kind": "-",
+      "selector": "setDetailText:",
+      "encoding": "v24@0:8@16",
+      "address": "0x1903b0"
+    },
+    {
+      "kind": "-",
+      "selector": "key",
+      "encoding": "@16@0:8",
+      "address": "0x1903e4"
+    },
+    {
+      "kind": "-",
+      "selector": "setKey:",
+      "encoding": "v24@0:8@16",
+      "address": "0x1903ec"
+    },
+    {
+      "kind": "-",
+      "selector": "placeholder",
+      "encoding": "@16@0:8",
+      "address": "0x190420"
+    },
+    {
+      "kind": "-",
+      "selector": "setPlaceholder:",
+      "encoding": "v24@0:8@16",
+      "address": "0x190428"
+    },
+    {
+      "kind": "-",
+      "selector": "titleIndexes",
+      "encoding": "@16@0:8",
+      "address": "0x190434"
+    },
+    {
+      "kind": "-",
+      "selector": "setTitleIndexes:",
+      "encoding": "v24@0:8@16",
+      "address": "0x19043c"
+    },
+    {
+      "kind": "-",
+      "selector": "imageIndexes",
+      "encoding": "@16@0:8",
+      "address": "0x190470"
+    },
+    {
+      "kind": "-",
+      "selector": "setImageIndexes:",
+      "encoding": "v24@0:8@16",
+      "address": "0x190478"
+    },
+    {
+      "kind": "-",
+      "selector": "dividerValue",
+      "encoding": "d16@0:8",
+      "address": "0x1904ac"
+    },
+    {
+      "kind": "-",
+      "selector": "setDividerValue:",
+      "encoding": "v24@0:8d16",
+      "address": "0x1904b4"
+    },
+    {
+      "kind": "-",
+      "selector": "minimumValue",
+      "encoding": "d16@0:8",
+      "address": "0x1904bc"
+    },
+    {
+      "kind": "-",
+      "selector": "setMinimumValue:",
+      "encoding": "v24@0:8d16",
+      "address": "0x1904c4"
+    },
+    {
+      "kind": "-",
+      "selector": "maximumValue",
+      "encoding": "d16@0:8",
+      "address": "0x1904e4"
+    },
+    {
+      "kind": "-",
+      "selector": "setMaximumValue:",
+      "encoding": "v24@0:8d16",
+      "address": "0x1904ec"
+    },
+    {
+      "kind": "-",
+      "selector": "sliderFormat",
+      "encoding": "q16@0:8",
+      "address": "0x19050c"
+    },
+    {
+      "kind": "-",
+      "selector": "setSliderFormat:",
+      "encoding": "v24@0:8q16",
+      "address": "0x190514"
+    },
+    {
+      "kind": "-",
+      "selector": "reloadsCell",
+      "encoding": "B16@0:8",
+      "address": "0x190534"
+    },
+    {
+      "kind": "-",
+      "selector": "setReloadsCell:",
+      "encoding": "v20@0:8B16",
+      "address": "0x19053c"
+    },
+    {
+      "kind": "-",
+      "selector": "reloadsTable",
+      "encoding": "B16@0:8",
+      "address": "0x19055c"
+    },
+    {
+      "kind": "-",
+      "selector": "setReloadsTable:",
+      "encoding": "v20@0:8B16",
+      "address": "0x190564"
+    },
+    {
+      "kind": "-",
+      "selector": "shouldHideDetail",
+      "encoding": "B16@0:8",
+      "address": "0x190584"
+    },
+    {
+      "kind": "-",
+      "selector": "setShouldHideDetail:",
+      "encoding": "v20@0:8B16",
+      "address": "0x19058c"
+    },
+    {
+      "kind": "-",
+      "selector": "renderingMode",
+      "encoding": "q16@0:8",
+      "address": "0x1905ac"
+    },
+    {
+      "kind": "-",
+      "selector": "setRenderingMode:",
+      "encoding": "v24@0:8q16",
+      "address": "0x1905b4"
+    },
+    {
+      "kind": "-",
+      "selector": "icon",
+      "encoding": "@16@0:8",
+      "address": "0x1905d4"
+    },
+    {
+      "kind": "-",
+      "selector": "setIcon:",
+      "encoding": "v24@0:8@16",
+      "address": "0x1905dc"
+    },
+    {
+      "kind": "-",
+      "selector": "image",
+      "encoding": "@16@0:8",
+      "address": "0x190610"
+    },
+    {
+      "kind": "-",
+      "selector": "setImage:",
+      "encoding": "v24@0:8@16",
+      "address": "0x190618"
+    },
+    {
+      "kind": "-",
+      "selector": "accessoryIcon",
+      "encoding": "@16@0:8",
+      "address": "0x19064c"
+    },
+    {
+      "kind": "-",
+      "selector": "setAccessoryIcon:",
+      "encoding": "v24@0:8@16",
+      "address": "0x190654"
+    },
+    {
+      "kind": "-",
+      "selector": "type",
+      "encoding": "q16@0:8",
+      "address": "0x190688"
+    },
+    {
+      "kind": "-",
+      "selector": "setType:",
+      "encoding": "v24@0:8q16",
+      "address": "0x190690"
+    },
+    {
+      "kind": "-",
+      "selector": "tintColor",
+      "encoding": "@16@0:8",
+      "address": "0x1906b0"
+    },
+    {
+      "kind": "-",
+      "selector": "setTintColor:",
+      "encoding": "v24@0:8@16",
+      "address": "0x1906b8"
+    },
+    {
+      "kind": "-",
+      "selector": "sourceView",
+      "encoding": "@16@0:8",
+      "address": "0x1906ec"
+    },
+    {
+      "kind": "-",
+      "selector": "setSourceView:",
+      "encoding": "v24@0:8@16",
+      "address": "0x190704"
+    },
+    {
+      "kind": "-",
+      "selector": "controllerModel",
+      "encoding": "@16@0:8",
+      "address": "0x190738"
+    },
+    {
+      "kind": "-",
+      "selector": "setControllerModel:",
+      "encoding": "v24@0:8@16",
+      "address": "0x190740"
+    },
+    {
+      "kind": "-",
+      "selector": "customData",
+      "encoding": "@16@0:8",
+      "address": "0x190774"
+    },
+    {
+      "kind": "-",
+      "selector": "setCustomData:",
+      "encoding": "v24@0:8@16",
+      "address": "0x19077c"
+    },
+    {
+      "kind": "-",
+      "selector": "handler",
+      "encoding": "@?16@0:8",
+      "address": "0x1907b0"
+    },
+    {
+      "kind": "-",
+      "selector": "setHandler:",
+      "encoding": "v24@0:8@?16",
+      "address": "0x1907b8"
+    },
+    {
+      "kind": "-",
+      "selector": "selfHandler",
+      "encoding": "@?16@0:8",
+      "address": "0x1907e8"
+    },
+    {
+      "kind": "-",
+      "selector": "setSelfHandler:",
+      "encoding": "v24@0:8@?16",
+      "address": "0x1907f0"
+    },
+    {
+      "kind": "-",
+      "selector": "handlerWithCompletion",
+      "encoding": "@?16@0:8",
+      "address": "0x1907f8"
+    },
+    {
+      "kind": "-",
+      "selector": "setHandlerWithCompletion:",
+      "encoding": "v24@0:8@?16",
+      "address": "0x190800"
+    },
+    {
+      "kind": "-",
+      "selector": "subtitleProvider",
+      "encoding": "@?16@0:8",
+      "address": "0x190830"
+    },
+    {
+      "kind": "-",
+      "selector": "setSubtitleProvider:",
+      "encoding": "v24@0:8@?16",
+      "address": "0x190838"
+    },
+    {
+      "kind": "-",
+      "selector": "titleIndexesProvider",
+      "encoding": "@?16@0:8",
+      "address": "0x190868"
+    },
+    {
+      "kind": "-",
+      "selector": "setTitleIndexesProvider:",
+      "encoding": "v24@0:8@?16",
+      "address": "0x190870"
+    },
+    {
+      "kind": "-",
+      "selector": "validationHandler",
+      "encoding": "@?16@0:8",
+      "address": "0x1908a0"
+    },
+    {
+      "kind": "-",
+      "selector": "setValidationHandler:",
+      "encoding": "v24@0:8@?16",
+      "address": "0x1908a8"
+    },
+    {
+      "kind": "-",
+      "selector": "errorText",
+      "encoding": "@16@0:8",
+      "address": "0x1908b0"
+    },
+    {
+      "kind": "-",
+      "selector": "setErrorText:",
+      "encoding": "v24@0:8@16",
+      "address": "0x1908b8"
+    }
+  ],
+  "accessors": [
+    {
+      "property": {
+        "name": "identifier",
+        "attributes": "T@\"NSString\",&,N,V_identifier"
+      },
+      "ivar": {
+        "name": "_identifier",
+        "encoding": "@\"NSString\"",
+        "offset": 16,
+        "size": 8
+      },
+      "method": {
+        "kind": "-",
+        "selector": "identifier",
+        "encoding": "@16@0:8",
+        "address": "0x1902ec"
+      },
+      "contract": {
+        "operation": "load",
+        "offset": 16,
+        "type": "@\"NSString\"",
+        "omitted": [],
+        "calls": [],
+        "wrappers": []
+      }
+    },
+    {
+      "property": {
+        "name": "identifier",
+        "attributes": "T@\"NSString\",&,N,V_identifier"
+      },
+      "ivar": {
+        "name": "_identifier",
+        "encoding": "@\"NSString\"",
+        "offset": 16,
+        "size": 8
+      },
+      "method": {
+        "kind": "-",
+        "selector": "setIdentifier:",
+        "encoding": "v24@0:8@16",
+        "address": "0x1902f4"
+      },
+      "contract": {
+        "operation": "strong-set",
+        "offset": 16,
+        "type": "@\"NSString\"",
+        "omitted": [
+          {
+            "address": "0x190308",
+            "word": "0xd2800340"
+          },
+          {
+            "address": "0x19030c",
+            "word": "0x52800003"
+          },
+          {
+            "address": "0x190310",
+            "word": "0x528003e1"
+          },
+          {
+            "address": "0x190314",
+            "word": "0xd2800002"
+          },
+          {
+            "address": "0x190318",
+            "word": "0xd2800010"
+          },
+          {
+            "address": "0x19031c",
+            "word": "0xd41f8861"
+          }
+        ],
+        "calls": [
+          {
+            "address": "0x190304",
+            "target": "0xb9729c",
+            "symbol": "_objc_storeStrong"
+          }
+        ],
+        "wrappers": []
+      }
+    },
+    {
+      "property": {
+        "name": "reuseIdentifier",
+        "attributes": "T@\"NSString\",R,N,V_reuseIdentifier"
+      },
+      "ivar": {
+        "name": "_reuseIdentifier",
+        "encoding": "@\"NSString\"",
+        "offset": 24,
+        "size": 8
+      },
+      "method": {
+        "kind": "-",
+        "selector": "reuseIdentifier",
+        "encoding": "@16@0:8",
+        "address": "0x190328"
+      },
+      "contract": {
+        "operation": "load",
+        "offset": 24,
+        "type": "@\"NSString\"",
+        "omitted": [],
+        "calls": [],
+        "wrappers": []
+      }
+    },
+    {
+      "property": {
+        "name": "title",
+        "attributes": "T@\"NSString\",&,N,V_title"
+      },
+      "ivar": {
+        "name": "_title",
+        "encoding": "@\"NSString\"",
+        "offset": 32,
+        "size": 8
+      },
+      "method": {
+        "kind": "-",
+        "selector": "title",
+        "encoding": "@16@0:8",
+        "address": "0x190330"
+      },
+      "contract": {
+        "operation": "load",
+        "offset": 32,
+        "type": "@\"NSString\"",
+        "omitted": [],
+        "calls": [],
+        "wrappers": []
+      }
+    },
+    {
+      "property": {
+        "name": "title",
+        "attributes": "T@\"NSString\",&,N,V_title"
+      },
+      "ivar": {
+        "name": "_title",
+        "encoding": "@\"NSString\"",
+        "offset": 32,
+        "size": 8
+      },
+      "method": {
+        "kind": "-",
+        "selector": "setTitle:",
+        "encoding": "v24@0:8@16",
+        "address": "0x190338"
+      },
+      "contract": {
+        "operation": "strong-set",
+        "offset": 32,
+        "type": "@\"NSString\"",
+        "omitted": [
+          {
+            "address": "0x19034c",
+            "word": "0x52800001"
+          },
+          {
+            "address": "0x190350",
+            "word": "0xd2800350"
+          },
+          {
+            "address": "0x190354",
+            "word": "0x528003e0"
+          },
+          {
+            "address": "0x190358",
+            "word": "0x52800002"
+          },
+          {
+            "address": "0x19035c",
+            "word": "0xd2800003"
+          },
+          {
+            "address": "0x190360",
+            "word": "0xd404d1a1"
+          }
+        ],
+        "calls": [
+          {
+            "address": "0x190348",
+            "target": "0xb9729c",
+            "symbol": "_objc_storeStrong"
+          }
+        ],
+        "wrappers": []
+      }
+    },
+    {
+      "property": {
+        "name": "subtitle",
+        "attributes": "T@\"NSString\",&,N,V_subtitle"
+      },
+      "ivar": {
+        "name": "_subtitle",
+        "encoding": "@\"NSString\"",
+        "offset": 40,
+        "size": 8
+      },
+      "method": {
+        "kind": "-",
+        "selector": "subtitle",
+        "encoding": "@16@0:8",
+        "address": "0x19036c"
+      },
+      "contract": {
+        "operation": "load",
+        "offset": 40,
+        "type": "@\"NSString\"",
+        "omitted": [],
+        "calls": [],
+        "wrappers": []
+      }
+    },
+    {
+      "property": {
+        "name": "subtitle",
+        "attributes": "T@\"NSString\",&,N,V_subtitle"
+      },
+      "ivar": {
+        "name": "_subtitle",
+        "encoding": "@\"NSString\"",
+        "offset": 40,
+        "size": 8
+      },
+      "method": {
+        "kind": "-",
+        "selector": "setSubtitle:",
+        "encoding": "v24@0:8@16",
+        "address": "0x190374"
+      },
+      "contract": {
+        "operation": "strong-set",
+        "offset": 40,
+        "type": "@\"NSString\"",
+        "omitted": [
+          {
+            "address": "0x190388",
+            "word": "0xd28003e0"
+          },
+          {
+            "address": "0x19038c",
+            "word": "0xd2800350"
+          },
+          {
+            "address": "0x190390",
+            "word": "0x52800002"
+          },
+          {
+            "address": "0x190394",
+            "word": "0x52800001"
+          },
+          {
+            "address": "0x190398",
+            "word": "0x52800003"
+          },
+          {
+            "address": "0x19039c",
+            "word": "0xd4184861"
+          }
+        ],
+        "calls": [
+          {
+            "address": "0x190384",
+            "target": "0xb9729c",
+            "symbol": "_objc_storeStrong"
+          }
+        ],
+        "wrappers": []
+      }
+    },
+    {
+      "property": {
+        "name": "detailText",
+        "attributes": "T@\"NSString\",&,N,V_detailText"
+      },
+      "ivar": {
+        "name": "_detailText",
+        "encoding": "@\"NSString\"",
+        "offset": 48,
+        "size": 8
+      },
+      "method": {
+        "kind": "-",
+        "selector": "detailText",
+        "encoding": "@16@0:8",
+        "address": "0x1903a8"
+      },
+      "contract": {
+        "operation": "load",
+        "offset": 48,
+        "type": "@\"NSString\"",
+        "omitted": [],
+        "calls": [],
+        "wrappers": []
+      }
+    },
+    {
+      "property": {
+        "name": "detailText",
+        "attributes": "T@\"NSString\",&,N,V_detailText"
+      },
+      "ivar": {
+        "name": "_detailText",
+        "encoding": "@\"NSString\"",
+        "offset": 48,
+        "size": 8
+      },
+      "method": {
+        "kind": "-",
+        "selector": "setDetailText:",
+        "encoding": "v24@0:8@16",
+        "address": "0x1903b0"
+      },
+      "contract": {
+        "operation": "strong-set",
+        "offset": 48,
+        "type": "@\"NSString\"",
+        "omitted": [
+          {
+            "address": "0x1903c4",
+            "word": "0x52800002"
+          },
+          {
+            "address": "0x1903c8",
+            "word": "0x52800003"
+          },
+          {
+            "address": "0x1903cc",
+            "word": "0xd2800001"
+          },
+          {
+            "address": "0x1903d0",
+            "word": "0x52800350"
+          },
+          {
+            "address": "0x1903d4",
+            "word": "0xd28003e0"
+          },
+          {
+            "address": "0x1903d8",
+            "word": "0xd4122581"
+          }
+        ],
+        "calls": [
+          {
+            "address": "0x1903c0",
+            "target": "0xb9729c",
+            "symbol": "_objc_storeStrong"
+          }
+        ],
+        "wrappers": []
+      }
+    },
+    {
+      "property": {
+        "name": "key",
+        "attributes": "T@\"NSString\",&,N,V_key"
+      },
+      "ivar": {
+        "name": "_key",
+        "encoding": "@\"NSString\"",
+        "offset": 56,
+        "size": 8
+      },
+      "method": {
+        "kind": "-",
+        "selector": "key",
+        "encoding": "@16@0:8",
+        "address": "0x1903e4"
+      },
+      "contract": {
+        "operation": "load",
+        "offset": 56,
+        "type": "@\"NSString\"",
+        "omitted": [],
+        "calls": [],
+        "wrappers": []
+      }
+    },
+    {
+      "property": {
+        "name": "key",
+        "attributes": "T@\"NSString\",&,N,V_key"
+      },
+      "ivar": {
+        "name": "_key",
+        "encoding": "@\"NSString\"",
+        "offset": 56,
+        "size": 8
+      },
+      "method": {
+        "kind": "-",
+        "selector": "setKey:",
+        "encoding": "v24@0:8@16",
+        "address": "0x1903ec"
+      },
+      "contract": {
+        "operation": "strong-set",
+        "offset": 56,
+        "type": "@\"NSString\"",
+        "omitted": [
+          {
+            "address": "0x190400",
+            "word": "0xd2800002"
+          },
+          {
+            "address": "0x190404",
+            "word": "0x52800010"
+          },
+          {
+            "address": "0x190408",
+            "word": "0x528003e1"
+          },
+          {
+            "address": "0x19040c",
+            "word": "0xd2800340"
+          },
+          {
+            "address": "0x190410",
+            "word": "0x52800003"
+          },
+          {
+            "address": "0x190414",
+            "word": "0xd40965c1"
+          }
+        ],
+        "calls": [
+          {
+            "address": "0x1903fc",
+            "target": "0xb9729c",
+            "symbol": "_objc_storeStrong"
+          }
+        ],
+        "wrappers": []
+      }
+    },
+    {
+      "property": {
+        "name": "placeholder",
+        "attributes": "T@\"NSString\",&,N,V_placeholder"
+      },
+      "ivar": {
+        "name": "_placeholder",
+        "encoding": "@\"NSString\"",
+        "offset": 64,
+        "size": 8
+      },
+      "method": {
+        "kind": "-",
+        "selector": "placeholder",
+        "encoding": "@16@0:8",
+        "address": "0x190420"
+      },
+      "contract": {
+        "operation": "load",
+        "offset": 64,
+        "type": "@\"NSString\"",
+        "omitted": [],
+        "calls": [],
+        "wrappers": []
+      }
+    },
+    {
+      "property": {
+        "name": "placeholder",
+        "attributes": "T@\"NSString\",&,N,V_placeholder"
+      },
+      "ivar": {
+        "name": "_placeholder",
+        "encoding": "@\"NSString\"",
+        "offset": 64,
+        "size": 8
+      },
+      "method": {
+        "kind": "-",
+        "selector": "setPlaceholder:",
+        "encoding": "v24@0:8@16",
+        "address": "0x190428"
+      },
+      "contract": {
+        "operation": "strong-set",
+        "offset": 64,
+        "type": "@\"NSString\"",
+        "omitted": [],
+        "calls": [
+          {
+            "address": "0x190430",
+            "target": "0xb9729c",
+            "symbol": "_objc_storeStrong"
+          }
+        ],
+        "wrappers": []
+      }
+    },
+    {
+      "property": {
+        "name": "titleIndexes",
+        "attributes": "T@\"NSArray\",&,N,V_titleIndexes"
+      },
+      "ivar": {
+        "name": "_titleIndexes",
+        "encoding": "@\"NSArray\"",
+        "offset": 72,
+        "size": 8
+      },
+      "method": {
+        "kind": "-",
+        "selector": "titleIndexes",
+        "encoding": "@16@0:8",
+        "address": "0x190434"
+      },
+      "contract": {
+        "operation": "load",
+        "offset": 72,
+        "type": "@\"NSArray\"",
+        "omitted": [],
+        "calls": [],
+        "wrappers": []
+      }
+    },
+    {
+      "property": {
+        "name": "titleIndexes",
+        "attributes": "T@\"NSArray\",&,N,V_titleIndexes"
+      },
+      "ivar": {
+        "name": "_titleIndexes",
+        "encoding": "@\"NSArray\"",
+        "offset": 72,
+        "size": 8
+      },
+      "method": {
+        "kind": "-",
+        "selector": "setTitleIndexes:",
+        "encoding": "v24@0:8@16",
+        "address": "0x19043c"
+      },
+      "contract": {
+        "operation": "strong-set",
+        "offset": 72,
+        "type": "@\"NSArray\"",
+        "omitted": [
+          {
+            "address": "0x190450",
+            "word": "0x52800002"
+          },
+          {
+            "address": "0x190454",
+            "word": "0xd2800001"
+          },
+          {
+            "address": "0x190458",
+            "word": "0x528003e0"
+          },
+          {
+            "address": "0x19045c",
+            "word": "0xd2800003"
+          },
+          {
+            "address": "0x190460",
+            "word": "0xd2800350"
+          },
+          {
+            "address": "0x190464",
+            "word": "0xd404e241"
+          }
+        ],
+        "calls": [
+          {
+            "address": "0x19044c",
+            "target": "0xb9729c",
+            "symbol": "_objc_storeStrong"
+          }
+        ],
+        "wrappers": []
+      }
+    },
+    {
+      "property": {
+        "name": "imageIndexes",
+        "attributes": "T@\"NSArray\",&,N,V_imageIndexes"
+      },
+      "ivar": {
+        "name": "_imageIndexes",
+        "encoding": "@\"NSArray\"",
+        "offset": 80,
+        "size": 8
+      },
+      "method": {
+        "kind": "-",
+        "selector": "imageIndexes",
+        "encoding": "@16@0:8",
+        "address": "0x190470"
+      },
+      "contract": {
+        "operation": "load",
+        "offset": 80,
+        "type": "@\"NSArray\"",
+        "omitted": [],
+        "calls": [],
+        "wrappers": []
+      }
+    },
+    {
+      "property": {
+        "name": "imageIndexes",
+        "attributes": "T@\"NSArray\",&,N,V_imageIndexes"
+      },
+      "ivar": {
+        "name": "_imageIndexes",
+        "encoding": "@\"NSArray\"",
+        "offset": 80,
+        "size": 8
+      },
+      "method": {
+        "kind": "-",
+        "selector": "setImageIndexes:",
+        "encoding": "v24@0:8@16",
+        "address": "0x190478"
+      },
+      "contract": {
+        "operation": "strong-set",
+        "offset": 80,
+        "type": "@\"NSArray\"",
+        "omitted": [
+          {
+            "address": "0x19048c",
+            "word": "0xd28003e0"
+          },
+          {
+            "address": "0x190490",
+            "word": "0xd2800001"
+          },
+          {
+            "address": "0x190494",
+            "word": "0xd2800003"
+          },
+          {
+            "address": "0x190498",
+            "word": "0x52800350"
+          },
+          {
+            "address": "0x19049c",
+            "word": "0xd2800002"
+          },
+          {
+            "address": "0x1904a0",
+            "word": "0xd41d3f61"
+          }
+        ],
+        "calls": [
+          {
+            "address": "0x190488",
+            "target": "0xb9729c",
+            "symbol": "_objc_storeStrong"
+          }
+        ],
+        "wrappers": []
+      }
+    },
+    {
+      "property": {
+        "name": "dividerValue",
+        "attributes": "Td,N,V_dividerValue"
+      },
+      "ivar": {
+        "name": "_dividerValue",
+        "encoding": "d",
+        "offset": 88,
+        "size": 8
+      },
+      "method": {
+        "kind": "-",
+        "selector": "dividerValue",
+        "encoding": "d16@0:8",
+        "address": "0x1904ac"
+      },
+      "contract": {
+        "operation": "load",
+        "offset": 88,
+        "type": "d",
+        "omitted": [],
+        "calls": [],
+        "wrappers": []
+      }
+    },
+    {
+      "property": {
+        "name": "dividerValue",
+        "attributes": "Td,N,V_dividerValue"
+      },
+      "ivar": {
+        "name": "_dividerValue",
+        "encoding": "d",
+        "offset": 88,
+        "size": 8
+      },
+      "method": {
+        "kind": "-",
+        "selector": "setDividerValue:",
+        "encoding": "v24@0:8d16",
+        "address": "0x1904b4"
+      },
+      "contract": {
+        "operation": "store",
+        "offset": 88,
+        "type": "d",
+        "omitted": [],
+        "calls": [],
+        "wrappers": []
+      }
+    },
+    {
+      "property": {
+        "name": "minimumValue",
+        "attributes": "Td,N,V_minimumValue"
+      },
+      "ivar": {
+        "name": "_minimumValue",
+        "encoding": "d",
+        "offset": 96,
+        "size": 8
+      },
+      "method": {
+        "kind": "-",
+        "selector": "minimumValue",
+        "encoding": "d16@0:8",
+        "address": "0x1904bc"
+      },
+      "contract": {
+        "operation": "load",
+        "offset": 96,
+        "type": "d",
+        "omitted": [],
+        "calls": [],
+        "wrappers": []
+      }
+    },
+    {
+      "property": {
+        "name": "minimumValue",
+        "attributes": "Td,N,V_minimumValue"
+      },
+      "ivar": {
+        "name": "_minimumValue",
+        "encoding": "d",
+        "offset": 96,
+        "size": 8
+      },
+      "method": {
+        "kind": "-",
+        "selector": "setMinimumValue:",
+        "encoding": "v24@0:8d16",
+        "address": "0x1904c4"
+      },
+      "contract": {
+        "operation": "store",
+        "offset": 96,
+        "type": "d",
+        "omitted": [
+          {
+            "address": "0x1904c8",
+            "word": "0xd2800002"
+          },
+          {
+            "address": "0x1904cc",
+            "word": "0xd2800003"
+          },
+          {
+            "address": "0x1904d0",
+            "word": "0x52800010"
+          },
+          {
+            "address": "0x1904d4",
+            "word": "0xd2800340"
+          },
+          {
+            "address": "0x1904d8",
+            "word": "0x528003e1"
+          },
+          {
+            "address": "0x1904dc",
+            "word": "0xd4056c21"
+          }
+        ],
+        "calls": [],
+        "wrappers": []
+      }
+    },
+    {
+      "property": {
+        "name": "maximumValue",
+        "attributes": "Td,N,V_maximumValue"
+      },
+      "ivar": {
+        "name": "_maximumValue",
+        "encoding": "d",
+        "offset": 104,
+        "size": 8
+      },
+      "method": {
+        "kind": "-",
+        "selector": "maximumValue",
+        "encoding": "d16@0:8",
+        "address": "0x1904e4"
+      },
+      "contract": {
+        "operation": "load",
+        "offset": 104,
+        "type": "d",
+        "omitted": [],
+        "calls": [],
+        "wrappers": []
+      }
+    },
+    {
+      "property": {
+        "name": "maximumValue",
+        "attributes": "Td,N,V_maximumValue"
+      },
+      "ivar": {
+        "name": "_maximumValue",
+        "encoding": "d",
+        "offset": 104,
+        "size": 8
+      },
+      "method": {
+        "kind": "-",
+        "selector": "setMaximumValue:",
+        "encoding": "v24@0:8d16",
+        "address": "0x1904ec"
+      },
+      "contract": {
+        "operation": "store",
+        "offset": 104,
+        "type": "d",
+        "omitted": [
+          {
+            "address": "0x1904f0",
+            "word": "0xd28003e0"
+          },
+          {
+            "address": "0x1904f4",
+            "word": "0xd2800002"
+          },
+          {
+            "address": "0x1904f8",
+            "word": "0xd2800350"
+          },
+          {
+            "address": "0x1904fc",
+            "word": "0xd2800001"
+          },
+          {
+            "address": "0x190500",
+            "word": "0xd2800003"
+          },
+          {
+            "address": "0x190504",
+            "word": "0xd4049c01"
+          }
+        ],
+        "calls": [],
+        "wrappers": []
+      }
+    },
+    {
+      "property": {
+        "name": "sliderFormat",
+        "attributes": "Tq,N,V_sliderFormat"
+      },
+      "ivar": {
+        "name": "_sliderFormat",
+        "encoding": "q",
+        "offset": 112,
+        "size": 8
+      },
+      "method": {
+        "kind": "-",
+        "selector": "sliderFormat",
+        "encoding": "q16@0:8",
+        "address": "0x19050c"
+      },
+      "contract": {
+        "operation": "load",
+        "offset": 112,
+        "type": "q",
+        "omitted": [],
+        "calls": [],
+        "wrappers": []
+      }
+    },
+    {
+      "property": {
+        "name": "sliderFormat",
+        "attributes": "Tq,N,V_sliderFormat"
+      },
+      "ivar": {
+        "name": "_sliderFormat",
+        "encoding": "q",
+        "offset": 112,
+        "size": 8
+      },
+      "method": {
+        "kind": "-",
+        "selector": "setSliderFormat:",
+        "encoding": "v24@0:8q16",
+        "address": "0x190514"
+      },
+      "contract": {
+        "operation": "store",
+        "offset": 112,
+        "type": "q",
+        "omitted": [
+          {
+            "address": "0x190518",
+            "word": "0x52800350"
+          },
+          {
+            "address": "0x19051c",
+            "word": "0xd2800002"
+          },
+          {
+            "address": "0x190520",
+            "word": "0xd28003e0"
+          },
+          {
+            "address": "0x190524",
+            "word": "0xd2800001"
+          },
+          {
+            "address": "0x190528",
+            "word": "0x52800003"
+          },
+          {
+            "address": "0x19052c",
+            "word": "0xd411d781"
+          }
+        ],
+        "calls": [],
+        "wrappers": []
+      }
+    },
+    {
+      "property": {
+        "name": "reloadsCell",
+        "attributes": "TB,N,V_reloadsCell"
+      },
+      "ivar": {
+        "name": "_reloadsCell",
+        "encoding": "B",
+        "offset": 8,
+        "size": 1
+      },
+      "method": {
+        "kind": "-",
+        "selector": "reloadsCell",
+        "encoding": "B16@0:8",
+        "address": "0x190534"
+      },
+      "contract": {
+        "operation": "load",
+        "offset": 8,
+        "type": "B",
+        "omitted": [],
+        "calls": [],
+        "wrappers": []
+      }
+    },
+    {
+      "property": {
+        "name": "reloadsCell",
+        "attributes": "TB,N,V_reloadsCell"
+      },
+      "ivar": {
+        "name": "_reloadsCell",
+        "encoding": "B",
+        "offset": 8,
+        "size": 1
+      },
+      "method": {
+        "kind": "-",
+        "selector": "setReloadsCell:",
+        "encoding": "v20@0:8B16",
+        "address": "0x19053c"
+      },
+      "contract": {
+        "operation": "store",
+        "offset": 8,
+        "type": "B",
+        "omitted": [
+          {
+            "address": "0x190540",
+            "word": "0xd2800003"
+          },
+          {
+            "address": "0x190544",
+            "word": "0x52800350"
+          },
+          {
+            "address": "0x190548",
+            "word": "0xd28003e0"
+          },
+          {
+            "address": "0x19054c",
+            "word": "0x52800001"
+          },
+          {
+            "address": "0x190550",
+            "word": "0x52800002"
+          },
+          {
+            "address": "0x190554",
+            "word": "0xd4194f81"
+          }
+        ],
+        "calls": [],
+        "wrappers": []
+      }
+    },
+    {
+      "property": {
+        "name": "reloadsTable",
+        "attributes": "TB,N,V_reloadsTable"
+      },
+      "ivar": {
+        "name": "_reloadsTable",
+        "encoding": "B",
+        "offset": 9,
+        "size": 1
+      },
+      "method": {
+        "kind": "-",
+        "selector": "reloadsTable",
+        "encoding": "B16@0:8",
+        "address": "0x19055c"
+      },
+      "contract": {
+        "operation": "load",
+        "offset": 9,
+        "type": "B",
+        "omitted": [],
+        "calls": [],
+        "wrappers": []
+      }
+    },
+    {
+      "property": {
+        "name": "reloadsTable",
+        "attributes": "TB,N,V_reloadsTable"
+      },
+      "ivar": {
+        "name": "_reloadsTable",
+        "encoding": "B",
+        "offset": 9,
+        "size": 1
+      },
+      "method": {
+        "kind": "-",
+        "selector": "setReloadsTable:",
+        "encoding": "v20@0:8B16",
+        "address": "0x190564"
+      },
+      "contract": {
+        "operation": "store",
+        "offset": 9,
+        "type": "B",
+        "omitted": [
+          {
+            "address": "0x190568",
+            "word": "0x528003e1"
+          },
+          {
+            "address": "0x19056c",
+            "word": "0xd2800003"
+          },
+          {
+            "address": "0x190570",
+            "word": "0x52800340"
+          },
+          {
+            "address": "0x190574",
+            "word": "0x52800010"
+          },
+          {
+            "address": "0x190578",
+            "word": "0xd2800002"
+          },
+          {
+            "address": "0x19057c",
+            "word": "0xd41ce121"
+          }
+        ],
+        "calls": [],
+        "wrappers": []
+      }
+    },
+    {
+      "property": {
+        "name": "shouldHideDetail",
+        "attributes": "TB,N,V_shouldHideDetail"
+      },
+      "ivar": {
+        "name": "_shouldHideDetail",
+        "encoding": "B",
+        "offset": 10,
+        "size": 1
+      },
+      "method": {
+        "kind": "-",
+        "selector": "shouldHideDetail",
+        "encoding": "B16@0:8",
+        "address": "0x190584"
+      },
+      "contract": {
+        "operation": "load",
+        "offset": 10,
+        "type": "B",
+        "omitted": [],
+        "calls": [],
+        "wrappers": []
+      }
+    },
+    {
+      "property": {
+        "name": "shouldHideDetail",
+        "attributes": "TB,N,V_shouldHideDetail"
+      },
+      "ivar": {
+        "name": "_shouldHideDetail",
+        "encoding": "B",
+        "offset": 10,
+        "size": 1
+      },
+      "method": {
+        "kind": "-",
+        "selector": "setShouldHideDetail:",
+        "encoding": "v20@0:8B16",
+        "address": "0x19058c"
+      },
+      "contract": {
+        "operation": "store",
+        "offset": 10,
+        "type": "B",
+        "omitted": [
+          {
+            "address": "0x190590",
+            "word": "0x52800001"
+          },
+          {
+            "address": "0x190594",
+            "word": "0xd2800002"
+          },
+          {
+            "address": "0x190598",
+            "word": "0x52800003"
+          },
+          {
+            "address": "0x19059c",
+            "word": "0xd28003e0"
+          },
+          {
+            "address": "0x1905a0",
+            "word": "0xd2800350"
+          },
+          {
+            "address": "0x1905a4",
+            "word": "0xd402f901"
+          }
+        ],
+        "calls": [],
+        "wrappers": []
+      }
+    },
+    {
+      "property": {
+        "name": "renderingMode",
+        "attributes": "Tq,N,V_renderingMode"
+      },
+      "ivar": {
+        "name": "_renderingMode",
+        "encoding": "q",
+        "offset": 120,
+        "size": 8
+      },
+      "method": {
+        "kind": "-",
+        "selector": "renderingMode",
+        "encoding": "q16@0:8",
+        "address": "0x1905ac"
+      },
+      "contract": {
+        "operation": "load",
+        "offset": 120,
+        "type": "q",
+        "omitted": [],
+        "calls": [],
+        "wrappers": []
+      }
+    },
+    {
+      "property": {
+        "name": "renderingMode",
+        "attributes": "Tq,N,V_renderingMode"
+      },
+      "ivar": {
+        "name": "_renderingMode",
+        "encoding": "q",
+        "offset": 120,
+        "size": 8
+      },
+      "method": {
+        "kind": "-",
+        "selector": "setRenderingMode:",
+        "encoding": "v24@0:8q16",
+        "address": "0x1905b4"
+      },
+      "contract": {
+        "operation": "store",
+        "offset": 120,
+        "type": "q",
+        "omitted": [
+          {
+            "address": "0x1905b8",
+            "word": "0xd2800001"
+          },
+          {
+            "address": "0x1905bc",
+            "word": "0x52800350"
+          },
+          {
+            "address": "0x1905c0",
+            "word": "0x52800003"
+          },
+          {
+            "address": "0x1905c4",
+            "word": "0xd2800002"
+          },
+          {
+            "address": "0x1905c8",
+            "word": "0xd28003e0"
+          },
+          {
+            "address": "0x1905cc",
+            "word": "0xd4055161"
+          }
+        ],
+        "calls": [],
+        "wrappers": []
+      }
+    },
+    {
+      "property": {
+        "name": "icon",
+        "attributes": "T@\"UIImage\",&,N,V_icon"
+      },
+      "ivar": {
+        "name": "_icon",
+        "encoding": "@\"UIImage\"",
+        "offset": 128,
+        "size": 8
+      },
+      "method": {
+        "kind": "-",
+        "selector": "icon",
+        "encoding": "@16@0:8",
+        "address": "0x1905d4"
+      },
+      "contract": {
+        "operation": "load",
+        "offset": 128,
+        "type": "@\"UIImage\"",
+        "omitted": [],
+        "calls": [],
+        "wrappers": []
+      }
+    },
+    {
+      "property": {
+        "name": "icon",
+        "attributes": "T@\"UIImage\",&,N,V_icon"
+      },
+      "ivar": {
+        "name": "_icon",
+        "encoding": "@\"UIImage\"",
+        "offset": 128,
+        "size": 8
+      },
+      "method": {
+        "kind": "-",
+        "selector": "setIcon:",
+        "encoding": "v24@0:8@16",
+        "address": "0x1905dc"
+      },
+      "contract": {
+        "operation": "strong-set",
+        "offset": 128,
+        "type": "@\"UIImage\"",
+        "omitted": [
+          {
+            "address": "0x1905f0",
+            "word": "0xd2800002"
+          },
+          {
+            "address": "0x1905f4",
+            "word": "0x52800350"
+          },
+          {
+            "address": "0x1905f8",
+            "word": "0xd2800001"
+          },
+          {
+            "address": "0x1905fc",
+            "word": "0x52800003"
+          },
+          {
+            "address": "0x190600",
+            "word": "0xd28003e0"
+          },
+          {
+            "address": "0x190604",
+            "word": "0xd412b521"
+          }
+        ],
+        "calls": [
+          {
+            "address": "0x1905ec",
+            "target": "0xb9729c",
+            "symbol": "_objc_storeStrong"
+          }
+        ],
+        "wrappers": []
+      }
+    },
+    {
+      "property": {
+        "name": "image",
+        "attributes": "T@\"UIImage\",&,N,V_image"
+      },
+      "ivar": {
+        "name": "_image",
+        "encoding": "@\"UIImage\"",
+        "offset": 136,
+        "size": 8
+      },
+      "method": {
+        "kind": "-",
+        "selector": "image",
+        "encoding": "@16@0:8",
+        "address": "0x190610"
+      },
+      "contract": {
+        "operation": "load",
+        "offset": 136,
+        "type": "@\"UIImage\"",
+        "omitted": [],
+        "calls": [],
+        "wrappers": []
+      }
+    },
+    {
+      "property": {
+        "name": "image",
+        "attributes": "T@\"UIImage\",&,N,V_image"
+      },
+      "ivar": {
+        "name": "_image",
+        "encoding": "@\"UIImage\"",
+        "offset": 136,
+        "size": 8
+      },
+      "method": {
+        "kind": "-",
+        "selector": "setImage:",
+        "encoding": "v24@0:8@16",
+        "address": "0x190618"
+      },
+      "contract": {
+        "operation": "strong-set",
+        "offset": 136,
+        "type": "@\"UIImage\"",
+        "omitted": [
+          {
+            "address": "0x19062c",
+            "word": "0xd2800010"
+          },
+          {
+            "address": "0x190630",
+            "word": "0x52800002"
+          },
+          {
+            "address": "0x190634",
+            "word": "0xd2800340"
+          },
+          {
+            "address": "0x190638",
+            "word": "0x528003e1"
+          },
+          {
+            "address": "0x19063c",
+            "word": "0xd2800003"
+          },
+          {
+            "address": "0x190640",
+            "word": "0xd4016101"
+          }
+        ],
+        "calls": [
+          {
+            "address": "0x190628",
+            "target": "0xb9729c",
+            "symbol": "_objc_storeStrong"
+          }
+        ],
+        "wrappers": []
+      }
+    },
+    {
+      "property": {
+        "name": "accessoryIcon",
+        "attributes": "T@\"UIImage\",&,N,V_accessoryIcon"
+      },
+      "ivar": {
+        "name": "_accessoryIcon",
+        "encoding": "@\"UIImage\"",
+        "offset": 144,
+        "size": 8
+      },
+      "method": {
+        "kind": "-",
+        "selector": "accessoryIcon",
+        "encoding": "@16@0:8",
+        "address": "0x19064c"
+      },
+      "contract": {
+        "operation": "load",
+        "offset": 144,
+        "type": "@\"UIImage\"",
+        "omitted": [],
+        "calls": [],
+        "wrappers": []
+      }
+    },
+    {
+      "property": {
+        "name": "accessoryIcon",
+        "attributes": "T@\"UIImage\",&,N,V_accessoryIcon"
+      },
+      "ivar": {
+        "name": "_accessoryIcon",
+        "encoding": "@\"UIImage\"",
+        "offset": 144,
+        "size": 8
+      },
+      "method": {
+        "kind": "-",
+        "selector": "setAccessoryIcon:",
+        "encoding": "v24@0:8@16",
+        "address": "0x190654"
+      },
+      "contract": {
+        "operation": "strong-set",
+        "offset": 144,
+        "type": "@\"UIImage\"",
+        "omitted": [
+          {
+            "address": "0x190668",
+            "word": "0xd2800003"
+          },
+          {
+            "address": "0x19066c",
+            "word": "0x528003e1"
+          },
+          {
+            "address": "0x190670",
+            "word": "0x52800002"
+          },
+          {
+            "address": "0x190674",
+            "word": "0xd2800340"
+          },
+          {
+            "address": "0x190678",
+            "word": "0xd2800010"
+          },
+          {
+            "address": "0x19067c",
+            "word": "0xd406c7e1"
+          }
+        ],
+        "calls": [
+          {
+            "address": "0x190664",
+            "target": "0xb9729c",
+            "symbol": "_objc_storeStrong"
+          }
+        ],
+        "wrappers": []
+      }
+    },
+    {
+      "property": {
+        "name": "type",
+        "attributes": "Tq,N,V_type"
+      },
+      "ivar": {
+        "name": "_type",
+        "encoding": "q",
+        "offset": 152,
+        "size": 8
+      },
+      "method": {
+        "kind": "-",
+        "selector": "type",
+        "encoding": "q16@0:8",
+        "address": "0x190688"
+      },
+      "contract": {
+        "operation": "load",
+        "offset": 152,
+        "type": "q",
+        "omitted": [],
+        "calls": [],
+        "wrappers": []
+      }
+    },
+    {
+      "property": {
+        "name": "type",
+        "attributes": "Tq,N,V_type"
+      },
+      "ivar": {
+        "name": "_type",
+        "encoding": "q",
+        "offset": 152,
+        "size": 8
+      },
+      "method": {
+        "kind": "-",
+        "selector": "setType:",
+        "encoding": "v24@0:8q16",
+        "address": "0x190690"
+      },
+      "contract": {
+        "operation": "store",
+        "offset": 152,
+        "type": "q",
+        "omitted": [
+          {
+            "address": "0x190694",
+            "word": "0xd2800003"
+          },
+          {
+            "address": "0x190698",
+            "word": "0xd2800010"
+          },
+          {
+            "address": "0x19069c",
+            "word": "0x528003e1"
+          },
+          {
+            "address": "0x1906a0",
+            "word": "0xd2800002"
+          },
+          {
+            "address": "0x1906a4",
+            "word": "0x52800340"
+          },
+          {
+            "address": "0x1906a8",
+            "word": "0xd40cdce1"
+          }
+        ],
+        "calls": [],
+        "wrappers": []
+      }
+    },
+    {
+      "property": {
+        "name": "tintColor",
+        "attributes": "T@\"UIColor\",&,N,V_tintColor"
+      },
+      "ivar": {
+        "name": "_tintColor",
+        "encoding": "@\"UIColor\"",
+        "offset": 160,
+        "size": 8
+      },
+      "method": {
+        "kind": "-",
+        "selector": "tintColor",
+        "encoding": "@16@0:8",
+        "address": "0x1906b0"
+      },
+      "contract": {
+        "operation": "load",
+        "offset": 160,
+        "type": "@\"UIColor\"",
+        "omitted": [],
+        "calls": [],
+        "wrappers": []
+      }
+    },
+    {
+      "property": {
+        "name": "tintColor",
+        "attributes": "T@\"UIColor\",&,N,V_tintColor"
+      },
+      "ivar": {
+        "name": "_tintColor",
+        "encoding": "@\"UIColor\"",
+        "offset": 160,
+        "size": 8
+      },
+      "method": {
+        "kind": "-",
+        "selector": "setTintColor:",
+        "encoding": "v24@0:8@16",
+        "address": "0x1906b8"
+      },
+      "contract": {
+        "operation": "strong-set",
+        "offset": 160,
+        "type": "@\"UIColor\"",
+        "omitted": [
+          {
+            "address": "0x1906cc",
+            "word": "0xd2800001"
+          },
+          {
+            "address": "0x1906d0",
+            "word": "0xd28003e0"
+          },
+          {
+            "address": "0x1906d4",
+            "word": "0x52800003"
+          },
+          {
+            "address": "0x1906d8",
+            "word": "0xd2800002"
+          },
+          {
+            "address": "0x1906dc",
+            "word": "0x52800350"
+          },
+          {
+            "address": "0x1906e0",
+            "word": "0xd40f52c1"
+          }
+        ],
+        "calls": [
+          {
+            "address": "0x1906c8",
+            "target": "0xb9729c",
+            "symbol": "_objc_storeStrong"
+          }
+        ],
+        "wrappers": []
+      }
+    },
+    {
+      "property": {
+        "name": "sourceView",
+        "attributes": "T@\"UIView\",W,N,V_sourceView"
+      },
+      "ivar": {
+        "name": "_sourceView",
+        "encoding": "@\"UIView\"",
+        "offset": 168,
+        "size": 8
+      },
+      "method": {
+        "kind": "-",
+        "selector": "sourceView",
+        "encoding": "@16@0:8",
+        "address": "0x1906ec"
+      },
+      "contract": {
+        "operation": "weak-get",
+        "offset": 168,
+        "type": "@\"UIView\"",
+        "omitted": [],
+        "calls": [
+          {
+            "address": "0x1906f8",
+            "target": "0xb97218",
+            "symbol": "_objc_loadWeakRetained"
+          },
+          {
+            "address": "0x190700",
+            "target": "0xb97188",
+            "symbol": "_objc_autoreleaseReturnValue"
+          }
+        ],
+        "wrappers": []
+      }
+    },
+    {
+      "property": {
+        "name": "sourceView",
+        "attributes": "T@\"UIView\",W,N,V_sourceView"
+      },
+      "ivar": {
+        "name": "_sourceView",
+        "encoding": "@\"UIView\"",
+        "offset": 168,
+        "size": 8
+      },
+      "method": {
+        "kind": "-",
+        "selector": "setSourceView:",
+        "encoding": "v24@0:8@16",
+        "address": "0x190704"
+      },
+      "contract": {
+        "operation": "weak-set",
+        "offset": 168,
+        "type": "@\"UIView\"",
+        "omitted": [
+          {
+            "address": "0x190718",
+            "word": "0xd2800001"
+          },
+          {
+            "address": "0x19071c",
+            "word": "0x528003e0"
+          },
+          {
+            "address": "0x190720",
+            "word": "0xd2800002"
+          },
+          {
+            "address": "0x190724",
+            "word": "0x52800003"
+          },
+          {
+            "address": "0x190728",
+            "word": "0xd2800350"
+          },
+          {
+            "address": "0x19072c",
+            "word": "0xd40e8f61"
+          }
+        ],
+        "calls": [
+          {
+            "address": "0x190714",
+            "target": "0xb972a8",
+            "symbol": "_objc_storeWeak"
+          }
+        ],
+        "wrappers": []
+      }
+    },
+    {
+      "property": {
+        "name": "controllerModel",
+        "attributes": "T@\"DVNTableModel\",&,N,V_controllerModel"
+      },
+      "ivar": {
+        "name": "_controllerModel",
+        "encoding": "@\"DVNTableModel\"",
+        "offset": 176,
+        "size": 8
+      },
+      "method": {
+        "kind": "-",
+        "selector": "controllerModel",
+        "encoding": "@16@0:8",
+        "address": "0x190738"
+      },
+      "contract": {
+        "operation": "load",
+        "offset": 176,
+        "type": "@\"DVNTableModel\"",
+        "omitted": [],
+        "calls": [],
+        "wrappers": []
+      }
+    },
+    {
+      "property": {
+        "name": "controllerModel",
+        "attributes": "T@\"DVNTableModel\",&,N,V_controllerModel"
+      },
+      "ivar": {
+        "name": "_controllerModel",
+        "encoding": "@\"DVNTableModel\"",
+        "offset": 176,
+        "size": 8
+      },
+      "method": {
+        "kind": "-",
+        "selector": "setControllerModel:",
+        "encoding": "v24@0:8@16",
+        "address": "0x190740"
+      },
+      "contract": {
+        "operation": "strong-set",
+        "offset": 176,
+        "type": "@\"DVNTableModel\"",
+        "omitted": [
+          {
+            "address": "0x190754",
+            "word": "0xd2800002"
+          },
+          {
+            "address": "0x190758",
+            "word": "0xd2800003"
+          },
+          {
+            "address": "0x19075c",
+            "word": "0x52800010"
+          },
+          {
+            "address": "0x190760",
+            "word": "0x528003e1"
+          },
+          {
+            "address": "0x190764",
+            "word": "0x52800340"
+          },
+          {
+            "address": "0x190768",
+            "word": "0xd41b3361"
+          }
+        ],
+        "calls": [
+          {
+            "address": "0x190750",
+            "target": "0xb9729c",
+            "symbol": "_objc_storeStrong"
+          }
+        ],
+        "wrappers": []
+      }
+    },
+    {
+      "property": {
+        "name": "customData",
+        "attributes": "T@\"NSDictionary\",&,N,V_customData"
+      },
+      "ivar": {
+        "name": "_customData",
+        "encoding": "@\"NSDictionary\"",
+        "offset": 184,
+        "size": 8
+      },
+      "method": {
+        "kind": "-",
+        "selector": "customData",
+        "encoding": "@16@0:8",
+        "address": "0x190774"
+      },
+      "contract": {
+        "operation": "load",
+        "offset": 184,
+        "type": "@\"NSDictionary\"",
+        "omitted": [],
+        "calls": [],
+        "wrappers": []
+      }
+    },
+    {
+      "property": {
+        "name": "customData",
+        "attributes": "T@\"NSDictionary\",&,N,V_customData"
+      },
+      "ivar": {
+        "name": "_customData",
+        "encoding": "@\"NSDictionary\"",
+        "offset": 184,
+        "size": 8
+      },
+      "method": {
+        "kind": "-",
+        "selector": "setCustomData:",
+        "encoding": "v24@0:8@16",
+        "address": "0x19077c"
+      },
+      "contract": {
+        "operation": "strong-set",
+        "offset": 184,
+        "type": "@\"NSDictionary\"",
+        "omitted": [
+          {
+            "address": "0x190790",
+            "word": "0x52800002"
+          },
+          {
+            "address": "0x190794",
+            "word": "0x52800340"
+          },
+          {
+            "address": "0x190798",
+            "word": "0xd28003e1"
+          },
+          {
+            "address": "0x19079c",
+            "word": "0xd2800010"
+          },
+          {
+            "address": "0x1907a0",
+            "word": "0x52800003"
+          },
+          {
+            "address": "0x1907a4",
+            "word": "0xd41e2641"
+          }
+        ],
+        "calls": [
+          {
+            "address": "0x19078c",
+            "target": "0xb9729c",
+            "symbol": "_objc_storeStrong"
+          }
+        ],
+        "wrappers": []
+      }
+    },
+    {
+      "property": {
+        "name": "handler",
+        "attributes": "T@?,C,N,V_handler"
+      },
+      "ivar": {
+        "name": "_handler",
+        "encoding": "@?",
+        "offset": 192,
+        "size": 8
+      },
+      "method": {
+        "kind": "-",
+        "selector": "handler",
+        "encoding": "@?16@0:8",
+        "address": "0x1907b0"
+      },
+      "contract": {
+        "operation": "load",
+        "offset": 192,
+        "type": "@?",
+        "omitted": [],
+        "calls": [],
+        "wrappers": []
+      }
+    },
+    {
+      "property": {
+        "name": "handler",
+        "attributes": "T@?,C,N,V_handler"
+      },
+      "ivar": {
+        "name": "_handler",
+        "encoding": "@?",
+        "offset": 192,
+        "size": 8
+      },
+      "method": {
+        "kind": "-",
+        "selector": "setHandler:",
+        "encoding": "v24@0:8@?16",
+        "address": "0x1907b8"
+      },
+      "contract": {
+        "operation": "copy-set",
+        "offset": 192,
+        "type": "@?",
+        "omitted": [
+          {
+            "address": "0x1907c8",
+            "word": "0x52800340"
+          },
+          {
+            "address": "0x1907cc",
+            "word": "0x52800003"
+          },
+          {
+            "address": "0x1907d0",
+            "word": "0x52800010"
+          },
+          {
+            "address": "0x1907d4",
+            "word": "0xd28003e1"
+          },
+          {
+            "address": "0x1907d8",
+            "word": "0x52800002"
+          },
+          {
+            "address": "0x1907dc",
+            "word": "0xd414ccc1"
+          }
+        ],
+        "calls": [
+          {
+            "address": "0x1907c4",
+            "target": "0x1917e0",
+            "symbol": "_objc_setProperty_nonatomic_copy"
+          }
+        ],
+        "wrappers": [
+          {
+            "address": "0x1917d0",
+            "words": [
+              "0xa9bf7bfd",
+              "0x942816af",
+              "0xa8c17bfd",
+              "0xd65f03c0"
+            ]
+          },
+          {
+            "address": "0x1917e0",
+            "words": [
+              "0xa9bf7bfd",
+              "0x97fffffb",
+              "0xa8c17bfd",
+              "0xd65f03c0"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "property": {
+        "name": "selfHandler",
+        "attributes": "T@?,C,N,V_selfHandler"
+      },
+      "ivar": {
+        "name": "_selfHandler",
+        "encoding": "@?",
+        "offset": 200,
+        "size": 8
+      },
+      "method": {
+        "kind": "-",
+        "selector": "selfHandler",
+        "encoding": "@?16@0:8",
+        "address": "0x1907e8"
+      },
+      "contract": {
+        "operation": "load",
+        "offset": 200,
+        "type": "@?",
+        "omitted": [],
+        "calls": [],
+        "wrappers": []
+      }
+    },
+    {
+      "property": {
+        "name": "selfHandler",
+        "attributes": "T@?,C,N,V_selfHandler"
+      },
+      "ivar": {
+        "name": "_selfHandler",
+        "encoding": "@?",
+        "offset": 200,
+        "size": 8
+      },
+      "method": {
+        "kind": "-",
+        "selector": "setSelfHandler:",
+        "encoding": "v24@0:8@?16",
+        "address": "0x1907f0"
+      },
+      "contract": {
+        "operation": "copy-set",
+        "offset": 200,
+        "type": "@?",
+        "omitted": [],
+        "calls": [
+          {
+            "address": "0x1907f4",
+            "target": "0x191800",
+            "symbol": "_objc_setProperty_nonatomic_copy"
+          }
+        ],
+        "wrappers": [
+          {
+            "address": "0x1917f0",
+            "words": [
+              "0xa9bf7bfd",
+              "0x942816a7",
+              "0xa8c17bfd",
+              "0xd65f03c0"
+            ]
+          },
+          {
+            "address": "0x191800",
+            "words": [
+              "0xa9bf7bfd",
+              "0x97fffffb",
+              "0xa8c17bfd",
+              "0xd65f03c0"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "property": {
+        "name": "handlerWithCompletion",
+        "attributes": "T@?,C,N,V_handlerWithCompletion"
+      },
+      "ivar": {
+        "name": "_handlerWithCompletion",
+        "encoding": "@?",
+        "offset": 208,
+        "size": 8
+      },
+      "method": {
+        "kind": "-",
+        "selector": "handlerWithCompletion",
+        "encoding": "@?16@0:8",
+        "address": "0x1907f8"
+      },
+      "contract": {
+        "operation": "load",
+        "offset": 208,
+        "type": "@?",
+        "omitted": [],
+        "calls": [],
+        "wrappers": []
+      }
+    },
+    {
+      "property": {
+        "name": "handlerWithCompletion",
+        "attributes": "T@?,C,N,V_handlerWithCompletion"
+      },
+      "ivar": {
+        "name": "_handlerWithCompletion",
+        "encoding": "@?",
+        "offset": 208,
+        "size": 8
+      },
+      "method": {
+        "kind": "-",
+        "selector": "setHandlerWithCompletion:",
+        "encoding": "v24@0:8@?16",
+        "address": "0x190800"
+      },
+      "contract": {
+        "operation": "copy-set",
+        "offset": 208,
+        "type": "@?",
+        "omitted": [
+          {
+            "address": "0x190810",
+            "word": "0x52800350"
+          },
+          {
+            "address": "0x190814",
+            "word": "0xd2800003"
+          },
+          {
+            "address": "0x190818",
+            "word": "0xd2800001"
+          },
+          {
+            "address": "0x19081c",
+            "word": "0xd2800002"
+          },
+          {
+            "address": "0x190820",
+            "word": "0xd28003e0"
+          },
+          {
+            "address": "0x190824",
+            "word": "0xd40a9521"
+          }
+        ],
+        "calls": [
+          {
+            "address": "0x19080c",
+            "target": "0x191820",
+            "symbol": "_objc_setProperty_nonatomic_copy"
+          }
+        ],
+        "wrappers": [
+          {
+            "address": "0x191810",
+            "words": [
+              "0xa9bf7bfd",
+              "0x9428169f",
+              "0xa8c17bfd",
+              "0xd65f03c0"
+            ]
+          },
+          {
+            "address": "0x191820",
+            "words": [
+              "0xa9bf7bfd",
+              "0x97fffffb",
+              "0xa8c17bfd",
+              "0xd65f03c0"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "property": {
+        "name": "subtitleProvider",
+        "attributes": "T@?,C,N,V_subtitleProvider"
+      },
+      "ivar": {
+        "name": "_subtitleProvider",
+        "encoding": "@?",
+        "offset": 216,
+        "size": 8
+      },
+      "method": {
+        "kind": "-",
+        "selector": "subtitleProvider",
+        "encoding": "@?16@0:8",
+        "address": "0x190830"
+      },
+      "contract": {
+        "operation": "load",
+        "offset": 216,
+        "type": "@?",
+        "omitted": [],
+        "calls": [],
+        "wrappers": []
+      }
+    },
+    {
+      "property": {
+        "name": "subtitleProvider",
+        "attributes": "T@?,C,N,V_subtitleProvider"
+      },
+      "ivar": {
+        "name": "_subtitleProvider",
+        "encoding": "@?",
+        "offset": 216,
+        "size": 8
+      },
+      "method": {
+        "kind": "-",
+        "selector": "setSubtitleProvider:",
+        "encoding": "v24@0:8@?16",
+        "address": "0x190838"
+      },
+      "contract": {
+        "operation": "copy-set",
+        "offset": 216,
+        "type": "@?",
+        "omitted": [
+          {
+            "address": "0x190848",
+            "word": "0x52800002"
+          },
+          {
+            "address": "0x19084c",
+            "word": "0x52800003"
+          },
+          {
+            "address": "0x190850",
+            "word": "0xd2800340"
+          },
+          {
+            "address": "0x190854",
+            "word": "0xd2800010"
+          },
+          {
+            "address": "0x190858",
+            "word": "0x528003e1"
+          },
+          {
+            "address": "0x19085c",
+            "word": "0xd41d4a41"
+          }
+        ],
+        "calls": [
+          {
+            "address": "0x190844",
+            "target": "0x191840",
+            "symbol": "_objc_setProperty_nonatomic_copy"
+          }
+        ],
+        "wrappers": [
+          {
+            "address": "0x191830",
+            "words": [
+              "0xa9bf7bfd",
+              "0x94281697",
+              "0xa8c17bfd",
+              "0xd65f03c0"
+            ]
+          },
+          {
+            "address": "0x191840",
+            "words": [
+              "0xa9bf7bfd",
+              "0x97fffffb",
+              "0xa8c17bfd",
+              "0xd65f03c0"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "property": {
+        "name": "titleIndexesProvider",
+        "attributes": "T@?,C,N,V_titleIndexesProvider"
+      },
+      "ivar": {
+        "name": "_titleIndexesProvider",
+        "encoding": "@?",
+        "offset": 224,
+        "size": 8
+      },
+      "method": {
+        "kind": "-",
+        "selector": "titleIndexesProvider",
+        "encoding": "@?16@0:8",
+        "address": "0x190868"
+      },
+      "contract": {
+        "operation": "load",
+        "offset": 224,
+        "type": "@?",
+        "omitted": [],
+        "calls": [],
+        "wrappers": []
+      }
+    },
+    {
+      "property": {
+        "name": "titleIndexesProvider",
+        "attributes": "T@?,C,N,V_titleIndexesProvider"
+      },
+      "ivar": {
+        "name": "_titleIndexesProvider",
+        "encoding": "@?",
+        "offset": 224,
+        "size": 8
+      },
+      "method": {
+        "kind": "-",
+        "selector": "setTitleIndexesProvider:",
+        "encoding": "v24@0:8@?16",
+        "address": "0x190870"
+      },
+      "contract": {
+        "operation": "copy-set",
+        "offset": 224,
+        "type": "@?",
+        "omitted": [
+          {
+            "address": "0x190880",
+            "word": "0x52800002"
+          },
+          {
+            "address": "0x190884",
+            "word": "0x52800001"
+          },
+          {
+            "address": "0x190888",
+            "word": "0x52800003"
+          },
+          {
+            "address": "0x19088c",
+            "word": "0x52800350"
+          },
+          {
+            "address": "0x190890",
+            "word": "0x528003e0"
+          },
+          {
+            "address": "0x190894",
+            "word": "0xd4055c21"
+          }
+        ],
+        "calls": [
+          {
+            "address": "0x19087c",
+            "target": "0x191860",
+            "symbol": "_objc_setProperty_nonatomic_copy"
+          }
+        ],
+        "wrappers": [
+          {
+            "address": "0x191850",
+            "words": [
+              "0xa9bf7bfd",
+              "0x9428168f",
+              "0xa8c17bfd",
+              "0xd65f03c0"
+            ]
+          },
+          {
+            "address": "0x191860",
+            "words": [
+              "0xa9bf7bfd",
+              "0x97fffffb",
+              "0xa8c17bfd",
+              "0xd65f03c0"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "property": {
+        "name": "validationHandler",
+        "attributes": "T@?,C,N,V_validationHandler"
+      },
+      "ivar": {
+        "name": "_validationHandler",
+        "encoding": "@?",
+        "offset": 232,
+        "size": 8
+      },
+      "method": {
+        "kind": "-",
+        "selector": "validationHandler",
+        "encoding": "@?16@0:8",
+        "address": "0x1908a0"
+      },
+      "contract": {
+        "operation": "load",
+        "offset": 232,
+        "type": "@?",
+        "omitted": [],
+        "calls": [],
+        "wrappers": []
+      }
+    },
+    {
+      "property": {
+        "name": "validationHandler",
+        "attributes": "T@?,C,N,V_validationHandler"
+      },
+      "ivar": {
+        "name": "_validationHandler",
+        "encoding": "@?",
+        "offset": 232,
+        "size": 8
+      },
+      "method": {
+        "kind": "-",
+        "selector": "setValidationHandler:",
+        "encoding": "v24@0:8@?16",
+        "address": "0x1908a8"
+      },
+      "contract": {
+        "operation": "copy-set",
+        "offset": 232,
+        "type": "@?",
+        "omitted": [],
+        "calls": [
+          {
+            "address": "0x1908ac",
+            "target": "0x191880",
+            "symbol": "_objc_setProperty_nonatomic_copy"
+          }
+        ],
+        "wrappers": [
+          {
+            "address": "0x191870",
+            "words": [
+              "0xa9bf7bfd",
+              "0x94281687",
+              "0xa8c17bfd",
+              "0xd65f03c0"
+            ]
+          },
+          {
+            "address": "0x191880",
+            "words": [
+              "0xa9bf7bfd",
+              "0x97fffffb",
+              "0xa8c17bfd",
+              "0xd65f03c0"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "property": {
+        "name": "errorText",
+        "attributes": "T@\"NSString\",&,N,V_errorText"
+      },
+      "ivar": {
+        "name": "_errorText",
+        "encoding": "@\"NSString\"",
+        "offset": 240,
+        "size": 8
+      },
+      "method": {
+        "kind": "-",
+        "selector": "errorText",
+        "encoding": "@16@0:8",
+        "address": "0x1908b0"
+      },
+      "contract": {
+        "operation": "load",
+        "offset": 240,
+        "type": "@\"NSString\"",
+        "omitted": [],
+        "calls": [],
+        "wrappers": []
+      }
+    },
+    {
+      "property": {
+        "name": "errorText",
+        "attributes": "T@\"NSString\",&,N,V_errorText"
+      },
+      "ivar": {
+        "name": "_errorText",
+        "encoding": "@\"NSString\"",
+        "offset": 240,
+        "size": 8
+      },
+      "method": {
+        "kind": "-",
+        "selector": "setErrorText:",
+        "encoding": "v24@0:8@16",
+        "address": "0x1908b8"
+      },
+      "contract": {
+        "operation": "strong-set",
+        "offset": 240,
+        "type": "@\"NSString\"",
+        "omitted": [
+          {
+            "address": "0x1908cc",
+            "word": "0xd2800340"
+          },
+          {
+            "address": "0x1908d0",
+            "word": "0xd28003e1"
+          },
+          {
+            "address": "0x1908d4",
+            "word": "0x52800002"
+          },
+          {
+            "address": "0x1908d8",
+            "word": "0x52800010"
+          },
+          {
+            "address": "0x1908dc",
+            "word": "0x52800003"
+          },
+          {
+            "address": "0x1908e0",
+            "word": "0xd40aba41"
+          }
+        ],
+        "calls": [
+          {
+            "address": "0x1908c8",
+            "target": "0xb9729c",
+            "symbol": "_objc_storeStrong"
+          }
+        ],
+        "wrappers": []
+      }
+    }
+  ],
+  "ivars": [
+    {
+      "name": "_reloadsCell",
+      "encoding": "B",
+      "offset": 8,
+      "size": 1
+    },
+    {
+      "name": "_reloadsTable",
+      "encoding": "B",
+      "offset": 9,
+      "size": 1
+    },
+    {
+      "name": "_shouldHideDetail",
+      "encoding": "B",
+      "offset": 10,
+      "size": 1
+    },
+    {
+      "name": "_identifier",
+      "encoding": "@\"NSString\"",
+      "offset": 16,
+      "size": 8
+    },
+    {
+      "name": "_reuseIdentifier",
+      "encoding": "@\"NSString\"",
+      "offset": 24,
+      "size": 8
+    },
+    {
+      "name": "_title",
+      "encoding": "@\"NSString\"",
+      "offset": 32,
+      "size": 8
+    },
+    {
+      "name": "_subtitle",
+      "encoding": "@\"NSString\"",
+      "offset": 40,
+      "size": 8
+    },
+    {
+      "name": "_detailText",
+      "encoding": "@\"NSString\"",
+      "offset": 48,
+      "size": 8
+    },
+    {
+      "name": "_key",
+      "encoding": "@\"NSString\"",
+      "offset": 56,
+      "size": 8
+    },
+    {
+      "name": "_placeholder",
+      "encoding": "@\"NSString\"",
+      "offset": 64,
+      "size": 8
+    },
+    {
+      "name": "_titleIndexes",
+      "encoding": "@\"NSArray\"",
+      "offset": 72,
+      "size": 8
+    },
+    {
+      "name": "_imageIndexes",
+      "encoding": "@\"NSArray\"",
+      "offset": 80,
+      "size": 8
+    },
+    {
+      "name": "_dividerValue",
+      "encoding": "d",
+      "offset": 88,
+      "size": 8
+    },
+    {
+      "name": "_minimumValue",
+      "encoding": "d",
+      "offset": 96,
+      "size": 8
+    },
+    {
+      "name": "_maximumValue",
+      "encoding": "d",
+      "offset": 104,
+      "size": 8
+    },
+    {
+      "name": "_sliderFormat",
+      "encoding": "q",
+      "offset": 112,
+      "size": 8
+    },
+    {
+      "name": "_renderingMode",
+      "encoding": "q",
+      "offset": 120,
+      "size": 8
+    },
+    {
+      "name": "_icon",
+      "encoding": "@\"UIImage\"",
+      "offset": 128,
+      "size": 8
+    },
+    {
+      "name": "_image",
+      "encoding": "@\"UIImage\"",
+      "offset": 136,
+      "size": 8
+    },
+    {
+      "name": "_accessoryIcon",
+      "encoding": "@\"UIImage\"",
+      "offset": 144,
+      "size": 8
+    },
+    {
+      "name": "_type",
+      "encoding": "q",
+      "offset": 152,
+      "size": 8
+    },
+    {
+      "name": "_tintColor",
+      "encoding": "@\"UIColor\"",
+      "offset": 160,
+      "size": 8
+    },
+    {
+      "name": "_sourceView",
+      "encoding": "@\"UIView\"",
+      "offset": 168,
+      "size": 8
+    },
+    {
+      "name": "_controllerModel",
+      "encoding": "@\"DVNTableModel\"",
+      "offset": 176,
+      "size": 8
+    },
+    {
+      "name": "_customData",
+      "encoding": "@\"NSDictionary\"",
+      "offset": 184,
+      "size": 8
+    },
+    {
+      "name": "_handler",
+      "encoding": "@?",
+      "offset": 192,
+      "size": 8
+    },
+    {
+      "name": "_selfHandler",
+      "encoding": "@?",
+      "offset": 200,
+      "size": 8
+    },
+    {
+      "name": "_handlerWithCompletion",
+      "encoding": "@?",
+      "offset": 208,
+      "size": 8
+    },
+    {
+      "name": "_subtitleProvider",
+      "encoding": "@?",
+      "offset": 216,
+      "size": 8
+    },
+    {
+      "name": "_titleIndexesProvider",
+      "encoding": "@?",
+      "offset": 224,
+      "size": 8
+    },
+    {
+      "name": "_validationHandler",
+      "encoding": "@?",
+      "offset": 232,
+      "size": 8
+    },
+    {
+      "name": "_errorText",
+      "encoding": "@\"NSString\"",
+      "offset": 240,
+      "size": 8
+    }
+  ],
+  "properties": [
+    {
+      "name": "identifier",
+      "attributes": "T@\"NSString\",&,N,V_identifier"
+    },
+    {
+      "name": "reuseIdentifier",
+      "attributes": "T@\"NSString\",R,N,V_reuseIdentifier"
+    },
+    {
+      "name": "title",
+      "attributes": "T@\"NSString\",&,N,V_title"
+    },
+    {
+      "name": "subtitle",
+      "attributes": "T@\"NSString\",&,N,V_subtitle"
+    },
+    {
+      "name": "detailText",
+      "attributes": "T@\"NSString\",&,N,V_detailText"
+    },
+    {
+      "name": "key",
+      "attributes": "T@\"NSString\",&,N,V_key"
+    },
+    {
+      "name": "placeholder",
+      "attributes": "T@\"NSString\",&,N,V_placeholder"
+    },
+    {
+      "name": "titleIndexes",
+      "attributes": "T@\"NSArray\",&,N,V_titleIndexes"
+    },
+    {
+      "name": "imageIndexes",
+      "attributes": "T@\"NSArray\",&,N,V_imageIndexes"
+    },
+    {
+      "name": "dividerValue",
+      "attributes": "Td,N,V_dividerValue"
+    },
+    {
+      "name": "minimumValue",
+      "attributes": "Td,N,V_minimumValue"
+    },
+    {
+      "name": "maximumValue",
+      "attributes": "Td,N,V_maximumValue"
+    },
+    {
+      "name": "sliderFormat",
+      "attributes": "Tq,N,V_sliderFormat"
+    },
+    {
+      "name": "reloadsCell",
+      "attributes": "TB,N,V_reloadsCell"
+    },
+    {
+      "name": "reloadsTable",
+      "attributes": "TB,N,V_reloadsTable"
+    },
+    {
+      "name": "shouldHideDetail",
+      "attributes": "TB,N,V_shouldHideDetail"
+    },
+    {
+      "name": "renderingMode",
+      "attributes": "Tq,N,V_renderingMode"
+    },
+    {
+      "name": "icon",
+      "attributes": "T@\"UIImage\",&,N,V_icon"
+    },
+    {
+      "name": "image",
+      "attributes": "T@\"UIImage\",&,N,V_image"
+    },
+    {
+      "name": "accessoryIcon",
+      "attributes": "T@\"UIImage\",&,N,V_accessoryIcon"
+    },
+    {
+      "name": "type",
+      "attributes": "Tq,N,V_type"
+    },
+    {
+      "name": "tintColor",
+      "attributes": "T@\"UIColor\",&,N,V_tintColor"
+    },
+    {
+      "name": "sourceView",
+      "attributes": "T@\"UIView\",W,N,V_sourceView"
+    },
+    {
+      "name": "controllerModel",
+      "attributes": "T@\"DVNTableModel\",&,N,V_controllerModel"
+    },
+    {
+      "name": "customData",
+      "attributes": "T@\"NSDictionary\",&,N,V_customData"
+    },
+    {
+      "name": "handler",
+      "attributes": "T@?,C,N,V_handler"
+    },
+    {
+      "name": "selfHandler",
+      "attributes": "T@?,C,N,V_selfHandler"
+    },
+    {
+      "name": "handlerWithCompletion",
+      "attributes": "T@?,C,N,V_handlerWithCompletion"
+    },
+    {
+      "name": "subtitleProvider",
+      "attributes": "T@?,C,N,V_subtitleProvider"
+    },
+    {
+      "name": "titleIndexesProvider",
+      "attributes": "T@?,C,N,V_titleIndexesProvider"
+    },
+    {
+      "name": "validationHandler",
+      "attributes": "T@?,C,N,V_validationHandler"
+    },
+    {
+      "name": "errorText",
+      "attributes": "T@\"NSString\",&,N,V_errorText"
+    }
+  ]
+}

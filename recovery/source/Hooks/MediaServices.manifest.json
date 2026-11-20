@@ -1,0 +1,132 @@
+{
+  "binary_sha256": "bdcc4d4ccaa5835d35bc97ccbdfc1c3dff514cb7161848265dcc0585f364c0ca",
+  "registrations": [
+    {
+      "class_name": "MDXPlaybackRouteButtonController",
+      "kind": "-",
+      "selector": "isPersistentCastIconEnabled",
+      "implementation": "0x0006e65c",
+      "operation": "replace",
+      "original_pointer": "0x012261b8",
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x6e7c4",
+      "instruction_sha256": "af30cb2e1b6d5fca632c3c2e3f1a803ac23a2bdc380b76bfdf457f5fded14aa0"
+    },
+    {
+      "class_name": "MDXPlaybackRouteButtonController",
+      "kind": "-",
+      "selector": "updateRouteButton:",
+      "implementation": "0x0006e7c4",
+      "operation": "replace",
+      "original_pointer": "0x012261c0",
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x6e950",
+      "instruction_sha256": "020a0c6f99045b353a4bc07d452c8b1ab4f0ba4eb3f25438d476bc965a5d262f"
+    },
+    {
+      "class_name": "MDXPlaybackRouteButtonController",
+      "kind": "-",
+      "selector": "updateAllRouteButtons",
+      "implementation": "0x0006e950",
+      "operation": "replace",
+      "original_pointer": "0x012261c8",
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x6eac4",
+      "instruction_sha256": "d4eedda0fd1c2e66a38d9037a878ccfa86a836753a12c6f189c9d833104f1c57"
+    },
+    {
+      "class_name": "YTSettings",
+      "kind": "-",
+      "selector": "setDisableMDXDeviceDiscovery:",
+      "implementation": "0x0006eac4",
+      "operation": "replace",
+      "original_pointer": "0x012261d0",
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x6ebf4",
+      "instruction_sha256": "bb95f540cbf50a327c874864d76687aefbb6bd0b36dae39e06c6d30cea524f92"
+    },
+    {
+      "class_name": "YTSettings",
+      "kind": "-",
+      "selector": "areHintsDisabled",
+      "implementation": "0x0006ebf4",
+      "operation": "replace",
+      "original_pointer": "0x012261d8",
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x6ecf4",
+      "instruction_sha256": "76433289e1f62db21326ea8b47345a98685ad90abcda7985ea6e53141d1c6564"
+    },
+    {
+      "class_name": "YTSettings",
+      "kind": "-",
+      "selector": "setHintsDisabled:",
+      "implementation": "0x0006ecf4",
+      "operation": "replace",
+      "original_pointer": "0x012261e0",
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0x6ee24",
+      "instruction_sha256": "fcbd4e87f2bc530c8099950d3a8d645aea478cb2f8e984985458a50f37b3cf52"
+    },
+    {
+      "class_name": "_UIConcretePasteboard",
+      "kind": "-",
+      "selector": "setString:",
+      "implementation": "0x000a32d0",
+      "operation": "replace",
+      "original_pointer": "0x01226628",
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0xa34e0",
+      "instruction_sha256": "cfb07761daf43aff344284f3fa3049a5544994d19dad29f9549ff155a763b2d6"
+    },
+    {
+      "class_name": "YTIIosSystemShareEndpoint",
+      "kind": "-",
+      "selector": "shareURL",
+      "implementation": "0x000a34e0",
+      "operation": "replace",
+      "original_pointer": "0x01226630",
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0xa36d0",
+      "instruction_sha256": "a2582151eacf1f078d5147762a3419cccede14a30460358e4d239d38c877ebe8"
+    },
+    {
+      "class_name": "YTSingleVideoController",
+      "kind": "-",
+      "selector": "setAudioFormatConstraint:",
+      "implementation": "0x000a9e0c",
+      "operation": "replace",
+      "original_pointer": "0x01226658",
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0xaa0e8",
+      "instruction_sha256": "a0811c0e571b7e2abce7c62e4bd448d147b0b92d46956638e563d0aa0d351918"
+    },
+    {
+      "class_name": "YTWatchFlowController",
+      "kind": "-",
+      "selector": "shouldExitFullScreenOnFinish",
+      "implementation": "0x000aa0e8",
+      "operation": "replace",
+      "original_pointer": "0x01226660",
+      "registration": "00053fac",
+      "complete": true,
+      "instruction_end": "0xaa244",
+      "instruction_sha256": "8fddb1969a9c05382b8227dae45862af2ea96b41a879418250a20970a245110b"
+    }
+  ],
+  "helpers": [
+    {
+      "address": "0xcc72c",
+      "instruction_end": "0xccdbc",
+      "instruction_sha256": "3d732f8db45565a9fea07f1253bf56d0b6d0a47c5d653162df71bedae855387e"
+    }
+  ]
+}

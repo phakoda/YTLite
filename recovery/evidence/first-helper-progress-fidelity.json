@@ -1,0 +1,72 @@
+{
+  "binary_sha256": "59b0ddc0c8ca14863d20b0005c0c48e062e81a0df6611e213a3a66fa2b796023",
+  "spans": [
+    {
+      "start": "0x22b1c0",
+      "end": "0x22b6e4",
+      "sha256": "dab061c050fe655c3dd8338572c2b726cc00618adae1d9dee15cef8cdbcf9aaf"
+    },
+    {
+      "start": "0x22b770",
+      "end": "0x22bbb4",
+      "sha256": "6d64b93a3c02371778154f6d963845955eb839463e3313d08dc9083da5dceccf"
+    },
+    {
+      "start": "0x2318d4",
+      "end": "0x231a04",
+      "sha256": "cba7c0ce2b2e12d256cb06bfdc0cc79a2e2e71a7e6a3fa2ae9bd9c60a374531d"
+    }
+  ],
+  "branches": [
+    {
+      "table": "0x11d13f8",
+      "key": "0x11d1408",
+      "xor": "0x29d49ef4",
+      "targets": [
+        "0x22b614",
+        "0x22b668"
+      ]
+    },
+    {
+      "table": "0x11d1440",
+      "key": "0x11d1450",
+      "xor": "0x11bc3357",
+      "targets": [
+        "0x22baac",
+        "0x22b7e4"
+      ]
+    }
+  ],
+  "strings": [
+    {
+      "address": "0x11d0330",
+      "value": "DownloadingAudio"
+    },
+    {
+      "address": "0x11d0370",
+      "value": "DownloadingVideo"
+    },
+    {
+      "address": "0x11d02f0",
+      "value": "%@: %.0f%%"
+    },
+    {
+      "address": "0x11d01d0",
+      "value": "DownloadingAudio"
+    }
+  ],
+  "selectors": [
+    {
+      "reference": "0x114e748",
+      "name": "updateText:progress:animated:"
+    },
+    {
+      "reference": "0x114e2f0",
+      "name": "updateText:progress:"
+    },
+    {
+      "reference": "0x114b278",
+      "name": "localizedStringForKey:value:table:"
+    }
+  ]
+}

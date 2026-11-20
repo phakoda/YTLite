@@ -1,0 +1,168 @@
+{
+  "binary_sha256": "bdcc4d4ccaa5835d35bc97ccbdfc1c3dff514cb7161848265dcc0585f364c0ca",
+  "methods": [
+    {
+      "kind": "-",
+      "selector": "init",
+      "encoding": "@16@0:8",
+      "address": "0x1d662c"
+    },
+    {
+      "kind": "-",
+      "selector": "setupWhitelist",
+      "encoding": "v16@0:8",
+      "address": "0x1d6770"
+    },
+    {
+      "kind": "-",
+      "selector": "loadView",
+      "encoding": "v16@0:8",
+      "address": "0x1d7eb0"
+    },
+    {
+      "kind": "-",
+      "selector": "closeButtonTapped",
+      "encoding": "v16@0:8",
+      "address": "0x1d838c"
+    },
+    {
+      "kind": "-",
+      "selector": "tableView:titleForHeaderInSection:",
+      "encoding": "@32@0:8@16q24",
+      "address": "0x1d83c8"
+    },
+    {
+      "kind": "-",
+      "selector": "tableView:willDisplayHeaderView:forSection:",
+      "encoding": "v40@0:8@16@24q32",
+      "address": "0x1d85d0"
+    },
+    {
+      "kind": "-",
+      "selector": "getSortActions",
+      "encoding": "@16@0:8",
+      "address": "0x1d8efc"
+    },
+    {
+      "kind": "-",
+      "selector": "updateSortMenu",
+      "encoding": "v16@0:8",
+      "address": "0x1da52c"
+    },
+    {
+      "kind": "-",
+      "selector": "numberOfSectionsInTableView:",
+      "encoding": "q24@0:8@16",
+      "address": "0x1da7cc"
+    },
+    {
+      "kind": "-",
+      "selector": "tableView:numberOfRowsInSection:",
+      "encoding": "q32@0:8@16q24",
+      "address": "0x1da7e4"
+    },
+    {
+      "kind": "-",
+      "selector": "tableView:cellForRowAtIndexPath:",
+      "encoding": "@32@0:8@16@24",
+      "address": "0x1da840"
+    },
+    {
+      "kind": "-",
+      "selector": "tableView:shouldHighlightRowAtIndexPath:",
+      "encoding": "B32@0:8@16@24",
+      "address": "0x1db004"
+    },
+    {
+      "kind": "-",
+      "selector": "tableView:didSelectRowAtIndexPath:",
+      "encoding": "v32@0:8@16@24",
+      "address": "0x1db00c"
+    },
+    {
+      "kind": "-",
+      "selector": "tableView:trailingSwipeActionsConfigurationForRowAtIndexPath:",
+      "encoding": "@32@0:8@16@24",
+      "address": "0x1db400"
+    },
+    {
+      "kind": "-",
+      "selector": "removeChannelWithLink:",
+      "encoding": "v24@0:8@16",
+      "address": "0x1db9c8"
+    },
+    {
+      "kind": "-",
+      "selector": "ytlImageWithName:",
+      "encoding": "@24@0:8@16",
+      "address": "0x1dc018"
+    },
+    {
+      "kind": "-",
+      "selector": "channelImage:",
+      "encoding": "@24@0:8@16",
+      "address": "0x1dc0d8"
+    },
+    {
+      "kind": "-",
+      "selector": ".cxx_destruct",
+      "encoding": "v16@0:8",
+      "address": "0x1dc400"
+    }
+  ],
+  "instruction_intervals": [
+    {
+      "start": "0x1d662c",
+      "end": "0x1dc434",
+      "sha256": "071114ef6ffe7afdcdcaf7ca4006c3882f9bc37cf47ee4d616384de18061120b"
+    }
+  ],
+  "branch_tables": [
+    {
+      "table": "0x11b8f30",
+      "key": "0x11b8f40",
+      "xor": "0xe844f7cb",
+      "destinations": [
+        "0x1d7664",
+        "0x1d766c"
+      ]
+    },
+    {
+      "table": "0x11b8f50",
+      "key": "0x11b8f60",
+      "xor": "0x9356cbda",
+      "destinations": [
+        "0x1d77cc",
+        "0x1d77ec"
+      ]
+    },
+    {
+      "table": "0x11b9018",
+      "key": "0x11b9028",
+      "xor": "0x5c9607eb",
+      "destinations": [
+        "0x1d7de4",
+        "0x1d7cd4"
+      ]
+    }
+  ],
+  "decoded_strings": {
+    "0x11b7bc0": "Sb.ChannelsHere",
+    "0x11b7c00": "id",
+    "0x11b7c40": "channel",
+    "0x11b7c80": "image",
+    "0x11b7cc0": "nochannel",
+    "0x11b7d00": "type",
+    "0x11b7d40": "FElibrary",
+    "0x11b7d80": "FEuploads",
+    "0x11b7dc0": "link",
+    "0x11b7e00": "pfp",
+    "0x11b7e40": "sbWhitelist",
+    "0x11b7e80": "ascending",
+    "0x11b7ec0": "key",
+    "0x11b7f00": "sbWhitelistSortType",
+    "0x11b7f40": "name",
+    "0x11b7f80": "title",
+    "0x11b7fc0": "channelCell"
+  }
+}

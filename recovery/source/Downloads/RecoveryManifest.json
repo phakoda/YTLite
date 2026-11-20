@@ -1,0 +1,1804 @@
+{
+  "original_binary": ".recovery-work/arm/YTLite.dylib",
+  "sha256": "bdcc4d4ccaa5835d35bc97ccbdfc1c3dff514cb7161848265dcc0585f364c0ca",
+  "scope": "Seven functional Downloads classes; no bundled FFmpeg class replacement; original binary never executed",
+  "classes": [
+    {
+      "name": "DownloadMenuHelper",
+      "superclass": "NSObject",
+      "methods": [
+        {
+          "kind": "-",
+          "selector": "showVideoSheet:withSender:",
+          "encoding": "v32@0:8@16@24",
+          "address": "0xfb8a4",
+          "decompiled_source": "recovery/classes/DownloadMenuHelper.c",
+          "decompiled_line": 3,
+          "implementation_source": "recovery/source/Downloads/DownloadMenuHelper.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "-",
+          "selector": "showImagesSheet:withSender:",
+          "encoding": "v32@0:8@16@24",
+          "address": "0xfd8cc",
+          "decompiled_source": "recovery/classes/DownloadMenuHelper.c",
+          "decompiled_line": 313,
+          "implementation_source": "recovery/source/Downloads/DownloadMenuHelper.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "-",
+          "selector": "showInformationSheet:withSender:",
+          "encoding": "v32@0:8@16@24",
+          "address": "0xfeb1c",
+          "decompiled_source": "recovery/classes/DownloadMenuHelper.c",
+          "decompiled_line": 564,
+          "implementation_source": "recovery/source/Downloads/DownloadMenuHelper.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "-",
+          "selector": "showExtPlayerSheet:withSender:",
+          "encoding": "v32@0:8@16@24",
+          "address": "0x101144",
+          "decompiled_source": "recovery/classes/DownloadMenuHelper.c",
+          "decompiled_line": 958,
+          "implementation_source": "recovery/source/Downloads/DownloadMenuHelper.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "-",
+          "selector": "getVideoFormatsArray:isShorts:",
+          "encoding": "@28@0:8@16B24",
+          "address": "0x1030f8",
+          "decompiled_source": "recovery/classes/DownloadMenuHelper.c",
+          "decompiled_line": 1195,
+          "implementation_source": "recovery/source/Downloads/DownloadMenuHelper.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "-",
+          "selector": "getAudioFormatsArray:",
+          "encoding": "@24@0:8@16",
+          "address": "0x103a28",
+          "decompiled_source": "recovery/classes/DownloadMenuHelper.c",
+          "decompiled_line": 1407,
+          "implementation_source": "recovery/source/Downloads/DownloadMenuHelper.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "-",
+          "selector": "getBestAudioFormat:playerVC:",
+          "encoding": "@32@0:8@16@24",
+          "address": "0x1040ec",
+          "decompiled_source": "recovery/classes/DownloadMenuHelper.c",
+          "decompiled_line": 1591,
+          "implementation_source": "recovery/source/Downloads/DownloadMenuHelper.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "-",
+          "selector": "getDefaultAudioTrack:",
+          "encoding": "@24@0:8@16",
+          "address": "0x1048f4",
+          "decompiled_source": "recovery/classes/DownloadMenuHelper.c",
+          "decompiled_line": 1762,
+          "implementation_source": "recovery/source/Downloads/DownloadMenuHelper.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "-",
+          "selector": "getEnglishAudioTrack:",
+          "encoding": "@24@0:8@16",
+          "address": "0x104bf8",
+          "decompiled_source": "recovery/classes/DownloadMenuHelper.c",
+          "decompiled_line": 1809,
+          "implementation_source": "recovery/source/Downloads/DownloadMenuHelper.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "-",
+          "selector": "detailForMimeType:",
+          "encoding": "@24@0:8@16",
+          "address": "0x104ffc",
+          "decompiled_source": "recovery/classes/DownloadMenuHelper.c",
+          "decompiled_line": 1950,
+          "implementation_source": "recovery/source/Downloads/DownloadMenuHelper.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "-",
+          "selector": "getResoForQuality:",
+          "encoding": "q24@0:8@16",
+          "address": "0x1054dc",
+          "decompiled_source": "recovery/classes/DownloadMenuHelper.c",
+          "decompiled_line": 2024,
+          "implementation_source": "recovery/source/Downloads/DownloadMenuHelper.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "-",
+          "selector": "downloadVideoWithFormat:withAudioFormats:fileName:extension:videoID:playerVC:sender:",
+          "encoding": "v72@0:8@16@24@32@40@48@56@64",
+          "address": "0x1055f4",
+          "decompiled_source": "recovery/classes/DownloadMenuHelper.c",
+          "decompiled_line": 2050,
+          "implementation_source": "recovery/source/Downloads/DownloadMenuHelper.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "-",
+          "selector": "downloadVideoWithFormat:audioFormat:fileName:extension:videoID:playerVC:sender:",
+          "encoding": "v72@0:8@16@24@32@40@48@56@64",
+          "address": "0x106840",
+          "decompiled_source": "recovery/classes/DownloadMenuHelper.c",
+          "decompiled_line": 2293,
+          "implementation_source": "recovery/source/Downloads/DownloadMenuHelper.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "-",
+          "selector": "downloadVideoWithUrl:audioUrl:fileName:extension:videoID:videoSize:audioSize:duration:captions:playerVC:",
+          "encoding": "v96@0:8@16@24@32@40@48Q56Q64Q72@80@88",
+          "address": "0x106c80",
+          "decompiled_source": "recovery/classes/DownloadMenuHelper.c",
+          "decompiled_line": 2360,
+          "implementation_source": "recovery/source/Downloads/DownloadMenuHelper.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "-",
+          "selector": "getThumbnail:",
+          "encoding": "v24@0:8@16",
+          "address": "0x107068",
+          "decompiled_source": "recovery/classes/DownloadMenuHelper.c",
+          "decompiled_line": 2427,
+          "implementation_source": "recovery/source/Downloads/DownloadMenuHelper.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "-",
+          "selector": "checkSpaceAvailabilityForMedia:completion:",
+          "encoding": "v32@0:8q16@?24",
+          "address": "0x107a20",
+          "decompiled_source": "recovery/classes/DownloadMenuHelper.c",
+          "decompiled_line": 2487,
+          "implementation_source": "recovery/source/Downloads/DownloadMenuHelper.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "-",
+          "selector": "showAudioTrackSelector:sender:playerVC:completion:",
+          "encoding": "v48@0:8@16@24@32@?40",
+          "address": "0x107f1c",
+          "decompiled_source": "recovery/classes/DownloadMenuHelper.c",
+          "decompiled_line": 2525,
+          "implementation_source": "recovery/source/Downloads/DownloadMenuHelper.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "-",
+          "selector": "hasCaptions:",
+          "encoding": "B24@0:8@16",
+          "address": "0x109374",
+          "decompiled_source": "recovery/classes/DownloadMenuHelper.c",
+          "decompiled_line": 2543,
+          "implementation_source": "recovery/source/Downloads/DownloadMenuHelper.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "-",
+          "selector": "showTranscriptSheet:withSender:",
+          "encoding": "v32@0:8@16@24",
+          "address": "0x109acc",
+          "decompiled_source": "recovery/classes/DownloadMenuHelper.c",
+          "decompiled_line": 2709,
+          "implementation_source": "recovery/source/Downloads/DownloadMenuHelper.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "-",
+          "selector": "showCaptionsSheet:withSender:",
+          "encoding": "v32@0:8@16@24",
+          "address": "0x10a9c4",
+          "decompiled_source": "recovery/classes/DownloadMenuHelper.c",
+          "decompiled_line": 2886,
+          "implementation_source": "recovery/source/Downloads/DownloadMenuHelper.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "-",
+          "selector": "captionsForDownloading:",
+          "encoding": "@24@0:8@16",
+          "address": "0x10b9a4",
+          "decompiled_source": "recovery/classes/DownloadMenuHelper.c",
+          "decompiled_line": 3117,
+          "implementation_source": "recovery/source/Downloads/DownloadMenuHelper.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "-",
+          "selector": "titleForCaption:",
+          "encoding": "@24@0:8@16",
+          "address": "0x10c14c",
+          "decompiled_source": "recovery/classes/DownloadMenuHelper.c",
+          "decompiled_line": 3235,
+          "implementation_source": "recovery/source/Downloads/DownloadMenuHelper.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "-",
+          "selector": "getCaptionsUrlSheet:sender:completion:",
+          "encoding": "v40@0:8@16@24@?32",
+          "address": "0x10c720",
+          "decompiled_source": "recovery/classes/DownloadMenuHelper.c",
+          "decompiled_line": 3310,
+          "implementation_source": "recovery/source/Downloads/DownloadMenuHelper.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "-",
+          "selector": "shareSRT:sourceView:",
+          "encoding": "v32@0:8@16@24",
+          "address": "0x10da34",
+          "decompiled_source": "recovery/classes/DownloadMenuHelper.c",
+          "decompiled_line": 3550,
+          "implementation_source": "recovery/source/Downloads/DownloadMenuHelper.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "+",
+          "selector": "showDownloadSheetShorts:withSender:",
+          "encoding": "v32@0:8@16@24",
+          "address": "0xf5b28",
+          "decompiled_source": "recovery/classes/DownloadMenuHelper.c",
+          "decompiled_line": 3586,
+          "implementation_source": "recovery/source/Downloads/DownloadMenuHelper.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "+",
+          "selector": "showDownloadSheet:withSender:",
+          "encoding": "v32@0:8@16@24",
+          "address": "0xf83b8",
+          "decompiled_source": "recovery/classes/DownloadMenuHelper.c",
+          "decompiled_line": 4077,
+          "implementation_source": "recovery/source/Downloads/DownloadMenuHelper.m",
+          "implementation_kind": "explicit Objective-C method"
+        }
+      ],
+      "properties": [],
+      "ivars": {
+        "instance_size": 8,
+        "ivars": []
+      }
+    },
+    {
+      "name": "YTPMedia",
+      "superclass": "NSObject",
+      "methods": [
+        {
+          "kind": "-",
+          "selector": "setCairo:",
+          "encoding": "v20@0:8B16",
+          "address": "0x1b6a04",
+          "decompiled_source": "recovery/classes/YTPMedia.c",
+          "decompiled_line": 3,
+          "implementation_source": "recovery/source/Downloads/YTPMedia.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "-",
+          "selector": "isCairo",
+          "encoding": "B16@0:8",
+          "address": "0x1b6d3c",
+          "decompiled_source": "recovery/classes/YTPMedia.c",
+          "decompiled_line": 37,
+          "implementation_source": "recovery/source/Downloads/YTPMedia.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "+",
+          "selector": "sharedMedia",
+          "encoding": "@16@0:8",
+          "address": "0x1aa774",
+          "decompiled_source": "recovery/classes/YTPMedia.c",
+          "decompiled_line": 50,
+          "implementation_source": "recovery/source/Downloads/YTPMedia.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "+",
+          "selector": "pageStyle",
+          "encoding": "q16@0:8",
+          "address": "0x1aa86c",
+          "decompiled_source": "recovery/classes/YTPMedia.c",
+          "decompiled_line": 86,
+          "implementation_source": "recovery/source/Downloads/YTPMedia.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "+",
+          "selector": "adaptiveBackgroundColor",
+          "encoding": "@16@0:8",
+          "address": "0x1aa9f0",
+          "decompiled_source": "recovery/classes/YTPMedia.c",
+          "decompiled_line": 132,
+          "implementation_source": "recovery/source/Downloads/YTPMedia.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "+",
+          "selector": "oledForColor:",
+          "encoding": "@24@0:8@16",
+          "address": "0x1aacd4",
+          "decompiled_source": "recovery/classes/YTPMedia.c",
+          "decompiled_line": 171,
+          "implementation_source": "recovery/source/Downloads/YTPMedia.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "+",
+          "selector": "imageWithName:",
+          "encoding": "@24@0:8@16",
+          "address": "0x1ab020",
+          "decompiled_source": "recovery/classes/YTPMedia.c",
+          "decompiled_line": 229,
+          "implementation_source": "recovery/source/Downloads/YTPMedia.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "+",
+          "selector": "historyTab",
+          "encoding": "@16@0:8",
+          "address": "0x1ab254",
+          "decompiled_source": "recovery/classes/YTPMedia.c",
+          "decompiled_line": 275,
+          "implementation_source": "recovery/source/Downloads/YTPMedia.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "+",
+          "selector": "historyTabSelected",
+          "encoding": "@16@0:8",
+          "address": "0x1ab508",
+          "decompiled_source": "recovery/classes/YTPMedia.c",
+          "decompiled_line": 309,
+          "implementation_source": "recovery/source/Downloads/YTPMedia.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "+",
+          "selector": "watchLaterTab",
+          "encoding": "@16@0:8",
+          "address": "0x1ab8b8",
+          "decompiled_source": "recovery/classes/YTPMedia.c",
+          "decompiled_line": 343,
+          "implementation_source": "recovery/source/Downloads/YTPMedia.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "+",
+          "selector": "watchLaterTabSelected",
+          "encoding": "@16@0:8",
+          "address": "0x1abadc",
+          "decompiled_source": "recovery/classes/YTPMedia.c",
+          "decompiled_line": 377,
+          "implementation_source": "recovery/source/Downloads/YTPMedia.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "+",
+          "selector": "postsTab",
+          "encoding": "@16@0:8",
+          "address": "0x1abdf8",
+          "decompiled_source": "recovery/classes/YTPMedia.c",
+          "decompiled_line": 411,
+          "implementation_source": "recovery/source/Downloads/YTPMedia.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "+",
+          "selector": "postsTabSelected",
+          "encoding": "@16@0:8",
+          "address": "0x1ac0f4",
+          "decompiled_source": "recovery/classes/YTPMedia.c",
+          "decompiled_line": 445,
+          "implementation_source": "recovery/source/Downloads/YTPMedia.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "+",
+          "selector": "hypeTab",
+          "encoding": "@16@0:8",
+          "address": "0x1ac4f0",
+          "decompiled_source": "recovery/classes/YTPMedia.c",
+          "decompiled_line": 479,
+          "implementation_source": "recovery/source/Downloads/YTPMedia.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "+",
+          "selector": "hypeTabSelected",
+          "encoding": "@16@0:8",
+          "address": "0x1ac8a8",
+          "decompiled_source": "recovery/classes/YTPMedia.c",
+          "decompiled_line": 513,
+          "implementation_source": "recovery/source/Downloads/YTPMedia.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "+",
+          "selector": "musicTab",
+          "encoding": "@16@0:8",
+          "address": "0x1acd54",
+          "decompiled_source": "recovery/classes/YTPMedia.c",
+          "decompiled_line": 547,
+          "implementation_source": "recovery/source/Downloads/YTPMedia.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "+",
+          "selector": "musicTabSelected",
+          "encoding": "@16@0:8",
+          "address": "0x1ad1c0",
+          "decompiled_source": "recovery/classes/YTPMedia.c",
+          "decompiled_line": 581,
+          "implementation_source": "recovery/source/Downloads/YTPMedia.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "+",
+          "selector": "liveTab",
+          "encoding": "@16@0:8",
+          "address": "0x1ad724",
+          "decompiled_source": "recovery/classes/YTPMedia.c",
+          "decompiled_line": 615,
+          "implementation_source": "recovery/source/Downloads/YTPMedia.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "+",
+          "selector": "liveTabSelected",
+          "encoding": "@16@0:8",
+          "address": "0x1adb88",
+          "decompiled_source": "recovery/classes/YTPMedia.c",
+          "decompiled_line": 649,
+          "implementation_source": "recovery/source/Downloads/YTPMedia.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "+",
+          "selector": "gamingTab",
+          "encoding": "@16@0:8",
+          "address": "0x1ae0d0",
+          "decompiled_source": "recovery/classes/YTPMedia.c",
+          "decompiled_line": 683,
+          "implementation_source": "recovery/source/Downloads/YTPMedia.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "+",
+          "selector": "gamingTabSelected",
+          "encoding": "@16@0:8",
+          "address": "0x1ae530",
+          "decompiled_source": "recovery/classes/YTPMedia.c",
+          "decompiled_line": 717,
+          "implementation_source": "recovery/source/Downloads/YTPMedia.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "+",
+          "selector": "sportsTab",
+          "encoding": "@16@0:8",
+          "address": "0x1aeaa4",
+          "decompiled_source": "recovery/classes/YTPMedia.c",
+          "decompiled_line": 751,
+          "implementation_source": "recovery/source/Downloads/YTPMedia.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "+",
+          "selector": "sportsTabSelected",
+          "encoding": "@16@0:8",
+          "address": "0x1aef00",
+          "decompiled_source": "recovery/classes/YTPMedia.c",
+          "decompiled_line": 785,
+          "implementation_source": "recovery/source/Downloads/YTPMedia.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "+",
+          "selector": "notificationsTab",
+          "encoding": "@16@0:8",
+          "address": "0x1af460",
+          "decompiled_source": "recovery/classes/YTPMedia.c",
+          "decompiled_line": 819,
+          "implementation_source": "recovery/source/Downloads/YTPMedia.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "+",
+          "selector": "notificationsTabSelected",
+          "encoding": "@16@0:8",
+          "address": "0x1af858",
+          "decompiled_source": "recovery/classes/YTPMedia.c",
+          "decompiled_line": 853,
+          "implementation_source": "recovery/source/Downloads/YTPMedia.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "+",
+          "selector": "ytPlus",
+          "encoding": "@16@0:8",
+          "address": "0x1afd64",
+          "decompiled_source": "recovery/classes/YTPMedia.c",
+          "decompiled_line": 887,
+          "implementation_source": "recovery/source/Downloads/YTPMedia.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "+",
+          "selector": "ytPlusShorts",
+          "encoding": "@16@0:8",
+          "address": "0x1affe0",
+          "decompiled_source": "recovery/classes/YTPMedia.c",
+          "decompiled_line": 921,
+          "implementation_source": "recovery/source/Downloads/YTPMedia.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "+",
+          "selector": "sponsorblock",
+          "encoding": "@16@0:8",
+          "address": "0x1b025c",
+          "decompiled_source": "recovery/classes/YTPMedia.c",
+          "decompiled_line": 959,
+          "implementation_source": "recovery/source/Downloads/YTPMedia.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "+",
+          "selector": "lock",
+          "encoding": "@16@0:8",
+          "address": "0x1b0558",
+          "decompiled_source": "recovery/classes/YTPMedia.c",
+          "decompiled_line": 993,
+          "implementation_source": "recovery/source/Downloads/YTPMedia.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "+",
+          "selector": "volumeOff",
+          "encoding": "@16@0:8",
+          "address": "0x1b0770",
+          "decompiled_source": "recovery/classes/YTPMedia.c",
+          "decompiled_line": 1027,
+          "implementation_source": "recovery/source/Downloads/YTPMedia.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "+",
+          "selector": "volumeOn",
+          "encoding": "@16@0:8",
+          "address": "0x1b09f0",
+          "decompiled_source": "recovery/classes/YTPMedia.c",
+          "decompiled_line": 1061,
+          "implementation_source": "recovery/source/Downloads/YTPMedia.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "+",
+          "selector": "moon",
+          "encoding": "@16@0:8",
+          "address": "0x1b0c4c",
+          "decompiled_source": "recovery/classes/YTPMedia.c",
+          "decompiled_line": 1095,
+          "implementation_source": "recovery/source/Downloads/YTPMedia.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "+",
+          "selector": "downloading",
+          "encoding": "@16@0:8",
+          "address": "0x1b0e28",
+          "decompiled_source": "recovery/classes/YTPMedia.c",
+          "decompiled_line": 1129,
+          "implementation_source": "recovery/source/Downloads/YTPMedia.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "+",
+          "selector": "credits",
+          "encoding": "@16@0:8",
+          "address": "0x1b110c",
+          "decompiled_source": "recovery/classes/YTPMedia.c",
+          "decompiled_line": 1163,
+          "implementation_source": "recovery/source/Downloads/YTPMedia.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "+",
+          "selector": "donor",
+          "encoding": "@16@0:8",
+          "address": "0x1b137c",
+          "decompiled_source": "recovery/classes/YTPMedia.c",
+          "decompiled_line": 1197,
+          "implementation_source": "recovery/source/Downloads/YTPMedia.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "+",
+          "selector": "feed",
+          "encoding": "@16@0:8",
+          "address": "0x1b15c0",
+          "decompiled_source": "recovery/classes/YTPMedia.c",
+          "decompiled_line": 1231,
+          "implementation_source": "recovery/source/Downloads/YTPMedia.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "+",
+          "selector": "FEshorts",
+          "encoding": "@16@0:8",
+          "address": "0x1b17e8",
+          "decompiled_source": "recovery/classes/YTPMedia.c",
+          "decompiled_line": 1265,
+          "implementation_source": "recovery/source/Downloads/YTPMedia.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "+",
+          "selector": "interface",
+          "encoding": "@16@0:8",
+          "address": "0x1b1a78",
+          "decompiled_source": "recovery/classes/YTPMedia.c",
+          "decompiled_line": 1299,
+          "implementation_source": "recovery/source/Downloads/YTPMedia.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "+",
+          "selector": "libs",
+          "encoding": "@16@0:8",
+          "address": "0x1b1d30",
+          "decompiled_source": "recovery/classes/YTPMedia.c",
+          "decompiled_line": 1333,
+          "implementation_source": "recovery/source/Downloads/YTPMedia.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "+",
+          "selector": "localization",
+          "encoding": "@16@0:8",
+          "address": "0x1b1f50",
+          "decompiled_source": "recovery/classes/YTPMedia.c",
+          "decompiled_line": 1367,
+          "implementation_source": "recovery/source/Downloads/YTPMedia.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "+",
+          "selector": "navbar",
+          "encoding": "@16@0:8",
+          "address": "0x1b2264",
+          "decompiled_source": "recovery/classes/YTPMedia.c",
+          "decompiled_line": 1401,
+          "implementation_source": "recovery/source/Downloads/YTPMedia.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "+",
+          "selector": "open_new",
+          "encoding": "@16@0:8",
+          "address": "0x1b24bc",
+          "decompiled_source": "recovery/classes/YTPMedia.c",
+          "decompiled_line": 1435,
+          "implementation_source": "recovery/source/Downloads/YTPMedia.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "+",
+          "selector": "player",
+          "encoding": "@16@0:8",
+          "address": "0x1b2758",
+          "decompiled_source": "recovery/classes/YTPMedia.c",
+          "decompiled_line": 1469,
+          "implementation_source": "recovery/source/Downloads/YTPMedia.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "+",
+          "selector": "support",
+          "encoding": "@16@0:8",
+          "address": "0x1b29ac",
+          "decompiled_source": "recovery/classes/YTPMedia.c",
+          "decompiled_line": 1503,
+          "implementation_source": "recovery/source/Downloads/YTPMedia.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "+",
+          "selector": "tabbar",
+          "encoding": "@16@0:8",
+          "address": "0x1b2c1c",
+          "decompiled_source": "recovery/classes/YTPMedia.c",
+          "decompiled_line": 1537,
+          "implementation_source": "recovery/source/Downloads/YTPMedia.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "+",
+          "selector": "ytl_settings",
+          "encoding": "@16@0:8",
+          "address": "0x1b2e80",
+          "decompiled_source": "recovery/classes/YTPMedia.c",
+          "decompiled_line": 1571,
+          "implementation_source": "recovery/source/Downloads/YTPMedia.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "+",
+          "selector": "captions",
+          "encoding": "@16@0:8",
+          "address": "0x1b3188",
+          "decompiled_source": "recovery/classes/YTPMedia.c",
+          "decompiled_line": 1605,
+          "implementation_source": "recovery/source/Downloads/YTPMedia.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "+",
+          "selector": "FElibrary",
+          "encoding": "@16@0:8",
+          "address": "0x1b3424",
+          "decompiled_source": "recovery/classes/YTPMedia.c",
+          "decompiled_line": 1639,
+          "implementation_source": "recovery/source/Downloads/YTPMedia.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "+",
+          "selector": "FEsubscriptions",
+          "encoding": "@16@0:8",
+          "address": "0x1b36cc",
+          "decompiled_source": "recovery/classes/YTPMedia.c",
+          "decompiled_line": 1673,
+          "implementation_source": "recovery/source/Downloads/YTPMedia.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "+",
+          "selector": "FEuploads",
+          "encoding": "@16@0:8",
+          "address": "0x1b3a3c",
+          "decompiled_source": "recovery/classes/YTPMedia.c",
+          "decompiled_line": 1707,
+          "implementation_source": "recovery/source/Downloads/YTPMedia.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "+",
+          "selector": "FEwhat_to_watch",
+          "encoding": "@16@0:8",
+          "address": "0x1b3cf8",
+          "decompiled_source": "recovery/classes/YTPMedia.c",
+          "decompiled_line": 1741,
+          "implementation_source": "recovery/source/Downloads/YTPMedia.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "+",
+          "selector": "link",
+          "encoding": "@16@0:8",
+          "address": "0x1b404c",
+          "decompiled_source": "recovery/classes/YTPMedia.c",
+          "decompiled_line": 1775,
+          "implementation_source": "recovery/source/Downloads/YTPMedia.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "+",
+          "selector": "x_prefs",
+          "encoding": "@16@0:8",
+          "address": "0x1b4280",
+          "decompiled_source": "recovery/classes/YTPMedia.c",
+          "decompiled_line": 1808,
+          "implementation_source": "recovery/source/Downloads/YTPMedia.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "+",
+          "selector": "box_checkmark",
+          "encoding": "@16@0:8",
+          "address": "0x1b43cc",
+          "decompiled_source": "recovery/classes/YTPMedia.c",
+          "decompiled_line": 1833,
+          "implementation_source": "recovery/source/Downloads/YTPMedia.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "+",
+          "selector": "box_empty",
+          "encoding": "@16@0:8",
+          "address": "0x1b46f8",
+          "decompiled_source": "recovery/classes/YTPMedia.c",
+          "decompiled_line": 1867,
+          "implementation_source": "recovery/source/Downloads/YTPMedia.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "+",
+          "selector": "copy",
+          "encoding": "@16@0:8",
+          "address": "0x1b49a8",
+          "decompiled_source": "recovery/classes/YTPMedia.c",
+          "decompiled_line": 1901,
+          "implementation_source": "recovery/source/Downloads/YTPMedia.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "+",
+          "selector": "image_library",
+          "encoding": "@16@0:8",
+          "address": "0x1b4bcc",
+          "decompiled_source": "recovery/classes/YTPMedia.c",
+          "decompiled_line": 1933,
+          "implementation_source": "recovery/source/Downloads/YTPMedia.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "+",
+          "selector": "image",
+          "encoding": "@16@0:8",
+          "address": "0x1b4eec",
+          "decompiled_source": "recovery/classes/YTPMedia.c",
+          "decompiled_line": 1967,
+          "implementation_source": "recovery/source/Downloads/YTPMedia.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "+",
+          "selector": "message",
+          "encoding": "@16@0:8",
+          "address": "0x1b5130",
+          "decompiled_source": "recovery/classes/YTPMedia.c",
+          "decompiled_line": 2001,
+          "implementation_source": "recovery/source/Downloads/YTPMedia.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "+",
+          "selector": "music",
+          "encoding": "@16@0:8",
+          "address": "0x1b53a4",
+          "decompiled_source": "recovery/classes/YTPMedia.c",
+          "decompiled_line": 2035,
+          "implementation_source": "recovery/source/Downloads/YTPMedia.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "+",
+          "selector": "play_circle",
+          "encoding": "@16@0:8",
+          "address": "0x1b55d8",
+          "decompiled_source": "recovery/classes/YTPMedia.c",
+          "decompiled_line": 2069,
+          "implementation_source": "recovery/source/Downloads/YTPMedia.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "+",
+          "selector": "show_image",
+          "encoding": "@16@0:8",
+          "address": "0x1b58ac",
+          "decompiled_source": "recovery/classes/YTPMedia.c",
+          "decompiled_line": 2103,
+          "implementation_source": "recovery/source/Downloads/YTPMedia.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "+",
+          "selector": "star_half",
+          "encoding": "@16@0:8",
+          "address": "0x1b5b7c",
+          "decompiled_source": "recovery/classes/YTPMedia.c",
+          "decompiled_line": 2137,
+          "implementation_source": "recovery/source/Downloads/YTPMedia.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "+",
+          "selector": "youtube_logo",
+          "encoding": "@16@0:8",
+          "address": "0x1b5e28",
+          "decompiled_source": "recovery/classes/YTPMedia.c",
+          "decompiled_line": 2171,
+          "implementation_source": "recovery/source/Downloads/YTPMedia.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "+",
+          "selector": "check",
+          "encoding": "@16@0:8",
+          "address": "0x1b6130",
+          "decompiled_source": "recovery/classes/YTPMedia.c",
+          "decompiled_line": 2205,
+          "implementation_source": "recovery/source/Downloads/YTPMedia.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "+",
+          "selector": "empty",
+          "encoding": "@16@0:8",
+          "address": "0x1b636c",
+          "decompiled_source": "recovery/classes/YTPMedia.c",
+          "decompiled_line": 2239,
+          "implementation_source": "recovery/source/Downloads/YTPMedia.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "+",
+          "selector": "adaptiveDiscord",
+          "encoding": "@16@0:8",
+          "address": "0x1b64a4",
+          "decompiled_source": "recovery/classes/YTPMedia.c",
+          "decompiled_line": 2264,
+          "implementation_source": "recovery/source/Downloads/YTPMedia.m",
+          "implementation_kind": "explicit Objective-C method"
+        }
+      ],
+      "properties": [
+        {
+          "name": "cairo",
+          "attributes": "TB,N,GisCairo,V_cairo"
+        }
+      ],
+      "ivars": {
+        "instance_size": 9,
+        "ivars": [
+          {
+            "name": "_cairo",
+            "encoding": "B",
+            "offset": 8,
+            "size": 1,
+            "metadata_address": "0x1143cd0"
+          }
+        ]
+      }
+    },
+    {
+      "name": "YTPAPIHelper",
+      "superclass": "NSObject",
+      "methods": [
+        {
+          "kind": "+",
+          "selector": "fetchChannelImageWithChannelID:completion:",
+          "encoding": "v32@0:8@16@?24",
+          "address": "0x1ca6dc",
+          "decompiled_source": "recovery/classes/YTPAPIHelper.c",
+          "decompiled_line": 3,
+          "implementation_source": "recovery/source/Downloads/YTPAPIHelper.m",
+          "implementation_kind": "explicit Objective-C method"
+        }
+      ],
+      "properties": [],
+      "ivars": {
+        "instance_size": 8,
+        "ivars": []
+      }
+    },
+    {
+      "name": "Downloader",
+      "superclass": "NSObject",
+      "methods": [
+        {
+          "kind": "-",
+          "selector": "init",
+          "encoding": "@16@0:8",
+          "address": "0x1cce24",
+          "decompiled_source": "recovery/classes/Downloader.c",
+          "decompiled_line": 3,
+          "implementation_source": "recovery/source/Downloads/Downloader.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "-",
+          "selector": "downloadFileWithURL:fileName:fileSize:",
+          "encoding": "v40@0:8@16@24Q32",
+          "address": "0x1ccf54",
+          "decompiled_source": "recovery/classes/Downloader.c",
+          "decompiled_line": 49,
+          "implementation_source": "recovery/source/Downloads/Downloader.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "-",
+          "selector": "downloadNextChunk",
+          "encoding": "v16@0:8",
+          "address": "0x1cd570",
+          "decompiled_source": "recovery/classes/Downloader.c",
+          "decompiled_line": 160,
+          "implementation_source": "recovery/source/Downloads/Downloader.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "-",
+          "selector": "cancelDownload",
+          "encoding": "v16@0:8",
+          "address": "0x1cd81c",
+          "decompiled_source": "recovery/classes/Downloader.c",
+          "decompiled_line": 198,
+          "implementation_source": "recovery/source/Downloads/Downloader.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "-",
+          "selector": "getFilePath",
+          "encoding": "@16@0:8",
+          "address": "0x1cd9f8",
+          "decompiled_source": "recovery/classes/Downloader.c",
+          "decompiled_line": 245,
+          "implementation_source": "recovery/source/Downloads/Downloader.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "-",
+          "selector": "URLSession:downloadTask:didWriteData:totalBytesWritten:totalBytesExpectedToWrite:",
+          "encoding": "v56@0:8@16@24q32q40q48",
+          "address": "0x1cdf18",
+          "decompiled_source": "recovery/classes/Downloader.c",
+          "decompiled_line": 294,
+          "implementation_source": "recovery/source/Downloads/Downloader.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "-",
+          "selector": "URLSession:downloadTask:didFinishDownloadingToURL:",
+          "encoding": "v40@0:8@16@24@32",
+          "address": "0x1ce018",
+          "decompiled_source": "recovery/classes/Downloader.c",
+          "decompiled_line": 330,
+          "implementation_source": "recovery/source/Downloads/Downloader.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "-",
+          "selector": "URLSession:task:didCompleteWithError:",
+          "encoding": "v40@0:8@16@24@32",
+          "address": "0x1ce31c",
+          "decompiled_source": "recovery/classes/Downloader.c",
+          "decompiled_line": 369,
+          "implementation_source": "recovery/source/Downloads/Downloader.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "-",
+          "selector": "delegate",
+          "encoding": "@16@0:8",
+          "address": "0x1ce4c4",
+          "decompiled_source": "recovery/classes/Downloader.c",
+          "decompiled_line": 413,
+          "implementation_source": "recovery/source/Downloads/Downloader.m",
+          "implementation_kind": "ARC/synthesized accessor or destructor"
+        },
+        {
+          "kind": "-",
+          "selector": "setDelegate:",
+          "encoding": "v24@0:8@16",
+          "address": "0x1ce4dc",
+          "decompiled_source": "recovery/classes/Downloader.c",
+          "decompiled_line": 430,
+          "implementation_source": "recovery/source/Downloads/Downloader.m",
+          "implementation_kind": "ARC/synthesized accessor or destructor"
+        },
+        {
+          "kind": "-",
+          "selector": ".cxx_destruct",
+          "encoding": "v16@0:8",
+          "address": "0x1ce510",
+          "decompiled_source": "recovery/classes/Downloader.c",
+          "decompiled_line": 445,
+          "implementation_source": "recovery/source/Downloads/Downloader.m",
+          "implementation_kind": "ARC/synthesized accessor or destructor"
+        }
+      ],
+      "properties": [
+        {
+          "name": "delegate",
+          "attributes": "T@\"<DownloaderDelegate>\",W,N,V_delegate"
+        },
+        {
+          "name": "hash",
+          "attributes": "TQ,R"
+        },
+        {
+          "name": "superclass",
+          "attributes": "T#,R"
+        },
+        {
+          "name": "description",
+          "attributes": "T@\"NSString\",R,C"
+        },
+        {
+          "name": "debugDescription",
+          "attributes": "T@\"NSString\",?,R,C"
+        }
+      ],
+      "ivars": {
+        "instance_size": 96,
+        "ivars": [
+          {
+            "name": "_session",
+            "encoding": "@\"NSURLSession\"",
+            "offset": 8,
+            "size": 8,
+            "metadata_address": "0x1144f08"
+          },
+          {
+            "name": "_downloadTask",
+            "encoding": "@\"NSURLSessionDownloadTask\"",
+            "offset": 16,
+            "size": 8,
+            "metadata_address": "0x1144f28"
+          },
+          {
+            "name": "_fileName",
+            "encoding": "@\"NSString\"",
+            "offset": 24,
+            "size": 8,
+            "metadata_address": "0x1144f48"
+          },
+          {
+            "name": "_chunkSize",
+            "encoding": "Q",
+            "offset": 32,
+            "size": 8,
+            "metadata_address": "0x1144f68"
+          },
+          {
+            "name": "_totalChunks",
+            "encoding": "Q",
+            "offset": 40,
+            "size": 8,
+            "metadata_address": "0x1144f88"
+          },
+          {
+            "name": "_downloadedChunks",
+            "encoding": "Q",
+            "offset": 48,
+            "size": 8,
+            "metadata_address": "0x1144fa8"
+          },
+          {
+            "name": "_fileHandle",
+            "encoding": "@\"NSFileHandle\"",
+            "offset": 56,
+            "size": 8,
+            "metadata_address": "0x1144fc8"
+          },
+          {
+            "name": "_fileURL",
+            "encoding": "@\"NSURL\"",
+            "offset": 64,
+            "size": 8,
+            "metadata_address": "0x1144fe8"
+          },
+          {
+            "name": "_totalDownloadedBytes",
+            "encoding": "q",
+            "offset": 72,
+            "size": 8,
+            "metadata_address": "0x1145008"
+          },
+          {
+            "name": "_totalExpectedBytes",
+            "encoding": "q",
+            "offset": 80,
+            "size": 8,
+            "metadata_address": "0x1145028"
+          },
+          {
+            "name": "_delegate",
+            "encoding": "@\"<DownloaderDelegate>\"",
+            "offset": 88,
+            "size": 8,
+            "metadata_address": "0x1145048"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AudioManager",
+      "superclass": "NSObject",
+      "methods": [
+        {
+          "kind": "-",
+          "selector": "init",
+          "encoding": "@16@0:8",
+          "address": "0x1cee84",
+          "decompiled_source": "recovery/classes/AudioManager.c",
+          "decompiled_line": 3,
+          "implementation_source": "recovery/source/Downloads/AudioManager.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "-",
+          "selector": "playAudio",
+          "encoding": "v16@0:8",
+          "address": "0x1cf770",
+          "decompiled_source": "recovery/classes/AudioManager.c",
+          "decompiled_line": 120,
+          "implementation_source": "recovery/source/Downloads/AudioManager.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "-",
+          "selector": "stopAudio",
+          "encoding": "v16@0:8",
+          "address": "0x1cf858",
+          "decompiled_source": "recovery/classes/AudioManager.c",
+          "decompiled_line": 149,
+          "implementation_source": "recovery/source/Downloads/AudioManager.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "-",
+          "selector": "audioPlayerDidFinishPlaying:successfully:",
+          "encoding": "v28@0:8@16B24",
+          "address": "0x1cf970",
+          "decompiled_source": "recovery/classes/AudioManager.c",
+          "decompiled_line": 182,
+          "implementation_source": "recovery/source/Downloads/AudioManager.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "-",
+          "selector": "audioPlayer",
+          "encoding": "@16@0:8",
+          "address": "0x1cf98c",
+          "decompiled_source": "recovery/classes/AudioManager.c",
+          "decompiled_line": 197,
+          "implementation_source": "recovery/source/Downloads/AudioManager.m",
+          "implementation_kind": "ARC/synthesized accessor or destructor"
+        },
+        {
+          "kind": "-",
+          "selector": "setAudioPlayer:",
+          "encoding": "v24@0:8@16",
+          "address": "0x1cf994",
+          "decompiled_source": "recovery/classes/AudioManager.c",
+          "decompiled_line": 210,
+          "implementation_source": "recovery/source/Downloads/AudioManager.m",
+          "implementation_kind": "ARC/synthesized accessor or destructor"
+        },
+        {
+          "kind": "-",
+          "selector": ".cxx_destruct",
+          "encoding": "v16@0:8",
+          "address": "0x1cf9c8",
+          "decompiled_source": "recovery/classes/AudioManager.c",
+          "decompiled_line": 225,
+          "implementation_source": "recovery/source/Downloads/AudioManager.m",
+          "implementation_kind": "ARC/synthesized accessor or destructor"
+        },
+        {
+          "kind": "+",
+          "selector": "sharedInstance",
+          "encoding": "@16@0:8",
+          "address": "0x1ced8c",
+          "decompiled_source": "recovery/classes/AudioManager.c",
+          "decompiled_line": 240,
+          "implementation_source": "recovery/source/Downloads/AudioManager.m",
+          "implementation_kind": "explicit Objective-C method"
+        }
+      ],
+      "properties": [
+        {
+          "name": "audioPlayer",
+          "attributes": "T@\"AVAudioPlayer\",&,N,V_audioPlayer"
+        },
+        {
+          "name": "hash",
+          "attributes": "TQ,R"
+        },
+        {
+          "name": "superclass",
+          "attributes": "T#,R"
+        },
+        {
+          "name": "description",
+          "attributes": "T@\"NSString\",R,C"
+        },
+        {
+          "name": "debugDescription",
+          "attributes": "T@\"NSString\",?,R,C"
+        }
+      ],
+      "ivars": {
+        "instance_size": 16,
+        "ivars": [
+          {
+            "name": "_audioPlayer",
+            "encoding": "@\"AVAudioPlayer\"",
+            "offset": 8,
+            "size": 8,
+            "metadata_address": "0x1145540"
+          }
+        ]
+      }
+    },
+    {
+      "name": "YTPDownloader",
+      "superclass": "NSObject",
+      "methods": [
+        {
+          "kind": "-",
+          "selector": "init",
+          "encoding": "@16@0:8",
+          "address": "0x1cfddc",
+          "decompiled_source": "recovery/classes/YTPDownloader.c",
+          "decompiled_line": 3,
+          "implementation_source": "recovery/source/Downloads/YTPDownloader.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "-",
+          "selector": "cancelDownload",
+          "encoding": "v16@0:8",
+          "address": "0x1cff34",
+          "decompiled_source": "recovery/classes/YTPDownloader.c",
+          "decompiled_line": 53,
+          "implementation_source": "recovery/source/Downloads/YTPDownloader.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "-",
+          "selector": "cleanup",
+          "encoding": "v16@0:8",
+          "address": "0x1cffa8",
+          "decompiled_source": "recovery/classes/YTPDownloader.c",
+          "decompiled_line": 74,
+          "implementation_source": "recovery/source/Downloads/YTPDownloader.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "-",
+          "selector": "downloadFileWithURL:fileName:videoID:fileSize:",
+          "encoding": "v48@0:8@16@24@32Q40",
+          "address": "0x1d01c0",
+          "decompiled_source": "recovery/classes/YTPDownloader.c",
+          "decompiled_line": 123,
+          "implementation_source": "recovery/source/Downloads/YTPDownloader.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "-",
+          "selector": "hashForFile:fileSize:",
+          "encoding": "@32@0:8@16Q24",
+          "address": "0x1d0b6c",
+          "decompiled_source": "recovery/classes/YTPDownloader.c",
+          "decompiled_line": 174,
+          "implementation_source": "recovery/source/Downloads/YTPDownloader.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "-",
+          "selector": "createTempDirectoryIfNeeded",
+          "encoding": "@16@0:8",
+          "address": "0x1d0d50",
+          "decompiled_source": "recovery/classes/YTPDownloader.c",
+          "decompiled_line": 224,
+          "implementation_source": "recovery/source/Downloads/YTPDownloader.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "-",
+          "selector": "getFilePath",
+          "encoding": "@16@0:8",
+          "address": "0x1d124c",
+          "decompiled_source": "recovery/classes/YTPDownloader.c",
+          "decompiled_line": 273,
+          "implementation_source": "recovery/source/Downloads/YTPDownloader.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "-",
+          "selector": "getChunkMapPath",
+          "encoding": "@16@0:8",
+          "address": "0x1d1324",
+          "decompiled_source": "recovery/classes/YTPDownloader.c",
+          "decompiled_line": 307,
+          "implementation_source": "recovery/source/Downloads/YTPDownloader.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "-",
+          "selector": "saveChunkMap",
+          "encoding": "v16@0:8",
+          "address": "0x1d1528",
+          "decompiled_source": "recovery/classes/YTPDownloader.c",
+          "decompiled_line": 350,
+          "implementation_source": "recovery/source/Downloads/YTPDownloader.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "-",
+          "selector": "loadChunkMap",
+          "encoding": "B16@0:8",
+          "address": "0x1d1b4c",
+          "decompiled_source": "recovery/classes/YTPDownloader.c",
+          "decompiled_line": 521,
+          "implementation_source": "recovery/source/Downloads/YTPDownloader.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "-",
+          "selector": "continueDownloadingForURL:",
+          "encoding": "v24@0:8@16",
+          "address": "0x1d2a48",
+          "decompiled_source": "recovery/classes/YTPDownloader.c",
+          "decompiled_line": 755,
+          "implementation_source": "recovery/source/Downloads/YTPDownloader.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "-",
+          "selector": "URLSession:dataTask:didReceiveData:",
+          "encoding": "v40@0:8@16@24@32",
+          "address": "0x1d3924",
+          "decompiled_source": "recovery/classes/YTPDownloader.c",
+          "decompiled_line": 876,
+          "implementation_source": "recovery/source/Downloads/YTPDownloader.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "-",
+          "selector": "URLSession:task:didCompleteWithError:",
+          "encoding": "v40@0:8@16@24@32",
+          "address": "0x1d42d4",
+          "decompiled_source": "recovery/classes/YTPDownloader.c",
+          "decompiled_line": 953,
+          "implementation_source": "recovery/source/Downloads/YTPDownloader.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "-",
+          "selector": "delegate",
+          "encoding": "@16@0:8",
+          "address": "0x1d4e28",
+          "decompiled_source": "recovery/classes/YTPDownloader.c",
+          "decompiled_line": 1033,
+          "implementation_source": "recovery/source/Downloads/YTPDownloader.m",
+          "implementation_kind": "ARC/synthesized accessor or destructor"
+        },
+        {
+          "kind": "-",
+          "selector": "setDelegate:",
+          "encoding": "v24@0:8@16",
+          "address": "0x1d4e40",
+          "decompiled_source": "recovery/classes/YTPDownloader.c",
+          "decompiled_line": 1050,
+          "implementation_source": "recovery/source/Downloads/YTPDownloader.m",
+          "implementation_kind": "ARC/synthesized accessor or destructor"
+        },
+        {
+          "kind": "-",
+          "selector": ".cxx_destruct",
+          "encoding": "v16@0:8",
+          "address": "0x1d4e74",
+          "decompiled_source": "recovery/classes/YTPDownloader.c",
+          "decompiled_line": 1065,
+          "implementation_source": "recovery/source/Downloads/YTPDownloader.m",
+          "implementation_kind": "ARC/synthesized accessor or destructor"
+        }
+      ],
+      "properties": [
+        {
+          "name": "delegate",
+          "attributes": "T@\"<DownloaderDelegate>\",W,N,V_delegate"
+        },
+        {
+          "name": "hash",
+          "attributes": "TQ,R"
+        },
+        {
+          "name": "superclass",
+          "attributes": "T#,R"
+        },
+        {
+          "name": "description",
+          "attributes": "T@\"NSString\",R,C"
+        },
+        {
+          "name": "debugDescription",
+          "attributes": "T@\"NSString\",?,R,C"
+        }
+      ],
+      "ivars": {
+        "instance_size": 104,
+        "ivars": [
+          {
+            "name": "_session",
+            "encoding": "@\"NSURLSession\"",
+            "offset": 8,
+            "size": 8,
+            "metadata_address": "0x1145bc0"
+          },
+          {
+            "name": "_dataTask",
+            "encoding": "@\"NSURLSessionDataTask\"",
+            "offset": 16,
+            "size": 8,
+            "metadata_address": "0x1145be0"
+          },
+          {
+            "name": "_fileHandle",
+            "encoding": "@\"NSFileHandle\"",
+            "offset": 24,
+            "size": 8,
+            "metadata_address": "0x1145c00"
+          },
+          {
+            "name": "_fileName",
+            "encoding": "@\"NSString\"",
+            "offset": 32,
+            "size": 8,
+            "metadata_address": "0x1145c20"
+          },
+          {
+            "name": "_videoID",
+            "encoding": "@\"NSString\"",
+            "offset": 40,
+            "size": 8,
+            "metadata_address": "0x1145c40"
+          },
+          {
+            "name": "_totalFileSize",
+            "encoding": "q",
+            "offset": 48,
+            "size": 8,
+            "metadata_address": "0x1145c60"
+          },
+          {
+            "name": "_downloadedSize",
+            "encoding": "q",
+            "offset": 56,
+            "size": 8,
+            "metadata_address": "0x1145c80"
+          },
+          {
+            "name": "_chunkMap",
+            "encoding": "@\"NSMutableDictionary\"",
+            "offset": 64,
+            "size": 8,
+            "metadata_address": "0x1145ca0"
+          },
+          {
+            "name": "_chunkSize",
+            "encoding": "Q",
+            "offset": 72,
+            "size": 8,
+            "metadata_address": "0x1145cc0"
+          },
+          {
+            "name": "_filePath",
+            "encoding": "@\"NSString\"",
+            "offset": 80,
+            "size": 8,
+            "metadata_address": "0x1145ce0"
+          },
+          {
+            "name": "_chunkMapPath",
+            "encoding": "@\"NSString\"",
+            "offset": 88,
+            "size": 8,
+            "metadata_address": "0x1145d00"
+          },
+          {
+            "name": "_delegate",
+            "encoding": "@\"<DownloaderDelegate>\"",
+            "offset": 96,
+            "size": 8,
+            "metadata_address": "0x1145d20"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FFMpegHelper",
+      "superclass": "NSObject",
+      "methods": [
+        {
+          "kind": "-",
+          "selector": "init",
+          "encoding": "@16@0:8",
+          "address": "0x1f4248",
+          "decompiled_source": "recovery/classes/FFMpegHelper.c",
+          "decompiled_line": 3,
+          "implementation_source": "recovery/source/Downloads/FFMpegHelper.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "-",
+          "selector": "statisticsCallback:",
+          "encoding": "v24@0:8@16",
+          "address": "0x1f4510",
+          "decompiled_source": "recovery/classes/FFMpegHelper.c",
+          "decompiled_line": 46,
+          "implementation_source": "recovery/source/Downloads/FFMpegHelper.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "-",
+          "selector": "mergeVideo:withAudio:captions:duration:completion:",
+          "encoding": "v56@0:8@16@24@32q40@?48",
+          "address": "0x1f4600",
+          "decompiled_source": "recovery/classes/FFMpegHelper.c",
+          "decompiled_line": 78,
+          "implementation_source": "recovery/source/Downloads/FFMpegHelper.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "-",
+          "selector": "getCommandWithVideoURL:audioURL:captionsURL:thumbnailURL:duration:outputURL:",
+          "encoding": "@64@0:8@16@24@32@40q48@56",
+          "address": "0x1f5d58",
+          "decompiled_source": "recovery/classes/FFMpegHelper.c",
+          "decompiled_line": 162,
+          "implementation_source": "recovery/source/Downloads/FFMpegHelper.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "-",
+          "selector": "cutAudio:duration:completion:",
+          "encoding": "v40@0:8@16q24@?32",
+          "address": "0x1f7cd8",
+          "decompiled_source": "recovery/classes/FFMpegHelper.c",
+          "decompiled_line": 213,
+          "implementation_source": "recovery/source/Downloads/FFMpegHelper.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "-",
+          "selector": "logCallback:::",
+          "encoding": "v36@0:8q16i24@28",
+          "address": "0x1f912c",
+          "decompiled_source": "recovery/classes/FFMpegHelper.c",
+          "decompiled_line": 284,
+          "implementation_source": "recovery/source/Downloads/FFMpegHelper.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "-",
+          "selector": "getCleanLog:",
+          "encoding": "v24@0:8@16",
+          "address": "0x1f9148",
+          "decompiled_source": "recovery/classes/FFMpegHelper.c",
+          "decompiled_line": 298,
+          "implementation_source": "recovery/source/Downloads/FFMpegHelper.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "-",
+          "selector": "setActive",
+          "encoding": "v16@0:8",
+          "address": "0x1f9854",
+          "decompiled_source": "recovery/classes/FFMpegHelper.c",
+          "decompiled_line": 314,
+          "implementation_source": "recovery/source/Downloads/FFMpegHelper.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "-",
+          "selector": "updateProgressDialog",
+          "encoding": "v16@0:8",
+          "address": "0x1f98b4",
+          "decompiled_source": "recovery/classes/FFMpegHelper.c",
+          "decompiled_line": 330,
+          "implementation_source": "recovery/source/Downloads/FFMpegHelper.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "-",
+          "selector": "codeForCaps:",
+          "encoding": "@24@0:8@16",
+          "address": "0x1f9c44",
+          "decompiled_source": "recovery/classes/FFMpegHelper.c",
+          "decompiled_line": 376,
+          "implementation_source": "recovery/source/Downloads/FFMpegHelper.m",
+          "implementation_kind": "explicit Objective-C method"
+        },
+        {
+          "kind": "-",
+          "selector": ".cxx_destruct",
+          "encoding": "v16@0:8",
+          "address": "0x1fcd44",
+          "decompiled_source": "recovery/classes/FFMpegHelper.c",
+          "decompiled_line": 761,
+          "implementation_source": "recovery/source/Downloads/FFMpegHelper.m",
+          "implementation_kind": "ARC/synthesized accessor or destructor"
+        },
+        {
+          "kind": "+",
+          "selector": "sharedInstance",
+          "encoding": "@16@0:8",
+          "address": "0x1f4150",
+          "decompiled_source": "recovery/classes/FFMpegHelper.c",
+          "decompiled_line": 778,
+          "implementation_source": "recovery/source/Downloads/FFMpegHelper.m",
+          "implementation_kind": "explicit Objective-C method"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hash",
+          "attributes": "TQ,R"
+        },
+        {
+          "name": "superclass",
+          "attributes": "T#,R"
+        },
+        {
+          "name": "description",
+          "attributes": "T@\"NSString\",R,C"
+        },
+        {
+          "name": "debugDescription",
+          "attributes": "T@\"NSString\",?,R,C"
+        }
+      ],
+      "ivars": {
+        "instance_size": 41,
+        "ivars": [
+          {
+            "name": "_ffmpegQueue",
+            "encoding": "@\"NSObject<OS_dispatch_queue>\"",
+            "offset": 8,
+            "size": 8,
+            "metadata_address": "0x11475f0"
+          },
+          {
+            "name": "_statistics",
+            "encoding": "@\"Statistics\"",
+            "offset": 16,
+            "size": 8,
+            "metadata_address": "0x1147610"
+          },
+          {
+            "name": "_toastView",
+            "encoding": "@\"ToastView\"",
+            "offset": 24,
+            "size": 8,
+            "metadata_address": "0x1147630"
+          },
+          {
+            "name": "_duration",
+            "encoding": "q",
+            "offset": 32,
+            "size": 8,
+            "metadata_address": "0x1147650"
+          },
+          {
+            "name": "_isProcessing",
+            "encoding": "B",
+            "offset": 40,
+            "size": 1,
+            "metadata_address": "0x1147670"
+          }
+        ]
+      }
+    }
+  ],
+  "evidence_inputs": [
+    "recovery/evidence/arm-classes.json",
+    "recovery/evidence/ivars.json",
+    "recovery/evidence/decoded-bytes.tsv",
+    "recovery/evidence/branches.json",
+    ".recovery-work/analysis-v2/evidence/branches.json",
+    ".recovery-work/arm/application.asm",
+    ".recovery-work/arm/symbols.txt"
+  ],
+  "notes": "Method/properties/ivar encodings below are the original metadata audited against the newly compiled actual classes. Instance size is raw binary extent; the host runtime rounds to pointer alignment."
+}

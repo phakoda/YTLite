@@ -1,0 +1,282 @@
+{
+  "binary_sha256": "59b0ddc0c8ca14863d20b0005c0c48e062e81a0df6611e213a3a66fa2b796023",
+  "spans": [
+    {
+      "start": "0x2302b0",
+      "end": "0x23065c",
+      "sha256": "28d3330dd3b7af995710c1530e3c6d97209f8cd1e2d9cfbbaa8600c39c8e8607"
+    },
+    {
+      "start": "0x23065c",
+      "end": "0x2308ac",
+      "sha256": "202c93262203a56b29d5c1c3988bd8197b53e1574590577721c63f808e858280"
+    },
+    {
+      "start": "0x2308ac",
+      "end": "0x230904",
+      "sha256": "8a4529540858b9298b1c8afa1b787e0b6d363245a6648011745198f7d730bfb5"
+    },
+    {
+      "start": "0x230904",
+      "end": "0x2309a8",
+      "sha256": "fc38a8438f8e216bba10282a4ffd12c319aa06bc44c75768a280e891e104b516"
+    },
+    {
+      "start": "0x2309a8",
+      "end": "0x230d8c",
+      "sha256": "d5de00b58e11558d3bbaf39aecaf55f3e23d09de727c1ea4ddd4c23ccb70f2d5"
+    },
+    {
+      "start": "0x230d8c",
+      "end": "0x230f88",
+      "sha256": "38277a3e82b8dc8d29ade6a54cf6a8031a80b17f58583642d0ee4c39e87a43a1"
+    },
+    {
+      "start": "0x230f88",
+      "end": "0x2311f0",
+      "sha256": "63368b0ebd61195806766064f2ba48ec2aa2cde60f834a2f28e91633b3c991e6"
+    },
+    {
+      "start": "0x233970",
+      "end": "0x233e10",
+      "sha256": "a1361e29c073ca7ba4b41aae9d06e1dae5fbe8fd444dbc892928a4eed9072c1a"
+    },
+    {
+      "start": "0x10613d0",
+      "end": "0x1061400",
+      "sha256": "e836a288511bbb43eb8bfd0d5112bc3e3db486bd75c718dcd53b603d6ef71e8e"
+    },
+    {
+      "start": "0x1061d30",
+      "end": "0x1061d60",
+      "sha256": "4adc7663cf0851a3f24cbbdaa49deabe8f45acddaff726769f701adc20d9caa5"
+    },
+    {
+      "start": "0x10631e0",
+      "end": "0x1063200",
+      "sha256": "967faeba9ebeefcaf6871ddb5f80a346b5a338a3cddec2d00a8967e28b6b426f"
+    },
+    {
+      "start": "0x14b8c",
+      "end": "0x14bc4",
+      "sha256": "b4c2637ca7be912ad8c897ec1f5f1f029f66e0ebcdee65c855ae659e7f74c83b"
+    }
+  ],
+  "branches": [
+    {
+      "table": "0x11d1840",
+      "key": "0x11d1850",
+      "xor": "0x20cbd767",
+      "targets": [
+        "0x2304a4",
+        "0x2304b4"
+      ]
+    },
+    {
+      "table": "0x11d1858",
+      "key": "0x11d1868",
+      "xor": "0x5fc2023",
+      "targets": [
+        "0x230504",
+        "0x230584"
+      ]
+    },
+    {
+      "table": "0x11d1880",
+      "key": "0x11d1890",
+      "xor": "0xd9e7731a",
+      "targets": [
+        "0x2306f8",
+        "0x2307b8"
+      ]
+    },
+    {
+      "table": "0x11d1898",
+      "key": "0x11d18a8",
+      "xor": "0xb9da2f37",
+      "targets": [
+        "0x230730",
+        "0x23080c"
+      ]
+    },
+    {
+      "table": "0x11d18e8",
+      "key": "0x11d18f8",
+      "xor": "0x268fccb6",
+      "targets": [
+        "0x230bc8",
+        "0x230c18"
+      ]
+    }
+  ],
+  "strings": [
+    {
+      "address": "0x11d0da0",
+      "value": "nd-v1"
+    },
+    {
+      "address": "0x11d0de0",
+      "value": "c-fcrop"
+    },
+    {
+      "address": "0x11d0e50",
+      "value": "Error"
+    },
+    {
+      "address": "0x11d0e90",
+      "value": "%@: %@"
+    },
+    {
+      "address": "0x11d0ed0",
+      "value": "Saved"
+    },
+    {
+      "address": "0x11d0f20",
+      "value": "Copied"
+    },
+    {
+      "address": "0x11d0f80",
+      "value": "%@: %@"
+    },
+    {
+      "address": "0x11d0fc0",
+      "value": "Error"
+    }
+  ],
+  "selectors": [
+    {
+      "reference": "0x114ae50",
+      "name": "ytl_defaultBundle",
+      "page_instruction": "0x231100",
+      "load_instruction": "0x231104"
+    },
+    {
+      "reference": "0x114af08",
+      "name": "containsString:",
+      "page_instruction": "0x230464",
+      "load_instruction": "0x230468"
+    },
+    {
+      "reference": "0x114b278",
+      "name": "localizedStringForKey:value:table:",
+      "page_instruction": "0x231118",
+      "load_instruction": "0x23111c"
+    },
+    {
+      "reference": "0x114b2c0",
+      "name": "stringByReplacingOccurrencesOfString:withString:",
+      "page_instruction": "0x230524",
+      "load_instruction": "0x230528"
+    },
+    {
+      "reference": "0x114b378",
+      "name": "stringWithFormat:",
+      "page_instruction": "0x23115c",
+      "load_instruction": "0x231160"
+    },
+    {
+      "reference": "0x114b3d0",
+      "name": "URLWithString:",
+      "page_instruction": "0x23055c",
+      "load_instruction": "0x230560"
+    },
+    {
+      "reference": "0x114b670",
+      "name": "rangeOfString:",
+      "page_instruction": "0x2304b4",
+      "load_instruction": "0x2304b8"
+    },
+    {
+      "reference": "0x114b8a0",
+      "name": "generalPasteboard",
+      "page_instruction": "0x230eac",
+      "load_instruction": "0x230eb0"
+    },
+    {
+      "reference": "0x114b8f8",
+      "name": "setImage:",
+      "page_instruction": "0x230ec4",
+      "load_instruction": "0x230ec8"
+    },
+    {
+      "reference": "0x114c580",
+      "name": "absoluteString",
+      "page_instruction": "0x23044c",
+      "load_instruction": "0x230450"
+    },
+    {
+      "reference": "0x114c5a0",
+      "name": "imageWithData:",
+      "page_instruction": "0x230e88",
+      "load_instruction": "0x230e8c"
+    },
+    {
+      "reference": "0x114c5b8",
+      "name": "showMessageWithText:isSuccess:",
+      "page_instruction": "0x231188",
+      "load_instruction": "0x23118c"
+    },
+    {
+      "reference": "0x114c5f0",
+      "name": "substringFromIndex:",
+      "page_instruction": "0x230508",
+      "load_instruction": "0x23050c"
+    },
+    {
+      "reference": "0x114c600",
+      "name": "sharedPhotoLibrary",
+      "page_instruction": "0x230738",
+      "load_instruction": "0x23073c"
+    },
+    {
+      "reference": "0x114c618",
+      "name": "localizedDescription",
+      "page_instruction": "0x231144",
+      "load_instruction": "0x231148"
+    },
+    {
+      "reference": "0x114c620",
+      "name": "performChanges:completionHandler:",
+      "page_instruction": "0x230790",
+      "load_instruction": "0x230794"
+    },
+    {
+      "reference": "0x114d910",
+      "name": "sharedSession",
+      "page_instruction": "0x230590",
+      "load_instruction": "0x230594"
+    },
+    {
+      "reference": "0x114d920",
+      "name": "dataTaskWithURL:completionHandler:",
+      "page_instruction": "0x2305d8",
+      "load_instruction": "0x2305dc"
+    },
+    {
+      "reference": "0x114d928",
+      "name": "resume",
+      "page_instruction": "0x2305f8",
+      "load_instruction": "0x2305fc"
+    },
+    {
+      "reference": "0x114e780",
+      "name": "creationRequestForAsset",
+      "page_instruction": "0x2308c4",
+      "load_instruction": "0x2308c8"
+    },
+    {
+      "reference": "0x114e7c0",
+      "name": "addResourceWithType:data:options:",
+      "page_instruction": "0x2308e0",
+      "load_instruction": "0x2308e4"
+    }
+  ],
+  "method_contracts": [
+    {
+      "kind": "+",
+      "selector": "downloadImageFromURL:download:",
+      "address": "0x2302b0"
+    }
+  ],
+  "selector_loads_required": true
+}

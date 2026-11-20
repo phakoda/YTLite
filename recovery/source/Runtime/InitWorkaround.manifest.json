@@ -1,0 +1,70 @@
+{
+  "binary_sha256": "bdcc4d4ccaa5835d35bc97ccbdfc1c3dff514cb7161848265dcc0585f364c0ca",
+  "methods": [
+    {
+      "kind": "-",
+      "selector": "viewDidLoad",
+      "encoding": "v16@0:8",
+      "address": "0x14cc0"
+    },
+    {
+      "kind": "-",
+      "selector": "completion",
+      "encoding": "@?16@0:8",
+      "address": "0x15148"
+    },
+    {
+      "kind": "-",
+      "selector": "setCompletion:",
+      "encoding": "v24@0:8@?16",
+      "address": "0x15158"
+    },
+    {
+      "kind": "-",
+      "selector": ".cxx_destruct",
+      "encoding": "v16@0:8",
+      "address": "0x1518c"
+    }
+  ],
+  "callbacks": {
+    "0x14e60": "Install bundle info hook after two seconds and dismiss the controller.",
+    "0x15014": "Invoke completion block if present."
+  },
+  "instruction_intervals": [
+    {
+      "start": "0x148c8",
+      "end": "0x14cc0",
+      "sha256": "017179c60031c0b26a8052c2a85fe2f595e3d9483cccc60921930782bb8d08d8"
+    },
+    {
+      "start": "0x14cc0",
+      "end": "0x14e60",
+      "sha256": "e7add12784504e5794193708bf527024c9e07da092b072d0b0807c8b782e2809"
+    },
+    {
+      "start": "0x14e60",
+      "end": "0x15014",
+      "sha256": "525db17171bdda4cdf1a934c035c86b219b770a5f34b332c2fe574430ed714b4"
+    },
+    {
+      "start": "0x15014",
+      "end": "0x150e8",
+      "sha256": "312242daa3d06001bafc4e1a31ff55863e0e6354e707838c5c060eb48d12226f"
+    },
+    {
+      "start": "0x15148",
+      "end": "0x15158",
+      "sha256": "c87b4f64d3f6ebc17099dcd050c59a6682e9443e784fe5623610a54bd58fcfe0"
+    },
+    {
+      "start": "0x15158",
+      "end": "0x1518c",
+      "sha256": "43302618d728e83bd535669cdddabb7cb648db514450f5e3fbdb970faaf9bf6d"
+    },
+    {
+      "start": "0x1518c",
+      "end": "0x151a0",
+      "sha256": "33782b42368b88362b288722161dafa6d3fd970833d8297211946a00c61a1522"
+    }
+  ]
+}

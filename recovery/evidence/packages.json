@@ -1,0 +1,716 @@
+[
+  {
+    "package": "com.dvntm.ytlite_5.2.2_iphoneos-arm.deb",
+    "sha256": "132db2162a7a5163c36a9c6ce5637f45139c035279bacd36e8d3b97feba4ebc7",
+    "binary_sha256": "bdcc4d4ccaa5835d35bc97ccbdfc1c3dff514cb7161848265dcc0585f364c0ca",
+    "sections": {
+      "__text": {
+        "address": "0x8000",
+        "size": 12118304,
+        "sha256": "73fabfb984369100e7785d3dc5e726140d0f973f0cc31d66632d12d91ad717c2"
+      },
+      "__stubs": {
+        "address": "0xb96920",
+        "size": 5892,
+        "sha256": "0554a478fdaebd1d51401e95b0b96ee4b75f7689c2808c3d50e75027445d6b18"
+      },
+      "__init_offsets": {
+        "address": "0xb98024",
+        "size": 48,
+        "sha256": "2ccfd96f72b1c93afb0510ee6b4dfe37fbe13026d92aa42930cbedea807d1028"
+      },
+      "__objc_methlist": {
+        "address": "0xb98058",
+        "size": 12204,
+        "sha256": "776298880d537e9d07fd3d30c6592360093ab962e928c7e5cfb83551e753acf0"
+      },
+      "__cstring": {
+        "address": "0xb9b004",
+        "size": 725520,
+        "sha256": "d19ba8db7969a44bb1fe97086846dd0f748a175161e34a685c167e693b66bd46"
+      },
+      "__const": {
+        "address": "0x10613a0",
+        "size": 891216,
+        "sha256": "5efe0768955789beb9ba6367105b359eb64f819dcb14703875dd31717206e948"
+      },
+      "__objc_methname": {
+        "address": "0xf28a40",
+        "size": 57794,
+        "sha256": "a3e5f9268e477bf6db01801be343826d91ba40e928141325134c0c31daf494e6"
+      },
+      "__objc_classname": {
+        "address": "0xf36c02",
+        "size": 1567,
+        "sha256": "9aef4d02e29c65503be20f7d36cb4b94b12b0ad912858e630573c8e933618a66"
+      },
+      "__objc_methtype": {
+        "address": "0xf37221",
+        "size": 9631,
+        "sha256": "775df7081cabc903ea5cc82d91fff373daf2c53115c7ce13e51e7253d2185ab9"
+      },
+      "__gcc_except_tab": {
+        "address": "0xf397c0",
+        "size": 1264,
+        "sha256": "95431eaddcf514aebd65673f3138e8d2e2f1783db9306422445d5a751f9063c5"
+      },
+      "__ustring": {
+        "address": "0xf39cb0",
+        "size": 40,
+        "sha256": "b100e094a29345b0265c079c4198addbfa23b20411fb256b161da4a6155f3d19"
+      },
+      "__unwind_info": {
+        "address": "0xf39cd8",
+        "size": 252280,
+        "sha256": "15d683b1a64ecafed38999afca3f3a94f47d5ce6b6cec92641fefa8b2a70d162"
+      },
+      "__eh_frame": {
+        "address": "0xf77650",
+        "size": 952040,
+        "sha256": "3e27a68faad410f859e666e3938572056710b2e92b1af2896d6260b2032aecb5"
+      },
+      "__got": {
+        "address": "0x1060000",
+        "size": 5016,
+        "sha256": "3806b7c73a0c87c08532f029053a78c95ab146599ab0771845bd8e752b8ec3c7"
+      },
+      "__cfstring": {
+        "address": "0x113acf0",
+        "size": 4704,
+        "sha256": "248e03fdd7aa35884767aa015d090b89febf5510a73c154f8fc8db3b976c5f03"
+      },
+      "__objc_classlist": {
+        "address": "0x113bf50",
+        "size": 464,
+        "sha256": "d465ad62e0579afc1847aa2346573d47b3ceaee4abd8a3726e035c2f25589182"
+      },
+      "__objc_catlist": {
+        "address": "0x113c120",
+        "size": 24,
+        "sha256": "28d79ffb4f3a7c1febd4d817818f848330423790135fd3b680eea25b24ccc915"
+      },
+      "__objc_protolist": {
+        "address": "0x113c138",
+        "size": 208,
+        "sha256": "7dde82e2e8e5ef6dcce62f5a501a095c1414cbe0fd188bfcd8bf26418bb80ad1"
+      },
+      "__objc_imageinfo": {
+        "address": "0x113c208",
+        "size": 8,
+        "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc"
+      },
+      "__objc_const": {
+        "address": "0x1140000",
+        "size": 43144,
+        "sha256": "d042e45128cb06513af1090e689bdeed5abcedbf01fc21a55f84a0502be9d444"
+      },
+      "__objc_selrefs": {
+        "address": "0x114a888",
+        "size": 16960,
+        "sha256": "c485b6ab63d09de6918403c6df8cda771b81edfb7b332315613ce797ab73d1d3"
+      },
+      "__objc_classrefs": {
+        "address": "0x114eac8",
+        "size": 1472,
+        "sha256": "736e156fd823fe377d1d6fbc9c15f23da5baa4880f45a89d1af3c7b607587fb9"
+      },
+      "__objc_superrefs": {
+        "address": "0x114f088",
+        "size": 272,
+        "sha256": "720365dd62a9e3f455b562e6a19269117ed61d1028f3b6569b99a4729026dfee"
+      },
+      "__objc_ivar": {
+        "address": "0x114f198",
+        "size": 1040,
+        "sha256": "a35a620b4563c018966bfcc83a1a7fb3ea3f9f045980f1cc29ebd2510e7fc87d"
+      },
+      "__objc_data": {
+        "address": "0x114f5a8",
+        "size": 4640,
+        "sha256": "221033f0e8419ea958de4c795e870b57a4cbe03c7dc73aa6474ba0df1c7f5dfe"
+      },
+      "__data": {
+        "address": "0x11507e0",
+        "size": 867776,
+        "sha256": "106755666d976c7900ca22f4250fb11c9eaf13c0e3e3423dca99189d38aaeb9b"
+      },
+      "__thread_vars": {
+        "address": "0x12245a0",
+        "size": 3144,
+        "sha256": "c19a6cae285cb84fa69b46a357450f7679c851173d94db7c3eca03ebbd9c187d"
+      },
+      "__thread_data": {
+        "address": "0x12251e8",
+        "size": 80,
+        "sha256": "d35b7d9bfff847ca5930de11bfcadc0f485bfee9d1657329a12837f332d5cdee"
+      },
+      "__thread_bss": {
+        "address": "0x1225238",
+        "size": 1512,
+        "sha256": "ce74475c230513d255bf8e9c6dfafae15f6c650efa6e4117ef58aadfccc22c1e"
+      },
+      "__bss": {
+        "address": "0x1225820",
+        "size": 7298976,
+        "sha256": "770033299b41d3eff796fa97ecb3eecdc163f273030a4439802461a3aa46f4a0"
+      },
+      "__common": {
+        "address": "0x191b7c0",
+        "size": 3261304,
+        "sha256": "78e4448c1da6e027b6a25ff40d25bc6a3d01f90a6294e05e9839cb5bf3ae4297"
+      }
+    },
+    "files": {
+      "Library/Application Support/YTLite.bundle/Assets.car": {
+        "size": 807816,
+        "sha256": "5bd317feeeeed82a856223d7a996e951d76904afc0722e9502688449dbd795ec"
+      },
+      "Library/Application Support/YTLite.bundle/Info.plist": {
+        "size": 363,
+        "sha256": "5e8beea91290c056f5f8f5bacb3a6ffc353fb22db3ba84dc31b6ed36693d28e1"
+      },
+      "Library/Application Support/YTLite.bundle/SponsorAudio.m4a": {
+        "size": 6094,
+        "sha256": "bfe134f5eca363146c94a1571c05a72e81952194b7f763c42d803da3af6b3d8a"
+      },
+      "Library/Application Support/YTLite.bundle/ar.lproj/Localizable.strings": {
+        "size": 56364,
+        "sha256": "d80d00ac38486ca5078e382e84ac814bb9310fffc3cca269e881ea3c32cac12a"
+      },
+      "Library/Application Support/YTLite.bundle/en.lproj/Localizable.strings": {
+        "size": 40653,
+        "sha256": "e6392c8dbbada63668e9d008fca2a9393b6e9d8557129c6db5f30e017a59c589"
+      },
+      "Library/Application Support/YTLite.bundle/es.lproj/Localizable.strings": {
+        "size": 66357,
+        "sha256": "08b649886f5660a7497cffaeaa2f687f67ed46f7a979f211339acd7620654c77"
+      },
+      "Library/Application Support/YTLite.bundle/fr.lproj/Localizable.strings": {
+        "size": 56010,
+        "sha256": "3ef0363d51380a892590933106f0c5cf3e2ae7f7c9656d21b2be7acb42b45a67"
+      },
+      "Library/Application Support/YTLite.bundle/it.lproj/Localizable.strings": {
+        "size": 49179,
+        "sha256": "856857791b9add01c7b71ec907d1c20f98c22c5276434226a0fa288590648276"
+      },
+      "Library/Application Support/YTLite.bundle/ja.lproj/Localizable.strings": {
+        "size": 41621,
+        "sha256": "901957b8f7373aa81c1e98f6617d8cd9c214bda7e227ac12c45faee6555bddc4"
+      },
+      "Library/Application Support/YTLite.bundle/ko.lproj/Localizable.strings": {
+        "size": 40936,
+        "sha256": "aa1062b03b35dd1c814fcdb11638e6fc638d89821bfb4eb2f82da32e377a0c0e"
+      },
+      "Library/Application Support/YTLite.bundle/pl.lproj/Localizable.strings": {
+        "size": 62606,
+        "sha256": "5dda7b1fcd949a6814e001370a4851b19cb5fb640e732ec63b9e228d652d25c0"
+      },
+      "Library/Application Support/YTLite.bundle/ru.lproj/Localizable.strings": {
+        "size": 67384,
+        "sha256": "6c515e4215ba9cebf0abf760ae71cb75400dc62556fd2868d2eace1582c9d10c"
+      },
+      "Library/Application Support/YTLite.bundle/tr.lproj/Localizable.strings": {
+        "size": 64897,
+        "sha256": "fda8db0300e0d083f1aed3e224e4cdab63e8e2b4b9d51ce70d9290a67bfca9d8"
+      },
+      "Library/Application Support/YTLite.bundle/vi.lproj/Localizable.strings": {
+        "size": 64761,
+        "sha256": "91a71151f447f120d762ebf381b7e76752f7e078b66f3cb871146477e9d7999e"
+      },
+      "Library/Application Support/YTLite.bundle/zh-Hans.lproj/Localizable.strings": {
+        "size": 32026,
+        "sha256": "045b25d4607494dbdd9ce9113598d7acf681bb1f46a117315afb6fa0c88a75e8"
+      },
+      "Library/Application Support/YTLite.bundle/zh-Hant.lproj/Localizable.strings": {
+        "size": 32239,
+        "sha256": "8b881bfea550a6977e93444a7ef354870b75c5d8dc6d0d54b2bcec95634a36cc"
+      },
+      "Library/MobileSubstrate/DynamicLibraries/YTLite.dylib": {
+        "size": 19559968,
+        "sha256": "bdcc4d4ccaa5835d35bc97ccbdfc1c3dff514cb7161848265dcc0585f364c0ca"
+      },
+      "Library/MobileSubstrate/DynamicLibraries/YTLite.plist": {
+        "size": 94,
+        "sha256": "a441cec154fe2bdf81ac95a4eba67940ea639c0af68cb93de2a392b6fdcc5a5f"
+      }
+    },
+    "class_count": 58,
+    "method_count": 938
+  },
+  {
+    "package": "com.dvntm.ytlite_5.2.2_iphoneos-arm64.deb",
+    "sha256": "22b67e9681e13e961ccaf284de5a8fe2558f3df83079330e08206cfe89e737f3",
+    "binary_sha256": "a64aa8a5a8baae835635cd8eeb657d038fa4660d380323628031ebb3a5da64a3",
+    "sections": {
+      "__text": {
+        "address": "0x8000",
+        "size": 12116960,
+        "sha256": "3d36b2108d6e883ad5830eb8546c77441b1ba2f933a57b3cf5018e27075739ee"
+      },
+      "__stubs": {
+        "address": "0xb963e0",
+        "size": 5892,
+        "sha256": "18c4801bbf7b3c4e0a7f7814aef6eb0061a9b0a5f2bd0691057b1fd8d79bbc6c"
+      },
+      "__init_offsets": {
+        "address": "0xb97ae4",
+        "size": 48,
+        "sha256": "9753d0db2ae3701ba452ae0828342386aaf1688748e95124c92a51094aaa6876"
+      },
+      "__objc_methlist": {
+        "address": "0xb97b18",
+        "size": 12204,
+        "sha256": "3b5b2e6ee7e56169335c8f40ebe615762d2b749fa64eb331b5c6fa0627d58056"
+      },
+      "__cstring": {
+        "address": "0xb9aac4",
+        "size": 725499,
+        "sha256": "f15b76b18ae1ee6b664a228fdfad24e3e16142a3a32249f2d62c9bcf66d5d168"
+      },
+      "__const": {
+        "address": "0x10613a0",
+        "size": 891216,
+        "sha256": "0b6fcba800b1c2e4b53835ede4d27721bb1be1853a026c9a682ff55855161ede"
+      },
+      "__objc_methname": {
+        "address": "0xf284e0",
+        "size": 57794,
+        "sha256": "a3e5f9268e477bf6db01801be343826d91ba40e928141325134c0c31daf494e6"
+      },
+      "__objc_classname": {
+        "address": "0xf366a2",
+        "size": 1567,
+        "sha256": "9aef4d02e29c65503be20f7d36cb4b94b12b0ad912858e630573c8e933618a66"
+      },
+      "__objc_methtype": {
+        "address": "0xf36cc1",
+        "size": 9631,
+        "sha256": "775df7081cabc903ea5cc82d91fff373daf2c53115c7ce13e51e7253d2185ab9"
+      },
+      "__gcc_except_tab": {
+        "address": "0xf39260",
+        "size": 1264,
+        "sha256": "24e055e448d81b59da22e1b5c5befb0ba2859b19caa2ed38c6cecf474e22d6a1"
+      },
+      "__ustring": {
+        "address": "0xf39750",
+        "size": 40,
+        "sha256": "b100e094a29345b0265c079c4198addbfa23b20411fb256b161da4a6155f3d19"
+      },
+      "__unwind_info": {
+        "address": "0xf39778",
+        "size": 252248,
+        "sha256": "1bb65980ede5e72e979acd13120063b8f7e09832186281b2261cd5038413f5cb"
+      },
+      "__eh_frame": {
+        "address": "0xf770d0",
+        "size": 952040,
+        "sha256": "64d77569cb5ea633085174379debc6e944be53ee193e86a7aeb6da8dede7a5b6"
+      },
+      "__got": {
+        "address": "0x1060000",
+        "size": 5016,
+        "sha256": "3806b7c73a0c87c08532f029053a78c95ab146599ab0771845bd8e752b8ec3c7"
+      },
+      "__cfstring": {
+        "address": "0x113acf0",
+        "size": 4704,
+        "sha256": "af740ce88470e98e3cc569a3995458459560ce72072446176c31b7262270b959"
+      },
+      "__objc_classlist": {
+        "address": "0x113bf50",
+        "size": 464,
+        "sha256": "d465ad62e0579afc1847aa2346573d47b3ceaee4abd8a3726e035c2f25589182"
+      },
+      "__objc_catlist": {
+        "address": "0x113c120",
+        "size": 24,
+        "sha256": "28d79ffb4f3a7c1febd4d817818f848330423790135fd3b680eea25b24ccc915"
+      },
+      "__objc_protolist": {
+        "address": "0x113c138",
+        "size": 208,
+        "sha256": "9901489d3152811cee3324078f774e9f4a6a88925c2a8eca40757c7626401189"
+      },
+      "__objc_imageinfo": {
+        "address": "0x113c208",
+        "size": 8,
+        "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc"
+      },
+      "__objc_const": {
+        "address": "0x1140000",
+        "size": 43144,
+        "sha256": "d453da1bde2291712cc1afc5c578dfa56d0cc3a2a99af1e50463c605f5551564"
+      },
+      "__objc_selrefs": {
+        "address": "0x114a888",
+        "size": 16960,
+        "sha256": "c21d1b835db290557fad71a217da9f2625e5f00dfa5e562eb06f97ea60ccda0f"
+      },
+      "__objc_classrefs": {
+        "address": "0x114eac8",
+        "size": 1472,
+        "sha256": "736e156fd823fe377d1d6fbc9c15f23da5baa4880f45a89d1af3c7b607587fb9"
+      },
+      "__objc_superrefs": {
+        "address": "0x114f088",
+        "size": 272,
+        "sha256": "720365dd62a9e3f455b562e6a19269117ed61d1028f3b6569b99a4729026dfee"
+      },
+      "__objc_ivar": {
+        "address": "0x114f198",
+        "size": 1040,
+        "sha256": "a35a620b4563c018966bfcc83a1a7fb3ea3f9f045980f1cc29ebd2510e7fc87d"
+      },
+      "__objc_data": {
+        "address": "0x114f5a8",
+        "size": 4640,
+        "sha256": "221033f0e8419ea958de4c795e870b57a4cbe03c7dc73aa6474ba0df1c7f5dfe"
+      },
+      "__data": {
+        "address": "0x11507e0",
+        "size": 867776,
+        "sha256": "8675aba4e45382f64bc3c9f9e1bbcd86fe2920d5a1856f0d1b345c3259fd2106"
+      },
+      "__thread_vars": {
+        "address": "0x12245a0",
+        "size": 3144,
+        "sha256": "c19a6cae285cb84fa69b46a357450f7679c851173d94db7c3eca03ebbd9c187d"
+      },
+      "__thread_data": {
+        "address": "0x12251e8",
+        "size": 80,
+        "sha256": "898b0a71a8a2632cb4e972cd0e4996bb04a137c77ecffc60ccff5e396782cd1c"
+      },
+      "__thread_bss": {
+        "address": "0x1225238",
+        "size": 1512,
+        "sha256": "ce74475c230513d255bf8e9c6dfafae15f6c650efa6e4117ef58aadfccc22c1e"
+      },
+      "__bss": {
+        "address": "0x1225820",
+        "size": 7298976,
+        "sha256": "770033299b41d3eff796fa97ecb3eecdc163f273030a4439802461a3aa46f4a0"
+      },
+      "__common": {
+        "address": "0x191b7c0",
+        "size": 3261304,
+        "sha256": "78e4448c1da6e027b6a25ff40d25bc6a3d01f90a6294e05e9839cb5bf3ae4297"
+      }
+    },
+    "files": {
+      "var/jb/Library/Application Support/YTLite.bundle/Assets.car": {
+        "size": 807816,
+        "sha256": "5bd317feeeeed82a856223d7a996e951d76904afc0722e9502688449dbd795ec"
+      },
+      "var/jb/Library/Application Support/YTLite.bundle/Info.plist": {
+        "size": 363,
+        "sha256": "5e8beea91290c056f5f8f5bacb3a6ffc353fb22db3ba84dc31b6ed36693d28e1"
+      },
+      "var/jb/Library/Application Support/YTLite.bundle/SponsorAudio.m4a": {
+        "size": 6094,
+        "sha256": "bfe134f5eca363146c94a1571c05a72e81952194b7f763c42d803da3af6b3d8a"
+      },
+      "var/jb/Library/Application Support/YTLite.bundle/ar.lproj/Localizable.strings": {
+        "size": 56364,
+        "sha256": "d80d00ac38486ca5078e382e84ac814bb9310fffc3cca269e881ea3c32cac12a"
+      },
+      "var/jb/Library/Application Support/YTLite.bundle/en.lproj/Localizable.strings": {
+        "size": 40653,
+        "sha256": "e6392c8dbbada63668e9d008fca2a9393b6e9d8557129c6db5f30e017a59c589"
+      },
+      "var/jb/Library/Application Support/YTLite.bundle/es.lproj/Localizable.strings": {
+        "size": 66357,
+        "sha256": "08b649886f5660a7497cffaeaa2f687f67ed46f7a979f211339acd7620654c77"
+      },
+      "var/jb/Library/Application Support/YTLite.bundle/fr.lproj/Localizable.strings": {
+        "size": 56010,
+        "sha256": "3ef0363d51380a892590933106f0c5cf3e2ae7f7c9656d21b2be7acb42b45a67"
+      },
+      "var/jb/Library/Application Support/YTLite.bundle/it.lproj/Localizable.strings": {
+        "size": 49179,
+        "sha256": "856857791b9add01c7b71ec907d1c20f98c22c5276434226a0fa288590648276"
+      },
+      "var/jb/Library/Application Support/YTLite.bundle/ja.lproj/Localizable.strings": {
+        "size": 41621,
+        "sha256": "901957b8f7373aa81c1e98f6617d8cd9c214bda7e227ac12c45faee6555bddc4"
+      },
+      "var/jb/Library/Application Support/YTLite.bundle/ko.lproj/Localizable.strings": {
+        "size": 40936,
+        "sha256": "aa1062b03b35dd1c814fcdb11638e6fc638d89821bfb4eb2f82da32e377a0c0e"
+      },
+      "var/jb/Library/Application Support/YTLite.bundle/pl.lproj/Localizable.strings": {
+        "size": 62606,
+        "sha256": "5dda7b1fcd949a6814e001370a4851b19cb5fb640e732ec63b9e228d652d25c0"
+      },
+      "var/jb/Library/Application Support/YTLite.bundle/ru.lproj/Localizable.strings": {
+        "size": 67384,
+        "sha256": "6c515e4215ba9cebf0abf760ae71cb75400dc62556fd2868d2eace1582c9d10c"
+      },
+      "var/jb/Library/Application Support/YTLite.bundle/tr.lproj/Localizable.strings": {
+        "size": 64897,
+        "sha256": "fda8db0300e0d083f1aed3e224e4cdab63e8e2b4b9d51ce70d9290a67bfca9d8"
+      },
+      "var/jb/Library/Application Support/YTLite.bundle/vi.lproj/Localizable.strings": {
+        "size": 64761,
+        "sha256": "91a71151f447f120d762ebf381b7e76752f7e078b66f3cb871146477e9d7999e"
+      },
+      "var/jb/Library/Application Support/YTLite.bundle/zh-Hans.lproj/Localizable.strings": {
+        "size": 32026,
+        "sha256": "045b25d4607494dbdd9ce9113598d7acf681bb1f46a117315afb6fa0c88a75e8"
+      },
+      "var/jb/Library/Application Support/YTLite.bundle/zh-Hant.lproj/Localizable.strings": {
+        "size": 32239,
+        "sha256": "8b881bfea550a6977e93444a7ef354870b75c5d8dc6d0d54b2bcec95634a36cc"
+      },
+      "var/jb/Library/MobileSubstrate/DynamicLibraries/YTLite.dylib": {
+        "size": 19559984,
+        "sha256": "a64aa8a5a8baae835635cd8eeb657d038fa4660d380323628031ebb3a5da64a3"
+      },
+      "var/jb/Library/MobileSubstrate/DynamicLibraries/YTLite.plist": {
+        "size": 94,
+        "sha256": "a441cec154fe2bdf81ac95a4eba67940ea639c0af68cb93de2a392b6fdcc5a5f"
+      }
+    },
+    "class_count": 58,
+    "method_count": 938
+  },
+  {
+    "package": "com.dvntm.ytlite_5.2.2_iphoneos-arm64e.deb",
+    "sha256": "6a782d174644ec49fb0f0404022b183355bac8f10aa2f6270d117fab4096b889",
+    "binary_sha256": "59b0ddc0c8ca14863d20b0005c0c48e062e81a0df6611e213a3a66fa2b796023",
+    "sections": {
+      "__text": {
+        "address": "0x8000",
+        "size": 12116064,
+        "sha256": "01f0321791e76639819a506037e4dc44e9a3c01087d29259a4510e23914005f9"
+      },
+      "__stubs": {
+        "address": "0xb96060",
+        "size": 5868,
+        "sha256": "7b1457c86722045809e6fd3e1524b7d589e160f235b01d705b4da5b8bdfe0e74"
+      },
+      "__init_offsets": {
+        "address": "0xb9774c",
+        "size": 48,
+        "sha256": "40f0415af8b0bb277601ecb59805e159189dbbad6e4db97de07e6dce1b2a9cde"
+      },
+      "__objc_methlist": {
+        "address": "0xb97780",
+        "size": 12204,
+        "sha256": "9bdeb600c037a2b306844811460dfa1a60bc0e6ab5d2c2149440f237e68b79cb"
+      },
+      "__const": {
+        "address": "0x1061390",
+        "size": 891152,
+        "sha256": "86c85f26ad6f323ccd8b21f7c9502b442d1ea2cde111ae302e5bfa55d20471ac"
+      },
+      "__cstring": {
+        "address": "0xe76f60",
+        "size": 725323,
+        "sha256": "5c1081bddcb49e77315164b7a962bb7c82977d65a0ed2b545e3aeecdbeab7cbd"
+      },
+      "__objc_methname": {
+        "address": "0xf280ab",
+        "size": 57769,
+        "sha256": "95d1ad3284623787b7ab0f02df760e77a3e4432bc0f1cdfed62bb4157f0ce32f"
+      },
+      "__objc_classname": {
+        "address": "0xf36254",
+        "size": 1567,
+        "sha256": "9aef4d02e29c65503be20f7d36cb4b94b12b0ad912858e630573c8e933618a66"
+      },
+      "__objc_methtype": {
+        "address": "0xf36873",
+        "size": 9631,
+        "sha256": "775df7081cabc903ea5cc82d91fff373daf2c53115c7ce13e51e7253d2185ab9"
+      },
+      "__gcc_except_tab": {
+        "address": "0xf38e14",
+        "size": 1264,
+        "sha256": "bb302031de6589708fe7b315e80c64936ae275fbf0b8f543dab04f0413c68657"
+      },
+      "__ustring": {
+        "address": "0xf39304",
+        "size": 40,
+        "sha256": "b100e094a29345b0265c079c4198addbfa23b20411fb256b161da4a6155f3d19"
+      },
+      "__unwind_info": {
+        "address": "0xf3932c",
+        "size": 252216,
+        "sha256": "c6d36d5ee620d12071dca882bf52fa54261f6b5bc7f9f38e579038f57fcfeeb0"
+      },
+      "__eh_frame": {
+        "address": "0xf76c68",
+        "size": 951912,
+        "sha256": "16af3399c22e7629a4cf94808247cb24b15826ea69130c5276503a516b89a327"
+      },
+      "__got": {
+        "address": "0x1060000",
+        "size": 5000,
+        "sha256": "240b5c0b6763a48c2f9cdea7cef5b1f5a95b47d1612757f81f5ee619177b82b7"
+      },
+      "__cfstring": {
+        "address": "0x113aca0",
+        "size": 4704,
+        "sha256": "f8e32998637f2b05b2e8ae26fc43554360a07d474e68273043f4621021b79e1f"
+      },
+      "__objc_classlist": {
+        "address": "0x113bf00",
+        "size": 464,
+        "sha256": "bc6b7eb03ea8435212671c330165959fd7160ea8601cc126283a0af2f89b54c1"
+      },
+      "__objc_catlist": {
+        "address": "0x113c0d0",
+        "size": 24,
+        "sha256": "28d79ffb4f3a7c1febd4d817818f848330423790135fd3b680eea25b24ccc915"
+      },
+      "__objc_protolist": {
+        "address": "0x113c0e8",
+        "size": 208,
+        "sha256": "dee302f59501f4d4e1a2cbded56f7f70bef7057e402a11280fa223016ce1243c"
+      },
+      "__objc_imageinfo": {
+        "address": "0x113c1b8",
+        "size": 8,
+        "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc"
+      },
+      "__objc_const": {
+        "address": "0x1140000",
+        "size": 43144,
+        "sha256": "1ed17378e8412f4d6ed412e60cd3b130f15f31020cae70406d6272067b0088c2"
+      },
+      "__objc_selrefs": {
+        "address": "0x114a888",
+        "size": 16952,
+        "sha256": "9b441c77212ca3f1e8c1bebedbc8b5d204a51444a6819ff55909ebfe1cb75c1f"
+      },
+      "__objc_classrefs": {
+        "address": "0x114eac0",
+        "size": 1472,
+        "sha256": "7c0f6f143ce2fdf8c05d7a79fa0bf9ad6d73c51abcf13b7231d9fa8c332ef904"
+      },
+      "__objc_superrefs": {
+        "address": "0x114f080",
+        "size": 272,
+        "sha256": "2a69c8d99603c38208adf244a8bc5a94b492eed3b6c76771b5a377886d5c00bf"
+      },
+      "__objc_ivar": {
+        "address": "0x114f190",
+        "size": 1040,
+        "sha256": "a35a620b4563c018966bfcc83a1a7fb3ea3f9f045980f1cc29ebd2510e7fc87d"
+      },
+      "__objc_data": {
+        "address": "0x114f5a0",
+        "size": 4640,
+        "sha256": "4a5ff5547cba3d073fe5906cbf0c6c195a994ef0a64d84c4d8e44ab00e559898"
+      },
+      "__data": {
+        "address": "0x11507c0",
+        "size": 867744,
+        "sha256": "edf6884eca8758993e5eafc68541915db51ca0c26c0beaf7a4e760d582b2575c"
+      },
+      "__thread_vars": {
+        "address": "0x1224560",
+        "size": 3144,
+        "sha256": "73d7e08c7f11f63557cfd0158e85c534aeeb8a67c078b5b6bd3fe9e8531f0353"
+      },
+      "__thread_data": {
+        "address": "0x12251a8",
+        "size": 80,
+        "sha256": "84d75b430338f72bba8c6bf1343a467cb75ad4f181b67e63a86607a3a6dc55df"
+      },
+      "__thread_bss": {
+        "address": "0x12251f8",
+        "size": 1512,
+        "sha256": "ce74475c230513d255bf8e9c6dfafae15f6c650efa6e4117ef58aadfccc22c1e"
+      },
+      "__bss": {
+        "address": "0x12257e0",
+        "size": 7298912,
+        "sha256": "cf74151b48b369f9d38272036d8daae6ed9d79ab3bc73063d63113f454710af6"
+      },
+      "__common": {
+        "address": "0x191b740",
+        "size": 3261304,
+        "sha256": "78e4448c1da6e027b6a25ff40d25bc6a3d01f90a6294e05e9839cb5bf3ae4297"
+      }
+    },
+    "files": {
+      "Library/Application Support/YTLite.bundle/Assets.car": {
+        "size": 807816,
+        "sha256": "5bd317feeeeed82a856223d7a996e951d76904afc0722e9502688449dbd795ec"
+      },
+      "Library/Application Support/YTLite.bundle/Info.plist": {
+        "size": 363,
+        "sha256": "5e8beea91290c056f5f8f5bacb3a6ffc353fb22db3ba84dc31b6ed36693d28e1"
+      },
+      "Library/Application Support/YTLite.bundle/SponsorAudio.m4a": {
+        "size": 6094,
+        "sha256": "bfe134f5eca363146c94a1571c05a72e81952194b7f763c42d803da3af6b3d8a"
+      },
+      "Library/Application Support/YTLite.bundle/ar.lproj/Localizable.strings": {
+        "size": 56364,
+        "sha256": "d80d00ac38486ca5078e382e84ac814bb9310fffc3cca269e881ea3c32cac12a"
+      },
+      "Library/Application Support/YTLite.bundle/en.lproj/Localizable.strings": {
+        "size": 40653,
+        "sha256": "e6392c8dbbada63668e9d008fca2a9393b6e9d8557129c6db5f30e017a59c589"
+      },
+      "Library/Application Support/YTLite.bundle/es.lproj/Localizable.strings": {
+        "size": 66357,
+        "sha256": "08b649886f5660a7497cffaeaa2f687f67ed46f7a979f211339acd7620654c77"
+      },
+      "Library/Application Support/YTLite.bundle/fr.lproj/Localizable.strings": {
+        "size": 56010,
+        "sha256": "3ef0363d51380a892590933106f0c5cf3e2ae7f7c9656d21b2be7acb42b45a67"
+      },
+      "Library/Application Support/YTLite.bundle/it.lproj/Localizable.strings": {
+        "size": 49179,
+        "sha256": "856857791b9add01c7b71ec907d1c20f98c22c5276434226a0fa288590648276"
+      },
+      "Library/Application Support/YTLite.bundle/ja.lproj/Localizable.strings": {
+        "size": 41621,
+        "sha256": "901957b8f7373aa81c1e98f6617d8cd9c214bda7e227ac12c45faee6555bddc4"
+      },
+      "Library/Application Support/YTLite.bundle/ko.lproj/Localizable.strings": {
+        "size": 40936,
+        "sha256": "aa1062b03b35dd1c814fcdb11638e6fc638d89821bfb4eb2f82da32e377a0c0e"
+      },
+      "Library/Application Support/YTLite.bundle/pl.lproj/Localizable.strings": {
+        "size": 62606,
+        "sha256": "5dda7b1fcd949a6814e001370a4851b19cb5fb640e732ec63b9e228d652d25c0"
+      },
+      "Library/Application Support/YTLite.bundle/ru.lproj/Localizable.strings": {
+        "size": 67384,
+        "sha256": "6c515e4215ba9cebf0abf760ae71cb75400dc62556fd2868d2eace1582c9d10c"
+      },
+      "Library/Application Support/YTLite.bundle/tr.lproj/Localizable.strings": {
+        "size": 64897,
+        "sha256": "fda8db0300e0d083f1aed3e224e4cdab63e8e2b4b9d51ce70d9290a67bfca9d8"
+      },
+      "Library/Application Support/YTLite.bundle/vi.lproj/Localizable.strings": {
+        "size": 64761,
+        "sha256": "91a71151f447f120d762ebf381b7e76752f7e078b66f3cb871146477e9d7999e"
+      },
+      "Library/Application Support/YTLite.bundle/zh-Hans.lproj/Localizable.strings": {
+        "size": 32026,
+        "sha256": "045b25d4607494dbdd9ce9113598d7acf681bb1f46a117315afb6fa0c88a75e8"
+      },
+      "Library/Application Support/YTLite.bundle/zh-Hant.lproj/Localizable.strings": {
+        "size": 32239,
+        "sha256": "8b881bfea550a6977e93444a7ef354870b75c5d8dc6d0d54b2bcec95634a36cc"
+      },
+      "Library/MobileSubstrate/DynamicLibraries/YTLite.dylib": {
+        "size": 19559920,
+        "sha256": "59b0ddc0c8ca14863d20b0005c0c48e062e81a0df6611e213a3a66fa2b796023"
+      },
+      "Library/MobileSubstrate/DynamicLibraries/YTLite.plist": {
+        "size": 94,
+        "sha256": "a441cec154fe2bdf81ac95a4eba67940ea639c0af68cb93de2a392b6fdcc5a5f"
+      }
+    },
+    "class_count": 58,
+    "method_count": 938
+  }
+]

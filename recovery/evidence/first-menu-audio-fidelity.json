@@ -1,0 +1,1058 @@
+{
+  "class": "DownloadMenuHelper",
+  "binary_sha256": "59b0ddc0c8ca14863d20b0005c0c48e062e81a0df6611e213a3a66fa2b796023",
+  "spans": [
+    {
+      "start": "0xf6364",
+      "end": "0xf6370",
+      "sha256": "2e2c3c7c21706b322288f23cf3d6877777b5e38c328efbb0b4c1d613250ec106"
+    },
+    {
+      "start": "0xf75bc",
+      "end": "0xf75c8",
+      "sha256": "f1399451697fd1876652276516a79ff7537b48b46905bf341182859d76bcc35d"
+    },
+    {
+      "start": "0xf7c6c",
+      "end": "0xf9c78",
+      "sha256": "d19df09c0aa59e1fe5b08929a9ae481efdafb800eabf00ca04cb42c38302b93a"
+    },
+    {
+      "start": "0xf8ac0",
+      "end": "0xf8acc",
+      "sha256": "2603edb11c02e85f821866f49994f69d92614c4787fa40f8f68c125fd4adbd6a"
+    },
+    {
+      "start": "0xf9db8",
+      "end": "0xfa118",
+      "sha256": "616541d6d7a341b8b4e0c4b4f41333bb6bac11aff25c67c2d41be48e40d45937"
+    },
+    {
+      "start": "0xf9f74",
+      "end": "0xf9f80",
+      "sha256": "b29cb749920cd7b113a94f20f1ba229d2ed03f4c8b5d77080c66a8002d18e56c"
+    },
+    {
+      "start": "0xfa118",
+      "end": "0xfad5c",
+      "sha256": "ed6ab618d6b590a5ecf5055b9f7f5123fd83084720514a62aaf9c8326274082a"
+    },
+    {
+      "start": "0xfa4d0",
+      "end": "0xfa4dc",
+      "sha256": "131e118a56c6589e9ef531da6a24df0e2a24a4c0a62b7f8b9f0101046dd90840"
+    },
+    {
+      "start": "0xfa578",
+      "end": "0xfa584",
+      "sha256": "9c4a6536aae414d74d2c8af29ced443e1eac899fa3c60d71648df7f9215cba53"
+    },
+    {
+      "start": "0xfab90",
+      "end": "0xfab9c",
+      "sha256": "78c03ac9842a40d869ce4d4eed4b53aba9eeb488719cbe6e6dd56e3cf3ae4fdf"
+    },
+    {
+      "start": "0xfad5c",
+      "end": "0xfb020",
+      "sha256": "e3a738fa844007103da00cfd9efcb788e2a0a1911aff11c0ac286f440ca93356"
+    },
+    {
+      "start": "0xfc900",
+      "end": "0xfc90c",
+      "sha256": "fa425a80bce2e1bc9201bddbaa43cf2cceb5bca55d6add96cbe1b28447909db4"
+    },
+    {
+      "start": "0xfcd40",
+      "end": "0xfcd4c",
+      "sha256": "bdae1b9e46b5e9fa8ed157d1e0adfd50ca8d8ffafc6a71619b8b882ebc263e84"
+    },
+    {
+      "start": "0x1059cc",
+      "end": "0x1059d8",
+      "sha256": "2e7cd9bfc731743d13990674c2d544d1ba575f8dae9f7a93af0c3365a3c1afa8"
+    },
+    {
+      "start": "0x106840",
+      "end": "0x10684c",
+      "sha256": "b94a889502bb8337595376040fcaad194bcf4d5ccc4474cd41e862becc1a6ab8"
+    },
+    {
+      "start": "0x109f2c",
+      "end": "0x109f38",
+      "sha256": "70b989324f0fa42fed08bd44e74d6804e24e5375890516bab8f1766481e6415d"
+    },
+    {
+      "start": "0x10b008",
+      "end": "0x10b014",
+      "sha256": "9f58a8186236d510a1cef5201d8436e72a84a022d9afef63045c8498091ac131"
+    },
+    {
+      "start": "0x10cd90",
+      "end": "0x10cd9c",
+      "sha256": "c4ae4f27acaec017da489cef4a660a5be997657d7a031e094b955eb2f4a71e4b"
+    },
+    {
+      "start": "0x10dfc4",
+      "end": "0x10dfd4",
+      "sha256": "d35397870dfec276adbf831adbfacc579e61af480057e714cd4af0eb10014176"
+    },
+    {
+      "start": "0x10dfd4",
+      "end": "0x10dfe4",
+      "sha256": "8c338ecb6fe14eed2a41042604473c098d139db02017c9409e083349d56e510a"
+    },
+    {
+      "start": "0x10e0f4",
+      "end": "0x10e104",
+      "sha256": "794082e772d9e79f062438002e09d0f54c54ef6a9650f3fa22ef4c47f508caf5"
+    },
+    {
+      "start": "0x10e104",
+      "end": "0x10e114",
+      "sha256": "8c338ecb6fe14eed2a41042604473c098d139db02017c9409e083349d56e510a"
+    },
+    {
+      "start": "0x10e5a4",
+      "end": "0x10e5b4",
+      "sha256": "345dcaea86e7b4d9ab974dddb893aa9145d0ff1797dd0ea5aa86824e95df739e"
+    },
+    {
+      "start": "0x10e5b4",
+      "end": "0x10e5c4",
+      "sha256": "8c338ecb6fe14eed2a41042604473c098d139db02017c9409e083349d56e510a"
+    },
+    {
+      "start": "0x10ee44",
+      "end": "0x10ee54",
+      "sha256": "d6121edc053a0c4542aa367a93c9524a2f3d73f6a0a8eade6b28d1ffa7f5ca9b"
+    },
+    {
+      "start": "0x10ee54",
+      "end": "0x10ee64",
+      "sha256": "8c338ecb6fe14eed2a41042604473c098d139db02017c9409e083349d56e510a"
+    },
+    {
+      "start": "0x10f018",
+      "end": "0x10f028",
+      "sha256": "ea85a23ca9eff90f98138369d7781706843140c5834d5aae6c4f1ed50bb4bc58"
+    },
+    {
+      "start": "0x10f028",
+      "end": "0x10f038",
+      "sha256": "8c338ecb6fe14eed2a41042604473c098d139db02017c9409e083349d56e510a"
+    },
+    {
+      "start": "0x10f1c4",
+      "end": "0x10f1d4",
+      "sha256": "7fca19f0cdceaa546632c526484a9acc392a5e480e0c5782be8f3dfb42638463"
+    },
+    {
+      "start": "0x10f1d4",
+      "end": "0x10f1e4",
+      "sha256": "8c338ecb6fe14eed2a41042604473c098d139db02017c9409e083349d56e510a"
+    },
+    {
+      "start": "0x10f284",
+      "end": "0x10f294",
+      "sha256": "20424de87f941b594fc57846e24266d3b499783438767ba107bc8ec1a7dd289b"
+    },
+    {
+      "start": "0x10f294",
+      "end": "0x10f2a4",
+      "sha256": "8c338ecb6fe14eed2a41042604473c098d139db02017c9409e083349d56e510a"
+    },
+    {
+      "start": "0x10fe14",
+      "end": "0x10fe24",
+      "sha256": "ef41733426d5811ff2d234f607d658228861d5f1cedf5b54edfbcbf5a8329cf3"
+    },
+    {
+      "start": "0x10fe24",
+      "end": "0x10fe34",
+      "sha256": "8c338ecb6fe14eed2a41042604473c098d139db02017c9409e083349d56e510a"
+    },
+    {
+      "start": "0x10ff6c",
+      "end": "0x10ff7c",
+      "sha256": "c14d953007ec4521398b7271a5bc54855830732ccab2224699de694827c60871"
+    },
+    {
+      "start": "0x10ff7c",
+      "end": "0x10ff8c",
+      "sha256": "8c338ecb6fe14eed2a41042604473c098d139db02017c9409e083349d56e510a"
+    },
+    {
+      "start": "0x112aac",
+      "end": "0x112abc",
+      "sha256": "26ec0276a47c6ff0d430cf0c30d9455d48218ae110ca9ef3d66d3796829664a9"
+    },
+    {
+      "start": "0x112abc",
+      "end": "0x112acc",
+      "sha256": "8c338ecb6fe14eed2a41042604473c098d139db02017c9409e083349d56e510a"
+    },
+    {
+      "start": "0x112de8",
+      "end": "0x112df8",
+      "sha256": "2bb38ddd0365dbc406b4a4e2f07f931f355aeac41a098185bb7d3b6b322009d4"
+    },
+    {
+      "start": "0x112df8",
+      "end": "0x112e08",
+      "sha256": "8c338ecb6fe14eed2a41042604473c098d139db02017c9409e083349d56e510a"
+    },
+    {
+      "start": "0x113cb4",
+      "end": "0x113cc4",
+      "sha256": "cb04bec6abc7e87e42036d5c95548d91cdd86c013acae4e633d398e25daa74bc"
+    },
+    {
+      "start": "0x113cc4",
+      "end": "0x113cd4",
+      "sha256": "8c338ecb6fe14eed2a41042604473c098d139db02017c9409e083349d56e510a"
+    },
+    {
+      "start": "0x114164",
+      "end": "0x114174",
+      "sha256": "98fa343cad602779f5a1dba7543f4971259a487a17d70f00f02f43aae3e692f0"
+    },
+    {
+      "start": "0x114174",
+      "end": "0x114184",
+      "sha256": "8c338ecb6fe14eed2a41042604473c098d139db02017c9409e083349d56e510a"
+    },
+    {
+      "start": "0x114958",
+      "end": "0x114968",
+      "sha256": "0b5eecfc20ccf1cc8abb37f86a375e4cee1b66d9a0c11bb8f981b968dcfd9e09"
+    },
+    {
+      "start": "0x114968",
+      "end": "0x114978",
+      "sha256": "8c338ecb6fe14eed2a41042604473c098d139db02017c9409e083349d56e510a"
+    }
+  ],
+  "method_contracts": [
+    {
+      "kind": "+",
+      "selector": "showDownloadSheet:withSender:",
+      "encoding": "v32@0:8@16@24",
+      "address": "0xf7c6c"
+    }
+  ],
+  "constructors": [
+    {
+      "class": "DownloadMenuHelper",
+      "class_page": "0xf6364",
+      "class_load": "0xf6368",
+      "call": "0xf636c"
+    },
+    {
+      "class": "ToastView",
+      "class_page": "0xf75bc",
+      "class_load": "0xf75c0",
+      "call": "0xf75c4"
+    },
+    {
+      "class": "DownloadMenuHelper",
+      "class_page": "0xf8ac0",
+      "class_load": "0xf8ac4",
+      "call": "0xf8ac8"
+    },
+    {
+      "class": "ToastView",
+      "class_page": "0xf9f74",
+      "class_load": "0xf9f78",
+      "call": "0xf9f7c"
+    },
+    {
+      "class": "ToastView",
+      "class_page": "0xfa4d0",
+      "class_load": "0xfa4d4",
+      "call": "0xfa4d8"
+    },
+    {
+      "class": "YTLHelper",
+      "class_page": "0xfa578",
+      "class_load": "0xfa57c",
+      "call": "0xfa580"
+    },
+    {
+      "class": "ToastView",
+      "class_page": "0xfab90",
+      "class_load": "0xfab94",
+      "call": "0xfab98"
+    },
+    {
+      "class": "ToastView",
+      "class_page": "0xfc900",
+      "class_load": "0xfc904",
+      "call": "0xfc908"
+    },
+    {
+      "class": "ToastView",
+      "class_page": "0xfcd40",
+      "class_load": "0xfcd44",
+      "call": "0xfcd48"
+    },
+    {
+      "class": "ToastView",
+      "class_page": "0x1059cc",
+      "class_load": "0x1059d0",
+      "call": "0x1059d4"
+    },
+    {
+      "class": "YTLHelper",
+      "class_page": "0x106840",
+      "class_load": "0x106844",
+      "call": "0x106848"
+    },
+    {
+      "class": "ToastView",
+      "class_page": "0x109f2c",
+      "class_load": "0x109f30",
+      "call": "0x109f34"
+    },
+    {
+      "class": "ToastView",
+      "class_page": "0x10b008",
+      "class_load": "0x10b00c",
+      "call": "0x10b010"
+    },
+    {
+      "class": "ToastView",
+      "class_page": "0x10cd90",
+      "class_load": "0x10cd94",
+      "call": "0x10cd98"
+    }
+  ],
+  "calls": [
+    {
+      "address": "0xf636c",
+      "target": "0x10dfd4"
+    },
+    {
+      "address": "0x10dfd8",
+      "target": "0x10dfc4"
+    },
+    {
+      "address": "0x10dfc8",
+      "target": "0xb97158"
+    },
+    {
+      "address": "0xf75c4",
+      "target": "0x10e104"
+    },
+    {
+      "address": "0x10e108",
+      "target": "0x10e0f4"
+    },
+    {
+      "address": "0x10e0f8",
+      "target": "0xb97158"
+    },
+    {
+      "address": "0xf8ac8",
+      "target": "0x10e5b4"
+    },
+    {
+      "address": "0x10e5b8",
+      "target": "0x10e5a4"
+    },
+    {
+      "address": "0x10e5a8",
+      "target": "0xb97158"
+    },
+    {
+      "address": "0xf9f7c",
+      "target": "0x10ee54"
+    },
+    {
+      "address": "0x10ee58",
+      "target": "0x10ee44"
+    },
+    {
+      "address": "0x10ee48",
+      "target": "0xb97158"
+    },
+    {
+      "address": "0xfa4d8",
+      "target": "0x10f1d4"
+    },
+    {
+      "address": "0x10f1d8",
+      "target": "0x10f1c4"
+    },
+    {
+      "address": "0x10f1c8",
+      "target": "0xb97158"
+    },
+    {
+      "address": "0xfa580",
+      "target": "0x10f294"
+    },
+    {
+      "address": "0x10f298",
+      "target": "0x10f284"
+    },
+    {
+      "address": "0x10f288",
+      "target": "0xb97158"
+    },
+    {
+      "address": "0xfab98",
+      "target": "0x10f028"
+    },
+    {
+      "address": "0x10f02c",
+      "target": "0x10f018"
+    },
+    {
+      "address": "0x10f01c",
+      "target": "0xb97158"
+    },
+    {
+      "address": "0xfc908",
+      "target": "0x10fe24"
+    },
+    {
+      "address": "0x10fe28",
+      "target": "0x10fe14"
+    },
+    {
+      "address": "0x10fe18",
+      "target": "0xb97158"
+    },
+    {
+      "address": "0xfcd48",
+      "target": "0x10ff7c"
+    },
+    {
+      "address": "0x10ff80",
+      "target": "0x10ff6c"
+    },
+    {
+      "address": "0x10ff70",
+      "target": "0xb97158"
+    },
+    {
+      "address": "0x1059d4",
+      "target": "0x112abc"
+    },
+    {
+      "address": "0x112ac0",
+      "target": "0x112aac"
+    },
+    {
+      "address": "0x112ab0",
+      "target": "0xb97158"
+    },
+    {
+      "address": "0x106848",
+      "target": "0x112df8"
+    },
+    {
+      "address": "0x112dfc",
+      "target": "0x112de8"
+    },
+    {
+      "address": "0x112dec",
+      "target": "0xb97158"
+    },
+    {
+      "address": "0x109f34",
+      "target": "0x113cc4"
+    },
+    {
+      "address": "0x113cc8",
+      "target": "0x113cb4"
+    },
+    {
+      "address": "0x113cb8",
+      "target": "0xb97158"
+    },
+    {
+      "address": "0x10b010",
+      "target": "0x114174"
+    },
+    {
+      "address": "0x114178",
+      "target": "0x114164"
+    },
+    {
+      "address": "0x114168",
+      "target": "0xb97158"
+    },
+    {
+      "address": "0x10cd98",
+      "target": "0x114968"
+    },
+    {
+      "address": "0x11496c",
+      "target": "0x114958"
+    },
+    {
+      "address": "0x11495c",
+      "target": "0xb97158"
+    }
+  ],
+  "strings": [
+    {
+      "address": "0x1185b90",
+      "value": "Error.TryLater"
+    },
+    {
+      "address": "0x1185c20",
+      "value": "EnglishNotFound"
+    },
+    {
+      "address": "0x1185c60",
+      "value": "ytlAudioIndex"
+    },
+    {
+      "address": "0x1185ca0",
+      "value": "%@ - %@"
+    },
+    {
+      "address": "0x1185cf0",
+      "value": "%@ - %@"
+    }
+  ],
+  "selectors": [
+    {
+      "name": "playerResponse",
+      "reference": "0x114c7c0",
+      "page_instruction": "0xf8ad0",
+      "load_instruction": "0xf8ad4"
+    },
+    {
+      "name": "respondsToSelector:",
+      "reference": "0x114af58",
+      "page_instruction": "0xf8ad8",
+      "load_instruction": "0xf8adc"
+    },
+    {
+      "name": "contentPlayerResponse",
+      "reference": "0x114c7c8",
+      "page_instruction": "0xf8b1c",
+      "load_instruction": "0xf8b20"
+    },
+    {
+      "name": "videoID",
+      "reference": "0x114c960",
+      "page_instruction": "0xf8bbc",
+      "load_instruction": "0xf8bc0"
+    },
+    {
+      "name": "playerData",
+      "reference": "0x114c7d0",
+      "page_instruction": "0xf8bd4",
+      "load_instruction": "0xf8bd8"
+    },
+    {
+      "name": "title",
+      "reference": "0x114c7f0",
+      "page_instruction": "0xf8c14",
+      "load_instruction": "0xf8c18"
+    },
+    {
+      "name": "author",
+      "reference": "0x114c7e8",
+      "page_instruction": "0xf8c70",
+      "load_instruction": "0xf8c74"
+    },
+    {
+      "name": "length",
+      "reference": "0x114b438",
+      "page_instruction": "0xf8c98",
+      "load_instruction": "0xf8c9c"
+    },
+    {
+      "name": "getAudioFormatsArray:",
+      "reference": "0x114ce90",
+      "page_instruction": "0xf8de4",
+      "load_instruction": "0xf8de8"
+    },
+    {
+      "name": "getBestAudioFormat:playerVC:",
+      "reference": "0x114ce98",
+      "page_instruction": "0xf8e08",
+      "load_instruction": "0xf8e0c"
+    },
+    {
+      "name": "activeVideo",
+      "reference": "0x114c788",
+      "page_instruction": "0xf8e2c",
+      "load_instruction": "0xf8e30"
+    },
+    {
+      "name": "selectedAudioFormat",
+      "reference": "0x114cbf0",
+      "page_instruction": "0xf8e48",
+      "load_instruction": "0xf8e4c"
+    },
+    {
+      "name": "audioTrack",
+      "reference": "0x114cbf8",
+      "page_instruction": "0xf8e60",
+      "load_instruction": "0xf8e64"
+    },
+    {
+      "name": "sheetControllerWithMessage:subMessage:delegate:parentResponder:",
+      "reference": "0x114b880",
+      "page_instruction": "0xf8ee8",
+      "load_instruction": "0xf8eec"
+    },
+    {
+      "name": "valueForKey:",
+      "reference": "0x114ae90",
+      "page_instruction": "0xf8f0c",
+      "load_instruction": "0xf8f10"
+    },
+    {
+      "name": "showHeaderDivider",
+      "reference": "0x114b888",
+      "page_instruction": "0xf8f2c",
+      "load_instruction": "0xf8f30"
+    },
+    {
+      "name": "chevronRightImage",
+      "reference": "0x114c800",
+      "page_instruction": "0xf8f94",
+      "load_instruction": "0xf8f98"
+    },
+    {
+      "name": "setFlipsForRightToLeftLayoutDirection:",
+      "reference": "0x114c808",
+      "page_instruction": "0xf8fa8",
+      "load_instruction": "0xf8fac"
+    },
+    {
+      "name": "isLivePlayback",
+      "reference": "0x114ceb0",
+      "page_instruction": "0xf8fd4",
+      "load_instruction": "0xf8fd8"
+    },
+    {
+      "name": "imageWithName:",
+      "reference": "0x114c5b0",
+      "page_instruction": "0xf9114",
+      "load_instruction": "0xf9118"
+    },
+    {
+      "name": "actionWithTitle:iconImage:secondaryIconImage:accessibilityIdentifier:handler:",
+      "reference": "0x114b890",
+      "page_instruction": "0xf9184",
+      "load_instruction": "0xf9188"
+    },
+    {
+      "name": "addAction:",
+      "reference": "0x114b898",
+      "page_instruction": "0xf91b4",
+      "load_instruction": "0xf91b8"
+    },
+    {
+      "name": "imageWithName:",
+      "reference": "0x114c5b0",
+      "page_instruction": "0xf92b4",
+      "load_instruction": "0xf92b8"
+    },
+    {
+      "name": "actionWithTitle:iconImage:secondaryIconImage:accessibilityIdentifier:handler:",
+      "reference": "0x114b890",
+      "page_instruction": "0xf932c",
+      "load_instruction": "0xf9330"
+    },
+    {
+      "name": "addAction:",
+      "reference": "0x114b898",
+      "page_instruction": "0xf9360",
+      "load_instruction": "0xf9364"
+    },
+    {
+      "name": "hasCaptions:",
+      "reference": "0x114cf08",
+      "page_instruction": "0xf950c",
+      "load_instruction": "0xf9510"
+    },
+    {
+      "name": "contentLength",
+      "reference": "0x114cea0",
+      "page_instruction": "0xf9710",
+      "load_instruction": "0xf9714"
+    },
+    {
+      "name": "stringFromByteCount:countStyle:",
+      "reference": "0x114cea8",
+      "page_instruction": "0xf972c",
+      "load_instruction": "0xf9730"
+    },
+    {
+      "name": "actionWithTitle:currentValue:iconImage:accessibilityIdentifier:handler:",
+      "reference": "0x114ced8",
+      "page_instruction": "0xf98dc",
+      "load_instruction": "0xf98e0"
+    },
+    {
+      "name": "setSourceView:",
+      "reference": "0x114b8b8",
+      "page_instruction": "0xf998c",
+      "load_instruction": "0xf9990"
+    },
+    {
+      "name": "toastWindow",
+      "reference": "0x114b960",
+      "page_instruction": "0xf99a8",
+      "load_instruction": "0xf99ac"
+    },
+    {
+      "name": "rootViewController",
+      "reference": "0x114b968",
+      "page_instruction": "0xf99c0",
+      "load_instruction": "0xf99c4"
+    },
+    {
+      "name": "presentFromViewController:animated:completion:",
+      "reference": "0x114b8c0",
+      "page_instruction": "0xf99d8",
+      "load_instruction": "0xf99dc"
+    },
+    {
+      "name": "hasContentLength",
+      "reference": "0x114cf20",
+      "page_instruction": "0xf9f3c",
+      "load_instruction": "0xf9f40"
+    },
+    {
+      "name": "ytl_defaultBundle",
+      "reference": "0x114ae50",
+      "page_instruction": "0xf9f8c",
+      "load_instruction": "0xf9f90"
+    },
+    {
+      "name": "localizedStringForKey:value:table:",
+      "reference": "0x114b278",
+      "page_instruction": "0xf9fa4",
+      "load_instruction": "0xf9fa8"
+    },
+    {
+      "name": "showMessageWithText:isSuccess:",
+      "reference": "0x114c5b8",
+      "page_instruction": "0xf9fcc",
+      "load_instruction": "0xf9fd0"
+    },
+    {
+      "name": "checkSpaceAvailabilityForMedia:completion:",
+      "reference": "0x114ced0",
+      "page_instruction": "0xfa094",
+      "load_instruction": "0xfa098"
+    },
+    {
+      "name": "showMessageWithText:isSuccess:",
+      "reference": "0x114c5b8",
+      "page_instruction": "0xfa4e0",
+      "load_instruction": "0xfa4e4"
+    },
+    {
+      "name": "sharedApplication",
+      "reference": "0x114b528",
+      "page_instruction": "0xfa504",
+      "load_instruction": "0xfa508"
+    },
+    {
+      "name": "delegate",
+      "reference": "0x114b530",
+      "page_instruction": "0xfa51c",
+      "load_instruction": "0xfa520"
+    },
+    {
+      "name": "window",
+      "reference": "0x114b3b0",
+      "page_instruction": "0xfa534",
+      "load_instruction": "0xfa538"
+    },
+    {
+      "name": "rootViewController",
+      "reference": "0x114b968",
+      "page_instruction": "0xfa55c",
+      "load_instruction": "0xfa560"
+    },
+    {
+      "name": "setHelper:",
+      "reference": "0x114ba98",
+      "page_instruction": "0xfa588",
+      "load_instruction": "0xfa58c"
+    },
+    {
+      "name": "getDefaultAudioTrack:",
+      "reference": "0x114cf30",
+      "page_instruction": "0xfa620",
+      "load_instruction": "0xfa624"
+    },
+    {
+      "name": "helper",
+      "reference": "0x114ba90",
+      "page_instruction": "0xfa66c",
+      "load_instruction": "0xfa670"
+    },
+    {
+      "name": "URL",
+      "reference": "0x114c578",
+      "page_instruction": "0xfa690",
+      "load_instruction": "0xfa694"
+    },
+    {
+      "name": "URLWithString:",
+      "reference": "0x114b3d0",
+      "page_instruction": "0xfa6b4",
+      "load_instruction": "0xfa6b8"
+    },
+    {
+      "name": "stringWithFormat:",
+      "reference": "0x114b378",
+      "page_instruction": "0xfa6dc",
+      "load_instruction": "0xfa6e0"
+    },
+    {
+      "name": "contentLength",
+      "reference": "0x114cea0",
+      "page_instruction": "0xfa710",
+      "load_instruction": "0xfa714"
+    },
+    {
+      "name": "approxDurationMs",
+      "reference": "0x114cec0",
+      "page_instruction": "0xfa724",
+      "load_instruction": "0xfa728"
+    },
+    {
+      "name": "downloadAudioWithUrl:fileName:videoID:audioSize:duration:",
+      "reference": "0x114cf28",
+      "page_instruction": "0xfa738",
+      "load_instruction": "0xfa73c"
+    },
+    {
+      "name": "helper",
+      "reference": "0x114ba90",
+      "page_instruction": "0xfa7d4",
+      "load_instruction": "0xfa7d8"
+    },
+    {
+      "name": "URL",
+      "reference": "0x114c578",
+      "page_instruction": "0xfa7fc",
+      "load_instruction": "0xfa800"
+    },
+    {
+      "name": "URLWithString:",
+      "reference": "0x114b3d0",
+      "page_instruction": "0xfa81c",
+      "load_instruction": "0xfa820"
+    },
+    {
+      "name": "stringWithFormat:",
+      "reference": "0x114b378",
+      "page_instruction": "0xfa844",
+      "load_instruction": "0xfa848"
+    },
+    {
+      "name": "contentLength",
+      "reference": "0x114cea0",
+      "page_instruction": "0xfa878",
+      "load_instruction": "0xfa87c"
+    },
+    {
+      "name": "approxDurationMs",
+      "reference": "0x114cec0",
+      "page_instruction": "0xfa88c",
+      "load_instruction": "0xfa890"
+    },
+    {
+      "name": "downloadAudioWithUrl:fileName:videoID:audioSize:duration:",
+      "reference": "0x114cf28",
+      "page_instruction": "0xfa89c",
+      "load_instruction": "0xfa8a0"
+    },
+    {
+      "name": "getEnglishAudioTrack:",
+      "reference": "0x114cf38",
+      "page_instruction": "0xfa930",
+      "load_instruction": "0xfa934"
+    },
+    {
+      "name": "helper",
+      "reference": "0x114ba90",
+      "page_instruction": "0xfa97c",
+      "load_instruction": "0xfa980"
+    },
+    {
+      "name": "URL",
+      "reference": "0x114c578",
+      "page_instruction": "0xfa9a4",
+      "load_instruction": "0xfa9a8"
+    },
+    {
+      "name": "URLWithString:",
+      "reference": "0x114b3d0",
+      "page_instruction": "0xfa9c8",
+      "load_instruction": "0xfa9cc"
+    },
+    {
+      "name": "stringWithFormat:",
+      "reference": "0x114b378",
+      "page_instruction": "0xfa9f0",
+      "load_instruction": "0xfa9f4"
+    },
+    {
+      "name": "contentLength",
+      "reference": "0x114cea0",
+      "page_instruction": "0xfaa24",
+      "load_instruction": "0xfaa28"
+    },
+    {
+      "name": "approxDurationMs",
+      "reference": "0x114cec0",
+      "page_instruction": "0xfaa38",
+      "load_instruction": "0xfaa3c"
+    },
+    {
+      "name": "downloadAudioWithUrl:fileName:videoID:audioSize:duration:",
+      "reference": "0x114cf28",
+      "page_instruction": "0xfaa4c",
+      "load_instruction": "0xfaa50"
+    },
+    {
+      "name": "helper",
+      "reference": "0x114ba90",
+      "page_instruction": "0xfaa98",
+      "load_instruction": "0xfaa9c"
+    },
+    {
+      "name": "URL",
+      "reference": "0x114c578",
+      "page_instruction": "0xfaac0",
+      "load_instruction": "0xfaac4"
+    },
+    {
+      "name": "URLWithString:",
+      "reference": "0x114b3d0",
+      "page_instruction": "0xfaad8",
+      "load_instruction": "0xfaadc"
+    },
+    {
+      "name": "stringWithFormat:",
+      "reference": "0x114b378",
+      "page_instruction": "0xfab04",
+      "load_instruction": "0xfab08"
+    },
+    {
+      "name": "contentLength",
+      "reference": "0x114cea0",
+      "page_instruction": "0xfab2c",
+      "load_instruction": "0xfab30"
+    },
+    {
+      "name": "approxDurationMs",
+      "reference": "0x114cec0",
+      "page_instruction": "0xfab40",
+      "load_instruction": "0xfab44"
+    },
+    {
+      "name": "downloadAudioWithUrl:fileName:videoID:audioSize:duration:",
+      "reference": "0x114cf28",
+      "page_instruction": "0xfab50",
+      "load_instruction": "0xfab54"
+    },
+    {
+      "name": "ytl_defaultBundle",
+      "reference": "0x114ae50",
+      "page_instruction": "0xfaba8",
+      "load_instruction": "0xfabac"
+    },
+    {
+      "name": "localizedStringForKey:value:table:",
+      "reference": "0x114b278",
+      "page_instruction": "0xfabc0",
+      "load_instruction": "0xfabc4"
+    },
+    {
+      "name": "showMessageWithText:isSuccess:",
+      "reference": "0x114c5b8",
+      "page_instruction": "0xfabe8",
+      "load_instruction": "0xfabec"
+    },
+    {
+      "name": "showAudioTrackSelector:sender:playerVC:completion:",
+      "reference": "0x114cf40",
+      "page_instruction": "0xfaccc",
+      "load_instruction": "0xfacd0"
+    },
+    {
+      "name": "helper",
+      "reference": "0x114ba90",
+      "page_instruction": "0xfae24",
+      "load_instruction": "0xfae28"
+    },
+    {
+      "name": "URL",
+      "reference": "0x114c578",
+      "page_instruction": "0xfae54",
+      "load_instruction": "0xfae58"
+    },
+    {
+      "name": "URLWithString:",
+      "reference": "0x114b3d0",
+      "page_instruction": "0xfae70",
+      "load_instruction": "0xfae74"
+    },
+    {
+      "name": "stringWithFormat:",
+      "reference": "0x114b378",
+      "page_instruction": "0xfae9c",
+      "load_instruction": "0xfaea0"
+    },
+    {
+      "name": "contentLength",
+      "reference": "0x114cea0",
+      "page_instruction": "0xfaec0",
+      "load_instruction": "0xfaec4"
+    },
+    {
+      "name": "approxDurationMs",
+      "reference": "0x114cec0",
+      "page_instruction": "0xfaed4",
+      "load_instruction": "0xfaed8"
+    },
+    {
+      "name": "downloadAudioWithUrl:fileName:videoID:audioSize:duration:",
+      "reference": "0x114cf28",
+      "page_instruction": "0xfaef0",
+      "load_instruction": "0xfaef4"
+    }
+  ],
+  "selector_loads_required": true,
+  "branches": [],
+  "excluded_instructions": [
+    {
+      "address": "0xf9ad8",
+      "word": "0xd40d0261",
+      "reason": "System-trap side effect remains omitted."
+    },
+    {
+      "address": "0xfa100",
+      "word": "0xd4050e41",
+      "reason": "System-trap side effect remains omitted."
+    },
+    {
+      "address": "0xfad38",
+      "word": "0xd41e3cc1",
+      "reason": "System-trap side effect remains omitted."
+    },
+    {
+      "address": "0xfaf48",
+      "word": "0xd41719a1",
+      "reason": "System-trap side effect remains omitted."
+    }
+  ]
+}

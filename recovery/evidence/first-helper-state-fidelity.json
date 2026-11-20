@@ -1,0 +1,55 @@
+{
+  "binary_sha256": "59b0ddc0c8ca14863d20b0005c0c48e062e81a0df6611e213a3a66fa2b796023",
+  "spans": [
+    {
+      "start": "0x22f8b8",
+      "end": "0x22f94c",
+      "sha256": "e62cd328298f3428d41a5c5a80535e983d8006481500f9914da198dcc88f64b9"
+    },
+    {
+      "start": "0x2315d8",
+      "end": "0x23165c",
+      "sha256": "f3210dfd2203839f5d552d0ad89a3bc5878722dc9efaabb8aae62291da2e0587"
+    },
+    {
+      "start": "0x233350",
+      "end": "0x2333b0",
+      "sha256": "2337afdd5cde11fcb93fcb9ee5308e3e76f22d9ee891373db6d3a309d949b0b0"
+    },
+    {
+      "start": "0x1149148",
+      "end": "0x11492f0",
+      "sha256": "1e17bb1771eb31bebc8f909b48841f79c63e3c20d0e742bfb307eb598d7e1331"
+    }
+  ],
+  "strings": [],
+  "selectors": [],
+  "branches": [],
+  "method_contracts": [
+    {
+      "kind": "+",
+      "selector": "isConnectedToWiFi",
+      "address": "0x22f8b8"
+    },
+    {
+      "kind": "-",
+      "selector": ".cxx_destruct",
+      "address": "0x2315d8"
+    }
+  ],
+  "ivar_offsets": {
+    "_illegalChars": 8,
+    "_downloader": 16,
+    "_toastView": 24,
+    "_title": 32,
+    "_videoID": 40,
+    "_format": 48,
+    "_duration": 56,
+    "_isVideoDownloaded": 64,
+    "_isAudioOnly": 65,
+    "_videoUrl": 72,
+    "_audioUrl": 80,
+    "_captionsUrl": 88,
+    "_audioSize": 96
+  }
+}
