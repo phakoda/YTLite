@@ -1,6 +1,6 @@
 # YTLite
 
-A YouTube Plus fork for iOS, built from reconstructed 5.2.2 source. This fork uses local preferences and requires no subscription or account activation.
+A YouTube Plus fork for iOS This fork uses local preferences and requires no subscription or account activation.
 
 Open YouTube settings, then YouTube Plus to configure the tweak.
 
