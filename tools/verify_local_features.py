@@ -10,7 +10,6 @@ subprocess.run(['xcrun','--sdk','macosx','clang','-fobjc-arc','-fblocks','-Wall'
                 '-fsanitize=undefined',str(ROOT/'recovery/tests/playback_preferences.m'),
                 '-framework','Foundation','-o',str(output)],check=True)
 subprocess.run([output],check=True)
-subprocess.run(['python3','recovery/tools/verify_player_lifecycle.py'],cwd=ROOT,check=True)
 # Source wiring checks complement the runtime tests; they do not replace device UI validation.
 startup = (ROOT/'recovery/source/Hooks/StartupLifecycle.x').read_text().split('void YTLScheduleWelcome(void) {')[1].split('// Ordinary defaults tail')[0]
 assert 'presentViewController:' not in startup

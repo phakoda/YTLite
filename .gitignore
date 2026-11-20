@@ -11,3 +11,42 @@ __pycache__/
 
 # Local app inputs and signed/injected outputs
 *.ipa
+
+# Local reconstruction archives. Keep build sources and dependencies tracked.
+/Recovered/
+/recovery/*.md
+/recovery/*.json
+/recovery/classes/
+/recovery/decompiled/
+/recovery/evidence/
+/recovery/hooks/
+/recovery/interfaces/
+/recovery/notes/
+/recovery/resources/
+/recovery/tools/
+/recovery/workflows/
+/recovery/source/**/*.md
+/recovery/source/**/*.json
+/recovery/source/Playback/SRTParser.h
+/recovery/source/Playback/SRTParser.m
+/recovery/source/Runtime/YTLBootstrapConstants.inc
+/recovery/source/Runtime/YTLBootstrapCrypto.h
+/recovery/source/Runtime/YTLBootstrapCrypto.m
+/recovery/source/Runtime/YTLCommonCryptoContract.h
+/recovery/build/**/*.md
+/recovery/dependencies/ffmpeg/*.json
+/recovery/dependencies/ffmpeg/*.md
+/recovery/dependencies/ffmpeg/portability.patch
+/recovery/tests/*
+!/recovery/tests/playback_preferences.m
+!/recovery/tests/settings_preview.m
+!/recovery/tests/content_layout_host.m
+!/recovery/tests/test_package_deb.py
+/tools/build_ffmpeg_recovery.py
+/tools/verify_presentation*.py
+/tools/verify_settings.py
+/tools/verify_settings_blocks.py
+/tools/verify_settings_inspect.py
+/tools/verify_settings_metadata.py
+/tools/verify_settings_provenance.py
+/tools/verify_settings_rows.py

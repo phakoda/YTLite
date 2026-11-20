@@ -1,6 +1,6 @@
 # YTLite
 
-A YouTube Plus fork for iOS This fork uses local preferences and requires no subscription or account activation.
+A YouTube Plus fork for iOS. This fork uses local preferences and requires no subscription or account activation.
 
 Open YouTube settings, then YouTube Plus to configure the tweak.
 
@@ -39,7 +39,7 @@ python3 tools/build_local.py package
 
 The package goes into `packages/`. The build log and input hashes go into `.recovery-work/build/`. For a roothide package, use `python3 tools/build_local.py package --scheme roothide`.
 
-The repository includes the standalone FFmpeg archives used by the build. To rebuild them, follow the [FFmpeg dependency notes](recovery/dependencies/ffmpeg/README.md). The original combined tweak binary is not a link dependency.
+The repository includes the FFmpeg source and static libraries used by the build. To rebuild those libraries, run `python3 tools/build_ffmpeg.py`. This requires make, pkg-config, autoconf, automake, and CMake in addition to Xcode.
 
 ## Inject a decrypted YouTube IPA
 
@@ -74,8 +74,6 @@ Run the current playback regression checks:
 python3 tools/verify_local_features.py
 ```
 
-The playback suite needs the original-package analysis inputs described in [recovery reproduction](recovery/REPRODUCE.md). Historical parity fixtures compare against the supplied packages, including behavior this fork has intentionally changed.
-
 The UIKit fixture runs the production settings table and content-layout hooks against synthetic YouTube objects. It checks row alignment, switch saving, native speed capture, and notch-safe rendering. Restore its pinned Logos checkout, then pass an available simulator UUID:
 
 ```sh
@@ -86,10 +84,8 @@ python3 tools/verify_settings_simulator.py YOUR_SIMULATOR_UUID
 
 Use `--appearance dark` or `--content-size accessibility-extra-extra-extra-large` to check other display settings. Reports and screenshots go into `.recovery-work/settings-preview/`.
 
-## Source and credits
-
-The selected tweak sources are listed in [recovered.mk](recovery/source/recovered.mk). [The recovery notes](recovery/README.md) document the reconstruction, evidence, and known differences from the original packages. Decompiled exports are evidence, not buildable source.
+## Credits
 
 Don't Eat My Content is adapted from [Foxster's tweak](https://github.com/therealFoxster/DontEatMyContent). Its [MIT license](recovery/dependencies/DontEatMyContent/LICENSE.md) is also included in the resource bundle. FFmpeg and the bundled codecs retain their own licenses in the dependency source tree.
 
-The [GitHub Actions workflows](.github/workflows/) assemble IPAs from prebuilt tweak packages. They do not compile this reconstructed source. Use the local build and injection commands above to include changes made in this checkout.
+The [GitHub Actions workflows](.github/workflows/) assemble IPAs from prebuilt tweak packages. They do not compile the source in this checkout. Use the local build and injection commands above to include changes made in this checkout.

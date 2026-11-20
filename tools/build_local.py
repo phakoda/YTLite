@@ -9,6 +9,8 @@ from pathlib import Path
 import subprocess
 import sys
 
+from verify_build_inputs import build_inputs
+
 ROOT = Path(__file__).resolve().parents[1]
 
 
@@ -18,8 +20,8 @@ def input_hashes():
              ROOT/'vendor/theos/bin/dm.pl', Path(__file__).resolve()}
     for root in (ROOT, ROOT/'Utils'):
         files.update(p for p in root.iterdir() if p.is_file() and p.suffix in ('.x', '.m', '.h', '.plist'))
-    files.update(p for p in (ROOT/'recovery/source').rglob('*')
-                 if p.is_file() and p.suffix in ('.x', '.m', '.c', '.h'))
+    files.update(ROOT/p for p in build_inputs()['inputs'])
+    files.add(ROOT/'tools/verify_build_inputs.py')
     files.update((ROOT/'recovery/dependencies/ffmpeg/ios-arm64').glob('*.a'))
     files.update(p for p in (ROOT/'layout').rglob('*') if p.is_file())
     files.update(p for p in (ROOT/'recovery/build').rglob('*') if p.is_file() and p.suffix in ('.mk', '.tbd', '.h', '.modulemap'))
